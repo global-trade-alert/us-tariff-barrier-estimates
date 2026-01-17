@@ -1,0 +1,233 @@
+un_code;iso_3;country_name;special_treatment
+4;AFG;Afghanistan;
+8;ALB;Albania;
+12;DZA;Algeria;
+20;AND;Andorra;
+24;AGO;Angola;
+28;ATG;Antigua and Barbuda;
+31;AZE;Azerbaijan;
+32;ARG;Argentina;s232_steel_exempt
+36;AUS;Australia;s232_steel_exempt
+40;AUT;Austria;eu_member
+44;BHS;Bahamas;
+48;BHR;Bahrain;
+50;BGD;Bangladesh;
+51;ARM;Armenia;
+52;BRB;Barbados;
+56;BEL;Belgium;eu_member
+60;BMU;Bermuda;
+64;BTN;Bhutan;
+68;BOL;Bolivia;
+70;BIH;Bosnia and Herzegovina;
+72;BWA;Botswana;
+76;BRA;Brazil;topup
+84;BLZ;Belize;
+86;IOT;British Indian Ocean Territory;
+90;SLB;Solomon Islands;
+92;VGB;British Virgin Islands;
+96;BRN;Brunei;
+100;BGR;Bulgaria;eu_member
+104;MMR;Myanmar (Burma);
+108;BDI;Burundi;
+112;BLR;Belarus;sanctioned
+116;KHM;Cambodia;
+120;CMR;Cameroon;
+124;CAN;Canada;usmca
+132;CPV;Cabo Verde;
+136;CYM;Cayman Islands;
+140;CAF;Central African Republic;
+144;LKA;Sri Lanka;
+148;TCD;Chad;
+152;CHL;Chile;
+156;CHN;China;opioid_emergency
+158;TWN;Taiwan;
+162;CXR;Christmas Island;
+166;CCK;Cocos (Keeling) Islands;
+170;COL;Colombia;
+174;COM;Comoros;
+175;MYT;Mayotte;
+178;COG;Republic of the Congo;
+180;COD;Democratic Republic of the Congo;
+184;COK;Cook Islands;
+188;CRI;Costa Rica;
+191;HRV;Croatia;eu_member
+192;CUB;Cuba;sanctioned
+196;CYP;Cyprus;eu_member
+203;CZE;Czechia (Czech Republic);eu_member
+204;BEN;Benin;
+208;DNK;Denmark;eu_member
+212;DMA;Dominica;
+214;DOM;Dominican Republic;
+218;ECU;Ecuador;
+222;SLV;El Salvador;
+226;GNQ;Equatorial Guinea;
+231;ETH;Ethiopia;
+232;ERI;Eritrea;
+233;EST;Estonia;eu_member
+234;FRO;Faroe Islands;
+238;FLK;Falkland Islands;
+242;FJI;Fiji;
+246;FIN;Finland;eu_member
+251;FRA;France;eu_member
+254;GUF;French Guiana;
+258;PYF;French Polynesia;
+260;ATF;French Southern and Antarctic Lands;
+262;DJI;Djibouti;
+266;GAB;Gabon;
+268;GEO;Georgia;
+270;GMB;Gambia;
+275;PSE;Gaza Strip;
+276;DEU;Germany;eu_member
+288;GHA;Ghana;
+292;GIB;Gibraltar;
+296;KIR;Kiribati;
+300;GRC;Greece;eu_member
+304;GRL;Greenland;
+308;GRD;Grenada;
+312;GLP;Guadeloupe;
+320;GTM;Guatemala;
+324;GIN;Guinea;
+328;GUY;Guyana;
+332;HTI;Haiti;
+334;HMD;Heard and McDonald Islands;
+336;VAT;Vatican City;
+340;HND;Honduras;
+344;HKG;Hong Kong;china_linked
+348;HUN;Hungary;eu_member
+352;ISL;Iceland;
+699;IND;India;russia_topup
+360;IDN;Indonesia;
+364;IRN;Iran;
+368;IRQ;Iraq;
+372;IRL;Ireland;eu_member
+376;ISR;Israel;
+380;ITA;Italy;eu_member
+383;XKX;Kosovo;
+384;CIV;Côte d`Ivoire;
+388;JAM;Jamaica;
+392;JPN;Japan;tariff_floor
+398;KAZ;Kazakhstan;
+400;JOR;Jordan;
+404;KEN;Kenya;
+408;PRK;North Korea;sanctioned
+410;KOR;South Korea;tariff_floor
+414;KWT;Kuwait;
+417;KGZ;Kyrgyzstan;
+418;LAO;Laos;
+422;LBN;Lebanon;
+426;LSO;Lesotho;
+428;LVA;Latvia;eu_member
+430;LBR;Liberia;
+434;LBY;Libya;
+438;LIE;Liechtenstein;swiss_linked
+440;LTU;Lithuania;eu_member
+442;LUX;Luxembourg;eu_member
+446;MAC;Macau;
+450;MDG;Madagascar;
+454;MWI;Malawi;
+458;MYS;Malaysia;
+462;MDV;Maldives;
+466;MLI;Mali;
+470;MLT;Malta;eu_member
+474;MTQ;Martinique;
+478;MRT;Mauritania;
+480;MUS;Mauritius;
+484;MEX;Mexico;usmca
+492;MCO;Monaco;
+496;MNG;Mongolia;
+498;MDA;Moldova;
+499;MNE;Montenegro;
+500;MSR;Montserrat;
+504;MAR;Morocco;
+508;MOZ;Mozambique;
+512;OMN;Oman;
+516;NAM;Namibia;
+520;NRU;Nauru;
+524;NPL;Nepal;
+528;NLD;Netherlands;eu_member
+531;CUW;Curaçao;
+533;ABW;Aruba;
+534;SXM;Sint Maarten;
+540;NCL;New Caledonia;
+548;VUT;Vanuatu;
+554;NZL;New Zealand;
+558;NIC;Nicaragua;
+562;NER;Niger;
+566;NGA;Nigeria;
+570;NIU;Niue;
+574;NFK;Norfolk Island;
+578;NOR;Norway;
+583;FSM;Micronesia;
+584;MHL;Marshall Islands;
+585;PLW;Palau;
+586;PAK;Pakistan;
+591;PAN;Panama;
+598;PNG;Papua New Guinea;
+600;PRY;Paraguay;
+604;PER;Peru;
+608;PHL;Philippines;
+612;PCN;Pitcairn Islands;
+616;POL;Poland;eu_member
+620;PRT;Portugal;eu_member
+624;GNB;Guinea-Bissau;
+626;TLS;Timor-Leste;
+634;QAT;Qatar;
+638;REU;Reunion;
+642;ROU;Romania;eu_member
+643;RUS;Russia;sanctioned
+646;RWA;Rwanda;
+654;SHN;Saint Helena;
+659;KNA;Saint Kitts and Nevis;
+660;AIA;Anguilla;
+662;LCA;Saint Lucia;
+666;SPM;Saint Pierre and Miquelon;
+670;VCT;Saint Vincent and the Grenadines;
+674;SMR;San Marino;
+678;STP;São Tomé and Príncipe;
+682;SAU;Saudi Arabia;
+686;SEN;Senegal;
+688;SRB;Serbia;
+690;SYC;Seychelles;
+694;SLE;Sierra Leone;
+702;SGP;Singapore;
+703;SVK;Slovakia;eu_member
+704;VNM;Vietnam;
+705;SVN;Slovenia;eu_member
+706;SOM;Somalia;
+710;ZAF;South Africa;
+716;ZWE;Zimbabwe;
+724;ESP;Spain;eu_member
+728;SSD;South Sudan;
+729;SDN;Sudan;
+740;SUR;Suriname;
+744;SJM;Svalbard and Jan Mayen;
+748;SWZ;Eswatini (Swaziland);
+752;SWE;Sweden;eu_member
+756;CHE;Switzerland;tariff_floor
+760;SYR;Syria;
+762;TJK;Tajikistan;
+764;THA;Thailand;
+768;TGO;Togo;
+772;TKL;Tokelau;
+776;TON;Tonga;
+780;TTO;Trinidad and Tobago;
+784;ARE;United Arab Emirates;
+788;TUN;Tunisia;
+792;TUR;Turkey;
+795;TKM;Turkmenistan;
+796;TCA;Turks and Caicos Islands;
+798;TUV;Tuvalu;
+800;UGA;Uganda;
+804;UKR;Ukraine;s232_steel_exempt
+807;MKD;North Macedonia;
+818;EGY;Egypt;
+826;GBR;United Kingdom;economic_prosperity_deal
+834;TZA;Tanzania;
+854;BFA;Burkina Faso;
+858;URY;Uruguay;
+860;UZB;Uzbekistan;
+862;VEN;Venezuela;
+876;WLF;Wallis and Futuna;
+882;WSM;Samoa;
+887;YEM;Yemen;
+894;ZMB;Zambia;

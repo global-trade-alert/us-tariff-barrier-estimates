@@ -1,0 +1,34 @@
+# Results directory (generated output)
+results/
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Large data files (if regenerated)
+*.RData
+*.rds
+
+# Temporary files
+*.tmp
+*~
+
+# OS files
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Compressed output
+*.gz
+*.zip

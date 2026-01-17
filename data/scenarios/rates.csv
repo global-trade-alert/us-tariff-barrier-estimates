@@ -1,0 +1,226 @@
+rate_type,rate,scenario,section,description,effective_date
+usmca_rate,0,baseline,2,USMCA preferential rate,2025-01-01
+usmca_rate,0,s232_100pct,2,USMCA preferential rate,2025-01-01
+s232_auto_rate,25,baseline,3.1,Automobiles Section 232,2025-04-03
+s232_mhdv_main_rate,25,baseline,3.2,MHDV main products,2025-11-01
+s232_mhdv_bus_rate,10,baseline,3.2,MHDV buses (lower rate),2025-11-01
+s232_mhdv_parts_rate,25,baseline,3.2,MHDV parts,2025-11-01
+s232_pv_parts_rate,25,baseline,3.3,PV/light truck parts,2025-11-01
+s232_steel_rate,10,baseline,3.4,Steel Section 232 (initial rate),2025-01-01
+s232_steel_rate,25,baseline,3.4,Steel Section 232 (increased rate Mar 12),2025-03-12
+s232_steel_rate,50,baseline,3.4,Steel Section 232 (increased rate Jun 4),2025-06-04
+s232_alu_rate,10,baseline,3.5,Aluminum Section 232 (initial rate),2025-01-01
+s232_alu_rate,25,baseline,3.5,Aluminum Section 232 (increased rate Mar 12),2025-03-12
+s232_alu_rate,50,baseline,3.5,Aluminum Section 232 (increased rate Jun 4),2025-06-04
+s232_copper_rate,50,baseline,3.6,Copper Section 232,2025-08-01
+s232_lumber_rate,10,baseline,3.7,S232 Lumber base rate,2025-10-14
+s232_lumber_cabinet_rate,25,baseline,3.7,S232 Lumber cabinet/vanity derivative rate,2025-10-14
+s232_lumber_upholstered_rate,25,baseline,3.7,S232 Lumber upholstered furniture rate,2025-10-14
+ieepa_baseline_rate,10,baseline,4.1,Universal IEEPA baseline,2025-04-05
+china_opioid_rate,10,baseline,5.1,China synthetic opioid emergency,2025-02-04
+china_opioid_rate,20,baseline,5.1,China synthetic opioid emergency,2025-03-04
+china_opioid_rate,10,baseline,5.1,China synthetic opioid emergency,2025-11-10
+can_emergency_energy_rate,10,baseline,5.2,Canada northern border energy,2025-03-04
+can_emergency_general_rate,25,baseline,5.2,Canada non-energy general,2025-03-04
+can_emergency_general_rate,35,baseline,5.2,Canada non-energy general,2025-08-01
+mex_emergency_rate,25,baseline,5.3,Mexico emergency rate,2025-03-04
+india_russia_topup,25,baseline,7.1,India/Russia additional top-up,2025-08-27
+bra_topup,40,baseline,7.2,Brazil additional top-up,2025-08-06
+uk_ceiling_rate,10,baseline,7.3,UK auto/PV parts ceiling,2025-06-30
+uk_steel_alu_cap,25,baseline,7.3,UK steel/aluminum cap (within quota),2025-06-30
+uk_lumber_derivative_rate,10,baseline,7.3,UK lumber derivatives,2025-10-14
+jpn_ieepa_floor_rate,15,baseline,7.4,Japan IEEPA floor (reciprocal tariffs),2025-09-16
+jpn_s232_floor_rate,15,baseline,7.4,Japan S232 auto/MHDV floor,2025-09-16
+jpn_lumber_derivative_rate,15,baseline,7.4,Japan lumber derivatives,2025-10-14
+eu_ieepa_floor_rate,15,baseline,7.5,EU IEEPA floor (reciprocal tariffs),2025-09-01
+eu_s232_floor_rate,15,baseline,7.5,EU S232 auto/MHDV floor,2025-09-01
+eu_lumber_derivative_rate,15,baseline,7.5,EU lumber derivatives,2025-10-14
+kor_ieepa_floor_rate,15,baseline,7.6,Korea IEEPA floor (reciprocal tariffs),2999-12-31
+kor_s232_floor_rate,15,baseline,7.6,Korea S232 auto floor,2999-12-31
+kor_lumber_derivative_rate,15,baseline,7.6,Korea lumber derivatives,2999-12-31
+che_ieepa_floor_rate,15,baseline,7.7,Switzerland/Liechtenstein IEEPA floor,2025-11-14
+ieepa_topup_156,74,baseline,4.2,China IEEPA top-up,2025-04-09
+ieepa_topup_156,115,baseline,4.2,China IEEPA top-up,2025-04-10
+ieepa_topup_156,0,baseline,4.2,China IEEPA top-up,2025-05-13
+ieepa_topup_4,5,baseline,4.2,Afghanistan IEEPA top-up,2025-08-09
+ieepa_topup_24,5,baseline,4.2,Angola IEEPA top-up,2025-08-09
+ieepa_topup_40,5,baseline,4.2,Austria IEEPA top-up,2025-08-09
+ieepa_topup_50,10,baseline,4.2,Bangladesh IEEPA top-up,2025-08-09
+ieepa_topup_56,5,baseline,4.2,Belgium IEEPA top-up,2025-08-09
+ieepa_topup_68,5,baseline,4.2,Bolivia IEEPA top-up,2025-08-09
+ieepa_topup_70,20,baseline,4.2,Bosnia and Herzegovina IEEPA top-up,2025-08-09
+ieepa_topup_72,5,baseline,4.2,Botswana IEEPA top-up,2025-08-09
+ieepa_topup_96,15,baseline,4.2,Brunei IEEPA top-up,2025-08-09
+ieepa_topup_100,5,baseline,4.2,Bulgaria IEEPA top-up,2025-08-09
+ieepa_topup_116,9,baseline,4.2,Cambodia IEEPA top-up,2025-08-09
+ieepa_topup_120,5,baseline,4.2,Cameroon IEEPA top-up,2025-08-09
+ieepa_topup_148,5,baseline,4.2,Chad IEEPA top-up,2025-08-09
+ieepa_topup_188,5,baseline,4.2,Costa Rica IEEPA top-up,2025-08-09
+ieepa_topup_384,5,baseline,4.2,Cote d Ivoire IEEPA top-up,2025-08-09
+ieepa_topup_191,5,baseline,4.2,Croatia IEEPA top-up,2025-08-09
+ieepa_topup_196,5,baseline,4.2,Cyprus IEEPA top-up,2025-08-09
+ieepa_topup_203,5,baseline,4.2,Czechia IEEPA top-up,2025-08-09
+ieepa_topup_180,5,baseline,4.2,DR Congo IEEPA top-up,2025-08-09
+ieepa_topup_208,5,baseline,4.2,Denmark IEEPA top-up,2025-08-09
+ieepa_topup_218,5,baseline,4.2,Ecuador IEEPA top-up,2025-08-09
+ieepa_topup_226,5,baseline,4.2,Equatorial Guinea IEEPA top-up,2025-08-09
+ieepa_topup_233,5,baseline,4.2,Estonia IEEPA top-up,2025-08-09
+ieepa_topup_242,5,baseline,4.2,Fiji IEEPA top-up,2025-08-09
+ieepa_topup_251,5,baseline,4.2,France IEEPA top-up,2025-08-09
+ieepa_topup_276,5,baseline,4.2,Germany IEEPA top-up,2025-08-09
+ieepa_topup_288,5,baseline,4.2,Ghana IEEPA top-up,2025-08-09
+ieepa_topup_300,5,baseline,4.2,Greece IEEPA top-up,2025-08-09
+ieepa_topup_328,5,baseline,4.2,Guyana IEEPA top-up,2025-08-09
+ieepa_topup_348,5,baseline,4.2,Hungary IEEPA top-up,2025-08-09
+ieepa_topup_352,5,baseline,4.2,Iceland IEEPA top-up,2025-08-09
+ieepa_topup_699,15,baseline,4.2,India IEEPA top-up (NOTE: uses 699 to match import data),2025-08-09
+ieepa_topup_360,9,baseline,4.2,Indonesia IEEPA top-up,2025-08-09
+ieepa_topup_368,25,baseline,4.2,Iraq IEEPA top-up,2025-08-09
+ieepa_topup_372,5,baseline,4.2,Ireland IEEPA top-up,2025-08-09
+ieepa_topup_376,5,baseline,4.2,Israel IEEPA top-up,2025-08-09
+ieepa_topup_381,5,baseline,4.2,Italy IEEPA top-up,2025-08-09
+ieepa_topup_392,5,baseline,4.2,Japan IEEPA top-up,2025-08-09
+ieepa_topup_400,5,baseline,4.2,Jordan IEEPA top-up,2025-08-09
+ieepa_topup_398,15,baseline,4.2,Kazakhstan IEEPA top-up,2025-08-09
+ieepa_topup_418,30,baseline,4.2,Laos IEEPA top-up,2025-08-09
+ieepa_topup_428,5,baseline,4.2,Latvia IEEPA top-up,2025-08-09
+ieepa_topup_426,5,baseline,4.2,Lesotho IEEPA top-up,2025-08-09
+ieepa_topup_434,20,baseline,4.2,Libya IEEPA top-up,2025-08-09
+ieepa_topup_438,5,baseline,4.2,Liechtenstein IEEPA top-up,2025-08-09
+ieepa_topup_440,5,baseline,4.2,Lithuania IEEPA top-up,2025-08-09
+ieepa_topup_442,5,baseline,4.2,Luxembourg IEEPA top-up,2025-08-09
+ieepa_topup_450,5,baseline,4.2,Madagascar IEEPA top-up,2025-08-09
+ieepa_topup_454,5,baseline,4.2,Malawi IEEPA top-up,2025-08-09
+ieepa_topup_458,9,baseline,4.2,Malaysia IEEPA top-up,2025-08-09
+ieepa_topup_470,5,baseline,4.2,Malta IEEPA top-up,2025-08-09
+ieepa_topup_480,5,baseline,4.2,Mauritius IEEPA top-up,2025-08-09
+ieepa_topup_498,15,baseline,4.2,Moldova IEEPA top-up,2025-08-09
+ieepa_topup_508,5,baseline,4.2,Mozambique IEEPA top-up,2025-08-09
+ieepa_topup_104,30,baseline,4.2,Myanmar IEEPA top-up,2025-08-09
+ieepa_topup_516,5,baseline,4.2,Namibia IEEPA top-up,2025-08-09
+ieepa_topup_520,5,baseline,4.2,Nauru IEEPA top-up,2025-08-09
+ieepa_topup_528,5,baseline,4.2,Netherlands IEEPA top-up,2025-08-09
+ieepa_topup_554,5,baseline,4.2,New Zealand IEEPA top-up,2025-08-09
+ieepa_topup_558,8,baseline,4.2,Nicaragua IEEPA top-up,2025-08-09
+ieepa_topup_566,5,baseline,4.2,Nigeria IEEPA top-up,2025-08-09
+ieepa_topup_807,5,baseline,4.2,North Macedonia IEEPA top-up,2025-08-09
+ieepa_topup_586,9,baseline,4.2,Pakistan IEEPA top-up,2025-08-09
+ieepa_topup_598,5,baseline,4.2,Papua New Guinea IEEPA top-up,2025-08-09
+ieepa_topup_608,9,baseline,4.2,Philippines IEEPA top-up,2025-08-09
+ieepa_topup_616,5,baseline,4.2,Poland IEEPA top-up,2025-08-09
+ieepa_topup_620,5,baseline,4.2,Portugal IEEPA top-up,2025-08-09
+ieepa_topup_642,5,baseline,4.2,Romania IEEPA top-up,2025-08-09
+ieepa_topup_688,25,baseline,4.2,Serbia IEEPA top-up,2025-08-09
+ieepa_topup_703,5,baseline,4.2,Slovakia IEEPA top-up,2025-08-09
+ieepa_topup_705,5,baseline,4.2,Slovenia IEEPA top-up,2025-08-09
+ieepa_topup_410,5,baseline,4.2,South Korea IEEPA top-up,2025-08-09
+ieepa_topup_724,5,baseline,4.2,Spain IEEPA top-up,2025-08-09
+ieepa_topup_144,10,baseline,4.2,Sri Lanka IEEPA top-up,2025-08-09
+ieepa_topup_752,5,baseline,4.2,Sweden IEEPA top-up,2025-08-09
+ieepa_topup_756,29,baseline,4.2,Switzerland IEEPA top-up,2025-08-09
+ieepa_topup_158,10,baseline,4.2,Taiwan IEEPA top-up,2025-08-09
+ieepa_topup_764,9,baseline,4.2,Thailand IEEPA top-up,2025-08-09
+ieepa_topup_788,15,baseline,4.2,Tunisia IEEPA top-up,2025-08-09
+ieepa_topup_792,5,baseline,4.2,Turkey IEEPA top-up,2025-08-09
+ieepa_topup_800,5,baseline,4.2,Uganda IEEPA top-up,2025-08-09
+ieepa_topup_548,5,baseline,4.2,Vanuatu IEEPA top-up,2025-08-09
+ieepa_topup_704,10,baseline,4.2,Vietnam IEEPA top-up,2025-08-09
+ieepa_topup_894,5,baseline,4.2,Zambia IEEPA top-up,2025-08-09
+ieepa_topup_716,5,baseline,4.2,Zimbabwe IEEPA top-up,2025-08-09
+ieepa_baseline_rate,0,ieepa_full_strike_down,4.1,IEEPA struck down - no baseline,2025-01-01
+china_opioid_rate,0,ieepa_full_strike_down,5.1,IEEPA struck down - no China opioid,2025-01-01
+can_emergency_energy_rate,0,ieepa_full_strike_down,5.2,IEEPA struck down - no Canada energy emergency,2025-01-01
+can_emergency_general_rate,0,ieepa_full_strike_down,5.2,IEEPA struck down - no Canada general emergency,2025-01-01
+mex_emergency_rate,0,ieepa_full_strike_down,5.3,IEEPA struck down - no Mexico emergency,2025-01-01
+ieepa_topup_156,0,ieepa_full_strike_down,4.2,IEEPA struck down - no China top-up,2025-01-01
+ieepa_topup_4,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Afghanistan top-up,2025-01-01
+ieepa_topup_24,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Angola top-up,2025-01-01
+ieepa_topup_40,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Austria top-up,2025-01-01
+ieepa_topup_50,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Bangladesh top-up,2025-01-01
+ieepa_topup_56,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Belgium top-up,2025-01-01
+ieepa_topup_68,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Bolivia top-up,2025-01-01
+ieepa_topup_70,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Bosnia top-up,2025-01-01
+ieepa_topup_72,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Botswana top-up,2025-01-01
+ieepa_topup_96,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Brunei top-up,2025-01-01
+ieepa_topup_100,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Bulgaria top-up,2025-01-01
+ieepa_topup_116,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Cambodia top-up,2025-01-01
+ieepa_topup_120,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Cameroon top-up,2025-01-01
+ieepa_topup_148,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Chad top-up,2025-01-01
+ieepa_topup_188,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Costa Rica top-up,2025-01-01
+ieepa_topup_384,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Cote d Ivoire top-up,2025-01-01
+ieepa_topup_191,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Croatia top-up,2025-01-01
+ieepa_topup_196,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Cyprus top-up,2025-01-01
+ieepa_topup_203,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Czechia top-up,2025-01-01
+ieepa_topup_180,0,ieepa_full_strike_down,4.2,IEEPA struck down - no DR Congo top-up,2025-01-01
+ieepa_topup_208,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Denmark top-up,2025-01-01
+ieepa_topup_218,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Ecuador top-up,2025-01-01
+ieepa_topup_226,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Equatorial Guinea top-up,2025-01-01
+ieepa_topup_233,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Estonia top-up,2025-01-01
+ieepa_topup_242,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Fiji top-up,2025-01-01
+ieepa_topup_251,0,ieepa_full_strike_down,4.2,IEEPA struck down - no France top-up,2025-01-01
+ieepa_topup_276,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Germany top-up,2025-01-01
+ieepa_topup_288,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Ghana top-up,2025-01-01
+ieepa_topup_300,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Greece top-up,2025-01-01
+ieepa_topup_328,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Guyana top-up,2025-01-01
+ieepa_topup_348,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Hungary top-up,2025-01-01
+ieepa_topup_352,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Iceland top-up,2025-01-01
+ieepa_topup_699,0,ieepa_full_strike_down,4.2,IEEPA struck down - no India top-up,2025-01-01
+ieepa_topup_360,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Indonesia top-up,2025-01-01
+ieepa_topup_368,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Iraq top-up,2025-01-01
+ieepa_topup_372,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Ireland top-up,2025-01-01
+ieepa_topup_376,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Israel top-up,2025-01-01
+ieepa_topup_381,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Italy top-up,2025-01-01
+ieepa_topup_392,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Japan top-up,2025-01-01
+ieepa_topup_400,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Jordan top-up,2025-01-01
+ieepa_topup_398,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Kazakhstan top-up,2025-01-01
+ieepa_topup_418,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Laos top-up,2025-01-01
+ieepa_topup_428,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Latvia top-up,2025-01-01
+ieepa_topup_426,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Lesotho top-up,2025-01-01
+ieepa_topup_434,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Libya top-up,2025-01-01
+ieepa_topup_438,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Liechtenstein top-up,2025-01-01
+ieepa_topup_440,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Lithuania top-up,2025-01-01
+ieepa_topup_442,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Luxembourg top-up,2025-01-01
+ieepa_topup_450,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Madagascar top-up,2025-01-01
+ieepa_topup_454,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Malawi top-up,2025-01-01
+ieepa_topup_458,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Malaysia top-up,2025-01-01
+ieepa_topup_470,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Malta top-up,2025-01-01
+ieepa_topup_480,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Mauritius top-up,2025-01-01
+ieepa_topup_498,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Moldova top-up,2025-01-01
+ieepa_topup_508,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Mozambique top-up,2025-01-01
+ieepa_topup_104,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Myanmar top-up,2025-01-01
+ieepa_topup_516,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Namibia top-up,2025-01-01
+ieepa_topup_520,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Nauru top-up,2025-01-01
+ieepa_topup_528,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Netherlands top-up,2025-01-01
+ieepa_topup_554,0,ieepa_full_strike_down,4.2,IEEPA struck down - no New Zealand top-up,2025-01-01
+ieepa_topup_558,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Nicaragua top-up,2025-01-01
+ieepa_topup_566,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Nigeria top-up,2025-01-01
+ieepa_topup_807,0,ieepa_full_strike_down,4.2,IEEPA struck down - no North Macedonia top-up,2025-01-01
+ieepa_topup_586,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Pakistan top-up,2025-01-01
+ieepa_topup_598,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Papua New Guinea top-up,2025-01-01
+ieepa_topup_608,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Philippines top-up,2025-01-01
+ieepa_topup_616,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Poland top-up,2025-01-01
+ieepa_topup_620,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Portugal top-up,2025-01-01
+ieepa_topup_642,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Romania top-up,2025-01-01
+ieepa_topup_688,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Serbia top-up,2025-01-01
+ieepa_topup_703,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Slovakia top-up,2025-01-01
+ieepa_topup_705,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Slovenia top-up,2025-01-01
+ieepa_topup_410,0,ieepa_full_strike_down,4.2,IEEPA struck down - no South Korea top-up,2025-01-01
+ieepa_topup_724,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Spain top-up,2025-01-01
+ieepa_topup_144,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Sri Lanka top-up,2025-01-01
+ieepa_topup_752,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Sweden top-up,2025-01-01
+ieepa_topup_756,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Switzerland top-up,2025-01-01
+ieepa_topup_158,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Taiwan top-up,2025-01-01
+ieepa_topup_764,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Thailand top-up,2025-01-01
+ieepa_topup_788,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Tunisia top-up,2025-01-01
+ieepa_topup_792,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Turkey top-up,2025-01-01
+ieepa_topup_800,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Uganda top-up,2025-01-01
+ieepa_topup_548,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Vanuatu top-up,2025-01-01
+ieepa_topup_704,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Vietnam top-up,2025-01-01
+ieepa_topup_894,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Zambia top-up,2025-01-01
+ieepa_topup_716,0,ieepa_full_strike_down,4.2,IEEPA struck down - no Zimbabwe top-up,2025-01-01
+india_russia_topup,0,ieepa_full_strike_down,7.1,IEEPA struck down - no India/Russia top-up,2025-01-01
+bra_topup,0,ieepa_full_strike_down,7.2,IEEPA struck down - no Brazil top-up,2025-01-01
+jpn_ieepa_floor_rate,0,ieepa_full_strike_down,7.4,IEEPA struck down - no Japan IEEPA floor,2025-01-01
+eu_ieepa_floor_rate,0,ieepa_full_strike_down,7.5,IEEPA struck down - no EU IEEPA floor,2025-01-01
+kor_ieepa_floor_rate,0,ieepa_full_strike_down,7.6,IEEPA struck down - no Korea IEEPA floor,2025-01-01
+che_ieepa_floor_rate,0,ieepa_full_strike_down,7.7,IEEPA struck down - no Switzerland IEEPA floor,2025-01-01

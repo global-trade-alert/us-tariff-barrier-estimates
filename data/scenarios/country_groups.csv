@@ -1,0 +1,38 @@
+group_name;un_code;description
+usmca;124;USMCA member (Canada)
+usmca;484;USMCA member (Mexico)
+china_pair;156;China
+china_pair;344;Hong Kong (linked to China)
+swiss_pair;756;Switzerland
+swiss_pair;438;Liechtenstein (linked to Switzerland)
+eu_member;40;Austria
+eu_member;56;Belgium
+eu_member;100;Bulgaria
+eu_member;191;Croatia
+eu_member;196;Cyprus
+eu_member;203;Czech Republic
+eu_member;208;Denmark
+eu_member;233;Estonia
+eu_member;246;Finland
+eu_member;251;France
+eu_member;276;Germany
+eu_member;300;Greece
+eu_member;348;Hungary
+eu_member;372;Ireland
+eu_member;381;Italy
+eu_member;428;Latvia
+eu_member;440;Lithuania
+eu_member;442;Luxembourg
+eu_member;470;Malta
+eu_member;528;Netherlands
+eu_member;616;Poland
+eu_member;620;Portugal
+eu_member;642;Romania
+eu_member;703;Slovakia
+eu_member;705;Slovenia
+eu_member;724;Spain
+eu_member;752;Sweden
+sanctioned;643;Russia
+sanctioned;112;Belarus
+sanctioned;192;Cuba
+sanctioned;408;North Korea

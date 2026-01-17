@@ -1,0 +1,43 @@
+share_type,share,scenario,section,description
+steel_derivative_share,0.40,baseline,0.2,Steel derivatives effective incidence (40% of S232 rate collected)
+steel_main_share,0.85,baseline,0.2,Steel main products effective incidence (85% - reflects exclusion use)
+copper_main_share,0.70,baseline,0.2,Copper main products effective incidence (provisional - 2 months data)
+alu_derivative_share,0.35,baseline,0.2,Aluminum derivatives effective incidence (35% of S232 rate collected)
+alu_main_share,0.94,baseline,0.2,Aluminum main products effective incidence (94% - limited exclusion use)
+lumber_main_share,1.0,baseline,0.2,Lumber main products effective incidence (100% - no empirical calibration available)
+lumber_cabinet_share,0.50,baseline,0.2,Kitchen cabinets/vanities lumber share
+mhdv_share_in_parts,1.0,baseline,0.3,MHDV parts share destined for MHDV assembly
+pv_share_in_parts,1.0,baseline,0.3,PV parts share destined for PV/light truck assembly
+usmca_compliance_default,0.90,baseline,0.4,Default USMCA compliance for unmatched products (product-level rates in compliance_shares.csv)
+bra_civil_aircraft_share,.9,baseline,0.5,Brazil aircraft for civil use share
+jpn_civil_aircraft_share,.9,baseline,0.5,Japan aircraft for civil use share
+eu_civil_aircraft_share,.9,baseline,0.5,EU aircraft for civil use share
+uk_civil_aircraft_share,.9,baseline,0.5,UK aircraft for civil use share
+kor_civil_aircraft_share,.9,baseline,0.5,Korea aircraft for civil use share
+che_civil_aircraft_share,.9,baseline,0.5,Switzerland/Liechtenstein aircraft for civil use share
+bra_passenger_vehicle_share,.9,baseline,0.5,Brazil auto parts for passenger vehicle share
+uk_car_parts_uk_built_share,.75,baseline,0.5,UK car parts in UK-built cars share
+uk_steel_alu_quota_share,1.0,baseline,0.5,UK steel/alu within quota share
+che_nonpatented_pharma_share,.2,baseline,0.5,Switzerland non-patented pharma share (exempt from IEEPA)
+eu_nonpatented_pharma_share,.4,baseline,0.5,EU non-patented pharma share (exempt from IEEPA)
+steel_derivative_share,1.0,s232_100pct,0.2,Steel derivatives effective incidence (100% of S232 rate collected)
+steel_main_share,1.0,s232_100pct,0.2,Steel main products effective incidence (100% - no exclusion use)
+copper_main_share,1.0,s232_100pct,0.2,Copper main products effective incidence (100%)
+alu_derivative_share,1.0,s232_100pct,0.2,Aluminum derivatives effective incidence (100% of S232 rate collected)
+alu_main_share,1.0,s232_100pct,0.2,Aluminum main products effective incidence (100% - no exclusion use)
+lumber_main_share,1.0,s232_100pct,0.2,Lumber main products effective incidence (100%)
+lumber_cabinet_share,1.0,s232_100pct,0.2,Kitchen cabinets/vanities lumber share (100%)
+mhdv_share_in_parts,1.0,s232_100pct,0.3,MHDV parts share destined for MHDV assembly
+pv_share_in_parts,1.0,s232_100pct,0.3,PV parts share destined for PV/light truck assembly
+usmca_compliance_default,0.90,s232_100pct,0.4,Default USMCA compliance for unmatched products (product-level rates in compliance_shares.csv)
+bra_civil_aircraft_share,.9,s232_100pct,0.5,Brazil aircraft for civil use share
+jpn_civil_aircraft_share,.9,s232_100pct,0.5,Japan aircraft for civil use share
+eu_civil_aircraft_share,.9,s232_100pct,0.5,EU aircraft for civil use share
+uk_civil_aircraft_share,.9,s232_100pct,0.5,UK aircraft for civil use share
+kor_civil_aircraft_share,.9,s232_100pct,0.5,Korea aircraft for civil use share
+che_civil_aircraft_share,.9,s232_100pct,0.5,Switzerland/Liechtenstein aircraft for civil use share
+bra_passenger_vehicle_share,.9,s232_100pct,0.5,Brazil auto parts for passenger vehicle share
+uk_car_parts_uk_built_share,.75,s232_100pct,0.5,UK car parts in UK-built cars share
+uk_steel_alu_quota_share,1.0,s232_100pct,0.5,UK steel/alu within quota share
+che_nonpatented_pharma_share,.2,s232_100pct,0.5,Switzerland non-patented pharma share (exempt from IEEPA)
+eu_nonpatented_pharma_share,.4,s232_100pct,0.5,EU non-patented pharma share (exempt from IEEPA)

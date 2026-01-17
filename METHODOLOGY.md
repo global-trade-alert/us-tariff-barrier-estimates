@@ -63,38 +63,58 @@ This approach ensures transparency and makes all assumptions explicit.
 
 ### Policy Data Sources
 
-All tariff policy data derived from official government sources compiled by the Global Trade Alert (GTA) US Tariff Measure Inventory:
+All tariff policy data derived from official government sources compiled by the Global Trade Alert (GTA) US Tariff Measure Inventory.
 
-1. **Section 232 Investigations** (National Security):
-   - `sec232_auto.csv` - Automobiles and light trucks (231 codes)
-   - `sec232_mhdv.csv` - Medium/heavy-duty vehicles (201 codes)
-   - `sec232_steel.csv` - Steel and steel derivatives (1,495 codes)
-   - `sec232_alu.csv` - Aluminum and aluminum derivatives (580 codes)
-   - `sec232_copper.csv` - Copper and copper derivatives (219 codes)
-   - `s232_lumber.csv` - Lumber products (20 codes)
+**Centralised Configuration System:**
 
-2. **Reciprocal Tariff Framework** (IEEPA):
-   - `reciprocal_country_specific_topup.csv` - Country-specific rates (204 countries)
-   - `reciprocal_exceptions_251113.csv` - Annex 2 product exceptions (1,092 codes, November 13 version)
-   - `reciprocal_exceptions_S232_lumber_removal.csv` - Lumber codes transitioned to S232
-   - `reciprocal_exceptions_ieepa_statute.csv` - Statutory IEEPA exceptions (39 codes)
+Policy data is organised into a scenario-based system under `data/scenarios/`:
 
-3. **Country-Specific Exceptions:**
-   - `bra_exceptions.csv` - Brazil unconditional exceptions
-   - `bra_passenger_vehicle_exceptions.csv` - Brazil conditional exceptions
-   - `eu_exceptions.csv` - EU unconditional exceptions
-   - `chli_exceptions.csv` - Switzerland/Liechtenstein unconditional exceptions (321 codes)
-   - `pharma_exceptions.csv` - Non-patented pharmaceutical exceptions (519 codes) - Switzerland
-   - `tariff_floor_rates.csv` - EU/Japan tariff floor schedules
-   - `uk_auto_parts.csv` - UK Economic Prosperity Deal
-   - `civil_aircraft_exceptions_wto.csv` - WTO civil aircraft agreement (554 codes) - shared by Brazil, UK, Japan, EU, Korea, Switzerland/Liechtenstein
+1. **`exceptions.csv`** - Centralised product scope database
+   - Contains all product-level policy definitions (S232 scopes, Annex 2 exceptions, country exceptions)
+   - Schema: `hs_8digit`, `rate_type`, `import_origin`, `exception_type`, `effective_date`, `end_date`, `source`
+   - Enables time-varying policy reconstruction via effective/end dates
+   - ~11,700 product-policy combinations
 
-4. **Emergency Actions:**
-   - `can_northern_border_exception.csv` - Canada northern border security (413 codes)
-   - Synthetic opioid tariff (China/Hong Kong) - applies to all products except reciprocal exceptions
+2. **`rates.csv`** - Rate parameters by scenario
+   - Tariff rates (S232, IEEPA baseline, country top-ups, floors)
+   - Schema: `rate_type`, `rate`, `scenario`, `effective_date`, `description`
+   - ~127 rate parameters for baseline scenario
 
-5. **Section 301 (China):**
-   - `sec301.csv` - China-specific tariffs (10,396 codes)
+3. **`shares.csv`** - Share parameters by scenario
+   - Content shares (steel, aluminum derivatives)
+   - USMCA compliance defaults
+   - Civil aircraft shares by country
+   - ~21 share parameters
+
+4. **`countries.csv`** - Country definitions and special treatments
+5. **`country_groups.csv`** - Country group memberships (USMCA, EU, sanctioned)
+6. **`mfn_rates.csv`** - MFN rate database (multiple sources)
+
+**Additional Data Files:**
+
+- `data/sec301.csv` - Section 301 China tariffs (10,396 codes)
+- `data/tariff_floor_rates.csv` - EU/Japan tariff floor schedules
+- `data/compliance_shares.csv` - Product-level USMCA compliance rates
+- `data/gta_jurisdiction_list.csv` - Country code mappings
+
+**Policy Scopes in exceptions.csv:**
+
+| rate_type | exception_type | Description |
+|-----------|----------------|-------------|
+| `s232_auto_rate` | `product_scope` | Automobiles and light trucks (231 codes) |
+| `s232_mhdv_main_rate` | `product_scope` | MHDV main products |
+| `s232_mhdv_parts_rate` | `product_scope` | MHDV parts |
+| `s232_steel_rate` | `product_scope` | Steel main products |
+| `s232_steel_derivative_rate` | `product_scope` | Steel derivatives |
+| `s232_alu_rate` | `product_scope` | Aluminum main products |
+| `s232_alu_derivative_rate` | `product_scope` | Aluminum derivatives |
+| `s232_copper_rate` | `product_scope` | Copper products |
+| `s232_lumber_rate` | `product_scope` | Lumber products |
+| `ieepa_baseline_rate` | `annex2` | Annex 2 exceptions (~1,092 codes) |
+| `ieepa_baseline_rate` | `statutory` | Statutory IEEPA exceptions (39 codes) |
+| `bra_topup` | `country_exception` | Brazil unconditional exceptions |
+| `wto_aircraft` | `product_scope` | Civil aircraft (554 codes) |
+| `can_emergency_rate` | `product_scope` | Canada northern border (413 codes) |
 
 ---
 
@@ -747,7 +767,7 @@ Section 8 (Application):
 
 #### 3.1 Auto S232 (Highest Precedence)
 
-**File:** `data/sec232_auto.csv` (231 HS 8-digit codes)
+**Source:** `data/scenarios/exceptions.csv` (rate_type: `s232_auto_rate`, exception_type: `product_scope`, 231 HS 8-digit codes)
 
 **Standard Rate:** 25%
 **Special Rates (applied in Section 7):**
@@ -767,7 +787,7 @@ Section 8 (Application):
 
 #### 3.2 MHDV S232 (Second Precedence)
 
-**File:** `data/sec232_mhdv.csv` (201 HS 8-digit codes)
+**Source:** `data/scenarios/exceptions.csv` (rate_type: `s232_mhdv_*_rate`, exception_type: `product_scope`, 201 HS 8-digit codes)
 
 **Product Categories:**
 1. **MHDV (Medium/Heavy-Duty Vehicles):** Trucks over 10,000 lbs GVWR
@@ -806,7 +826,7 @@ Section 3.2 applies standard rates uniformly to all countries. Country-specific 
 
 #### 3.3 Passenger Vehicle Parts S232 (Third Precedence)
 
-**File:** `data/sec232_passenger_vehicle_parts.csv` (currently empty)
+**Source:** `data/scenarios/exceptions.csv` (rate_type: `s232_pv_parts_rate`, exception_type: `product_scope` — currently empty)
 
 **Planned Rate:** 25% (when HS codes are populated)
 **End-Use Share:** 100% (pv_share_in_parts)
@@ -824,7 +844,7 @@ s232_rate = pv_share_in_parts × 25% = 1.0 × 25% = 25%
 
 #### 3.4 Steel S232
 
-**File:** `data/sec232_steel.csv` (1,495 HS 8-digit codes)
+**Source:** `data/scenarios/exceptions.csv` (rate_type: `s232_steel_rate`, exception_type: `product_scope` or `product_scope_derivative`, 1,495 HS 8-digit codes)
 
 **Categories:**
 1. **Main steel products (322 codes):** Steel ingots, sheets, bars, etc.
@@ -863,21 +883,21 @@ Effective rate = content_share × s232_rate
 **Similar structure to Steel:**
 
 **Aluminum S232:**
-- **File:** `data/sec232_alu.csv` (580 codes)
+- **Source:** `data/scenarios/exceptions.csv` (rate_type: `s232_alu_rate`, 580 codes)
 - **Statutory rate:** 50%
 - **Effective rates:** Main = 50% × 94% = 47%; Derivatives = 50% × 35% = 17.5%
 - **Value:** $272.7 billion (1,012 main + 8,838 derivatives)
 - **UK cap:** 25%
 
 **Copper S232:**
-- **File:** `data/sec232_copper.csv` (219 codes)
+- **Source:** `data/scenarios/exceptions.csv` (rate_type: `s232_copper_rate`, 219 codes)
 - **Statutory rate:** 50%
 - **Effective rate:** 50% × 70% = 35% (main products only; provisional estimate)
 - **Value:** $15.5 billion (1,095 main + 757 derivatives)
 - **Note:** No copper derivatives currently in S232 scope
 
 **Lumber S232:**
-- **File:** `data/s232_lumber.csv` (20 codes)
+- **Source:** `data/scenarios/exceptions.csv` (rate_type: `s232_lumber_rate`, `s232_lumber_cabinet_rate`, `s232_lumber_upholstered_rate`, 20 codes)
 - **Rates:** Variable by product (10-25%)
 - **Value:** $24.7 billion (670 flows)
 - **UK cap:** 10%
@@ -917,10 +937,10 @@ IEEPA (International Emergency Economic Powers Act) provides the legal authority
 
 #### 4.2 Country-Specific Reciprocal Top-Ups
 
-**File:** `data/reciprocal_country_specific_topup.csv`
+**Source:** `data/scenarios/rates.csv` (rate_type: `ieepa_topup_{un_code}`)
 - **Countries:** 204
-- **Column used:** `country_rate_aug1` (August 1, 2025 iteration)
-- **Implementation note:** Country rates are converted to numeric with warning suppression to handle any formatting issues in source data
+- **Format:** Each country's top-up is stored as `ieepa_topup_{un_code}` with effective dates
+- **Time-varying:** Supports multiple rates per country with different effective dates (e.g., China's top-up changed Apr 9 → Apr 10 → May 13, 2025)
 
 **Formula:**
 ```
@@ -963,16 +983,18 @@ ieepa_rate = 10% + country_specific_topup
 
 Annex 2 lists products **excepted from reciprocal tariffs**. These products have their IEEPA rate reset to 0%, effectively exempting them from the reciprocal framework.
 
-**Versioned Approach:**
+**Source:** `data/scenarios/exceptions.csv` (rate_type: `ieepa_baseline_rate`, exception_type: `annex2`)
 
-The analysis uses **versioned CSV files** to enable policy reconstruction at different time points:
+**Time-Varying Approach:**
 
-1. **April 2, 2025** (`reciprocal_exceptions_apr2.csv`): Initial Annex 2
-2. **April 9, 2025**: Semiconductor expansion - **combines** `reciprocal_exceptions_apr2.csv` + `reciprocal_exceptions_semiconductors.csv`
-3. **August 1, 2025** (`reciprocal_exceptions_aug1.csv`): Revised Annex 2
-4. **November 13, 2025** (`reciprocal_exceptions_251113.csv`): Latest revision (**currently used**)
+The centralised exceptions database stores all Annex 2 exceptions with `effective_date` and `end_date` columns, enabling policy reconstruction at any time point:
 
-**Current Setting:** November 13, 2025 version
+1. **April 2, 2025**: Initial Annex 2 (effective_date = 2025-04-02)
+2. **April 9, 2025**: Semiconductor expansion (exception_type = `semiconductor`)
+3. **August 1, 2025**: Revised Annex 2 (effective_date = 2025-08-01)
+4. **November 13, 2025**: Latest revision (effective_date = 2025-11-13)
+
+**Current Setting:** Policy date selects applicable exceptions automatically
 
 **Annex 2 Evolution:**
 ```
@@ -999,7 +1021,7 @@ Lumber removal:      Applied (lumber codes transitioned to S232 in October 2025)
 
 #### 4.5 Statutory IEEPA Exceptions
 
-**File:** `data/reciprocal_exceptions_ieepa_statute.csv` (39 HS 8-digit codes)
+**Source:** `data/scenarios/exceptions.csv` (rate_type: `ieepa_baseline_rate`, exception_type: `statutory`, 39 HS 8-digit codes)
 
 **Scope:** Products **statutorily excluded** from the scope of IEEPA by the International Emergency Economic Powers Act itself
 
@@ -1097,7 +1119,7 @@ ELSE:
 
 #### 5.2 Canada - Northern Border Security
 
-**File:** `data/can_northern_border_exception.csv` (413 HS 8-digit codes)
+**Source:** `data/scenarios/exceptions.csv` (rate_type: `can_emergency_energy_rate`, exception_type: `energy`, 413 HS 8-digit codes)
 
 **Scope:** Canada only (UN 124)
 **Marker:** `can_northern_border = 1`
@@ -1239,7 +1261,7 @@ This section applies **special bilateral deals and agreements** that modify the 
 
 #### Unified Civil Aircraft List
 
-**File:** `data/civil_aircraft_exceptions_wto.csv` (554 codes)
+**Source:** `data/scenarios/exceptions.csv` (exception_type: `aircraft`, 554 HS 8-digit codes)
 - **Coverage:** 554 HS 8-digit codes for complete aircraft
 - **Note:** No distinction between main aircraft and parts/components
 
@@ -1295,8 +1317,8 @@ Final rate:     5% + 0% = 5%
 
 **Scope:** Only applies to products NOT excepted by:
 - Statutory IEEPA exceptions
-- Brazil-specific exceptions (`bra_exceptions.csv`)
-- Civil aircraft exceptions
+- Brazil-specific exceptions (see below)
+- Civil aircraft exceptions (from unified aircraft list)
 
 **Total Value Affected:** $42.2 billion
 
@@ -1309,18 +1331,18 @@ Final rate:     5% + 0% = 5%
 **Brazil Exceptions (Three Categories):**
 
 **1. Unconditional Exceptions:**
-- **File:** `data/bra_exceptions.csv`
+- **Source:** `data/scenarios/exceptions.csv` (rate_type: `bra_topup`, exception_type: `country_exception`)
 - **Treatment:** `ieepa_rate = 0` (revert to MFN only)
 - **Effect:** Complete exemption from reciprocal framework
 
 **2. Conditional Exception - Civil Aircraft:**
-- **File:** `data/civil_aircraft_exceptions_wto.csv` (shared list)
+- **Source:** `data/scenarios/exceptions.csv` (exception_type: `aircraft` — shared list)
 - **Treatment:** `ieepa_rate = 0` (100% excepted)
 - **Coverage:** 554 HS 8-digit codes
 - **Note:** No distinction between main aircraft and parts/components in WTO list
 
 **3. Conditional Exception - Passenger Vehicles:**
-- **File:** `data/bra_passenger_vehicle_exceptions.csv`
+- **Source:** `data/scenarios/exceptions.csv` (rate_type: `bra_topup`, exception_type for vehicle parts)
 - **Main vehicles:** `ieepa_rate = 0` (100% excepted)
 - **Parts:**
   ```
@@ -1561,7 +1583,7 @@ FOR EU members (27 countries):
 ```
 
 **EU Unconditional Exceptions:**
-- **File:** `data/eu_exceptions.csv`
+- **Source:** `data/scenarios/exceptions.csv` (rate_type: `eu_ieepa_floor_rate`, exception_type: `country_exception`)
 - **Implementation note:** HS-8 codes are zero-padded to 8 digits using sprintf formatting to ensure consistent matching
 - **Treatment:** `ieepa_rate = 0` (revert to MFN only)
 - **Value:** $169.2 billion (4,315 flows)
@@ -1570,7 +1592,7 @@ FOR EU members (27 countries):
 **Non-Patented Pharmaceuticals Exception (EU):**
 
 **ASSUMPTION #33: EU Non-Patented Pharma Share**
-- **Product Scope:** Pharmaceutical products list (`pharma_exceptions.csv`, 519 codes)
+- **Product Scope:** `data/scenarios/exceptions.csv` (exception_type: `pharma`, 519 codes)
 - **Share Parameter:** `eu_nonpatented_pharma_share = 0.4` (40% non-patented in US)
 - **Treatment:** Share of pharma imports not patented in US is exempt from IEEPA reciprocal rates
 - **Formula:** Applied directly to IEEPA rate in Section 7.5
@@ -2491,18 +2513,18 @@ For Korean products on/after November 14:
 **1. Unconditional Exceptions:**
 
 **ASSUMPTION #31: Switzerland/Liechtenstein Unconditional Exceptions**
-- **File:** `data/chli_exceptions.csv` (321 HS 8-digit codes)
+- **Source:** `data/scenarios/exceptions.csv` (rate_type: `che_ieepa_floor_rate`, exception_type: `country_exception`, 321 HS 8-digit codes)
 - **Product Scope:** Specific products exempted from IEEPA tariffs
 - **Treatment:** `ieepa_rate = 0` (complete IEEPA exemption)
 - **Rationale:** Country-specific negotiated product exceptions
 - **Code Reference:** us_tariff_calculation.R lines ~1559-1573
-- **Similar to:** Brazil (`bra_exceptions.csv`) and EU (`eu_exceptions.csv`) unconditional exceptions
+- **Similar to:** Brazil and EU unconditional exceptions (also in `exceptions.csv`)
 - **Marker:** `che_exception = 1`
 
 **2. Civil Aircraft Exception:**
 
 **ASSUMPTION #30: Switzerland/Liechtenstein Civil Aircraft Share**
-- **Product Scope:** WTO civil aircraft list (`civil_aircraft_exceptions_wto.csv`, 554 codes)
+- **Product Scope:** `data/scenarios/exceptions.csv` (exception_type: `aircraft`, 554 codes)
 - **Share Parameter:** `che_civil_aircraft_share = 0.9` (90% civil use)
 - **Treatment:** 90% exempt from IEEPA and material S232s (steel, aluminum, copper, lumber); 10% faces standard rates
 - **Formula:** Applied in Section 8 via aircraft share weighting
@@ -2520,7 +2542,7 @@ For Korean products on/after November 14:
 **3. Non-Patented Pharmaceuticals Exception:**
 
 **ASSUMPTION #32: Switzerland Non-Patented Pharma Share**
-- **Product Scope:** Pharmaceutical products list (`pharma_exceptions.csv`, 519 codes)
+- **Product Scope:** `data/scenarios/exceptions.csv` (exception_type: `pharma`, 519 codes)
 - **Share Parameter:** `che_nonpatented_pharma_share = 0.2` (20% non-patented in US)
 - **Treatment:** Share of pharma imports not patented in US is exempt from IEEPA reciprocal rates
 - **Formula:** Applied directly to IEEPA rate in Section 7.7

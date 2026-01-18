@@ -277,6 +277,8 @@ These parameters define the tariff rates applied under Section 232 investigation
 **Calibration Rationale:**
 Observed USMCA compliance rates increased sharply in July 2025, likely reflecting a behavioral response to evolving tariff policies. The July-September 2025 period represents steady-state compliance behavior under current conditions, with trade-weighted compliance averaging approximately 90% for both Canada and Mexico.
 
+**Methodology Reference:** See `documentation/parameterisation/usmca-compliance.md` for detailed empirical analysis, including the compliance shift from ~70% (2024) to ~90% (Jul-Sep 2025), sectoral variation (machinery/instruments at <15% compliance), and calibration option comparison.
+
 **Default for Unmatched Products:**
 Products without observed compliance data receive a **90% default** compliance rate. This reflects the aggregate trade-weighted compliance observed in the calibration period.
 
@@ -537,7 +539,7 @@ Sys.setenv(MFN_RATE_SOURCE = "observed_bilateral")
 
 4. **Observed Bilateral:** Captures the full origin-specific variation in effective rates, including preferential programmes (USMCA, GSP, FTAs), trade defence measures (AD/CVD), and programme-specific tariffs (S301 China). For missing product-country combinations, falls back to `observed_product` rates.
 
-**Methodology Reference:** See `../251212 US effective tariff rates/results/effective_rate_2024/memo_effective_rate_2024.md` for detailed methodology on empirical rate estimation.
+**Methodology Reference:** See `documentation/parameterisation/mfn-rate-options.md` for detailed methodology on empirical rate estimation, including validation against observed 2024 duties ($76.2 billion collected on $3,251 billion in trade).
 
 **Database Schema:**
 
@@ -869,6 +871,14 @@ Effective rate = content_share × s232_rate
 ```
 
 **Rationale:** The incidence ratios are calibrated from observed 2025 trade data. For derivatives, the ratio reflects both physical metal content and exclusion patterns. For main products, the ratio reflects exclusion utilisation (physical content = 100%).
+
+**Methodology Reference:** See `documentation/parameterisation/metal-content-ratios.md` for detailed estimation methodology, including temporal stability analysis and country-level variation. Summary of calibrated ratios:
+
+| Metal | Derivatives | Main Products | Data Period |
+|-------|-------------|---------------|-------------|
+| Steel | 40% | 85% | Jan–Sep 2025 |
+| Aluminium | 35% | 94% | Jan–Sep 2025 |
+| Copper | N/A | 70% | Aug–Sep 2025 (provisional) |
 
 **UK Special Treatment (applied in Section 7):**
 - Steel S232 capped at 25% (down from 50%)

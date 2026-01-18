@@ -2,7 +2,7 @@
 
 Comprehensive calculation of US tariff rates applied to imports, incorporating MFN rates, Section 232 tariffs, IEEPA reciprocal tariffs, emergency measures, and Section 301 tariffs.
 
-**Author:** Global Trade Alert
+**Author:** Johannes Fritz
 **Methodology:** [METHODOLOGY.md](METHODOLOGY.md)
 
 ## Overview

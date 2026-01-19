@@ -729,6 +729,7 @@ us_imports[, `:=`(
   ieepa_rate = 0,
   emergency_rate = 0,
   s301_rate = 0,
+  country_surcharge_rate = 0,  # Country-specific surcharges (Section 7.99)
   rate = 0
 )]
 
@@ -2209,6 +2210,100 @@ if (policy_date >= che_deal_effective_date) {
               che_deal_effective_date, policy_date))
 }
 
+# -----------------------------------------------------------------------------
+# 7.99: COUNTRY-SPECIFIC SURCHARGES (Across-the-Board Tariff Additions)
+# -----------------------------------------------------------------------------
+# Apply additional tariffs that stack on top of everything else (like S301)
+# Activated only when country_surcharge_XXX rates exist in rates.csv
+# Supports positive scope (only specific products) or negative scope (all except)
+# -----------------------------------------------------------------------------
+
+cat("\n  7.99 Country-Specific Surcharges...\n")
+
+# Discover which countries have surcharge rates defined for this scenario
+surcharge_rate_types <- rates[grepl("^country_surcharge_", rate_type) &
+                               scenario == SCENARIO_NAME,
+                              unique(rate_type)]
+
+if (length(surcharge_rate_types) == 0) {
+  cat("    No country surcharges defined for this scenario\n")
+} else {
+  cat(sprintf("    Found %d country surcharge rate(s) defined\n",
+              length(surcharge_rate_types)))
+
+  for (rate_type_name in surcharge_rate_types) {
+    # Extract UN code from rate_type (e.g., "country_surcharge_699" -> 699)
+    un_code_str <- sub("^country_surcharge_", "", rate_type_name)
+    target_un_code <- as.integer(un_code_str)
+
+    # Get the surcharge rate (time-dependent via get_rate)
+    surcharge_rate <- get_rate(rate_type_name)
+
+    if (surcharge_rate == 0) {
+      cat(sprintf("    %s: Rate is 0 or not yet effective (skipped)\n",
+                  rate_type_name))
+      next
+    }
+
+    # Determine scope mode
+    # Priority: surcharge_scope (positive) > surcharge_exception (negative) > all products
+    positive_scope_codes <- get_exceptions(rate_type_name, "surcharge_scope", policy_date)
+    negative_scope_codes <- get_exceptions(rate_type_name, "surcharge_exception", policy_date)
+
+    # Get country name for logging
+    country_name <- us_imports[un_code == target_un_code, first(exporter)]
+    if (is.na(country_name)) country_name <- paste0("UN:", target_un_code)
+
+    if (length(positive_scope_codes) > 0) {
+      # POSITIVE SCOPE: Apply ONLY to listed products
+      us_imports[un_code == target_un_code & hs_8digit %in% positive_scope_codes,
+                 country_surcharge_rate := surcharge_rate]
+
+      affected_value <- sum(us_imports[un_code == target_un_code &
+                                        hs_8digit %in% positive_scope_codes]$us_imports_bn,
+                            na.rm = TRUE)
+      cat(sprintf("    %s (%s): +%.0f%% on %d specific products ($%.1f billion)\n",
+                  rate_type_name, country_name, surcharge_rate,
+                  length(positive_scope_codes), affected_value))
+
+    } else if (length(negative_scope_codes) > 0) {
+      # NEGATIVE SCOPE: Apply to ALL products EXCEPT listed
+      us_imports[un_code == target_un_code & !(hs_8digit %in% negative_scope_codes),
+                 country_surcharge_rate := surcharge_rate]
+
+      affected_rows <- us_imports[un_code == target_un_code &
+                                   !(hs_8digit %in% negative_scope_codes), .N]
+      affected_value <- sum(us_imports[un_code == target_un_code &
+                                        !(hs_8digit %in% negative_scope_codes)]$us_imports_bn,
+                            na.rm = TRUE)
+      excepted_value <- sum(us_imports[un_code == target_un_code &
+                                        hs_8digit %in% negative_scope_codes]$us_imports_bn,
+                            na.rm = TRUE)
+      cat(sprintf("    %s (%s): +%.0f%% on all except %d products ($%.1f billion affected, $%.1f billion excepted)\n",
+                  rate_type_name, country_name, surcharge_rate,
+                  length(negative_scope_codes), affected_value, excepted_value))
+
+    } else {
+      # NO SCOPE: Apply to ALL products from this origin
+      us_imports[un_code == target_un_code,
+                 country_surcharge_rate := surcharge_rate]
+
+      affected_rows <- us_imports[un_code == target_un_code, .N]
+      affected_value <- sum(us_imports[un_code == target_un_code]$us_imports_bn,
+                            na.rm = TRUE)
+      cat(sprintf("    %s (%s): +%.0f%% on ALL products (%d rows, $%.1f billion)\n",
+                  rate_type_name, country_name, surcharge_rate,
+                  affected_rows, affected_value))
+    }
+  }
+}
+
+# Summary statistics for country surcharges
+surcharge_affected <- sum(us_imports$country_surcharge_rate > 0)
+surcharge_value <- sum(us_imports[country_surcharge_rate > 0]$us_imports_bn, na.rm = TRUE)
+cat(sprintf("    Total: %d products with country surcharge ($%.1f billion)\n",
+            surcharge_affected, surcharge_value))
+
 cat("\n  Section 7 complete: Country exceptions applied\n")
 cat("\n")
 
@@ -2216,13 +2311,14 @@ cat("\n")
 # SECTION 8: CALCULATE FINAL APPLIED RATE
 # =============================================================================
 # Calculate final rate using FOUR distinct formulas based on tariff applicability:
+# NOTE: country_surcharge_rate (Section 7.99) is always added at the end (never weighted)
 #
 # 0. NO S232, NO IEEPA, NO EMERGENCY (most basic):
-#    rate = hts_weighted + s301
-#    (Only MFN/preferential HTS rate + China S301 if applicable)
+#    rate = hts_weighted + s301 + country_surcharge
+#    (Only MFN/preferential HTS rate + China S301 + country surcharge if applicable)
 #
 # 1. TRANSPORT S232 (auto/MHDV/PV parts):
-#    rate = hts_weighted + s232_weighted + emergency_weighted + s301
+#    rate = hts_weighted + s232_weighted + emergency_weighted + s301 + country_surcharge
 #    (NO IEEPA - transport S232 replaces IEEPA; emergency always stacks additively)
 #
 # 2. MATERIALS S232 (steel/alu/copper/lumber) with AIRCRAFT SHARE and EMERGENCY STACKING:
@@ -2235,16 +2331,16 @@ cat("\n")
 #      rate = hts_weighted +
 #             (1 - aircraft_share) * [content_share × s232_weighted +
 #                                     (1 - content_share) × ieepa_weighted] +
-#             emergency_weighted + s301
+#             emergency_weighted + s301 + country_surcharge
 #
 #    When emergency_additive = 0:
 #      rate = hts_weighted +
 #             (1 - aircraft_share) * [content_share × s232_weighted +
 #                                     (1 - content_share) × (ieepa_weighted + emergency_weighted)] +
-#             s301
+#             s301 + country_surcharge
 #
 # 3. NO S232, but IEEPA and/or EMERGENCY present:
-#    rate = hts_weighted + ieepa_weighted + emergency_weighted + s301
+#    rate = hts_weighted + ieepa_weighted + emergency_weighted + s301 + country_surcharge
 #    (Standard additive formula)
 # =============================================================================
 
@@ -2252,11 +2348,11 @@ cat("SECTION 8: Calculate Final Applied Rates\n")
 cat("------------------------------------------\n")
 
 cat("  Four-formula approach for complete coverage:\n")
-cat("  0. No new tariffs: hts + s301\n")
-cat("  1. Transport S232: hts + s232 + emergency + s301 (NO IEEPA)\n")
-cat("  2. Materials S232: hts + (1-aircraft)*[share×s232 + (1-share)×ieepa] + emergency + s301\n")
+cat("  0. No new tariffs: hts + s301 + surcharge\n")
+cat("  1. Transport S232: hts + s232 + emergency + s301 + surcharge (NO IEEPA)\n")
+cat("  2. Materials S232: hts + (1-aircraft)*[share×s232 + (1-share)×ieepa] + emergency + s301 + surcharge\n")
 cat("     (Emergency stacks additively for: China all S232, Canada/Mexico copper)\n")
-cat("  3. No S232, IEEPA/emergency: hts + ieepa + emergency + s301\n\n")
+cat("  3. No S232, IEEPA/emergency: hts + ieepa + emergency + s301 + surcharge\n\n")
 
 # Step 1: Calculate hts_rate_weighted for USMCA countries
 # USMCA partners get weighted HTS rates (preferential 0% for compliant imports)
@@ -2402,37 +2498,39 @@ cat("  Step 7b: Determined emergency_additive marker (China all S232, Canada/Mex
 us_imports[, rate := -100]  # Initialize to -100% to flag products with no rate calculated
 
 # Formula 0: NO S232, NO IEEPA, NO EMERGENCY (most basic case)
-# rate = hts_weighted + s301
-# Only HTS base rate and China S301 (if applicable)
+# rate = hts_weighted + s301 + country_surcharge
+# Only HTS base rate + China S301 (if applicable) + country surcharge (if applicable)
 us_imports[transport_s232 == 0 & materials_s232 == 0 &
            ieepa_rate == 0 & emergency_rate == 0,
-           rate := hts_rate_weighted + s301_rate]
+           rate := hts_rate_weighted + s301_rate + country_surcharge_rate]
 
 # Formula 1: TRANSPORT S232
-# rate = hts_weighted + s232_weighted + emergency_weighted + s301
+# rate = hts_weighted + s232_weighted + emergency_weighted + s301 + country_surcharge
 # NO IEEPA (transport S232 replaces IEEPA), but emergency still applies
 us_imports[transport_s232 == 1,
-           rate := hts_rate_weighted + s232_rate_weighted + emergency_rate_weighted + s301_rate]
+           rate := hts_rate_weighted + s232_rate_weighted + emergency_rate_weighted +
+                   s301_rate + country_surcharge_rate]
 
 # Formula 2: MATERIALS S232 (with emergency stacking for China and Canada/Mexico copper)
 # For emergency_additive = 1 (China all S232, Canada/Mexico copper):
-#   rate = hts_weighted + (1-aircraft) * [content×s232 + (1-content)×ieepa] + emergency + s301
+#   rate = hts_weighted + (1-aircraft) * [content×s232 + (1-content)×ieepa] + emergency + s301 + surcharge
 # For emergency_additive = 0 (other materials S232):
-#   rate = hts_weighted + (1-aircraft) * [content×s232 + (1-content)×(ieepa+emergency)] + s301
+#   rate = hts_weighted + (1-aircraft) * [content×s232 + (1-content)×(ieepa+emergency)] + s301 + surcharge
 us_imports[materials_s232 == 1,
            rate := hts_rate_weighted +
                    (1 - aircraft_share) * (content_share * s232_rate_weighted +
-                                           (1 - content_share) * (ieepa_rate_weighted + 
+                                           (1 - content_share) * (ieepa_rate_weighted +
                                                                   (1 - emergency_additive) * emergency_rate_weighted)) +
                    emergency_additive * emergency_rate_weighted +
-                   s301_rate]
+                   s301_rate + country_surcharge_rate]
 
 # Formula 3: NO S232, but IEEPA and/or EMERGENCY present
-# rate = hts_weighted + ieepa_weighted + emergency_weighted + s301
+# rate = hts_weighted + ieepa_weighted + emergency_weighted + s301 + country_surcharge
 # Standard additive formula for products subject to reciprocal/emergency tariffs
 us_imports[transport_s232 == 0 & materials_s232 == 0 &
            (ieepa_rate > 0 | emergency_rate > 0),
-           rate := hts_rate_weighted + ieepa_rate_weighted + emergency_rate_weighted + s301_rate]
+           rate := hts_rate_weighted + ieepa_rate_weighted + emergency_rate_weighted +
+                   s301_rate + country_surcharge_rate]
 
 cat("  Step 8: Calculated main rate column using four-formula approach\n")
 
@@ -2485,6 +2583,10 @@ us_imports[transport_s232 == 0 & materials_s232 == 0 &
            (ieepa_rate > 0 | emergency_rate > 0),
            rate_formula := "HTS + IEEPA + Emergency + S301"]
 
+# Add surcharge suffix to rate_formula where applicable
+us_imports[country_surcharge_rate > 0,
+           rate_formula := paste0(rate_formula, " + Surcharge")]
+
 cat("  Step 9: Created rate_formula column to explain aggregation logic\n")
 
 # Step 10: Create contribution columns (sum of contributions = rate)
@@ -2494,40 +2596,45 @@ us_imports[, `:=`(
   s232_contrib = 0,
   ieepa_contrib = 0,
   emergency_contrib = 0,
-  s301_contrib = 0
+  s301_contrib = 0,
+  country_surcharge_contrib = 0
 )]
 
-# Formula 0: HTS + S301 only
+# Formula 0: HTS + S301 + Surcharge only
 us_imports[transport_s232 == 0 & materials_s232 == 0 & ieepa_rate == 0 & emergency_rate == 0,
            `:=`(hts_contrib = hts_rate_weighted,
-                s301_contrib = s301_rate)]
+                s301_contrib = s301_rate,
+                country_surcharge_contrib = country_surcharge_rate)]
 
 # Formula 1: Transport S232 (simple sum)
 us_imports[transport_s232 == 1,
            `:=`(hts_contrib = hts_rate_weighted,
                 s232_contrib = s232_rate_weighted,
                 emergency_contrib = emergency_rate_weighted,
-                s301_contrib = s301_rate)]
+                s301_contrib = s301_rate,
+                country_surcharge_contrib = country_surcharge_rate)]
 
 # Formula 2: Materials S232 (content/aircraft weighted)
 # rate = hts + (1-aircraft) * [content×s232 + (1-content)×(ieepa + (1-emergency_additive)×emergency)]
-#            + emergency_additive×emergency + s301
+#            + emergency_additive×emergency + s301 + country_surcharge
 us_imports[materials_s232 == 1,
            `:=`(hts_contrib = hts_rate_weighted,
                 s232_contrib = (1 - aircraft_share) * content_share * s232_rate_weighted,
                 ieepa_contrib = (1 - aircraft_share) * (1 - content_share) * ieepa_rate_weighted,
                 emergency_contrib = (1 - aircraft_share) * (1 - content_share) * (1 - emergency_additive) * emergency_rate_weighted +
                                     emergency_additive * emergency_rate_weighted,
-                s301_contrib = s301_rate)]
+                s301_contrib = s301_rate,
+                country_surcharge_contrib = country_surcharge_rate)]
 
-# Formula 3: HTS + IEEPA + Emergency + S301 (simple sum)
+# Formula 3: HTS + IEEPA + Emergency + S301 + Surcharge (simple sum)
 us_imports[transport_s232 == 0 & materials_s232 == 0 & (ieepa_rate > 0 | emergency_rate > 0),
            `:=`(hts_contrib = hts_rate_weighted,
                 ieepa_contrib = ieepa_rate_weighted,
                 emergency_contrib = emergency_rate_weighted,
-                s301_contrib = s301_rate)]
+                s301_contrib = s301_rate,
+                country_surcharge_contrib = country_surcharge_rate)]
 
-cat("  Step 10: Created contribution columns (hts/s232/ieepa/emergency/s301_contrib)\n")
+cat("  Step 10: Created contribution columns (hts/s232/ieepa/emergency/s301/country_surcharge_contrib)\n")
 
 # Verify complete coverage (all rows should have a rate calculated)
 rows_with_rate <- sum(!is.na(us_imports$rate) & us_imports$rate >= 0)
@@ -2794,9 +2901,9 @@ if (missing_iso3_n > 0) {
 us_imports <- us_imports %>%
   select(exporter, iso_code, hs_8digit,
          us_imports, us_imports_bn,
-         hts_rate, s232_rate, ieepa_rate, emergency_rate, s301_rate, rate, rate_formula,
+         hts_rate, s232_rate, ieepa_rate, emergency_rate, s301_rate, country_surcharge_rate, rate, rate_formula,
         # Contribution columns (sum = rate)
-        hts_contrib, s232_contrib, ieepa_contrib, emergency_contrib, s301_contrib,
+        hts_contrib, s232_contrib, ieepa_contrib, emergency_contrib, s301_contrib, country_surcharge_contrib,
         # USMCA-weighted rates (intermediate values before content/aircraft weighting)
         hts_rate_weighted, s232_rate_weighted, ieepa_rate_weighted, emergency_rate_weighted,
         # Composition weighting factors
@@ -2882,9 +2989,9 @@ if (EXPORT_PROFILE %in% c("standard", "minimal_only")) {
     select(iso_code, hs_8digit, us_imports,
            # Weighted rates (after USMCA weighting, before content/aircraft weighting)
            hts_rate_weighted, s232_rate_weighted, ieepa_rate_weighted,
-           emergency_rate_weighted, s301_rate,
+           emergency_rate_weighted, s301_rate, country_surcharge_rate,
            # Contribution to final rate (sum = rate)
-           hts_contrib, s232_contrib, ieepa_contrib, emergency_contrib, s301_contrib,
+           hts_contrib, s232_contrib, ieepa_contrib, emergency_contrib, s301_contrib, country_surcharge_contrib,
            rate)
   fwrite_safe(decomposed_data, decomposed_path, sep = ";")
   cat(sprintf("    Saved: %s/%s_decomposed.csv\n", output_dir, output_basename))

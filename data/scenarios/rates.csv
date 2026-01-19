@@ -224,3 +224,11 @@ jpn_ieepa_floor_rate,0,ieepa_full_strike_down,7.4,IEEPA struck down - no Japan I
 eu_ieepa_floor_rate,0,ieepa_full_strike_down,7.5,IEEPA struck down - no EU IEEPA floor,2025-01-01
 kor_ieepa_floor_rate,0,ieepa_full_strike_down,7.6,IEEPA struck down - no Korea IEEPA floor,2025-01-01
 che_ieepa_floor_rate,0,ieepa_full_strike_down,7.7,IEEPA struck down - no Switzerland IEEPA floor,2025-01-01
+country_surcharge_826,10,Greenland8_10pct,7.99,UK Greenland surcharge,2025-01-01
+country_surcharge_578,10,Greenland8_10pct,7.99,Norway Greenland surcharge,2025-01-01
+country_surcharge_208,10,Greenland8_10pct,7.99,Denmark Greenland surcharge,2025-01-01
+country_surcharge_752,10,Greenland8_10pct,7.99,Sweden Greenland surcharge,2025-01-01
+country_surcharge_251,10,Greenland8_10pct,7.99,France Greenland surcharge,2025-01-01
+country_surcharge_276,10,Greenland8_10pct,7.99,Germany Greenland surcharge,2025-01-01
+country_surcharge_246,10,Greenland8_10pct,7.99,Finland Greenland surcharge,2025-01-01
+country_surcharge_528,10,Greenland8_10pct,7.99,Netherlands Greenland surcharge,2025-01-01

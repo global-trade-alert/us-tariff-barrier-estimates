@@ -82,6 +82,16 @@ if (!exists("DISABLE_HTS_USMCA_WEIGHTING") || is.null(DISABLE_HTS_USMCA_WEIGHTIN
   }
 }
 
+# DISABLE_HTS_KORUS_WEIGHTING: Skip KORUS compliance weighting for HTS rates
+if (!exists("DISABLE_HTS_KORUS_WEIGHTING") || is.null(DISABLE_HTS_KORUS_WEIGHTING)) {
+  env_disable_korus <- Sys.getenv("DISABLE_HTS_KORUS_WEIGHTING", unset = "")
+  if (env_disable_korus != "") {
+    DISABLE_HTS_KORUS_WEIGHTING <- toupper(env_disable_korus) %in% c("TRUE", "1", "YES")
+  } else {
+    DISABLE_HTS_KORUS_WEIGHTING <- FALSE
+  }
+}
+
 # EXCLUDE_S301_TARIFFS: Skip Section 301 tariff loading
 if (!exists("EXCLUDE_S301_TARIFFS") || is.null(EXCLUDE_S301_TARIFFS)) {
   env_exclude_s301 <- Sys.getenv("EXCLUDE_S301_TARIFFS", unset = "")
@@ -94,6 +104,7 @@ if (!exists("EXCLUDE_S301_TARIFFS") || is.null(EXCLUDE_S301_TARIFFS)) {
 
 # Add option indicators to MFN_SUFFIX if non-default
 if (DISABLE_HTS_USMCA_WEIGHTING) MFN_SUFFIX <- paste0(MFN_SUFFIX, "_nousmca")
+if (DISABLE_HTS_KORUS_WEIGHTING) MFN_SUFFIX <- paste0(MFN_SUFFIX, "_nokorus")
 if (EXCLUDE_S301_TARIFFS) MFN_SUFFIX <- paste0(MFN_SUFFIX, "_nos301")
 
 # Standard output basename used across all scripts

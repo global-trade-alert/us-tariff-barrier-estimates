@@ -67,6 +67,18 @@ if (!exists("DISABLE_HTS_USMCA_WEIGHTING") || is.null(DISABLE_HTS_USMCA_WEIGHTIN
 }
 cat(sprintf("USMCA HTS weighting: %s\n", ifelse(DISABLE_HTS_USMCA_WEIGHTING, "DISABLED", "enabled")))
 
+# Option: Disable KORUS compliance weighting for HTS rates
+# Useful with observational MFN sources where KORUS preferences are already reflected
+if (!exists("DISABLE_HTS_KORUS_WEIGHTING") || is.null(DISABLE_HTS_KORUS_WEIGHTING)) {
+  env_disable_korus <- Sys.getenv("DISABLE_HTS_KORUS_WEIGHTING", unset = "")
+  if (env_disable_korus != "") {
+    DISABLE_HTS_KORUS_WEIGHTING <- toupper(env_disable_korus) %in% c("TRUE", "1", "YES")
+  } else {
+    DISABLE_HTS_KORUS_WEIGHTING <- FALSE
+  }
+}
+cat(sprintf("KORUS HTS weighting: %s\n", ifelse(DISABLE_HTS_KORUS_WEIGHTING, "DISABLED", "enabled")))
+
 # Option: Exclude Section 301 tariffs
 # Useful with observational MFN sources where S301 tariffs are already reflected in 2024 data
 if (!exists("EXCLUDE_S301_TARIFFS") || is.null(EXCLUDE_S301_TARIFFS)) {
@@ -553,6 +565,14 @@ cat("    USMCA compliance: Product-level rates from compliance_shares.csv\n")
 cat(sprintf("    Default for unmatched products: %.0f%% (from shares.csv)\n", 
             get_share("usmca_compliance_default") * 100))
 cat(sprintf("    USMCA preferential rate: %.0f%%\n", usmca_rate))
+
+# KORUS Preferential HTS Rate (for South Korea)
+# KORUS-compliant products receive preferential (zero) HTS rate instead of standard MFN
+korus_rate <- get_rate("korus_rate")  # KORUS preferential HTS rate (loaded from rates.csv)
+korus_compliance_default <- get_share("korus_compliance_default")  # Flat compliance rate
+
+cat(sprintf("    KORUS compliance: %.0f%% (observed 2024 US imports)\n", korus_compliance_default * 100))
+cat(sprintf("    KORUS preferential rate: %.0f%%\n", korus_rate))
 
 # Environment variable override for USMCA compliance (for metal ratio analysis)
 # Set USMCA_COMPLIANCE_OVERRIDE=0 to get full theoretical tariffs for non-USMCA imports
@@ -2370,6 +2390,20 @@ if (DISABLE_HTS_USMCA_WEIGHTING) {
   cat("  Step 1: Applied USMCA weighting to HTS rates (product-level compliance)\n")
 }
 
+# Step 1b: Calculate hts_rate_weighted for South Korea (KORUS)
+# KORUS-compliant imports receive preferential (zero) HTS rate
+# Uses flat country-level compliance rate based on observed 2024 US imports
+if (DISABLE_HTS_KORUS_WEIGHTING) {
+  # Skip KORUS weighting - use observed rate as-is (for observational MFN sources)
+  cat("  Step 1b: KORUS HTS weighting DISABLED (observed rates used directly)\n")
+  # hts_rate_weighted already set to hts_rate at initialization
+} else {
+  # Apply KORUS preferential HTS weighting (country-level compliance)
+  us_imports[un_code == korea_un_code,
+             hts_rate_weighted := korus_compliance_default * korus_rate + (1 - korus_compliance_default) * hts_rate]
+  cat("  Step 1b: Applied KORUS weighting to HTS rates (50% compliance, observed 2024)\n")
+}
+
 # Step 2: Calculate emergency_rate_weighted for USMCA countries
 # Canada/Mexico emergency rates are USMCA-weighted using product-level compliance
 # Energy exception list determines base rate (10% vs 35%), NOT compliance
@@ -2937,6 +2971,7 @@ mfn_suffix <- switch(MFN_RATE_SOURCE,
 # Add option indicators if non-default
 option_suffix <- ""
 if (DISABLE_HTS_USMCA_WEIGHTING) option_suffix <- paste0(option_suffix, "_nousmca")
+if (DISABLE_HTS_KORUS_WEIGHTING) option_suffix <- paste0(option_suffix, "_nokorus")
 if (EXCLUDE_S301_TARIFFS) option_suffix <- paste0(option_suffix, "_nos301")
 
 output_basename <- paste0("processed_us_imports_with_rates_", mfn_suffix, option_suffix, "_", SCENARIO_NAME)

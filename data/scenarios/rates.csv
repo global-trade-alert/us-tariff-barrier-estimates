@@ -1,6 +1,8 @@
 rate_type,rate,scenario,section,description,effective_date
 usmca_rate,0,baseline,2,USMCA preferential rate,2025-01-01
 usmca_rate,0,s232_100pct,2,USMCA preferential rate,2025-01-01
+korus_rate,0,baseline,2,KORUS preferential rate,2025-01-01
+korus_rate,0,s232_100pct,2,KORUS preferential rate,2025-01-01
 s232_auto_rate,25,baseline,3.1,Automobiles Section 232,2025-04-03
 s232_mhdv_main_rate,25,baseline,3.2,MHDV main products,2025-11-01
 s232_mhdv_bus_rate,10,baseline,3.2,MHDV buses (lower rate),2025-11-01

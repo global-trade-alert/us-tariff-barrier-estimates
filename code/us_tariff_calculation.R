@@ -2064,7 +2064,7 @@ cat("\n  7.6 Korea (Multiple Exception Types)...\n")
 # Same mechanism as Japan/EU auto/MHDV S232 floor, but Korea excludes MHDV
 # Formula: s232_rate = pmax(floor, hts_rate) - hts_rate ensures total >= 15%
 # NOTE: Korea deal not yet finalized - set to impossible future date
-if(policy_date >= as.Date("2999-12-31")) {
+if(policy_date >= as.Date("2025-11-14")) {
   us_imports[un_code == korea_un_code & s232_auto == 1, `:=`(
     s232_rate = pmax(kor_s232_floor_rate, hts_rate) - hts_rate,
     kor_auto = 1
@@ -2077,7 +2077,7 @@ if(policy_date >= as.Date("2999-12-31")) {
 
 # EXCEPTIONS 1-3: NOT YET IMPLEMENTED
 # NOTE: Korea deal not yet finalized - set to impossible future date
-if(policy_date >= as.Date("2999-12-31")) {
+if(policy_date >= as.Date("2025-11-14")) {
 
   # EXCEPTION 2: LUMBER S232 RATE (Cabinets & Upholstered Furniture)
   # S232 rate set to 15% for specific lumber derivatives

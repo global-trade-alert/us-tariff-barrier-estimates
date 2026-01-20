@@ -35,9 +35,9 @@ jpn_lumber_derivative_rate,15,baseline,7.4,Japan lumber derivatives,2025-10-14
 eu_ieepa_floor_rate,15,baseline,7.5,EU IEEPA floor (reciprocal tariffs),2025-09-01
 eu_s232_floor_rate,15,baseline,7.5,EU S232 auto/MHDV floor,2025-09-01
 eu_lumber_derivative_rate,15,baseline,7.5,EU lumber derivatives,2025-10-14
-kor_ieepa_floor_rate,15,baseline,7.6,Korea IEEPA floor (reciprocal tariffs),2999-12-31
-kor_s232_floor_rate,15,baseline,7.6,Korea S232 auto floor,2999-12-31
-kor_lumber_derivative_rate,15,baseline,7.6,Korea lumber derivatives,2999-12-31
+kor_ieepa_floor_rate,15,baseline,7.6,Korea IEEPA floor (reciprocal tariffs),2025-11-14
+kor_s232_floor_rate,15,baseline,7.6,Korea S232 auto floor,2025-11-14
+kor_lumber_derivative_rate,15,baseline,7.6,Korea lumber derivatives,2025-11-14
 che_ieepa_floor_rate,15,baseline,7.7,Switzerland/Liechtenstein IEEPA floor,2025-11-14
 ieepa_topup_156,74,baseline,4.2,China IEEPA top-up,2025-04-09
 ieepa_topup_156,115,baseline,4.2,China IEEPA top-up,2025-04-10
@@ -224,11 +224,20 @@ jpn_ieepa_floor_rate,0,ieepa_full_strike_down,7.4,IEEPA struck down - no Japan I
 eu_ieepa_floor_rate,0,ieepa_full_strike_down,7.5,IEEPA struck down - no EU IEEPA floor,2025-01-01
 kor_ieepa_floor_rate,0,ieepa_full_strike_down,7.6,IEEPA struck down - no Korea IEEPA floor,2025-01-01
 che_ieepa_floor_rate,0,ieepa_full_strike_down,7.7,IEEPA struck down - no Switzerland IEEPA floor,2025-01-01
-country_surcharge_826,10,Greenland8_10pct,7.99,UK Greenland surcharge,2025-01-01
-country_surcharge_578,10,Greenland8_10pct,7.99,Norway Greenland surcharge,2025-01-01
-country_surcharge_208,10,Greenland8_10pct,7.99,Denmark Greenland surcharge,2025-01-01
-country_surcharge_752,10,Greenland8_10pct,7.99,Sweden Greenland surcharge,2025-01-01
-country_surcharge_251,10,Greenland8_10pct,7.99,France Greenland surcharge,2025-01-01
-country_surcharge_276,10,Greenland8_10pct,7.99,Germany Greenland surcharge,2025-01-01
-country_surcharge_246,10,Greenland8_10pct,7.99,Finland Greenland surcharge,2025-01-01
-country_surcharge_528,10,Greenland8_10pct,7.99,Netherlands Greenland surcharge,2025-01-01
+country_surcharge_826,10,Greenland8_10pct,7.99,UK Greenland surcharge,2026-02-01
+country_surcharge_578,10,Greenland8_10pct,7.99,Norway Greenland surcharge,2026-02-01
+country_surcharge_208,10,Greenland8_10pct,7.99,Denmark Greenland surcharge,2026-02-01
+country_surcharge_752,10,Greenland8_10pct,7.99,Sweden Greenland surcharge,2026-02-01
+country_surcharge_251,10,Greenland8_10pct,7.99,France Greenland surcharge,2026-02-01
+country_surcharge_276,10,Greenland8_10pct,7.99,Germany Greenland surcharge,2026-02-01
+country_surcharge_246,10,Greenland8_10pct,7.99,Finland Greenland surcharge,2026-02-01
+country_surcharge_528,10,Greenland8_10pct,7.99,Netherlands Greenland surcharge,2026-02-01
+eu_ieepa_floor_rate,25,Greenland8_IEEPA_10pct,7.5,EU IEEPA floor +10pp Greenland,2026-02-01
+ieepa_topup_826,10,Greenland8_IEEPA_10pct,4.2,UK IEEPA topup +10pp Greenland,2026-02-01
+ieepa_topup_578,10,Greenland8_IEEPA_10pct,4.2,Norway IEEPA topup +10pp Greenland,2026-02-01
+eu_ieepa_floor_rate,25,Greenland8_IEEPA_S232_10pct,7.5,EU IEEPA floor +10pp Greenland,2026-02-01
+ieepa_topup_826,10,Greenland8_IEEPA_S232_10pct,4.2,UK IEEPA topup +10pp Greenland,2026-02-01
+ieepa_topup_578,10,Greenland8_IEEPA_S232_10pct,4.2,Norway IEEPA topup +10pp Greenland,2026-02-01
+eu_s232_floor_rate,25,Greenland8_IEEPA_S232_10pct,7.5,EU S232 floor +10pp Greenland,2026-02-01
+uk_ceiling_rate,20,Greenland8_IEEPA_S232_10pct,7.3,UK auto ceiling +10pp Greenland,2026-02-01
+uk_steel_alu_cap,35,Greenland8_IEEPA_S232_10pct,7.3,UK steel/alu cap +10pp Greenland,2026-02-01

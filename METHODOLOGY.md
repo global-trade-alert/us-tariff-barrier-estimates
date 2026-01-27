@@ -1,6 +1,6 @@
 # Methodology for US Tariff Calculations
 
-**Last Updated:** December 9, 2025
+**Last Updated:** January 27, 2026
 **Script:** `code/us_tariff_calculation.R`
 **Author:** Johannes Fritz
 
@@ -412,6 +412,8 @@ All parameters centralized in Section 0 of the R code for transparency:
 | **USMCA Compliance** | `compliance_shares.csv` | Product-level | 2.4 | 8.1, 8.2, 8.3, 8.4 | Product-level compliance rates (USITC Jul-Sep 2025) |
 | | Default for unmatched | 0.90 | 2.4 | 8.1, 8.2, 8.3, 8.4 | 90% default for products without observations |
 | | `usmca_rate` | 0.0 | 146 | 8.1 | USMCA preferential HTS rate |
+| **KORUS Compliance** | `korus_compliance_default` | 0.50 | 594 | 8.1b | Country-level compliance rate (observed 2024 US imports) |
+| | `korus_rate` | 0.0 | 593 | 8.1b | KORUS preferential HTS rate |
 | **Civil Aircraft Shares** | `bra_civil_aircraft_share` | 0.9 | 170 | 8.7, 8.8 | Brazil civil aircraft share |
 | | `jpn_civil_aircraft_share` | 0.9 | 171 | 8.7, 8.8 | Japan civil aircraft share |
 | | `eu_civil_aircraft_share` | 0.9 | 172 | 8.7, 8.8 | EU civil aircraft share |
@@ -557,13 +559,16 @@ When using observational MFN rate sources (`observed_bilateral`, `observed_produ
 | Option | Environment Variable | Default | Description |
 |--------|---------------------|---------|-------------|
 | Disable HTS USMCA weighting | `DISABLE_HTS_USMCA_WEIGHTING` | `FALSE` | When TRUE, skip USMCA compliance weighting for HTS rates only (Section 8.1) |
+| Disable HTS KORUS weighting | `DISABLE_HTS_KORUS_WEIGHTING` | `FALSE` | When TRUE, skip KORUS compliance weighting for HTS rates only (Section 8.1b) |
 | Exclude Section 301 tariffs | `EXCLUDE_S301_TARIFFS` | `FALSE` | When TRUE, skip Section 301 tariff loading entirely (Section 6) |
 
 **Why These Options Exist:**
 
 1. **USMCA Double-counting:** Observational 2024 rates for Canada and Mexico already reflect USMCA preferential treatment. Applying USMCA compliance weighting again would undercount the effective rate.
 
-2. **Section 301 Double-counting:** Observational 2024 rates for China already include Section 301 tariffs (7.5–25% additional duties on certain products). Adding Section 301 rates again would overcount the effective rate.
+2. **KORUS Double-counting:** Observational 2024 rates for South Korea already reflect KORUS preferential treatment. Applying KORUS compliance weighting again would undercount the effective rate.
+
+3. **Section 301 Double-counting:** Observational 2024 rates for China already include Section 301 tariffs (7.5–25% additional duties on certain products). Adding Section 301 rates again would overcount the effective rate.
 
 **Usage:**
 
@@ -576,7 +581,7 @@ Sys.setenv(
 )
 
 # Or via command line
-# DISABLE_HTS_USMCA_WEIGHTING=TRUE EXCLUDE_S301_TARIFFS=TRUE Rscript code/us_tariff_calculation_db.R
+# DISABLE_HTS_USMCA_WEIGHTING=TRUE EXCLUDE_S301_TARIFFS=TRUE Rscript code/us_tariff_calculation.R
 ```
 
 **Output Files:**
@@ -1693,21 +1698,54 @@ hts_rate_weighted = hts_rate (no weighting applied)
 
 **Value affected:** $913.0 billion (Canada + Mexico)
 
-**Code Reference:** us_tariff_calculation_db.R Section 8, Step 1
+**Code Reference:** us_tariff_calculation.R Section 8, Step 1
+
+---
+
+#### 8.1b KORUS HTS Rate Weighting (South Korea)
+
+**Purpose:** Adjust HTS rates for South Korea to account for KORUS (Korea-US Free Trade Agreement) preferential treatment. KORUS-compliant imports receive preferential (zero) HTS rates instead of standard MFN rates.
+
+**Basis:** 50% observed compliance, based on 2024 US import data. Unlike USMCA (which uses product-level compliance rates from USITC data), KORUS uses a flat country-level compliance rate because product-level KORUS utilisation data is not publicly available.
+
+**Formula:**
+```
+hts_rate_weighted = korus_compliance × korus_rate + (1 - korus_compliance) × hts_rate
+```
+
+Where:
+- `korus_compliance` = 0.50 (observed 2024 US imports)
+- `korus_rate` = 0% (KORUS preferential rate)
+- `hts_rate` = standard MFN rate for the product
+
+**Example:** For a product with 5% MFN rate:
+```
+hts_rate_weighted = 0.50 × 0% + 0.50 × 5% = 2.5%
+```
+
+**For all other countries (non-Korea):**
+```
+hts_rate_weighted = hts_rate (no KORUS weighting applied)
+```
+
+**Disable option:** Set `DISABLE_HTS_KORUS_WEIGHTING=TRUE` when using observational MFN rate sources where KORUS preferences are already reflected in the 2024 rates.
+
+**Code Reference:** us_tariff_calculation.R Section 8, Step 1b
 
 ---
 
 #### 8.2 Complete Step-by-Step Execution Flow
 
-Section 8 executes **8 sequential steps** to calculate the final applied rate. Understanding the execution order is critical:
+Section 8 executes **9 sequential steps** to calculate the final applied rate. Understanding the execution order is critical:
 
 **Phase 1: Create Weighted Rate Columns (Steps 1-4)**
 
-These steps create intermediate `*_weighted` columns by applying USMCA compliance weighting to base rates:
+These steps create intermediate `*_weighted` columns by applying FTA compliance weighting to base rates:
 
 | Step | Operation | Code Lines | Output Column | Purpose |
 |------|-----------|------------|---------------|---------|
-| **1** | HTS weighting | 1393-1402 | `hts_rate_weighted` | Apply USMCA preferential rates |
+| **1** | HTS weighting (USMCA) | 1393-1402 | `hts_rate_weighted` | Apply USMCA preferential rates |
+| **1b** | HTS weighting (KORUS) | 2467-2479 | `hts_rate_weighted` | Apply KORUS preferential rates |
 | **2** | Emergency weighting | 1407-1434 | `emergency_rate_weighted` | Apply USMCA emergency exemptions |
 | **3** | IEEPA weighting | 1437-1447 | `ieepa_rate_weighted` | Apply USMCA IEEPA exemptions |
 | **4** | S232 weighting | 1449-1504 | `s232_rate_weighted` | Apply USMCA S232 auto/MHDV exemptions |
@@ -1732,7 +1770,7 @@ This step applies one of four mutually exclusive formulas to calculate the final
 
 **Why This Order?**
 
-1. **Weighting first (Steps 1-4):** Must create weighted columns before using them in formulas
+1. **Weighting first (Steps 1–1b, 2–4):** Must create weighted columns before using them in formulas
 2. **Markers next (Steps 5-7):** Must identify product types before selecting formula
 3. **Formulas last (Step 8):** Uses all weighted columns and markers to calculate final rate
 
@@ -2716,7 +2754,7 @@ Each of 20 boolean marker columns tracks which specific policies apply:
 
 **Author:** Global Trade Alert / Analysis Team
 **Script:** `us_tariff_calculation.R`
-**Last Updated:** December 9, 2025
+**Last Updated:** January 27, 2026
 
 **For Questions or Clarifications:**
 Contact analysis team with reference to specific section numbers and assumption numbers for efficient resolution.

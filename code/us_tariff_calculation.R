@@ -226,6 +226,28 @@ get_country_topup <- function(un_code, as_of_date = NULL) {
   return(get_rate(rate_type_name, as_of_date))
 }
 
+# Helper function to get country-specific IEEPA floor override
+# Returns NA if no override exists (use default EU floor)
+get_country_ieepa_floor_override <- function(un_code, as_of_date = NULL) {
+  rate_type_name <- paste0("ieepa_floor_override_", un_code)
+  # Check if this rate type exists in rates data
+  if (!rate_type_name %in% rates$rate_type) {
+    return(NA_real_)
+  }
+  return(get_rate(rate_type_name, as_of_date))
+}
+
+# Helper function to get country-specific S232 floor override
+# Returns NA if no override exists (use default EU floor)
+get_country_s232_floor_override <- function(un_code, as_of_date = NULL) {
+  rate_type_name <- paste0("s232_floor_override_", un_code)
+  # Check if this rate type exists in rates data
+  if (!rate_type_name %in% rates$rate_type) {
+    return(NA_real_)
+  }
+  return(get_rate(rate_type_name, as_of_date))
+}
+
 # Helper function to get share value
 # Throws error if share_type not found - forces explicit definition
 get_share <- function(share_type_name) {
@@ -1986,8 +2008,9 @@ if (policy_date >= eu_deal_effective_date) {
   # Apply tariff floors (product-by-product) for EU
   # CORRECTED FORMULA: max(floor, mfn) instead of just floor
   # SCENARIO-AWARE: If eu_ieepa_floor_rate is 0, skip floor application (set ieepa_rate = 0)
+  # COUNTRY-SPECIFIC: Check for ieepa_floor_override_XXX for individual EU member overrides
   unique_hs_eu <- unique(us_imports[un_code %in% eu_members]$hs_8digit)
-  
+
   # Check if IEEPA floor is disabled by scenario (rate = 0)
   if (eu_ieepa_floor_rate == 0) {
     # IEEPA floor disabled - set ieepa_rate to 0 for all EU products in IEEPA scope
@@ -1995,10 +2018,25 @@ if (policy_date >= eu_deal_effective_date) {
                ieepa_rate := 0]
     cat("    [SCENARIO] EU IEEPA floor disabled (rate = 0)\n")
   } else {
+    # Build country-specific IEEPA floor override lookup
+    eu_ieepa_floor_overrides <- list()
+    override_countries <- c()
+    for (eu_un in eu_members) {
+      override_val <- get_country_ieepa_floor_override(eu_un, policy_date)
+      if (!is.na(override_val)) {
+        eu_ieepa_floor_overrides[[as.character(eu_un)]] <- override_val
+        override_countries <- c(override_countries, eu_un)
+      }
+    }
+    if (length(override_countries) > 0) {
+      cat(sprintf("    [SCENARIO] IEEPA floor overrides for %d EU members: %s\n",
+                  length(override_countries), paste(override_countries, collapse = ", ")))
+    }
+
     # Apply product-specific floors from CSV, falling back to scenario parameter
     for(hs_code in unique_hs_eu) {
       floor_row <- floor_eu[hts8 == hs_code]
-    
+
       if(nrow(floor_row) > 0 && !is.na(floor_rate_col_eu)) {
         floor_rate_val <- suppressWarnings(as.numeric(floor_row[[floor_rate_col_eu]][1]))
         if(!is.na(floor_rate_val)) {
@@ -2021,6 +2059,14 @@ if (policy_date >= eu_deal_effective_date) {
                    rr_exception == 0 & ieepa_statute_exception == 0,
                    ieepa_rate := pmax(eu_ieepa_floor_rate, hts_rate) - hts_rate]
       }
+    }
+
+    # Apply country-specific IEEPA floor overrides (override the default EU floor)
+    for (eu_un_str in names(eu_ieepa_floor_overrides)) {
+      eu_un <- as.integer(eu_un_str)
+      override_floor <- eu_ieepa_floor_overrides[[eu_un_str]]
+      us_imports[un_code == eu_un & rr_exception == 0 & ieepa_statute_exception == 0,
+                 ieepa_rate := pmax(override_floor, hts_rate) - hts_rate]
     }
   }
   
@@ -2053,12 +2099,40 @@ if (policy_date >= eu_deal_effective_date) {
   # Formula: (1 - eu_civil_aircraft_share) * [materials_s232 + ieepa + emergency]
   
   # S232 RATE CAPS FOR EU (floor treatment) - uses separate S232 floor rate
+  # COUNTRY-SPECIFIC: Check for s232_floor_override_XXX for individual EU member overrides
   # Only apply to products not exempt from reciprocal rates
+
+  # Build country-specific S232 floor override lookup
+  eu_s232_floor_overrides <- list()
+  s232_override_countries <- c()
+  for (eu_un in eu_members) {
+    override_val <- get_country_s232_floor_override(eu_un, policy_date)
+    if (!is.na(override_val)) {
+      eu_s232_floor_overrides[[as.character(eu_un)]] <- override_val
+      s232_override_countries <- c(s232_override_countries, eu_un)
+    }
+  }
+  if (length(s232_override_countries) > 0) {
+    cat(sprintf("    [SCENARIO] S232 floor overrides for %d EU members: %s\n",
+                length(s232_override_countries), paste(s232_override_countries, collapse = ", ")))
+  }
+
+  # Apply default EU S232 floor
   us_imports[un_code %in% eu_members &
              (s232_auto == 1 | s232_mhdv == 1) &
              rr_exception == 0 & ieepa_statute_exception == 0,
              s232_rate := pmax(eu_s232_floor_rate, hts_rate) - hts_rate]
-  
+
+  # Apply country-specific S232 floor overrides
+  for (eu_un_str in names(eu_s232_floor_overrides)) {
+    eu_un <- as.integer(eu_un_str)
+    override_floor <- eu_s232_floor_overrides[[eu_un_str]]
+    us_imports[un_code == eu_un &
+               (s232_auto == 1 | s232_mhdv == 1) &
+               rr_exception == 0 & ieepa_statute_exception == 0,
+               s232_rate := pmax(override_floor, hts_rate) - hts_rate]
+  }
+
   # Lumber derivatives - kitchen cabinets and upholstered furniture
   us_imports[un_code %in% eu_members &
              (s232_lumber_derivative == 1 | s232_upholstered_furniture == 1), `:=`(

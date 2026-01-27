@@ -234,12 +234,27 @@ country_surcharge_251,10,Greenland8_10pct,7.99,France Greenland surcharge,2026-0
 country_surcharge_276,10,Greenland8_10pct,7.99,Germany Greenland surcharge,2026-02-01
 country_surcharge_246,10,Greenland8_10pct,7.99,Finland Greenland surcharge,2026-02-01
 country_surcharge_528,10,Greenland8_10pct,7.99,Netherlands Greenland surcharge,2026-02-01
-eu_ieepa_floor_rate,25,Greenland8_IEEPA_10pct,7.5,EU IEEPA floor +10pp Greenland,2026-02-01
+ieepa_floor_override_208,25,Greenland8_IEEPA_10pct,7.5,Denmark IEEPA floor 25% (Greenland G8),2026-02-01
+ieepa_floor_override_246,25,Greenland8_IEEPA_10pct,7.5,Finland IEEPA floor 25% (Greenland G8),2026-02-01
+ieepa_floor_override_251,25,Greenland8_IEEPA_10pct,7.5,France IEEPA floor 25% (Greenland G8),2026-02-01
+ieepa_floor_override_276,25,Greenland8_IEEPA_10pct,7.5,Germany IEEPA floor 25% (Greenland G8),2026-02-01
+ieepa_floor_override_528,25,Greenland8_IEEPA_10pct,7.5,Netherlands IEEPA floor 25% (Greenland G8),2026-02-01
+ieepa_floor_override_752,25,Greenland8_IEEPA_10pct,7.5,Sweden IEEPA floor 25% (Greenland G8),2026-02-01
 ieepa_topup_826,10,Greenland8_IEEPA_10pct,4.2,UK IEEPA topup +10pp Greenland,2026-02-01
 ieepa_topup_578,10,Greenland8_IEEPA_10pct,4.2,Norway IEEPA topup +10pp Greenland,2026-02-01
-eu_ieepa_floor_rate,25,Greenland8_IEEPA_S232_10pct,7.5,EU IEEPA floor +10pp Greenland,2026-02-01
+ieepa_floor_override_208,25,Greenland8_IEEPA_S232_10pct,7.5,Denmark IEEPA floor 25% (Greenland G8),2026-02-01
+ieepa_floor_override_246,25,Greenland8_IEEPA_S232_10pct,7.5,Finland IEEPA floor 25% (Greenland G8),2026-02-01
+ieepa_floor_override_251,25,Greenland8_IEEPA_S232_10pct,7.5,France IEEPA floor 25% (Greenland G8),2026-02-01
+ieepa_floor_override_276,25,Greenland8_IEEPA_S232_10pct,7.5,Germany IEEPA floor 25% (Greenland G8),2026-02-01
+ieepa_floor_override_528,25,Greenland8_IEEPA_S232_10pct,7.5,Netherlands IEEPA floor 25% (Greenland G8),2026-02-01
+ieepa_floor_override_752,25,Greenland8_IEEPA_S232_10pct,7.5,Sweden IEEPA floor 25% (Greenland G8),2026-02-01
 ieepa_topup_826,10,Greenland8_IEEPA_S232_10pct,4.2,UK IEEPA topup +10pp Greenland,2026-02-01
 ieepa_topup_578,10,Greenland8_IEEPA_S232_10pct,4.2,Norway IEEPA topup +10pp Greenland,2026-02-01
-eu_s232_floor_rate,25,Greenland8_IEEPA_S232_10pct,7.5,EU S232 floor +10pp Greenland,2026-02-01
+s232_floor_override_208,25,Greenland8_IEEPA_S232_10pct,7.5,Denmark S232 floor 25% (Greenland G8),2026-02-01
+s232_floor_override_246,25,Greenland8_IEEPA_S232_10pct,7.5,Finland S232 floor 25% (Greenland G8),2026-02-01
+s232_floor_override_251,25,Greenland8_IEEPA_S232_10pct,7.5,France S232 floor 25% (Greenland G8),2026-02-01
+s232_floor_override_276,25,Greenland8_IEEPA_S232_10pct,7.5,Germany S232 floor 25% (Greenland G8),2026-02-01
+s232_floor_override_528,25,Greenland8_IEEPA_S232_10pct,7.5,Netherlands S232 floor 25% (Greenland G8),2026-02-01
+s232_floor_override_752,25,Greenland8_IEEPA_S232_10pct,7.5,Sweden S232 floor 25% (Greenland G8),2026-02-01
 uk_ceiling_rate,20,Greenland8_IEEPA_S232_10pct,7.3,UK auto ceiling +10pp Greenland,2026-02-01
 uk_steel_alu_cap,35,Greenland8_IEEPA_S232_10pct,7.3,UK steel/alu cap +10pp Greenland,2026-02-01

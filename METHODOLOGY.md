@@ -18,8 +18,6 @@ This document provides a comprehensive explanation of how we calculate the final
 
 This approach ensures transparency and makes all assumptions explicit.
 
-**Quick Reference:** For a concise summary of key assumptions and parameter values, see [assumptions_summary.md](assumptions_summary.md).
-
 ---
 
 ## Table of Contents

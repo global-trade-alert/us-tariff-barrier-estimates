@@ -152,6 +152,6 @@ For questions or issues, please open a GitHub issue or contact the Global Trade 
 
 ## License
 
-This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+This work is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.en).
 
 You are free to share and adapt this material for any purpose, provided you give appropriate credit.

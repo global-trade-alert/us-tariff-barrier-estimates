@@ -491,6 +491,7 @@ ukraine_un_code <- get_country("UKR")
 argentina_un_code <- get_country("ARG")
 twn_un_code <- get_country("TWN")
 slv_un_code <- get_country("SLV")
+gtm_un_code <- get_country("GTM")
 
 # Country groups (loaded from country_groups.csv)
 usmca_partners <- get_country_group("usmca")
@@ -654,11 +655,16 @@ twn_civil_aircraft_share <- get_share("twn_civil_aircraft_share")
 slv_nonpatented_pharma_share <- get_share("slv_nonpatented_pharma_share")
 slv_civil_aircraft_share <- get_share("slv_civil_aircraft_share")
 
-cat(sprintf("    Civil aircraft shares: Brazil=%.0f%%, Japan=%.0f%%, EU=%.0f%%, UK=%.0f%%, Korea=%.0f%%, Switzerland=%.0f%%, Chinese Taipei=%.0f%%, El Salvador=%.0f%%\n",
+# GUATEMALA EXCEPTION PARAMETERS
+gtm_nonpatented_pharma_share <- get_share("gtm_nonpatented_pharma_share")
+gtm_civil_aircraft_share <- get_share("gtm_civil_aircraft_share")
+
+cat(sprintf("    Civil aircraft shares: Brazil=%.0f%%, Japan=%.0f%%, EU=%.0f%%, UK=%.0f%%, Korea=%.0f%%, Switzerland=%.0f%%, Chinese Taipei=%.0f%%, El Salvador=%.0f%%, Guatemala=%.0f%%\n",
             bra_civil_aircraft_share * 100, jpn_civil_aircraft_share * 100,
             eu_civil_aircraft_share * 100, uk_civil_aircraft_share * 100,
             kor_civil_aircraft_share * 100, che_civil_aircraft_share * 100,
-            twn_civil_aircraft_share * 100, slv_civil_aircraft_share * 100))
+            twn_civil_aircraft_share * 100, slv_civil_aircraft_share * 100,
+            gtm_civil_aircraft_share * 100))
 cat(sprintf("    Korea parameters: floor=%.0f%%, auto_floor=%.0f%%, lumber_rate=%.0f%%\n",
             kor_ieepa_floor_rate, kor_s232_floor_rate, kor_lumber_derivative_rate))
 cat(sprintf("    Switzerland/Liechtenstein parameters: floor=%.0f%%, non-patented pharma=%.0f%%\n",
@@ -806,6 +812,7 @@ us_imports[, `:=`(
   arg_exception = 0, arg_pharma = 0, arg_aircraft = 0,
   twn_floor = 0, twn_aircraft = 0, twn_exception = 0, twn_pharma = 0,
   slv_exception = 0, slv_pharma = 0, slv_aircraft = 0, slv_cafta = 0,
+  gtm_exception = 0, gtm_pharma = 0, gtm_aircraft = 0, gtm_cafta = 0,
   wto_aircraft = 0,
   chn_opioid = 0,
   sec301_tariff = 0,
@@ -814,7 +821,7 @@ us_imports[, `:=`(
   mex_emergency = 0
 )]
 
-cat(sprintf("    Initialized %d rate columns and %d boolean marker columns\n", 13, 41))
+cat(sprintf("    Initialized %d rate columns and %d boolean marker columns\n", 13, 45))
 
 cat("\n  Section 1 complete: Data loaded and scoped\n")
 cat("\n")
@@ -1670,7 +1677,7 @@ aircraft_main <- get_exceptions("ieepa_baseline_rate", "aircraft", policy_date)
 cat(sprintf("  Loaded unified civil aircraft list: %d aircraft\n",
             length(aircraft_main)))
 
-# Load unified pharma exceptions list (used by EU, Switzerland, Argentina, Chinese Taipei and El Salvador) - from exceptions.csv
+# Load unified pharma exceptions list (used by EU, Switzerland, Argentina, Chinese Taipei, El Salvador and Guatemala) - from exceptions.csv
 pharma_hs_codes <- get_exceptions("ieepa_baseline_rate", "pharma", policy_date)
 
 cat(sprintf("  Loaded unified pharma exceptions list: %d products\n",
@@ -2532,6 +2539,82 @@ if (policy_date >= slv_deal_effective_date) {
 }
 
 # -----------------------------------------------------------------------------
+# 7.11: Guatemala (Type C - IEEPA Exceptions + CAFTA Duty Exemption)
+# -----------------------------------------------------------------------------
+
+cat("\n  7.11 Guatemala (IEEPA Exceptions + CAFTA)...\n")
+
+gtm_deal_effective_date <- as.Date("2099-01-01")
+
+if (policy_date >= gtm_deal_effective_date) {
+
+  # EXCEPTION 1: UNCONDITIONAL EXCEPTIONS (Annex 1A/1B)
+  gtm_exception_codes <- get_exceptions("gtm_ieepa_deal", "country_exception",
+                                         policy_date, "GTM")
+  cat(sprintf("    Loading Guatemala Annex 1 exceptions (%d codes)\n",
+              length(gtm_exception_codes)))
+
+  us_imports[un_code == gtm_un_code &
+             hs_8digit %in% gtm_exception_codes, `:=`(
+    ieepa_rate = 0,
+    gtm_exception = 1
+  )]
+
+  exception_value <- sum(us_imports[un_code == gtm_un_code & gtm_exception == 1]$us_imports_bn, na.rm = TRUE)
+  cat(sprintf("    Unconditional exceptions: $%.1f billion\n", exception_value))
+
+  # EXCEPTION 2: CIVIL AIRCRAFT
+  us_imports[un_code == gtm_un_code & hs_8digit %in% aircraft_main, `:=`(
+    gtm_aircraft = 1,
+    wto_aircraft = 1
+  )]
+
+  aircraft_value <- sum(us_imports[un_code == gtm_un_code & gtm_aircraft == 1]$us_imports_bn, na.rm = TRUE)
+  cat(sprintf("    Civil aircraft (%.0f%% share): $%.1f billion\n",
+              gtm_civil_aircraft_share * 100, aircraft_value))
+
+  # EXCEPTION 3: NON-PATENTED PHARMACEUTICALS
+  us_imports[un_code == gtm_un_code &
+             hs_8digit %in% pharma_hs_codes, `:=`(
+    ieepa_rate = (1 - gtm_nonpatented_pharma_share) * ieepa_rate,
+    gtm_pharma = 1
+  )]
+
+  pharma_value <- sum(us_imports[un_code == gtm_un_code & gtm_pharma == 1]$us_imports_bn, na.rm = TRUE)
+  cat(sprintf("    Non-patented pharma (%.0f%% share): $%.1f billion\n",
+              gtm_nonpatented_pharma_share * 100, pharma_value))
+
+  # EXCEPTION 4: CAFTA-DR DUTY EXEMPTION (Annex 2)
+  # Products under CAFTA-DR receive full duty exemption (compliance = 1).
+  # IEEPA zeroed here; HTS zeroed in Section 8 Step 1c.
+  gtm_cafta_codes <- get_exceptions("gtm_cafta_deal", "country_exception",
+                                     policy_date, "GTM")
+  cat(sprintf("    Loading CAFTA-DR product list (%d codes)\n",
+              length(gtm_cafta_codes)))
+
+  us_imports[un_code == gtm_un_code &
+             hs_8digit %in% gtm_cafta_codes, `:=`(
+    ieepa_rate = 0,
+    gtm_cafta = 1
+  )]
+
+  cafta_value <- sum(us_imports[un_code == gtm_un_code & gtm_cafta == 1]$us_imports_bn, na.rm = TRUE)
+  cat(sprintf("    CAFTA-DR duty exemption: $%.1f billion\n", cafta_value))
+
+  # Summary statistics
+  gtm_total <- sum(us_imports[un_code == gtm_un_code]$us_imports_bn, na.rm = TRUE)
+  gtm_excepted <- sum(us_imports[un_code == gtm_un_code &
+                                  (gtm_exception == 1 | gtm_pharma == 1 | gtm_cafta == 1 |
+                                   rr_exception == 1 | ieepa_statute_exception == 1)]$us_imports_bn, na.rm = TRUE)
+  cat(sprintf("    Guatemala total: $%.1f billion, Excepted: $%.1f billion (%.1f%%)\n",
+              gtm_total, gtm_excepted, 100 * gtm_excepted / gtm_total))
+
+} else {
+  cat(sprintf("    Guatemala deal NOT active (effective %s, policy_date %s)\n",
+              gtm_deal_effective_date, policy_date))
+}
+
+# -----------------------------------------------------------------------------
 # 7.99: COUNTRY-SPECIFIC SURCHARGES (Across-the-Board Tariff Additions)
 # -----------------------------------------------------------------------------
 # Apply additional tariffs that stack on top of everything else (like S301)
@@ -2705,10 +2788,10 @@ if (DISABLE_HTS_KORUS_WEIGHTING) {
   cat("  Step 1b: Applied KORUS weighting to HTS rates (50% compliance, observed 2024)\n")
 }
 
-# Step 1c: Zero HTS rate for El Salvador CAFTA-DR products
+# Step 1c: Zero HTS rate for CAFTA-DR products (El Salvador, Guatemala)
 # CAFTA compliance assumed = 1 (full duty exemption for Annex 2 products)
-us_imports[slv_cafta == 1, hts_rate_weighted := 0]
-cat("  Step 1c: Applied CAFTA-DR zeroing to HTS rates (El Salvador Annex 2)\n")
+us_imports[slv_cafta == 1 | gtm_cafta == 1, hts_rate_weighted := 0]
+cat("  Step 1c: Applied CAFTA-DR zeroing to HTS rates (El Salvador + Guatemala Annex 2)\n")
 
 # Step 2: Calculate emergency_rate_weighted for USMCA countries
 # Canada/Mexico emergency rates are USMCA-weighted using product-level compliance
@@ -2818,6 +2901,7 @@ us_imports[wto_aircraft == 1 & un_code %in% swiss_liechtenstein, aircraft_share 
 us_imports[wto_aircraft == 1 & un_code == argentina_un_code, aircraft_share := arg_civil_aircraft_share]
 us_imports[wto_aircraft == 1 & un_code == twn_un_code, aircraft_share := twn_civil_aircraft_share]
 us_imports[wto_aircraft == 1 & un_code == slv_un_code, aircraft_share := slv_civil_aircraft_share]
+us_imports[wto_aircraft == 1 & un_code == gtm_un_code, aircraft_share := gtm_civil_aircraft_share]
 
 cat("  Step 7: Determined aircraft_share for each product (country-specific)\n")
 
@@ -3266,6 +3350,7 @@ us_imports <- us_imports %>%
         arg_exception, arg_pharma, arg_aircraft,
         twn_floor, twn_aircraft, twn_exception, twn_pharma,
         slv_exception, slv_pharma, slv_aircraft, slv_cafta,
+        gtm_exception, gtm_pharma, gtm_aircraft, gtm_cafta,
         wto_aircraft, chn_opioid, sec301_tariff, can_northern_border, can_northern_border_energy, mex_emergency) %>%
   as.data.frame()
 

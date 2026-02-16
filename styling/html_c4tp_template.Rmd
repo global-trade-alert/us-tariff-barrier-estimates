@@ -1,0 +1,301 @@
+---
+title: "Relative Trump Tariff Advantage: Chart Book - C4TP Edition"
+author: "Johannes Fritz¹"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    theme: flatly
+    css: custom.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  fig.align = 'center',
+  fig.width = 12,
+  fig.height = 8,
+  dpi = 300
+)
+
+# Load necessary libraries
+library(readxl)
+library(ggplot2)
+library(scales)
+library(knitr)
+library(dplyr)
+
+# Set working directory and load aggregate results
+setwd("C:/Users/jfrit/Documents/GitHub/data-queries/250801 Relative Trump Tariff Advantage")
+results_dir <- "results/c4tp"
+
+# Load effective rates data
+effective_rates_data <- read_excel(file.path(results_dir, "effective_rates_c4tp.xlsx"))
+
+# Load relative advantage data
+relative_advantage_data <- read_excel(file.path(results_dir, "relative_advantage_c4tp.xlsx"))
+
+# Load hypothetical tariff revenue data
+revenue_data <- read_excel(file.path(results_dir, "hypothetical_tariff_revenue_c4tp.xlsx"))
+
+# Get list of countries in alphabetical order for individual pages
+countries_list <- sort(effective_rates_data$Exporter)
+```
+
+<div class="header-logos">
+  <img src="GTA_logo.png" alt="GTA Logo" class="logo-left">
+<img src="SECO_logo.png" alt="SECO Logo" class="logo-center">
+<img src="C4TP_logo.png" alt="C4TP Logo" class="logo-right">
+</div>
+
+<div class="title-section">
+  <h1 class="main-title">Global Trade Alert</h1>
+  <h2 class="chart-title">Relative Trump Tariff Advantage: Chart Book - C4TP Edition</h2>
+  <p class="author">Johannes Fritz¹</p>
+  <p class="date">`r format(Sys.Date(), "%d %B %Y")`</p>
+</div>
+
+<div class="intro-section">
+This Chart Book illustrates the impact of the recent U.S. import tariff actions on relative market access conditions for C4TP countries. We only show high-level summaries here.
+
+**Work in Progress**, this version: `r format(Sys.time(), "%d %B %Y, %H.%M")` CET.  
+Find the latest version at [globaltradealert.org/reports/Relative-Trump-Tariff-Advantage-Chart-Book](https://globaltradealert.org/reports/Relative-Trump-Tariff-Advantage-Chart-Book)
+</div>
+
+---
+
+## Effective Rates for the Top 20 U.S. Import Origins
+
+Announced country-level tariffs can be misleading, as they do not reflect the true duties applied at the U.S. border. A complex system of product-specific exceptions and overriding tariffs, such as those from Section 232 investigations, significantly alters the final rates.
+
+To provide a more accurate measure, we have calculated a trade-weighted effective tariff rate for each U.S. import origin. This figure is derived by weighting the specific tariff for each detailed product category (at the HS 8-digit level) by its corresponding 2024 import value.
+
+```{r effective_rates_plot, fig.height=10, fig.width=12}
+# Prepare data for effective rates chart - top 20 by trade volume
+chart_data <- effective_rates_data %>%
+  arrange(desc(`Total Imports 2024 (bn USD)`)) %>%
+  head(20) %>%
+  arrange(`Avg Effective Rate (%)`)
+
+# Create effective rates plot
+effective_rates_plot <- ggplot(chart_data, aes(x = reorder(Exporter, `Avg Effective Rate (%)`), y = `Avg Effective Rate (%)`)) +
+  geom_col(fill = "#2E86AB", alpha = 0.8, width = 0.7) +
+  geom_text(aes(label = paste0(round(`Avg Effective Rate (%)`, 1), "%")), 
+            hjust = -0.1, size = 3.5, color = "#333333") +
+  coord_flip() +
+  scale_y_continuous(
+    labels = function(x) paste0(x, "%"),
+    expand = expansion(mult = c(0, 0.15))
+  ) +
+  labs(
+    title = "Trade-Weighted Effective Tariff Rates: C4TP Countries",
+    subtitle = "Based on 2024 U.S. import values and announced tariff rates",
+    x = "Country",
+    y = "Effective Tariff Rate (%)",
+    caption = "Source: Global Trade Alert analysis of U.S. trade and tariff data"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 16, face = "bold", margin = margin(b = 5)),
+    plot.subtitle = element_text(size = 12, color = "#666666", margin = margin(b = 15)),
+    plot.caption = element_text(size = 9, color = "#666666", hjust = 0),
+    axis.text = element_text(size = 10),
+    axis.title = element_text(size = 12),
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor = element_blank(),
+    plot.margin = margin(20, 20, 20, 20)
+  )
+
+print(effective_rates_plot)
+```
+
+---
+
+## Relative Trump Tariff Advantage for the Top 20 U.S. Import Origins
+
+A jurisdiction's own effective tariff rate tells only half the story. The critical question for U.S. market access is: how does that rate compare to what competitors are paying?
+
+- A positive value (advantage) means a country's products face lower tariffs, on average, than its rivals, making them more price-competitive in the U.S. market.
+- A negative value (disadvantage) means a country is taxed more heavily than its competitors, putting it at a price disadvantage.
+
+```{r relative_advantage_plot, fig.height=10, fig.width=12}
+# Prepare data for relative advantage chart - top 20 by trade volume
+advantage_chart_data <- relative_advantage_data %>%
+  arrange(desc(`Total Import Value (bn USD)`)) %>%
+  head(20) %>%
+  arrange(`Avg Tariff Advantage (%)`)
+
+# Create relative advantage plot
+colors <- ifelse(advantage_chart_data$`Avg Tariff Advantage (%)` >= 0, "#2E86AB", "#A23B72")
+
+relative_advantage_plot <- ggplot(advantage_chart_data, aes(x = reorder(Exporter, `Avg Tariff Advantage (%)`), y = `Avg Tariff Advantage (%)`)) +
+  geom_col(fill = colors, alpha = 0.8, width = 0.7) +
+  geom_text(aes(label = paste0(ifelse(`Avg Tariff Advantage (%)` >= 0, "+", ""), round(`Avg Tariff Advantage (%)`, 1), "pp")), 
+            hjust = ifelse(advantage_chart_data$`Avg Tariff Advantage (%)` >= 0, -0.1, 1.1), 
+            size = 3.5, color = "#333333") +
+  coord_flip() +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "#666666", size = 0.5) +
+  scale_y_continuous(
+    labels = function(x) paste0(ifelse(x >= 0, "+", ""), x, "pp"),
+    expand = expansion(mult = c(0.15, 0.15))
+  ) +
+  labs(
+    title = "Relative Trump Tariff Advantage: C4TP Countries",
+    subtitle = "Difference between competitor average and own effective rate (percentage points)",
+    x = "Country",
+    y = "Tariff Advantage (percentage points)",
+    caption = "Source: Global Trade Alert analysis. Positive values indicate competitive advantage."
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 16, face = "bold", margin = margin(b = 5)),
+    plot.subtitle = element_text(size = 12, color = "#666666", margin = margin(b = 15)),
+    plot.caption = element_text(size = 9, color = "#666666", hjust = 0),
+    axis.text = element_text(size = 10),
+    axis.title = element_text(size = 12),
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor = element_blank(),
+    plot.margin = margin(20, 20, 20, 20)
+  )
+
+print(relative_advantage_plot)
+```
+
+---
+
+## Hypothetical Tariff Revenue for the Top 20 U.S. Import Origins
+
+This chart shows the hypothetical tariff revenue that would be generated from each country based on their 2024 import values and the effective tariff rates they face under the announced Trump tariff policies.
+
+```{r hypothetical_revenue_plot, fig.height=10, fig.width=12}
+# Prepare data for hypothetical revenue chart - top 20 by revenue
+revenue_chart_data <- revenue_data %>%
+  arrange(desc(`Hypothetical Tariff Revenue (bn USD)`)) %>%
+  head(20) %>%
+  arrange(`Hypothetical Tariff Revenue (bn USD)`)
+
+# Create hypothetical revenue plot
+revenue_plot <- ggplot(revenue_chart_data, aes(x = reorder(Exporter, `Hypothetical Tariff Revenue (bn USD)`), y = `Hypothetical Tariff Revenue (bn USD)`)) +
+  geom_col(fill = "#2E86AB", alpha = 0.8, width = 0.7) +
+  geom_text(aes(label = paste0("$", round(`Hypothetical Tariff Revenue (bn USD)`, 1), "B")), 
+            hjust = -0.1, size = 3.5, color = "#333333") +
+  coord_flip() +
+  scale_y_continuous(
+    labels = function(x) paste0("$", x, "B"),
+    expand = expansion(mult = c(0, 0.15))
+  ) +
+  labs(
+    title = "Hypothetical Tariff Revenue: C4TP Countries",
+    subtitle = "Based on 2024 import values and effective tariff rates",
+    x = "Country",
+    y = "Hypothetical Tariff Revenue (billion USD)",
+    caption = "Source: Global Trade Alert analysis of U.S. trade and tariff data"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 16, face = "bold", margin = margin(b = 5)),
+    plot.subtitle = element_text(size = 12, color = "#666666", margin = margin(b = 15)),
+    plot.caption = element_text(size = 9, color = "#666666", hjust = 0),
+    axis.text = element_text(size = 10),
+    axis.title = element_text(size = 12),
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor = element_blank(),
+    plot.margin = margin(20, 20, 20, 20)
+  )
+
+print(revenue_plot)
+```
+
+---
+
+```{r country_pages, results='asis'}
+# Generate individual country pages
+for (country in countries_list[1:5]) {  # Limit to first 5 countries for HTML version
+  
+  # Clean country name for file naming
+  clean_country <- gsub("[^A-Za-z0-9 ]", "", country)
+  clean_country <- gsub("\\s+", "_", clean_country)
+  clean_country <- substr(clean_country, 1, 50)
+  
+  # Load country-specific Excel file
+  country_excel_file <- file.path(results_dir, paste0(clean_country, "_tariff_advantage.xlsx"))
+  
+  if (!file.exists(country_excel_file)) {
+    next  # Skip if country file doesn't exist
+  }
+  
+  # Read the data
+  tryCatch({
+    country_summary <- read_excel(country_excel_file, sheet = "Country Summary")
+    country_products <- read_excel(country_excel_file, sheet = "Product Level Detail")
+    
+    if (nrow(country_products) == 0) {
+      next  # Skip if no data
+    }
+    
+    # Create section header
+    cat("## ", country, "\n\n")
+    
+    # Get top 10 products
+    top10_products <- head(country_products, 10)
+    
+    # Create chart data
+    chart_data <- top10_products %>%
+      select(`HS 8-Digit Code`, `Tariff Advantage (%)`, `Import Value (bn USD)`) %>%
+      arrange(`Tariff Advantage (%)`)
+    
+    # Create the plot
+    p <- ggplot(chart_data, aes(x = reorder(`HS 8-Digit Code`, `Tariff Advantage (%)`), y = `Tariff Advantage (%)`)) +
+      geom_col(fill = ifelse(chart_data$`Tariff Advantage (%)` >= 0, "#28A745", "#DC3545"), alpha = 0.8, width = 0.7) +
+      geom_text(aes(label = paste0(round(`Tariff Advantage (%)`, 1), "%")),
+                hjust = ifelse(chart_data$`Tariff Advantage (%)` < 0, 1.1, -0.1),
+                color = "#333333", size = 3.5, fontface = "bold") +
+      geom_hline(yintercept = 0, color = "#333333", size = 1, linetype = "solid") +
+      labs(
+        title = paste("Relative Trump Tariff Advantage for", country, "'s Top 10 US Exports"),
+        subtitle = sprintf("Trade-weighted average own tariff vs. competitors,\neffective %s", if(exists("POLICY_DATE_LONG")) POLICY_DATE_LONG else "1 August 2025"),
+        x = "HS 8-Digit Code", y = "Tariff Advantage (%)",
+        caption = "Green = Advantage, Red = Disadvantage\nSource: Global Trade Alert, USITC DataWeb (2024 imports, HS 8-digit level)"
+      ) +
+      theme_minimal() +
+      theme(
+        plot.title = element_text(size = 16, face = "bold", color = "#2171C2", margin = margin(b = 10)),
+        plot.subtitle = element_text(size = 12, color = "#666666", margin = margin(b = 15)),
+        plot.caption = element_text(size = 10, hjust = 0, margin = margin(t = 15), color = "#666666"),
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
+        axis.text.y = element_text(size = 10),
+        panel.grid.major.x = element_blank(),
+        panel.grid.minor = element_blank(),
+        plot.margin = margin(20, 20, 20, 20)
+      )
+    
+    print(p)
+    
+    cat("\n\n")
+    
+    # Display table
+    table_data <- head(country_products, 10)
+    print(kable(table_data,
+          caption = "Top 10 Products by Import Value - Detailed Tariff Analysis",
+          digits = c(0, 0, 2, 2, 2, 3),
+          format.args = list(big.mark = ","),
+          col.names = c("HS Code", "Product Description", "Own Rate (%)",
+                        "Competitor Rate (%)", "Advantage (%)", "Value (bn USD)")))
+    
+    cat("\n\n---\n\n")
+    
+  }, error = function(e) {
+    cat("<!-- Error loading data for ", country, ": ", e$message, " -->\n")
+  })
+}
+```
+
+<div class="footer">
+¹ CEO of the St.Gallen Endowment, [johannes.fritz@sgept.org](mailto:johannes.fritz@sgept.org).
+
+Find further timely analyses on [globaltradealert.org/analysis](https://globaltradealert.org/analysis)
+</div>

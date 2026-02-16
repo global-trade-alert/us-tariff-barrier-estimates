@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section 232 Metal Content Valuation & Rate Determination</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            background: #f8f9fa; color: #2c3e50;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #0F599D 0%, #2989d8 50%, #207cca 100%);
+            color: white; padding: 25px; text-align: center;
+            position: relative;
+        }
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 20px;
+        }
+        .header-left {
+            flex-shrink: 0;
+        }
+        .header-center {
+            flex: 1;
+            text-align: left;
+        }
+        .header-icon {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+        }
+        .header h1 { 
+            font-size: 28px; 
+            font-weight: 700; 
+            margin-bottom: 8px; 
+            text-transform: uppercase; 
+            letter-spacing: 1px; 
+            color: white;
+            text-align: left;
+        }
+        .header .subtitle { 
+            font-size: 16px; 
+            opacity: 0.95; 
+            font-weight: 300; 
+            color: white;
+            text-align: left;
+        }
+        .container { 
+            max-width: 1400px; 
+            margin: 0 auto; 
+            padding: 0 12mm; 
+        }
+        .flowchart { 
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            gap: 25px; 
+        }
+        .section { 
+            background: white; 
+            border-radius: 8px; 
+            padding: 20px; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08); 
+        }
+        .section-header {
+            background: #0F599D; 
+            color: white; 
+            padding: 12px; 
+            margin: -20px -20px 20px -20px;
+            border-radius: 8px 8px 0 0; 
+            text-align: center; 
+            font-size: 16px; 
+            font-weight: 600; 
+            text-transform: uppercase; 
+            letter-spacing: 0.5px;
+        }
+        .box {
+            background: white; 
+            border: 2px solid #e1e8ed; 
+            border-radius: 6px; 
+            padding: 12px; 
+            margin: 12px 0; 
+            position: relative; 
+            transition: all 0.3s ease;
+        }
+        .box:hover { 
+            box-shadow: 0 3px 10px rgba(15,89,157,0.15); 
+            border-color: #0F599D;
+        }
+        .box.primary { 
+            background: #f0f7ff; 
+            border-color: #0F599D; 
+        }
+        .box.warning { 
+            background: #fff9e6; 
+            border-color: #f39c12; 
+        }
+        .box.danger { 
+            background: #ffe6e6; 
+            border-color: #e74c3c; 
+        }
+        .box.success { 
+            background: #e8f5e9; 
+            border-color: #27ae60; 
+        }
+        .arrow { 
+            text-align: center; 
+            color: #7f8c8d; 
+            font-size: 18px; 
+            margin: 8px 0; 
+            opacity: 0.7; 
+        }
+        .hierarchy-number {
+            display: inline-block; 
+            width: 26px; 
+            height: 26px; 
+            background: #0F599D; 
+            color: white;
+            border-radius: 50%; 
+            text-align: center; 
+            line-height: 26px; 
+            font-weight: bold; 
+            margin-right: 8px;
+            font-size: 13px;
+        }
+        .rate-grid { 
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            gap: 12px; 
+            margin-top: 16px; 
+        }
+        .rate-card { 
+            background: #f8fbff; 
+            border: 1px solid #d6e4f0; 
+            border-radius: 6px; 
+            padding: 12px; 
+        }
+        .rate-card h4 { 
+            color: #0F599D; 
+            margin-bottom: 10px; 
+            padding-bottom: 6px; 
+            border-bottom: 2px solid #0F599D; 
+            font-size: 13px; 
+            text-transform: uppercase; 
+        }
+        .rate-item { 
+            margin: 6px 0; 
+            font-size: 13px; 
+            line-height: 1.4; 
+        }
+        .rate-value { 
+            display: inline-block; 
+            background: #0F599D; 
+            color: white; 
+            padding: 2px 6px; 
+            border-radius: 3px; 
+            font-weight: 600; 
+            margin-left: 4px; 
+            font-size: 12px;
+        }
+        .critical-alert { 
+            background: #e74c3c; 
+            color: white; 
+            padding: 14px; 
+            border-radius: 6px; 
+            margin: 20px 0; 
+            font-weight: 500; 
+        }
+        .source-ref, a.source-ref {
+            display: inline-block; 
+            background: #ecf0f1; 
+            color: #7f8c8d; 
+            padding: 1px 4px; 
+            border-radius: 2px;
+            font-size: 10px; 
+            margin-left: 3px; 
+            font-weight: normal; 
+            text-decoration: none;
+        }
+        .source-ref:hover, a.source-ref:hover {
+            background: #0F599D;
+            color: white;
+        }
+        .footer { 
+            background: white; 
+            border-top: 3px solid #0F599D; 
+            padding: 0; 
+            margin-top: 30px; 
+            text-align: center; 
+        }
+        .footer-content { 
+            max-width: none; 
+            padding: 0 12mm;
+            margin: 0 auto; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+        }
+        .logo-icon {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .footer-logo {
+            height: 40px;
+            object-fit: contain;
+        }
+        .footer-cta {
+            text-align: center;
+            flex: 1;
+        }
+        .cta-link {
+            color: #0F599D; 
+            text-decoration: none; 
+            font-weight: 600;
+            font-size: 15px;
+        }
+        .cta-link:hover {
+            text-decoration: underline;
+        }
+        .footer-date { 
+            color: #7f8c8d; 
+            font-size: 13px; 
+        }
+        strong { 
+            color: #2c3e50; 
+        }
+        code { 
+            background: #f1f3f5; 
+            padding: 2px 4px; 
+            border-radius: 2px; 
+            font-family: 'Courier New', monospace; 
+            color: #e74c3c; 
+            font-size: 12px;
+        }
+        .sources { 
+            margin-top: 16px; 
+            font-size: 12px; 
+            color: #485460; 
+        }
+        .sources ul { 
+            margin-left: 16px; 
+            margin-top: 6px; 
+        }
+        .sources li {
+            margin-bottom: 4px;
+        }
+        .sources a {
+            color: #0F599D;
+            text-decoration: none;
+        }
+        .sources a:hover {
+            text-decoration: underline;
+        }
+        .small-note { 
+            font-size: 11px; 
+            color: #5f6c7b; 
+            margin-top: 6px; 
+        }
+        
+        /* A4 page layout for PDF */
+        @page {
+            size: A3;
+            margin: 0;
+        }
+
+        .page {
+            width: 297mm; /* A3 portrait width */
+            height: 420mm; /* A3 portrait height */
+            padding: 0;
+            margin: 0 auto;
+            background: white;
+            box-sizing: border-box;
+            page-break-after: always;
+            page-break-inside: avoid;
+            break-inside: avoid-page;
+        }
+        
+        .page:last-child {
+            page-break-after: avoid;
+        }
+        
+        .page-1 {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .page-1 .content {
+            flex: 1;
+        }
+        
+        .page-1 .footer {
+            margin-top: auto;
+            border-top: 3px solid #0F599D;
+            padding-top: 15px;
+        }
+        
+        .sources-page {
+            height: 297mm; /* Full A4 page height */
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .sources-page .container {
+            flex: 1;
+            display: block;
+        }
+
+        /* Two-column layout for sources to reduce length */
+        .sources-page .sources ul {
+            column-count: 2;
+            column-gap: 14mm;
+            padding-right: 2mm;
+        }
+
+        .sources-page .sources li {
+            break-inside: avoid;
+            margin-bottom: 4mm;
+        }
+        
+        /* Compact layout for PDF */
+        @media print {
+            body { 
+                font-size: 12px; 
+                margin: 0;
+                padding: 0;
+            }
+            .header { 
+                padding: 12mm; 
+                margin-bottom: 15px;
+            }
+            .header h1 { font-size: 24px; margin-bottom: 6px; }
+            .header .subtitle { font-size: 14px; }
+            .container { padding: 0 12mm; max-width: none; }
+            .section { padding: 12px; margin-bottom: 15px; }
+            .section-header { padding: 8px; margin: -12px -12px 12px -12px; font-size: 13px; }
+            .box { padding: 8px; margin: 6px 0; }
+            .rate-grid { gap: 8px; margin-top: 10px; }
+            .rate-card { padding: 8px; }
+            .footer { padding: 0; margin-top: 15px; border-top: 3px solid #0F599D; }
+            .footer-content { max-width: none; padding: 0 12mm; }
+            .flowchart { gap: 15px; }
+            .sources { margin-top: 0; }
+            .page { 
+                page-break-after: always; 
+                padding: 0; /* zero margins on page, container adds inset */
+                width: 297mm;   /* keep A3 size in print */
+                height: 420mm;
+            }
+            .page:last-child { page-break-after: avoid; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Page 1: Main Flowchart -->
+    <div class="page page-1">
+        <div class="header">
+            <div class="header-content">
+                <div class="header-left">
+                    <a href="https://globaltradealert.org" target="_blank" rel="noopener">
+                        <img src="GTA Icon Color dark.png" alt="GTA Icon" class="header-icon">
+                    </a>
+                </div>
+                <div class="header-center">
+                    <h1>Section 232 Metal Content Calculus</h1>
+                    <div class="subtitle">Metal Content Valuation &amp; Rate Determination for Derivative Products</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="container">
+                <div class="flowchart">
+            <!-- Part 1: Metal Content Value Determination -->
+            <div class="section">
+                <div class="section-header">PART 1: DETERMINE METAL CONTENT VALUE</div>
+
+                <div class="box primary">
+                    <strong>Starting Point:</strong> Identify metal content in derivative product
+                    <br><small>Required: Quantity (kg) of steel/aluminum in the good</small>
+                </div>
+
+                <div class="arrow">↓</div>
+
+                <div class="box">
+                    <strong>Apply <a class="source-ref" href="https://www.govinfo.gov/link/uscode/19/1401a" target="_blank" rel="noopener">19 U.S.C. §1401a</a> Valuation Hierarchy</strong>
+                    <a class="source-ref" href="https://www.cbp.gov/trade/programs-administration/entry-summary/232-tariffs-aluminum-and-steel-faqs" target="_blank" rel="noopener">CBP FAQ</a>
+                    <br><small>Execute in strict sequential order</small>
+                </div>
+
+                <div class="box success">
+                    <span class="hierarchy-number">1</span><strong>Invoice Method</strong>
+                    <a class="source-ref" href="https://www.govinfo.gov/link/uscode/19/1401a" target="_blank" rel="noopener">§1401a</a>
+                    <br>Metal supplier's invoice: "price actually paid or payable"
+                    <br><small>• Total payment by buyer to seller for metal input</small>
+                    <br><small>• Exclude international freight/insurance</small>
+                </div>
+
+                <div class="arrow">↓ <small>If unavailable</small></div>
+
+                <div class="box">
+                    <span class="hierarchy-number">2</span><strong>Identical/Similar Transaction Value</strong>
+                    <a class="source-ref" href="https://www.law.cornell.edu/cfr/text/19/152.104" target="_blank" rel="noopener">19 CFR 152.104</a>
+                    <br>Identical/similar metal transaction at same commercial level &amp; quantity
+                    <br><small>• Adjust for quantity/level differences with sufficient information</small>
+                </div>
+
+                <div class="arrow">↓ <small>If unavailable</small></div>
+
+                <div class="box">
+                    <span class="hierarchy-number">3</span><strong>Deductive Value</strong>
+                    <a class="source-ref" href="https://www.law.cornell.edu/cfr/text/19/152.105" target="_blank" rel="noopener">19 CFR 152.105</a>
+                    <br>Net back from unit price in the greatest aggregate quantity in U.S.
+                    <br><small>• Less: profit &amp; G&amp;A, transport, duties/taxes</small>
+                </div>
+
+                <div class="arrow">↓ <small>If unavailable</small></div>
+
+                <div class="box">
+                    <span class="hierarchy-number">4</span><strong>Computed Value</strong>
+                    <a class="source-ref" href="https://www.law.cornell.edu/cfr/text/19/152.106" target="_blank" rel="noopener">19 CFR 152.106</a>
+                    <br>Cost of materials + fabrication + profit &amp; G&amp;A (usual for class/kind)
+                    <br><small>• Based on producer's books</small>
+                </div>
+
+                <div class="arrow">↓ <small>If unavailable</small></div>
+
+                <div class="box">
+                    <span class="hierarchy-number">5</span><strong>Fallback Method</strong>
+                    <a class="source-ref" href="https://www.law.cornell.edu/cfr/text/19/152.107" target="_blank" rel="noopener">19 CFR 152.107</a>
+                    <a class="source-ref" href="https://www.law.cornell.edu/cfr/text/19/152.108" target="_blank" rel="noopener">152.108</a>
+                    <br>Derive from above methods with reasonable adjustments; use U.S.-available info; avoid prohibited bases
+                </div>
+
+                <div class="critical-alert">
+                    ⚠️ <strong>CRITICAL:</strong> If the metal-content value = entered value or is <u>unknown</u> →
+                    <strong>CBP requires 232 on the FULL PRODUCT VALUE (one line)</strong>
+                    <a class="source-ref" href="https://content.govdelivery.com/accounts/USDHSCBP/bulletins/3e36ea5" target="_blank" rel="noopener">CSMS (Aluminum)</a>
+                    <a class="source-ref" href="https://content.govdelivery.com/accounts/USDHSCBP/bulletins/3e36d96" target="_blank" rel="noopener">CSMS (Steel)</a>
+                </div>
+            </div>
+
+            <!-- Part 2: Rate Determination -->
+            <div class="section">
+                <div class="section-header">PART 2: DETERMINE APPLICABLE RATES</div>
+
+                <div class="box warning">
+                    <strong>Two-Line Filing Required (when metal-content &lt; entered value)</strong>
+                    <a class="source-ref" href="https://content.govdelivery.com/accounts/USDHSCBP/bulletins/3e36ea5" target="_blank" rel="noopener">CSMS (Aluminum)</a>
+                    <a class="source-ref" href="https://content.govdelivery.com/accounts/USDHSCBP/bulletins/3e36d96" target="_blank" rel="noopener">CSMS (Steel)</a>
+                    <br><small>Line 1: Non-metal value | Line 2: Metal value (report kg on 9903 line)</small>
+                </div>
+
+                <div class="rate-grid">
+                    <div class="rate-card">
+                        <h4>Line 1: Non-Metal Value</h4>
+                        <div class="rate-item"><strong>Base HTS (Column 1 General) duty</strong> applies</div>
+                        <div class="rate-item">+ <strong>IEEPA reciprocal tariff</strong> (if applicable) — <em>non-metal line</em>
+                            <a class="source-ref" href="https://content.govdelivery.com/accounts/USDHSCBP/bulletins/3e36ea5" target="_blank" rel="noopener">CSMS</a>
+                        </div>
+                        <div class="rate-item">+ AD/CVD (if applicable)</div>
+                        <div class="rate-item"><small>Report: Ch.1–97 HTS, value = (total − metal)</small></div>
+                    </div>
+
+                    <div class="rate-card">
+                        <h4>Line 2: Metal Value</h4>
+                        <div class="rate-item"><strong>STEEL (derivatives):</strong></div>
+                        <div class="rate-item">• U.S. <em>melt &amp; pour</em> (derivatives only): <span class="rate-value">0%</span>
+                            <small>(<a class="source-ref" href="https://content.govdelivery.com/accounts/USDHSCBP/bulletins/3e36d96" target="_blank" rel="noopener">9903.81.92</a>)</small>
+                        </div>
+                        <div class="rate-item">• United Kingdom: <span class="rate-value">25%</span>
+                            <a class="source-ref" href="https://www.whitehouse.gov/presidential-actions/2025/06/adjusting-imports-of-aluminum-and-steel-into-the-united-states/" target="_blank" rel="noopener">Proclamation</a>
+                        </div>
+                        <div class="rate-item">• Others: <span class="rate-value">50%</span>
+                            <a class="source-ref" href="https://www.whitehouse.gov/presidential-actions/2025/06/adjusting-imports-of-aluminum-and-steel-into-the-united-states/" target="_blank" rel="noopener">Proclamation</a>
+                        </div>
+                        <div class="rate-item" style="margin-top: 8px;"><strong>ALUMINUM (derivatives):</strong></div>
+                        <div class="rate-item">• U.S. <em>smelt &amp; cast</em> (derivatives only): <span class="rate-value">0%</span>
+                            <small>(<a class="source-ref" href="https://content.govdelivery.com/accounts/USDHSCBP/bulletins/3e36ea5" target="_blank" rel="noopener">9903.85.09</a>)</small>
+                        </div>
+                        <div class="rate-item">• United Kingdom: <span class="rate-value">25%</span>
+                            <a class="source-ref" href="https://www.whitehouse.gov/presidential-actions/2025/06/adjusting-imports-of-aluminum-and-steel-into-the-united-states/" target="_blank" rel="noopener">Proclamation</a>
+                        </div>
+                        <div class="rate-item">• Russia / "Unknown" (derivatives): <span class="rate-value">200%</span>
+                            <small>(<a class="source-ref" href="https://content.govdelivery.com/accounts/USDHSCBP/bulletins/3e50356" target="_blank" rel="noopener">9903.85.67/68; CSMS 6/13/25</a>)</small>
+                        </div>
+                        <div class="rate-item">• Others: <span class="rate-value">50%</span>
+                            <a class="source-ref" href="https://www.whitehouse.gov/presidential-actions/2025/06/adjusting-imports-of-aluminum-and-steel-into-the-united-states/" target="_blank" rel="noopener">Proclamation</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box danger" style="margin-top: 16px;">
+                    <strong>⚠️ Aluminum "Unknown" Trap</strong>
+                    <a class="source-ref" href="https://content.govdelivery.com/accounts/USDHSCBP/bulletins/3e50356" target="_blank" rel="noopener">CSMS 6/13/25</a>
+                    <br>• Smelt/cast unknown on derivatives → must report "UN/unknown"
+                    <br>• Triggers automatic 200% Russia rate assessment (9903.85.67/68)
+                    <br>• Use HTS 9903.85.68 for aluminum derivatives
+                </div>
+
+                <div class="box" style="margin-top: 8px;">
+                    <strong>Steel "unknown" note.</strong>
+                    <a class="source-ref" href="https://www.cbp.gov/trade/programs-administration/entry-summary/232-tariffs-aluminum-and-steel-faqs" target="_blank" rel="noopener">CBP FAQ</a>
+                    <br><small>For steel derivatives, if melt &amp; pour is unknown, report "OTH". (No automatic 200%.)</small>
+                </div>
+
+                <div class="box success" style="margin-top: 8px;">
+                    <strong>U.S. Metal Exemption</strong> (Derivatives Only)
+                    <a class="source-ref" href="https://www.cbp.gov/trade/programs-administration/entry-summary/232-tariffs-aluminum-and-steel-faqs" target="_blank" rel="noopener">CBP FAQ</a>
+                    <br>Exclusively U.S. melted/poured steel or smelted/cast aluminum → 0% Section 232 duty (document thoroughly)
+                </div>
+
+                <div class="box primary" style="margin-top: 8px;">
+                    <strong>Required Documentation</strong>
+                    <a class="source-ref" href="https://www.law.cornell.edu/cfr/text/19/152.103" target="_blank" rel="noopener">19 CFR 152.103–108</a>
+                    <br>• Metal supplier invoice(s) with price/quantity
+                    <br>• Mill certificates (melt/pour or smelt/cast) with lot/heat references
+                    <br>• Valuation memo showing §1401a method (or LME×kg fallback under 152.107)
+                    <br>• Entry docs per CBP CSMS two-line format; report kg on 9903 line
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="container">
+            <div class="section" style="margin-top: 6mm;">
+                <div class="section-header">SOURCES & REFERENCES</div>
+                <div class="sources">
+                <ul>
+                <li>CBP 232 FAQs — valuation of metal content; declarations: <a href="https://www.cbp.gov/trade/programs-administration/entry-summary/232-tariffs-aluminum-and-steel-faqs" target="_blank" rel="noopener">https://www.cbp.gov/trade/programs-administration/entry-summary/232-tariffs-aluminum-and-steel-faqs</a></li>
+                <li>CSMS (Aluminum; 6/3/2025) — two-line method; rates; U.S. smelt/cast derivative 0%: <a href="https://content.govdelivery.com/accounts/USDHSCBP/bulletins/3e36ea5" target="_blank" rel="noopener">https://content.govdelivery.com/accounts/USDHSCBP/bulletins/3e36ea5</a></li>
+                <li>CSMS (Steel; 6/3/2025) — two-line method; rates; U.S. melt/pour derivative 0%: <a href="https://content.govdelivery.com/accounts/USDHSCBP/bulletins/3e36d96" target="_blank" rel="noopener">https://content.govdelivery.com/accounts/USDHSCBP/bulletins/3e36d96</a></li>
+                <li>CSMS (Aluminum "Unknown"; 6/13/2025) — "UN" rule; 200% assessment; ACE edits: <a href="https://content.govdelivery.com/accounts/USDHSCBP/bulletins/3e50356" target="_blank" rel="noopener">https://content.govdelivery.com/accounts/USDHSCBP/bulletins/3e50356</a></li>
+                <li>Presidential Proclamation (6/3/2025) — 50%/25% rates, scope: <a href="https://www.whitehouse.gov/presidential-actions/2025/06/adjusting-imports-of-aluminum-and-steel-into-the-united-states/" target="_blank" rel="noopener">White House</a> | <a href="https://globaltradealert.org/state-act/91959-united-states-of-america-us-administration-increases-tariffs-on-imported-steel-and-aluminium-to-50-percent" target="_blank" rel="noopener">GTA summary</a></li>
+                <li>Valuation statute — 19 U.S.C. §1401a: <a href="https://www.govinfo.gov/link/uscode/19/1401a" target="_blank" rel="noopener">https://www.govinfo.gov/link/uscode/19/1401a</a></li>
+                <li>19 CFR 152.103 (transaction value &amp; formula pricing): <a href="https://www.law.cornell.edu/cfr/text/19/152.103" target="_blank" rel="noopener">https://www.law.cornell.edu/cfr/text/19/152.103</a></li>
+                <li>19 CFR 152.104 / .105 / .106 / .107 / .108 (valuation hierarchy &amp; prohibitions):
+                    <a href="https://www.law.cornell.edu/cfr/text/19/152.104" target="_blank" rel="noopener">152.104</a> ·
+                    <a href="https://www.law.cornell.edu/cfr/text/19/152.105" target="_blank" rel="noopener">152.105</a> ·
+                    <a href="https://www.law.cornell.edu/cfr/text/19/152.106" target="_blank" rel="noopener">152.106</a> ·
+                    <a href="https://www.law.cornell.edu/cfr/text/19/152.107" target="_blank" rel="noopener">152.107</a> ·
+                    <a href="https://www.law.cornell.edu/cfr/text/19/152.108" target="_blank" rel="noopener">152.108</a>
+                </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer" style="margin-top: 12mm;">
+            <div class="footer-content">
+                <div class="logo-icon">
+                    <a href="https://globaltradealert.org" target="_blank" rel="noopener">
+                        <img src="GTA_logo.png" alt="Global Trade Alert" class="footer-logo">
+                    </a>
+                </div>
+                <div class="footer-cta">
+                    <a href="https://globaltradealert.org" class="cta-link" target="_blank" rel="noopener">
+                        globaltradealert.org
+                    </a>
+                </div>
+                <div class="footer-date">August 25, 2025</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

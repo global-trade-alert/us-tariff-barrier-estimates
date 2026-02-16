@@ -1,0 +1,156 @@
+---
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    includes:
+      in_header: preamble.tex
+    number_sections: true
+params:
+  policy_date: "14 October 2025"
+  update_date: "14 October 2025"
+---
+
+\thispagestyle{empty}
+
+\begin{flushleft}
+\includegraphics[width=0.35\textwidth]{GTA_logo.png}
+\end{flushleft}
+
+\centering
+
+\vspace*{0.5cm}
+
+\Huge \bfseries Relative Trump Tariff Advantage:\par
+\vspace{0.5cm}
+Chart Book\par
+\normalfont \normalsize
+
+\vspace{1cm}
+
+\Large Johannes Fritz\par
+\large St.Gallen Endowment\par
+\normalfont \normalsize
+
+\vspace{0.5cm}
+
+\large `r params$update_date`\par
+\normalfont \normalsize
+
+\vspace{1cm}
+
+\begin{minipage}{0.8\textwidth}
+\normalfont \normalsize
+This chart book illustrates the impact of recent U.S. import tariff actions on relative market access conditions. It provides high-level summaries of effective tariff rates and relative competitive advantages.
+
+Please note that this chart book is merely illustrative. Much more information, including data for every country and additional products, can be found at the \underline{\href{https://globaltradealert.org/reports/Relative-Trump-Tariff-Advantage-Chart-Book}{\textcolor{gtablue}{Global Trade Alert website}}}.
+\end{minipage}
+
+\vspace{1cm}
+
+\setcounter{tocdepth}{1}
+\tableofcontents
+
+\vfill
+
+\newpage
+\normalfont \normalsize \justify
+
+# Effective Rates for the Top 20 U.S. Import Origins
+
+Announced country-level tariffs can be misleading. The U.S. tariff system includes a complex web of product-specific exceptions and overriding tariffs (such as Section 232 measures).
+
+To capture the true tariff burden, we calculate trade-weighted effective tariff rates at the HS 8-digit level, weighted by 2024 import values. This approach accounts for the actual composition of each country's exports to the United States.
+
+For a complete breakdown of the methodology and assumptions, please see the methodological note. Full data for all countries are available on our website.
+
+\nopagebreak
+
+```{r effective-rates, echo=FALSE, fig.align='center', out.width='100%', out.height='14cm', out.extra='keepaspectratio', fig.cap="The New US Tariff Environment - Trade-weighted average tariff by country, effective 14 October 2025"}
+knitr::include_graphics("effective_rates_top20.png")
+```
+
+*Data source: Global Trade Alert, USITC DataWeb (2024 imports, HS 8-digit level)*
+
+\newpage
+
+# Relative Trump Tariff Advantage for the Top 20 U.S. Import Origins
+
+A country's own effective tariff rate tells only half the story. The critical question is: How does this rate compare to what competitors pay?
+
+We define **relative tariff advantage** as the comparison between a jurisdiction's own trade-weighted tariff and the average rate faced by competitors on the same products.
+
+- **Positive value (advantage):** The country faces lower tariffs than its rivals, making it more price-competitive in the U.S. market.
+- **Negative value (disadvantage):** The country is taxed more heavily than its competitors.
+
+This metric reveals the winners and losers under the new tariff regime.
+
+\nopagebreak
+
+```{r relative-advantage, echo=FALSE, fig.align='center', out.width='100%', out.height='14cm', out.extra='keepaspectratio', fig.cap="Relative 'Trump Tariff Advantage' - Trade-weighted average own tariff vs. competitors, effective 14 October 2025"}
+knitr::include_graphics("relative_advantage_top20.png")
+```
+
+*Data source: Global Trade Alert, USITC DataWeb (2024 imports, HS 8-digit level)*
+
+\newpage
+
+# Relative Trump Tariff Advantage by Import Origin & Top Products
+
+Country averages mask substantial product-level variation. Individual export products experience vastly different competitive effects depending on:
+
+- The specific mix of competitors
+- The applicable tariff rules for each product
+
+Notably, competing primarily against Chinese exporters often creates advantages, as China faces higher tariffs. In contrast, competing against USMCA partners (Canada and Mexico) or other favored nations typically creates disadvantages.
+
+For complete product-level analysis for all import origins, please visit our website.
+
+## Example: Switzerland's Top 10 U.S. Exports
+
+\nopagebreak
+
+```{r product-level-example, echo=FALSE, fig.align='center', out.width='100%', fig.cap="Relative 'Trump Tariff Advantage' for Switzerland's top 10 US Exports - Trade-weighted average own tariff vs. competitors, effective 14 October 2025"}
+knitr::include_graphics("switzerland_top10_products.png")
+```
+
+*Data source: Global Trade Alert, USITC DataWeb (2024 imports, HS 8-digit level)*
+
+\newpage
+
+# Hypothetical Revenues by Import Origin
+
+**Important disclaimer:** This is NOT a forecast of future government revenue.
+
+This analysis is a thought experiment answering: "If the 2024 trade year repeated exactly under the new tariffs, which countries would generate the most revenue?"
+
+In practice, trade flows would shift significantly in response to tariff changes. However, this calculation isolates the direct, first-order fiscal impact, free from behavioral adjustments.
+
+**Methodology:** We apply the new final tariff rates to historical 2024 import values for every product (HS 8-digit level).
+
+The top 20 countries are displayed here. Full data for all countries are available for download via our website.
+
+\nopagebreak
+
+```{r hypothetical-revenue, echo=FALSE, fig.align='center', out.width='100%', out.height='12cm', out.extra='keepaspectratio', fig.cap="Hypothetical New U.S. Tariff Revenue - Top 20 Import Origins by Tariff Revenue (in USD bn) (ignoring supply/demand adjustments)"}
+knitr::include_graphics("hypothetical_tariff_revenue_top20.png")
+```
+
+*Data source: Global Trade Alert, author's calculations using USITC DataWeb import statistics*
+
+*Note: Revenue calculated using additional tariff × 2024 imports*
+
+\newpage
+
+# Hypothetical Revenues by Product
+
+Calculations and comments are analogous to the previous section. Products are defined at the HS 8-digit level.
+
+Complete details for all products are available for download via our website.
+
+\nopagebreak
+
+```{r hypothetical-revenue-product, echo=FALSE, fig.align='center', out.width='100%', out.height='17cm', out.extra='keepaspectratio', fig.cap="Hypothetical New U.S. Tariff Revenue - Top 10 Products by Tariff Revenue (in USD bn) (ignoring supply/demand adjustments)"}
+knitr::include_graphics("hypothetical_tariff_revenue_by_product_top10.png")
+```
+
+*Data source: Global Trade Alert, author's calculations using USITC DataWeb import statistics*

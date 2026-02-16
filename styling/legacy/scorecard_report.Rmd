@@ -1,0 +1,53 @@
+---
+title: "Country Tariff Scorecard Report"
+output:
+  pdf_document:
+    toc: false
+    number_sections: false
+classoption: a4paper
+geometry: margin=25mm
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+suppressPackageStartupMessages({
+  library(dplyr)
+  library(knitr)
+})
+
+# Load the scorecard module
+source("code/tariff_scorecard.R")
+
+# Example: Load or provide your master data here
+# trade_data_master <- read.csv("data/trade_data_master.csv")
+
+# Define the countries to include
+countries_to_run <- c("India", "China", "Germany", "Mexico")
+```
+
+```{r generation_loop, results='asis'}
+for (country_name in countries_to_run) {
+  # Generate processed data (no file save here; the Rmd is the output)
+  scorecard_data <- create_tariff_scorecard(country_name, trade_data_master, top_n = 5)
+
+  cat(paste0("# Tariff Scorecard: ", country_name, "\n\n"))
+
+  # Country-wide summary
+  tp <- scorecard_data$top_panel
+  cat("### Country-Wide Summary\n\n")
+  cat(paste0(
+    "- **Announced Rate:** ", round(tp$announced_rate * 100, 1), "%\n",
+    "- **Effective (Trade-Weighted) Rate:** ", round(tp$effective_rate * 100, 1), "%\n",
+    "- **Relative Tariff Advantage:** ", round(tp$relative_advantage_country * 100, 1), "%\n",
+    "- **Hypothetical Annual Revenue:** $", format(round(tp$hypothetical_revenue / 1e6, 1), nsmall = 1), " Million\n\n"
+  ))
+
+  cat(paste0("### Top ", nrow(scorecard_data$bottom_panel), " Export Products to U.S.\n\n"))
+  print(knitr::kable(scorecard_data$bottom_panel, format = "pipe", digits = 2,
+                     caption = paste("Top exports for", country_name)))
+
+  # Page break
+  cat("\\newpage\n\n")
+}
+``` 

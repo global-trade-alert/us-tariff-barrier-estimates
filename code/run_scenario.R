@@ -8,7 +8,7 @@
 # This script:
 #   1. Validates the scenario exists in data/scenarios/rates.csv
 #   2. Sets SCENARIO_NAME global variable
-#   3. Sources us_tariff_calculation_db.R (which loads rates/shares from CSV)
+#   3. Sources us_tariff_calculation.R (which loads rates/shares from CSV)
 #   4. Sources relative_advantage.R (final calculations)
 #   5. Optionally runs flow-level comparison against baseline
 
@@ -85,9 +85,9 @@ run_scenario <- function(scenario_name,
   SCENARIO_NAME <<- scenario_name
   SCENARIO_OUTPUT_PATH <<- output_path
 
-  cat("Step 1: Running us_tariff_calculation_db.R...\n")
+  cat("Step 1: Running us_tariff_calculation.R...\n")
   cat("-------------------------------------------------------------\n")
-  source("code/us_tariff_calculation_db.R")
+  source("code/us_tariff_calculation.R")
 
   cat("\nStep 2: Running relative_advantage.R...\n")
   cat("-------------------------------------------------------------\n")
@@ -223,7 +223,7 @@ if (!interactive()) {
       # Special mode: verify baseline match
       existing <- if (length(args) >= 2) args[2] else find_latest_baseline()
       SCENARIO_NAME <<- "baseline"
-      source("code/us_tariff_calculation_db.R")
+      source("code/us_tariff_calculation.R")
       source("code/relative_advantage.R")
       new_baseline <- "results/processed_us_imports_with_rates_baseline_verification.RData"
       verify_baseline_match(existing, new_baseline)

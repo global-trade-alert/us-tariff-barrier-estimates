@@ -1,0 +1,264 @@
+---
+params:
+  data_charts_dir: ""
+  aux_dir: ""
+  edition_folder: ""
+  update_date: ""
+output:
+  pdf_document:
+    toc: false
+    includes:
+      in_header: preamble.tex
+    keep_tex: true
+latex_engine: pdflatex
+fontsize: 11pt
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  fig.align = 'center',
+  fig.width = 8,
+  fig.height = 6,
+  dpi = 300
+)
+
+# Load necessary libraries
+library(readxl)
+library(ggplot2)
+library(scales)
+library(knitr)
+library(dplyr)
+
+# Use paths provided by the generation script
+if (params$data_charts_dir != "") {
+  # Parameters provided by generate_chartbook.R
+  data_charts_dir <- params$data_charts_dir
+  aux_dir <- params$aux_dir
+  edition_folder <- params$edition_folder
+  update_date <- params$update_date
+} else {
+  # Fallback for standalone rendering (development)
+  project_root <- "C:/Users/jfrit/Documents/GitHub/data-queries/250801 Relative Trump Tariff Advantage"
+  data_charts_dir <- file.path(project_root, "results/c4tp")
+  aux_dir <- "aux"
+  edition_folder <- "c4tp"
+  update_date <- format(Sys.Date(), "%d %B %Y")
+}
+
+# Get list of countries from existing Excel files (in current directory during template execution)
+excel_files <- list.files(".", pattern = "_tariff_advantage\\.xlsx$", full.names = FALSE)
+# Remove the suffix and replace underscores with spaces
+countries_list <- sort(gsub("_tariff_advantage\\.xlsx$", "", excel_files))
+countries_list <- sort(gsub("_", " ", countries_list))
+
+# Countries found and processed
+cat("Found", length(countries_list), "countries for Chart Book\n")
+```
+
+\begin{covertitlepage}
+
+\logorow
+
+\vspace{18mm}
+
+{\covertitlefont Relative Trump Tariff Advantage: Chart Book\par}
+\vspace{4mm}
+{\coversubfont C4TP Edition, `r update_date`\par}
+
+\vspace{8mm}
+\begin{minipage}{0.92\textwidth}
+\coverbody
+\justifying
+% Ensure consistent paragraph spacing on cover
+\setlength{\parskip}{6pt}
+
+Due to a series of import tariff changes, the reality of U.S. market access in August 2025 is a complex “waterfall” of interlocking measures—\emph{from Section 232 and 301 actions to country-specific executive orders and product-level exceptions}—that creates markedly different tariff environments for U.S. trading partners.
+
+
+Understanding your country’s specific exposure and competitive standing is paramount. To provide this clarity, the Global Trade Alert presents the \textbf{Relative Trump Tariff Advantage: Chart Book}.
+
+
+This analysis delivers two insightful statistics:
+\begin{enumerate}
+  \item A \textbf{trade-weighted effective tariff rate} for each import origin—moving beyond headline rates to reveal the true tariff burden on exports.
+  \item An evaluation of each country’s \textbf{relative tariff advantage or disadvantage}, answering: “How does the tariff on our exports compare to the average tariff faced by competitors in the U.S. market?”
+\end{enumerate}
+
+
+Country pages provide at-a-glance summaries and detailed product-level tables to help you gauge impacts on priority exports.
+\vspace{0.35cm}
+\textbf{The C4TP Dashboard contains all background materials for~download:}
+\begin{itemize}
+  \item All charts as well as the complete data files are available \textcolor{gtablue}{\href{https://c4tp.globaltradealert.org/reports/Relative-Trump-Tariff-Advantage-Chart-Book-C4TP-Edition}{here}}.
+  \item Details on the methodology, all data and replication files can be found \textcolor{gtablue}{\href{https://c4tp.globaltradealert.org/reports/Relative-Trump-Tariff-Advantage-Chart-Book}{here}}.
+\end{itemize}
+Contact Andrey Eydlin at \textcolor{gtablue}{\href{mailto:Andrey.Eydlin@sgept.org}{Andrey.Eydlin@sgept.org}} with any questions you may have.
+
+\end{minipage}
+
+\vfill
+\end{covertitlepage}
+
+\newpage
+
+\tableofcontents
+
+\clearpage
+\phantomsection
+\section{Effective Rates}
+\label{sec:effective-rates} 
+
+Announced country-level tariffs can be misleading, as they do not reflect the true duties applied at the U.S. border. A complex system of product-specific exceptions and overriding tariffs, such as those from Section 232 investigations, significantly alters the final rates.
+
+To provide a more accurate measure, we have calculated a trade-weighted effective tariff rate for each U.S. import origin. This figure is derived by weighting the specific tariff for each detailed product category (at the HS 8-digit level) by its corresponding 2024 import value. This methodology ensures that tariffs on high-value trade flows are given the appropriate economic significance.
+
+```{r effective_rates_chart, out.width="100%"}
+knitr::include_graphics("effective_rates_c4tp.png")
+```
+
+\clearpage
+
+\phantomsection
+\section{Relative Advantage}
+\label{sec:relative-advantage}
+
+A jurisdiction's own effective tariff rate tells only half the story. The critical question for U.S. market access is: how does that rate compare to what competitors are paying?
+
+This chart illustrates the Relative Tariff Advantage for each country. A positive value (advantage) means a country's products face lower tariffs, on average, than its rivals, making them more price-competitive in the U.S. market. A negative value (disadvantage) means a country is taxed more heavily than its competitors.
+
+```{r relative_advantage_chart, out.width="100%"}
+knitr::include_graphics("relative_advantage_c4tp.png")
+```
+
+\clearpage
+
+\phantomsection
+\section{Hypothetical Revenue}
+\label{sec:hypothetical-revenue}
+
+Note: this chart is not a forecast of future government revenue. Rather, it is a thought experiment designed to answer a specific, hypothetical question: "If the 2024 trade year were to repeat itself exactly, but with the new tariffs in place, which countries' exports would generate the most revenue?"
+
+```{r hypothetical_revenue_chart, out.width="100%"}
+knitr::include_graphics("hypothetical_tariff_revenue_c4tp.png")
+```
+
+```{r country_pages_setup, results='asis'}
+# --- Country Pages Setup ---
+# Add extra vertical space before starting country analysis section
+cat("\\addtocontents{toc}{\\protect\\addvspace{24pt}}\n")
+# Add a non-TOC entry to serve as a title for the two-column section.
+cat("\\addtocontents{toc}{\\protect\\subsection*{Country-Level Relative Advantage Analysis}}")
+# Start the two-column layout FOR THE TABLE OF CONTENTS ONLY.
+cat("\\addtocontents{toc}{\\protect\\begin{multicols}{2}}")
+```
+
+```{r country_pages, results='asis'}
+# --- INDIVIDUAL COUNTRY PAGES ---
+# This section uses existing files created by country_specific_advantage.R
+
+for (country in countries_list) {
+  
+  # Clean country name for file naming
+  clean_country <- gsub("[^A-Za-z0-9 ]", "", country)
+  clean_country <- gsub("\\s+", "_", clean_country)
+  clean_country <- substr(clean_country, 1, 50)
+  
+  # Paths to existing files  
+  country_excel_file <- paste0(clean_country, "_tariff_advantage.xlsx")
+  country_chart_filename <- paste0(clean_country, "_top10_products.png")
+  
+  if (!file.exists(country_excel_file) || !file.exists(country_chart_filename)) {
+    next
+  }
+
+  # Use a tryCatch to gracefully skip countries with missing data
+  tryCatch({
+    
+    # Create a new page and a NUMBERED section for the country, which will be added to the TOC.
+    cat("\\clearpage\n")
+    cat("\\phantomsection\n")
+    cat(paste0("\\section{", country, "}\n"))
+    cat(paste0("\\label{sec:", gsub("[^A-Za-z0-9]", "-", tolower(country)), "}\n\n"))
+    
+    # --- Include Existing Chart ---
+    if (file.exists(country_chart_filename)) {
+      cat("\\begin{center}\n")
+      cat(paste0("\\includegraphics[width=\\textwidth]{", country_chart_filename, "}\n"))
+      cat("\\end{center}\n")
+    }
+    
+    cat("\n\n")
+    
+    # --- Extract and Display Table from Excel ---
+    country_products <- read_excel(country_excel_file, sheet = "Product Level Detail")
+    if (nrow(country_products) == 0) next
+    
+    table_data <- head(country_products, 20)  # Changed from 10 to 20
+    if (nrow(table_data) > 0) {
+      display_table <- table_data[, c("HS 8-Digit Code", "Product Description", 
+                                     "Own Rate (%)", "Competitor Avg Rate (%)",
+                                     "Tariff Advantage (%)", "Import Value (bn USD)")]
+      
+      # Smart text truncation - only break at spaces, not mid-word
+      smart_truncate <- function(text, max_chars = 50) {
+        if (nchar(text) <= max_chars) {
+          return(text)
+        }
+        
+        # Find the last space before max_chars
+        truncated <- substr(text, 1, max_chars)
+        last_space <- max(gregexpr(" ", truncated)[[1]])
+        
+        if (last_space > 0 && last_space > max_chars * 0.7) {  # Don't break too early
+          return(paste0(substr(text, 1, last_space - 1), "..."))
+        } else {
+          return(paste0(substr(text, 1, max_chars - 3), "..."))
+        }
+      }
+      
+      display_table$`Product Description` <- sapply(display_table$`Product Description`, smart_truncate)
+      
+      # Escape LaTeX special characters in product descriptions
+      display_table$`Product Description` <- gsub("&", "\\\\&", display_table$`Product Description`)
+      display_table$`Product Description` <- gsub("%", "\\\\%", display_table$`Product Description`)
+      display_table$`Product Description` <- gsub("\\$", "\\\\$", display_table$`Product Description`)
+      display_table$`Product Description` <- gsub("#", "\\\\#", display_table$`Product Description`)
+      display_table$`Product Description` <- gsub("_", "\\\\_", display_table$`Product Description`)
+      
+      cat("\\begin{table}[h!]\n")
+      cat("\\centering\n")
+      cat("\\caption{", paste("Product Level Detail -", country, "(Top 20 Products)"), "}\n")
+      cat("\\footnotesize\n")  # Use even smaller font for better fit
+      cat("\\begin{tabular}{|p{1.5cm}|p{6.5cm}|p{1.5cm}|p{1.8cm}|p{1.5cm}|p{1.7cm}|}\n")
+      cat("\\hline\n")
+      cat("\\centering\\textbf{HS Code} & \\centering\\textbf{Product Description} & \\centering\\textbf{Own tariff (\\%)} & \\centering\\textbf{Competitors tariff (\\%)} & \\centering\\textbf{Relative advantage} & \\centering\\textbf{Value of exports to U.S. (USD bn)} \\tabularnewline\n")
+      cat("\\hline\n")
+      
+      for (i in seq_len(nrow(display_table))) {
+        row <- display_table[i, ]
+        cat(sprintf("\\centering %s & %s & \\centering %.1f & \\centering %.1f & \\centering %.1f & \\centering %.3f \\tabularnewline\n",
+                   row$`HS 8-Digit Code`,
+                   row$`Product Description`,
+                   row$`Own Rate (%)`,
+                   row$`Competitor Avg Rate (%)`,
+                   row$`Tariff Advantage (%)`,
+                   row$`Import Value (bn USD)`))
+        cat("\\hline\n")
+      }
+      
+      cat("\\end{tabular}\n")
+      cat("\\end{table}\n")
+      cat("\n\n")
+    }
+    
+  }, error = function(e) {
+    cat("<!-- Could not process country:", country, "-->\n") 
+  })
+}
+
+# End the two-column layout in the TOC.
+cat("\\addtocontents{toc}{\\protect\\end{multicols}}")
+```

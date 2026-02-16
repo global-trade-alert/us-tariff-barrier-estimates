@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U.S. Market Access Scorecard - South Africa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            align-items: center;
+        }
+        
+        .scorecard {
+            width: 600px;
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(24, 116, 205, 0.15);
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1874CD 0%, #0F599D 100%);
+            color: white;
+            padding: 28px 32px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 40%;
+            height: 200%;
+            background: rgba(255, 255, 255, 0.05);
+            transform: rotate(35deg);
+        }
+        
+        .header-logo {
+            position: absolute;
+            top: 24px;
+            right: 28px;
+            width: 40px;
+            height: 40px;
+            opacity: 0.9;
+        }
+        
+        .header-logo-circle {
+            position: absolute;
+            border-radius: 50%;
+        }
+        
+        .header-logo-circle:nth-child(1) {
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.2);
+            top: 0;
+            left: 0;
+        }
+        
+        .header-logo-circle:nth-child(2) {
+            width: 32px;
+            height: 32px;
+            background: rgba(255, 255, 255, 0.25);
+            top: 4px;
+            left: 4px;
+        }
+        
+        .header-logo-circle:nth-child(3) {
+            width: 22px;
+            height: 22px;
+            background: rgba(255, 255, 255, 0.3);
+            top: 9px;
+            left: 9px;
+        }
+        
+        .main-title {
+            font-size: 14px;
+            font-weight: 400;
+            opacity: 0.95;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+        
+        .country-name {
+            font-size: 36px;
+            font-weight: 500;
+            margin-bottom: 4px;
+            letter-spacing: -1px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .subtitle {
+            font-size: 13px;
+            opacity: 0.85;
+            font-weight: 300;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1px;
+            background: linear-gradient(135deg, #DBDBDB 0%, #c0c0c0 100%);
+        }
+        
+        .metric-box {
+            background: white;
+            padding: 24px 20px;
+            text-align: center;
+            position: relative;
+            transition: transform 0.2s ease;
+        }
+        
+        .metric-box:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            z-index: 1;
+        }
+        
+        .metric-label {
+            font-size: 11px;
+            color: #797979;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+        
+        .metric-value {
+            font-size: 32px;
+            font-weight: 500;
+            background: linear-gradient(135deg, #1874CD, #3B97ED);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1;
+        }
+        
+        .metric-box.trade-value .metric-value {
+            font-size: 28px;
+        }
+        
+        .metric-box.advantage {
+            grid-column: span 2;
+            background: linear-gradient(135deg, #f8fafb 0%, #e8f4f8 100%);
+            border-bottom: 3px solid #1874CD;
+            padding-bottom: 20px;
+        }
+        
+        .advantage .metric-value {
+            font-size: 42px;
+            margin-bottom: 12px;
+        }
+        
+        .advantage-explanation {
+            font-size: 11px;
+            color: #606060;
+            font-weight: 300;
+            line-height: 1.4;
+            max-width: 380px;
+            margin: 0 auto;
+        }
+        
+        .advantage.positive .metric-value {
+            background: linear-gradient(135deg, #2E913B, #45AC52);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .advantage.negative .metric-value {
+            background: linear-gradient(135deg, #D42E3A, #EC4A55);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .advantage .metric-label {
+            color: #0F599D;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0.6px;
+        }
+        
+        .products-section {
+            padding: 28px 32px 24px;
+            background: linear-gradient(180deg, white 0%, #fafbfc 100%);
+        }
+        
+        .section-title {
+            font-size: 13px;
+            font-weight: 500;
+            color: #606060;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .section-title::before {
+            content: '';
+            width: 4px;
+            height: 16px;
+            background: linear-gradient(135deg, #1874CD, #3B97ED);
+            border-radius: 2px;
+        }
+        
+        .products-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+        }
+        
+        .products-table thead {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e8e9ea 100%);
+        }
+        
+        .products-table th {
+            text-align: left;
+            font-size: 10px;
+            color: #606060;
+            font-weight: 500;
+            padding: 10px 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+            border-bottom: 2px solid #DBDBDB;
+        }
+        
+        .products-table th:first-child {
+            padding-left: 12px;
+            border-radius: 8px 0 0 0;
+        }
+        
+        .products-table th:last-child {
+            padding-right: 12px;
+            border-radius: 0 8px 0 0;
+        }
+        
+        .products-table th:nth-child(3),
+        .products-table th:nth-child(4),
+        .products-table th:nth-child(5),
+        .products-table th:nth-child(6) {
+            text-align: right;
+        }
+        
+        .products-table tbody tr {
+            transition: background 0.2s ease;
+        }
+        
+        .products-table tbody tr:hover {
+            background: rgba(24, 116, 205, 0.03);
+        }
+        
+        .products-table td {
+            padding: 14px 8px;
+            font-size: 13px;
+            border-bottom: 1px solid #f0f0f0;
+            color: #333;
+            font-weight: 300;
+        }
+        
+        .products-table td:first-child {
+            padding-left: 12px;
+        }
+        
+        .products-table td:last-child {
+            padding-right: 12px;
+        }
+        
+        .products-table td:nth-child(3),
+        .products-table td:nth-child(4),
+        .products-table td:nth-child(5),
+        .products-table td:nth-child(6) {
+            text-align: right;
+            font-weight: 400;
+        }
+        
+        .hs-code {
+            font-family: 'SF Mono', 'Monaco', 'Courier New', monospace;
+            font-size: 11px;
+            color: #797979;
+            background: #f5f6f7;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+        
+        .product-name {
+            color: #333;
+            font-size: 12px;
+            line-height: 1.4;
+        }
+        
+        .trade-value {
+            color: #1874CD;
+            font-weight: 400;
+        }
+        
+        .rate-value {
+            color: #606060;
+            font-weight: 500;
+        }
+        
+        .advantage-value {
+            font-weight: 500;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+        
+        .advantage-value.positive {
+            color: #2E913B;
+            background: rgba(46, 145, 59, 0.08);
+        }
+        
+        .advantage-value.negative {
+            color: #D42E3A;
+            background: rgba(212, 46, 58, 0.08);
+        }
+        
+        .revenue-value {
+            color: #606060;
+            font-weight: 400;
+        }
+        
+        .footer {
+            padding: 20px 32px 24px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e8e9ea 100%);
+            border-top: 1px solid #DBDBDB;
+        }
+        
+        .footer-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 12px;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .logo-icon {
+            width: 36px;
+            height: 36px;
+            position: relative;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+        }
+        
+        .logo-circle {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.8;
+        }
+        
+        .logo-circle:nth-child(1) {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, #7DC3F8, #3B97ED);
+            top: 0;
+            left: 0;
+        }
+        
+        .logo-circle:nth-child(2) {
+            width: 28px;
+            height: 28px;
+            background: linear-gradient(135deg, #3B97ED, #1874CD);
+            top: 4px;
+            left: 4px;
+        }
+        
+        .logo-circle:nth-child(3) {
+            width: 18px;
+            height: 18px;
+            background: linear-gradient(135deg, #1874CD, #0F599D);
+            top: 9px;
+            left: 9px;
+        }
+        
+        .logo-text {
+            font-size: 16px;
+            font-weight: 500;
+            background: linear-gradient(135deg, #1874CD, #0F599D);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .date-stamp {
+            font-size: 11px;
+            color: #797979;
+            font-weight: 400;
+        }
+        
+        .footer-cta {
+            padding-top: 12px;
+            border-top: 1px solid #e0e0e0;
+            text-align: center;
+        }
+        
+        .cta-text {
+            font-size: 11px;
+            color: #606060;
+            margin-bottom: 4px;
+            font-weight: 400;
+        }
+        
+        .cta-link {
+            color: #1874CD;
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+        
+        .cta-link:hover {
+            color: #0F599D;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="scorecard">
+        <div class="header">
+            <div class="header-logo">
+                <div class="header-logo-circle"></div>
+                <div class="header-logo-circle"></div>
+                <div class="header-logo-circle"></div>
+            </div>
+            <div class="main-title">US Market Access Scorecard</div>
+            <h1 class="country-name">SOUTH AFRICA</h1>
+            <p class="subtitle">After the Amended 'Reciprocal Tariffs' of 1 August 2025</p>
+        </div>
+        
+        <div class="metrics-grid">
+            <div class="metric-box">
+                <div class="metric-label">Amended Reciprocal Rate</div>
+                <div class="metric-value">10%</div>
+            </div>
+            <div class="metric-box">
+                <div class="metric-label">Effective Rate incl. MFN + Sectorals</div>
+                <div class="metric-value">8.7%</div>
+            </div>
+            <div class="metric-box trade-value">
+                <div class="metric-label">Total Trade 2024</div>
+                <div class="metric-value">$14.2B</div>
+            </div>
+            <div class="metric-box">
+                <div class="metric-label">Implied Revenue</div>
+                <div class="metric-value">$1.2B</div>
+            </div>
+            <div class="metric-box advantage positive">
+                <div class="metric-label">Relative Trump Tariff Advantage</div>
+                <div class="metric-value">+2.3%</div>
+                <div class="advantage-explanation">
+                    Trade-weighted average tariff difference vs. competitors selling the same products to the US. Positive = better access.
+                </div>
+            </div>
+        </div>
+        
+        <div class="products-section">
+            <h2 class="section-title">Top Products by 2024 Trade Value</h2>
+            <table class="products-table">
+                <thead>
+                    <tr>
+                        <th>HS Code</th>
+                        <th>Product</th>
+                        <th>Trade 2024</th>
+                        <th>Rate</th>
+                        <th>Advantage</th>
+                        <th>Revenue</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="hs-code">71081300</span></td>
+                        <td class="product-name">Gold, semi-manufactured forms</td>
+                        <td class="trade-value">$2.85B</td>
+                        <td class="rate-value">10%</td>
+                        <td><span class="advantage-value positive">+5.0%</span></td>
+                        <td class="revenue-value">$285M</td>
+                    </tr>
+                    <tr>
+                        <td><span class="hs-code">87032300</span></td>
+                        <td class="product-name">Motor vehicles, 1500-3000cc</td>
+                        <td class="trade-value">$1.98B</td>
+                        <td class="rate-value">10%</td>
+                        <td><span class="advantage-value negative">-2.5%</span></td>
+                        <td class="revenue-value">$198M</td>
+                    </tr>
+                    <tr>
+                        <td><span class="hs-code">72104900</span></td>
+                        <td class="product-name">Flat-rolled iron/steel, zinc-plated</td>
+                        <td class="trade-value">$624M</td>
+                        <td class="rate-value">25%</td>
+                        <td><span class="advantage-value positive">+8.0%</span></td>
+                        <td class="revenue-value">$156M</td>
+                    </tr>
+                    <tr>
+                        <td><span class="hs-code">26011200</span></td>
+                        <td class="product-name">Iron ore, agglomerated</td>
+                        <td class="trade-value">$412M</td>
+                        <td class="rate-value">0%</td>
+                        <td><span class="advantage-value positive">0.0%</span></td>
+                        <td class="revenue-value">$0M</td>
+                    </tr>
+                    <tr>
+                        <td><span class="hs-code">22042150</span></td>
+                        <td class="product-name">Wine in containers ≤2L</td>
+                        <td class="trade-value">$890M</td>
+                        <td class="rate-value">10%</td>
+                        <td><span class="advantage-value positive">+3.5%</span></td>
+                        <td class="revenue-value">$89M</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="footer">
+            <div class="footer-top">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <div class="logo-circle"></div>
+                        <div class="logo-circle"></div>
+                        <div class="logo-circle"></div>
+                    </div>
+                    <span class="logo-text">Global Trade Alert</span>
+                </div>
+                <div class="date-stamp">Data as of 6 September 2025</div>
+            </div>
+            <div class="footer-cta">
+                <div class="cta-text">Get full analysis and updates for all countries</div>
+                <a href="https://globaltradealert.org/reports/Relative-Trump-Tariff-Advantage-Chart-Book" class="cta-link" target="_blank">
+                    globaltradealert.org/reports/Relative-Trump-Tariff-Advantage-Chart-Book
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

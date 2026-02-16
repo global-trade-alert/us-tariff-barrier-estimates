@@ -12819,3 +12819,2101 @@ hs_8digit;rate_type;import_origin;exception_type;effective_date;end_date;source
 31043000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
 31049001;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
 33012951;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+01061100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+01062000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+01063100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+01063200;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+06021000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+06042000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+06049060;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+12122100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+12122900;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+13012000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+13021991;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+13023200;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+14049030;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+15111000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+15132900;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+15153000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+23065000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+33013000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+38231100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+38231200;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+25041010;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+25041050;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+25049000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+25111010;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+25111050;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+25191000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+25199010;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+25199020;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+25249000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+25292100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+25292200;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+25302010;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+25302020;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+25309010;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+25309020;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+25309080;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+26020000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+26040000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+26050000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+26060000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+26080000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+26090000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+26100000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+26110030;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+26110060;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+26122000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+26139000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+26140030;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+26140060;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+26159030;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+26159060;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+26161000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+26171000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+26209950;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28012000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28048000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28049000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28051910;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28051990;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28053000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28111100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28111910;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28112910;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28112920;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28139010;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28161000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28164010;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28164020;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28170000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28181010;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28181020;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28182000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28201000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28211000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28212000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28220000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28230000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28254000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28256000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28258000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28259015;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28259030;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28259090;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28261200;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28263000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28269090;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28273100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28273945;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28273960;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28275951;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28332400;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28332700;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28332910;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28332945;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28332951;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28342100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28342920;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28342951;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28366000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28369100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28369200;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28369910;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28369950;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28418000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28419020;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28461000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28469080;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28492010;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28492020;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+28499030;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+32061100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+32061900;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+36069030;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+40011000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+40012100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+40012200;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+40012900;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+40013000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44034100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44034200;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44034902;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44072100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44072200;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44072301;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44072500;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44072600;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44072700;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44072800;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44072902;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44083101;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44083902;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44092205;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44092210;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44092225;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44092240;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44092250;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44092260;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44092265;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44092290;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44123106;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44123126;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44123142;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44123145;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44123148;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44123152;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44123161;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44123192;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44124100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44125110;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44125131;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44125141;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44125151;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44129106;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44129110;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44129131;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44129141;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+44129151;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+45011000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+45019020;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+45019040;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+45020000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+45031020;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+45031030;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+45031040;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+45031060;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+45039020;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+45039040;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+45039060;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+45041010;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+45041020;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+45041030;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+45041040;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+45041045;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+45041047;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+45041050;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+45049000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+46012240;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+46012280;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+46012290;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+46012940;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+46019301;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+46019305;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+46019320;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+46021205;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+46021214;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+46021216;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+46021223;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+46021225;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+46021235;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+46021245;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+50040000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+50050000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+50060010;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+50060090;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+50071030;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+50071060;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+50072000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+50079030;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+71011030;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+71011060;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+71021000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+71023100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+71023900;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+71031020;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+71031040;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+71039100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+71039910;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+71039950;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+71101100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+71101900;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+71102100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+71102900;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+71103100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+71103900;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+71104100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+71104900;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+71129201;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+71189000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+72011000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+72012000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+72015030;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+72021110;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+72021150;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+72021910;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+72021950;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+72023000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+72024100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+72024910;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+72024950;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+72025000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+72026000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+72028000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+72029100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+72029340;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+72029380;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+72042100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+72051000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+75011000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+75021000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+75022000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+75030000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+75040000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+79011100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+79011210;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+79011250;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+79012000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+79020000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+79039030;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+80011000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+80012000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+80020000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81011000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81019700;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81032000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81033000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81039100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81041100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81041900;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81042000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81043000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81049000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81052030;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81052060;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81052090;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81053000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81061000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81069000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81082000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81083000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81101000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81102000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81109000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81110047;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81110049;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81122100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81122200;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81124110;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81124150;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81129207;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81129210;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81129230;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81129240;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81129260;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81129265;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81129910;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+81129991;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2A
+07099910;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+07119030;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+07133440;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+07141010;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+08011100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+08011901;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+08012200;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+08013100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+08013200;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+08031020;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+08044000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+08045040;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+08055030;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+08072000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+08105000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+08109046;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+08119010;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+08119025;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+08119052;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+08119080;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09011100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09011200;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09012100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09012200;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09019010;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09023000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09024000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09041200;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09042220;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09042280;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09061100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09061900;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09062000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09071000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09072000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09081200;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09093100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09093200;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09103000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09109100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09109910;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09109920;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+09109960;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+10039040;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+11081400;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+11081900;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+15131100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+15131900;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+15211000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+18010000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+18031000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+18050000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+19059090;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+20019045;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+20079940;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+20082000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+20089100;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+20089915;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+20089940;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+20089991;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+20093160;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+20094940;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+21011290;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+31042000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+31043000;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+31049001;slv_ieepa_deal;SLV;country_exception;2099-01-01;;El Salvador Annex 2B
+42021100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42021221;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42021229;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42021240;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42021260;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42021281;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42021289;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42021900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42022130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42022160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42022190;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42022215;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42022235;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42022240;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42022245;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42022260;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42022270;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42022281;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42022289;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42022910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42022920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42022950;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42022990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42023130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42023160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42023210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42023220;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42023240;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42023280;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42023285;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42023291;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42023293;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42023299;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42023910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42023920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42023950;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42023990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029190;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029204;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029208;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029215;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029220;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029231;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029233;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029239;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029245;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029250;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029260;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029291;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029293;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029294;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029297;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029930;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029950;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+42029990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+50040000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+50050000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+50060010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+50060090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+50071030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+50071060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+50072000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+50079030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+50079060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51040000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51051000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51052100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51052900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51053100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51053900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51054000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51061000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51062000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51071030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51071060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51072030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51072060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51081030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51081040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51081080;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51082030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51082040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51082080;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51091020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51091040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51091080;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51091090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51099020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51099040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51099080;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51099090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51100000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51111120;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51111130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51111170;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51111910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51111920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51111960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51112005;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51112010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51112090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51113005;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51113010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51113090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51119030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51119040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51119050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51119090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51121110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51121130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51121160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51121920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51121960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51121995;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51122010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51122020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51122030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51123010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51123020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51123030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51129030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51129040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51129050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51129090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+51130000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52030005;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52030010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52030030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52030050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52041100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52041900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52042000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52051110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52051120;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52051210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52051220;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52051310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52051320;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52051410;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52051420;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52051510;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52051520;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52052100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52052200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52052300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52052400;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52052600;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52052700;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52052800;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52053100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52053200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52053300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52053400;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52053500;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52054100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52054200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52054300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52054400;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52054600;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52054700;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52054800;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52061100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52061200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52061300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52061400;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52061500;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52062100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52062200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52062300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52062400;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52062500;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52063100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52063200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52063300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52063400;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52063500;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52064100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52064200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52064300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52064400;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52064500;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52071000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52079000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52081120;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52081140;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52081160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52081180;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52081240;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52081260;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52081280;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52081300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52081920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52081940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52081960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52081980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52082120;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52082140;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52082160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52082240;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52082260;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52082280;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52082300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52082920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52082940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52082960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52082980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52083120;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52083140;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52083160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52083180;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52083210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52083230;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52083240;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52083250;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52083300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52083920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52083940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52083960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52083980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52084120;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52084140;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52084160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52084180;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52084210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52084230;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52084240;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52084250;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52084300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52084920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52084940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52084960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52084980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52085120;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52085140;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52085160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52085180;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52085210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52085230;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52085240;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52085250;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52085910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52085920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52085940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52085960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52085980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52091100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52091200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52091900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52092100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52092200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52092900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52093130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52093160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52093200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52093900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52094130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52094160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52094200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52094300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52094900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52095130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52095160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52095200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52095900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52101140;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52101160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52101180;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52101910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52101920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52101940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52101960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52101980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52102140;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52102160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52102180;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52102910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52102920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52102940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52102960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52102980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52103140;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52103160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52103180;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52103200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52103920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52103940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52103960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52103980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52104140;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52104160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52104180;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52104910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52104920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52104940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52104960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52104980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52105140;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52105160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52105180;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52105910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52105920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52105940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52105960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52105980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52111100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52111200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52111900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52112021;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52112022;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52112029;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52113100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52113200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52113900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52114100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52114200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52114300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52114900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52115100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52115200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52115900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52121110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52121160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52121210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52121260;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52121310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52121360;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52121410;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52121460;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52121510;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52121560;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52122110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52122160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52122210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52122260;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52122310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52122360;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52122410;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52122460;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52122510;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+52122560;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53011000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53012100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53012900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53013000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53021000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53029000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53031000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53039000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53050000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53061000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53062000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53071000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53072000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53081000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53082000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53089010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53089090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53091100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53091900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53092120;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53092130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53092140;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53092920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53092930;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53092940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53101000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53109000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53110020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53110030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53110040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+53110060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54011000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54012000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54021130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54021160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54021930;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54021960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54022030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54022060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54023130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54023160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54023230;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54023260;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54023330;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54023360;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54023430;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54023460;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54023931;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54023961;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54024400;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54024510;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54024590;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54024600;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54024710;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54024790;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54024800;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54024911;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54024991;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54025100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54025210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54025290;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54025300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54025901;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54026100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54026200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54026300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54026901;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54031030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54031060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54033100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54033200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54033300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54033910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54033990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54034100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54034200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54034910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54034990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54041100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54041210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54041290;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54041910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54041980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54049000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54050030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54050060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54060010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54060020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54071000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54072000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54073010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54073090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54074100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54074200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54074310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54074320;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54074400;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54075100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54075205;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54075220;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54075310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54075320;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54075400;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54076111;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54076119;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54076121;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54076129;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54076191;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54076199;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54076910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54076920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54076930;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54076940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54076990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54077100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54077200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54077310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54077320;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54077400;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54078100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54078200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54078300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54078400;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54079105;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54079110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54079120;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54079205;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54079210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54079220;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54079305;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54079310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54079315;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54079320;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54079405;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54079410;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54079420;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54081000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54082100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54082210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54082290;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54082311;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54082319;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54082321;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54082329;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54082410;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54082490;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54083105;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54083110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54083120;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54083205;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54083210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54083230;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54083290;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54083305;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54083310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54083315;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54083330;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54083390;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54083405;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54083410;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54083430;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+54083490;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55011100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55011900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55012000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55013000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55014000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55019001;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55021000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55029000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55031100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55031910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55031990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55032000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55033000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55034000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55039010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55039090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55041000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55049000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55051000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55052000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55061000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55062000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55063000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55064000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55069001;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55070000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55081000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55082000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55091100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55091200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55092100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55092200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55093100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55093200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55094100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55094200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55095130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55095160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55095200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55095300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55095900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55096100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55096200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55096920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55096940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55096960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55099100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55099200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55099920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55099940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55099960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55101100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55101200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55102000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55103000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55109020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55109040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55109060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55111000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55112000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55113000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55121100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55121900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55122100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55122900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55129100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55129900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55131100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55131200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55131300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55131900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55132100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55132301;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55132900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55133100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55133901;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55134100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55134910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55134920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55134990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55141100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55141200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55141910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55141990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55142100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55142200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55142300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55142900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55143031;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55143032;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55143033;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55143039;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55144100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55144200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55144300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55144900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55151100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55151200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55151305;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55151310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55151900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55152100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55152205;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55152210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55152900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55159100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55159905;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55159910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55159990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55161100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55161200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55161300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55161400;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55162100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55162200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55162300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55162400;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55163105;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55163110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55163205;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55163210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55163305;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55163310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55163405;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55163410;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55164100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55164200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55164300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55164400;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55169100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55169200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55169300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+55169400;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56012100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56012200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56012900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56013000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56021010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56021090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56022100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56022900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56029030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56029060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56029090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56031100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56031200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56031300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56031430;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56031490;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56039100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56039200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56039300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56039410;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56039430;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56039490;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56041000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56049020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56049090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56050010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56050090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56060000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56072100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56072900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56074110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56074130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56074910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56074915;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56074925;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56074930;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56075025;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56075035;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56075040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56079010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56079015;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56079025;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56079035;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56079090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56081100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56081910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56081920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56089010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56089023;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56089027;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56089030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56090010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56090020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56090030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+56090040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57011013;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57011016;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57011040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57011090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57019010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57019020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57021010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57021090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57022010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57022020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57023110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57023120;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57023210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57023220;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57023910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57023920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57024110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57024120;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57024210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57024220;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57024910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57024915;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57024920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57025020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57025040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57025052;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57025056;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57025059;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57029120;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57029130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57029140;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57029210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57029290;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57029905;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57029915;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57029920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57031020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57031080;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57032100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57032910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57032920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57033100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57033910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57033920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57039000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57041000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57042000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57049001;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57050010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+57050020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58011000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58012100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58012210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58012290;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58012300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58012600;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58012710;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58012750;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58013100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58013200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58013300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58013600;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58013710;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58013750;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58019010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58019020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58021010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58021090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58022000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58023000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58030010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58030020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58030030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58030040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58030050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58030090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58041010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58041090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58042100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58042910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58042990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58043000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58050010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58050020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58050025;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58050030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58050040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58061010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58061024;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58061028;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58061030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58062000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58063100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58063210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58063220;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58063910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58063920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58063930;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58064000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58071005;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58071015;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58071020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58079005;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58079015;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58079020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58081010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58081040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58081050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58081070;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58081090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58089000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58090000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58101000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58109100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58109210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58109290;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58109910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58109990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58110010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58110020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58110030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+58110040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59011010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59011020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59019020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59019040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59021000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59022000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59029000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59031010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59031015;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59031018;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59031020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59031025;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59031030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59032010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59032015;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59032018;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59032020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59032025;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59032030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59039010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59039015;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59039018;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59039020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59039025;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59039030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59041000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59049010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59049090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59050010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59050090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59069110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59069120;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59069125;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59069130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59069910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59069920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59069925;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59069930;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59070005;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59070015;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59070025;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59070035;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59070060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59070080;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59080000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59090010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59090020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59100010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59100090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59111010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59111020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59112010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59112020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59112030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59113100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59113200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59114001;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+59119000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60011020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60011060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60012100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60012200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60012900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60019100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60019200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60019910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60019990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60024040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60024080;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60029040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60029080;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60031010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60031090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60032010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60032030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60033010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60033060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60034010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60034060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60039010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60039090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60041000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60049020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60049090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60052100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60052200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60052300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60052400;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60053500;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60053600;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60053700;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60053800;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60053900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60054100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60054200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60054300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60054400;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60059010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60059090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60061000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60062110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60062190;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60062210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60062290;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60062310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60062390;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60062410;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60062490;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60063100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60063200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60063300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60063400;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60064100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60064200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60064300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60064400;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60069010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+60069090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61012000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61013010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61013015;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61013020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61019005;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61019010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61019090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61021000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61022000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61023005;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61023010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61023020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61029010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61029090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61031010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61031020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61031030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61031040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61031050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61031060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61031070;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61031090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61032200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61032300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61032905;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61032910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61032920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61033100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61033200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61033310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61033320;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61033910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61033940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61033980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61034110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61034120;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61034210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61034220;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61034310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61034315;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61034320;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61034910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61034920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61034940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61034980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61041310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61041320;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61041910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61041915;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61041940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61041950;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61041960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61041980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61042200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61042300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61042905;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61042910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61042920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61043100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61043200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61043310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61043320;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61043910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61043920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61044100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61044200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61044310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61044320;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61044410;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61044420;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61044910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61044990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61045100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61045200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61045310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61045320;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61045910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61045940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61045980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61046100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61046210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61046220;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61046310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61046315;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61046320;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61046910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61046920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61046940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61046980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61051000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61052010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61052020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61059010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61059040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61059080;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61061000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61062010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61062020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61069010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61069015;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61069025;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61069030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61071100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61071200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61071910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61071990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61072100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61072200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61072920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61072950;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61072990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61079100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61079910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61079920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61079950;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61079990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61081100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61081910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61081990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61082100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61082210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61082290;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61082910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61082990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61083100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61083200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61083910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61083940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61083980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61089100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61089200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61089920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61089950;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61089990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61091000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61099010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61099015;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61099040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61099080;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61101100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61101210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61101220;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61101900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61102010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61102020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61103010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61103015;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61103020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61103030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61109010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61109090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61112010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61112020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61112030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61112040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61112050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61112060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61113010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61113020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61113030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61113040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61113050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61119005;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61119010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61119020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61119030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61119040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61119050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61119070;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61119090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61121100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61121200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61121910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61121940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61121980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61122010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61122020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61123100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61123900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61124100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61124900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61130010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61130090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61142000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61143010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61143020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61143030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61149005;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61149010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61149090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61152100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61152200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61152940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61152980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61153010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61153090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61159400;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61159560;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61159590;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61159660;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61159690;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61159914;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61159919;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61159940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61159990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61161005;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61161008;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61161013;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61161017;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61161044;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61161048;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61161055;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61161065;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61161075;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61161095;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61169100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61169205;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61169208;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61169264;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61169274;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61169288;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61169294;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61169305;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61169308;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61169364;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61169374;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61169388;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61169394;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61169920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61169935;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61169948;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61169954;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61169975;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61169995;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61171010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61171020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61171040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61171060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61178020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61178030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61178085;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61178087;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61178095;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61179010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+61179090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62012011;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62012019;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62012029;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62012035;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62012040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62013012;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62013020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62013030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62013040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62013050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62013060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62013070;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62013080;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62014010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62014015;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62014020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62014025;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62014035;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62014040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62014045;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62014050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62014055;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62014060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62014065;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62014070;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62014075;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62019019;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62019029;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62019039;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62019049;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62019059;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62019069;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62022011;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62022019;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62022029;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62022035;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62022040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62023012;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62023020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62023030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62023040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62023050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62023060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62023070;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62023080;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62024010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62024015;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62024020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62024025;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62024035;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62024040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62024045;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62024050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62024055;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62024060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62024065;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62024070;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62024075;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62029019;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62029029;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62029039;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62029049;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62029059;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62029069;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62031115;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62031130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62031160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62031190;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62031210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62031220;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62031910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62031920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62031930;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62031950;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62031990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62032210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62032230;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62032300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62032910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62032915;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62032920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62032930;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62033150;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62033190;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62033210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62033220;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62033310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62033320;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62033910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62033920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62033950;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62033990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034101;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034103;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034106;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034108;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034125;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034180;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034203;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034205;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034207;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034217;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034225;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034245;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034301;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034303;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034305;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034309;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034311;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034313;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034345;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034355;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034360;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034365;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034370;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034375;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034390;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034901;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034905;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034907;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034909;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034925;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034935;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034950;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62034990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62041100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62041200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62041310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62041320;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62041910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62041920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62041940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62041980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62042100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62042210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62042230;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62042300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62042920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62042940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62043110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62043120;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62043210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62043220;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62043310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62043320;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62043340;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62043350;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62043920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62043930;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62043960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62043980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62044110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62044120;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62044210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62044220;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62044230;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62044310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62044320;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62044330;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62044340;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62044420;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62044430;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62044440;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62044910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62044950;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62045100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62045210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62045220;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62045310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62045320;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62045330;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62045910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62045920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62045930;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62045940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046105;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046115;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046160;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046180;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046203;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046205;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046215;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046250;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046260;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046270;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046280;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046301;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046302;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046303;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046308;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046309;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046311;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046350;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046355;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046360;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046365;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046370;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046375;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046390;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046901;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046902;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046903;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046904;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046905;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046906;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046915;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046922;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046928;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046945;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046965;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62046980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62052010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62052020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62053010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62053015;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62053020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62059005;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62059007;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62059010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62059030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62059040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62061000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62062010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62062020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62062030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62063010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62063020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62063030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62064010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62064020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62064025;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62064030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62069000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62071100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62071910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62071990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62072100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62072200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62072910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62072990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62079110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62079130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62079920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62079940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62079970;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62079975;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62079985;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62079990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62081100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62081920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62081950;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62081990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62082100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62082200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62082910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62082990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62089110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62089130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62089200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62089920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62089930;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62089950;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62089980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62092010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62092020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62092030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62092050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62093010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62093020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62093030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62099005;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62099010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62099020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62099030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62099050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62099090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62101020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62101050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62101070;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62101090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62102030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62102050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62102070;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62102090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62103030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62103050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62103070;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62103090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62104015;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62104025;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62104028;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62104029;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62104035;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62104055;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62104075;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62104080;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62105003;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62105005;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62105012;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62105022;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62105035;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62105055;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62105075;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62105080;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62111110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62111140;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62111180;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62111210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62111240;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62111280;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62112004;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62112008;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62112015;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62112024;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62112028;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62112034;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62112038;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62112044;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62112048;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62112054;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62112058;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62112064;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62112068;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62112074;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62112078;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62113250;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62113290;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62113350;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62113390;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62113903;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62113907;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62113915;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62113930;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62113960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62113980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62114205;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62114210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62114305;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62114310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62114903;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62114915;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62114925;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62114950;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62114960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62114980;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62121030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62121050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62121070;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62121090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62122000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62123000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62129000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62132010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62132020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62139005;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62139007;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62139010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62139020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62141010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62141020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62142000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62143000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62144000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62149000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62151000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62152000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62159000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62160005;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62160008;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62160013;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62160017;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62160019;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62160021;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62160024;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62160026;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62160029;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62160031;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62160033;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62160035;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62160038;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62160041;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62160043;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62160046;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62160054;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62160058;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62160080;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62160090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62171010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62171085;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62171095;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62179010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+62179090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63011000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63012000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63013000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63014000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63019000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63021000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63022130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63022150;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63022170;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63022190;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63022210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63022220;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63022900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63023130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63023150;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63023170;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63023190;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63023210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63023220;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63023900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63024010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63024020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63025110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63025120;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63025130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63025140;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63025300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63025910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63025920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63025930;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63026000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63029100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63029310;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63029320;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63029910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63029915;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63029920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63031200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63031911;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63031921;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63039100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63039210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63039220;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63039900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63041110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63041120;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63041130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63041905;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63041910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63041915;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63041920;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63041930;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63042000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63049101;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63049200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63049300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63049910;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63049915;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63049925;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63049935;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63049940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63049960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63051000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63052000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63053200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63053300;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63053900;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63059000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63061200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63061911;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63061921;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63062210;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63062290;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63062911;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63062921;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63063000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63064041;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63064049;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63069010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63069050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63071010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63071020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63072000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63079030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63079040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63079050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63079060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63079068;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63079072;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63079075;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63079085;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63079089;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63079098;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63080000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63090000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63101010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63101020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63109010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+63109020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65010030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65010060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65010090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65020020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65020040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65020060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65020090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65040030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65040060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65040090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65050001;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65050004;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65050008;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65050015;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65050020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65050025;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65050030;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65050040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65050050;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65050060;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65050070;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65050080;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65050090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65069100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65069930;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65069960;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+65070000;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70191100;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70191200;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70191305;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70191315;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70191324;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70191328;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70191335;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70191930;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70191970;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70191991;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196105;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196110;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196130;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196140;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196170;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196190;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196305;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196315;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196330;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196340;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196370;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196390;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196405;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196415;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196430;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196440;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196470;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196490;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196551;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196590;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196630;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196640;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196670;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196690;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196930;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196940;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196970;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+70196990;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+94043040;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+94043080;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+94044010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+94044090;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+94049010;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+94049020;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+94049081;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A
+94049096;slv_cafta_deal;SLV;country_exception;2099-01-01;;El Salvador CAFTA Annex 2A

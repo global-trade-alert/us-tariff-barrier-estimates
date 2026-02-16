@@ -489,6 +489,7 @@ liechtenstein_un_code <- get_country("LIE")
 australia_un_code <- get_country("AUS")
 ukraine_un_code <- get_country("UKR")
 argentina_un_code <- get_country("ARG")
+twn_un_code <- get_country("TWN")
 
 # Country groups (loaded from country_groups.csv)
 usmca_partners <- get_country_group("usmca")
@@ -643,10 +644,16 @@ che_nonpatented_pharma_share <- get_share("che_nonpatented_pharma_share")   # Sw
 # EU PHARMA EXCEPTION PARAMETER
 eu_nonpatented_pharma_share <- get_share("eu_nonpatented_pharma_share")     # EU: Share of pharma imports not patented in US (exempt from IEEPA)
 
-cat(sprintf("    Civil aircraft shares: Brazil=%.0f%%, Japan=%.0f%%, EU=%.0f%%, UK=%.0f%%, Korea=%.0f%%, Switzerland=%.0f%%\n",
+# CHINESE TAIPEI EXCEPTION PARAMETERS
+twn_ieepa_floor_rate <- get_rate("twn_ieepa_floor_rate")
+twn_nonpatented_pharma_share <- get_share("twn_nonpatented_pharma_share")
+twn_civil_aircraft_share <- get_share("twn_civil_aircraft_share")
+
+cat(sprintf("    Civil aircraft shares: Brazil=%.0f%%, Japan=%.0f%%, EU=%.0f%%, UK=%.0f%%, Korea=%.0f%%, Switzerland=%.0f%%, Chinese Taipei=%.0f%%\n",
             bra_civil_aircraft_share * 100, jpn_civil_aircraft_share * 100,
             eu_civil_aircraft_share * 100, uk_civil_aircraft_share * 100,
-            kor_civil_aircraft_share * 100, che_civil_aircraft_share * 100))
+            kor_civil_aircraft_share * 100, che_civil_aircraft_share * 100,
+            twn_civil_aircraft_share * 100))
 cat(sprintf("    Korea parameters: floor=%.0f%%, auto_floor=%.0f%%, lumber_rate=%.0f%%\n",
             kor_ieepa_floor_rate, kor_s232_floor_rate, kor_lumber_derivative_rate))
 cat(sprintf("    Switzerland/Liechtenstein parameters: floor=%.0f%%, non-patented pharma=%.0f%%\n",
@@ -791,6 +798,8 @@ us_imports[, `:=`(
   jpn_lumber_derivative = 0, eu_lumber_derivative = 0,
   kor_floor = 0, kor_lumber_derivative = 0, kor_aircraft = 0, kor_auto = 0,
   che_floor = 0, che_aircraft = 0, che_exception = 0, che_pharma = 0,
+  arg_exception = 0, arg_pharma = 0, arg_aircraft = 0,
+  twn_floor = 0, twn_aircraft = 0, twn_exception = 0, twn_pharma = 0,
   wto_aircraft = 0,
   chn_opioid = 0,
   sec301_tariff = 0,
@@ -799,7 +808,7 @@ us_imports[, `:=`(
   mex_emergency = 0
 )]
 
-cat(sprintf("    Initialized %d rate columns and %d boolean marker columns\n", 13, 30))
+cat(sprintf("    Initialized %d rate columns and %d boolean marker columns\n", 13, 37))
 
 cat("\n  Section 1 complete: Data loaded and scoped\n")
 cat("\n")
@@ -1655,7 +1664,7 @@ aircraft_main <- get_exceptions("ieepa_baseline_rate", "aircraft", policy_date)
 cat(sprintf("  Loaded unified civil aircraft list: %d aircraft\n",
             length(aircraft_main)))
 
-# Load unified pharma exceptions list (used by EU and Switzerland) - from exceptions.csv
+# Load unified pharma exceptions list (used by EU, Switzerland, Argentina and Chinese Taipei) - from exceptions.csv
 pharma_hs_codes <- get_exceptions("ieepa_baseline_rate", "pharma", policy_date)
 
 cat(sprintf("  Loaded unified pharma exceptions list: %d products\n",
@@ -2305,6 +2314,142 @@ if (policy_date >= che_deal_effective_date) {
 }
 
 # -----------------------------------------------------------------------------
+# 7.8: Argentina (Type C - IEEPA Exceptions Only)
+# -----------------------------------------------------------------------------
+
+cat("\n  7.8 Argentina (IEEPA Exceptions)...\n")
+
+arg_deal_effective_date <- as.Date("2099-01-01")
+
+if (policy_date >= arg_deal_effective_date) {
+
+  # Load shares
+  arg_civil_aircraft_share <- get_share("arg_civil_aircraft_share")
+  arg_nonpatented_pharma_share <- get_share("arg_nonpatented_pharma_share")
+
+  # EXCEPTION 1: UNCONDITIONAL EXCEPTIONS (from exceptions.csv)
+  arg_exception_codes <- get_exceptions("arg_ieepa_deal", "country_exception",
+                                         policy_date, "ARG")
+  cat(sprintf("    Loading Argentina exceptions (%d codes)\n",
+              length(arg_exception_codes)))
+
+  us_imports[un_code == argentina_un_code &
+             hs_8digit %in% arg_exception_codes, `:=`(
+    ieepa_rate = 0,
+    arg_exception = 1
+  )]
+
+  exception_value <- sum(us_imports[un_code == argentina_un_code & arg_exception == 1]$us_imports_bn, na.rm = TRUE)
+  cat(sprintf("    Unconditional exceptions: $%.1f billion\n", exception_value))
+
+  # EXCEPTION 2: CIVIL AIRCRAFT
+  us_imports[un_code == argentina_un_code & hs_8digit %in% aircraft_main, `:=`(
+    arg_aircraft = 1,
+    wto_aircraft = 1
+  )]
+
+  aircraft_value <- sum(us_imports[un_code == argentina_un_code & arg_aircraft == 1]$us_imports_bn, na.rm = TRUE)
+  cat(sprintf("    Civil aircraft (%.0f%% share): $%.1f billion\n",
+              arg_civil_aircraft_share * 100, aircraft_value))
+
+  # EXCEPTION 3: NON-PATENTED PHARMACEUTICALS
+  us_imports[un_code == argentina_un_code &
+             hs_8digit %in% pharma_hs_codes, `:=`(
+    ieepa_rate = (1 - arg_nonpatented_pharma_share) * ieepa_rate,
+    arg_pharma = 1
+  )]
+
+  pharma_value <- sum(us_imports[un_code == argentina_un_code & arg_pharma == 1]$us_imports_bn, na.rm = TRUE)
+  cat(sprintf("    Non-patented pharma (%.0f%% share): $%.1f billion\n",
+              arg_nonpatented_pharma_share * 100, pharma_value))
+
+  # Summary statistics
+  arg_total <- sum(us_imports[un_code == argentina_un_code]$us_imports_bn, na.rm = TRUE)
+  arg_excepted <- sum(us_imports[un_code == argentina_un_code &
+                                  (arg_exception == 1 | arg_pharma == 1 |
+                                   rr_exception == 1 | ieepa_statute_exception == 1)]$us_imports_bn, na.rm = TRUE)
+  cat(sprintf("    Argentina total: $%.1f billion, Excepted: $%.1f billion (%.1f%%)\n",
+              arg_total, arg_excepted, 100 * arg_excepted / arg_total))
+
+} else {
+  cat(sprintf("    Argentina deal NOT active (effective %s, policy_date %s)\n",
+              arg_deal_effective_date, policy_date))
+}
+
+# -----------------------------------------------------------------------------
+# 7.9: Chinese Taipei (Type B - Tariff Floor)
+# -----------------------------------------------------------------------------
+
+cat("\n  7.9 Chinese Taipei (Tariff Floor)...\n")
+
+twn_deal_effective_date <- as.Date("2099-01-01")
+
+if (policy_date >= twn_deal_effective_date) {
+
+  # EXCEPTION 1: UNCONDITIONAL EXCEPTIONS
+  twn_exception_codes <- get_exceptions("twn_ieepa_deal", "country_exception",
+                                         policy_date, "TWN")
+  cat(sprintf("    Loading Chinese Taipei exceptions (%d codes)\n",
+              length(twn_exception_codes)))
+
+  us_imports[un_code == twn_un_code &
+             hs_8digit %in% twn_exception_codes, `:=`(
+    ieepa_rate = 0,
+    twn_exception = 1
+  )]
+
+  exception_value <- sum(us_imports[un_code == twn_un_code & twn_exception == 1]$us_imports_bn, na.rm = TRUE)
+  cat(sprintf("    Unconditional exceptions: $%.1f billion\n", exception_value))
+
+  # EXCEPTION 2: CIVIL AIRCRAFT
+  us_imports[un_code == twn_un_code & hs_8digit %in% aircraft_main, `:=`(
+    twn_aircraft = 1,
+    wto_aircraft = 1
+  )]
+
+  aircraft_value <- sum(us_imports[un_code == twn_un_code & twn_aircraft == 1]$us_imports_bn, na.rm = TRUE)
+  cat(sprintf("    Civil aircraft (%.0f%% share): $%.1f billion\n",
+              twn_civil_aircraft_share * 100, aircraft_value))
+
+  # EXCEPTION 3: NON-PATENTED PHARMACEUTICALS
+  us_imports[un_code == twn_un_code &
+             hs_8digit %in% pharma_hs_codes, `:=`(
+    ieepa_rate = (1 - twn_nonpatented_pharma_share) * ieepa_rate,
+    twn_pharma = 1
+  )]
+
+  pharma_value <- sum(us_imports[un_code == twn_un_code & twn_pharma == 1]$us_imports_bn, na.rm = TRUE)
+  cat(sprintf("    Non-patented pharma (%.0f%% share): $%.1f billion\n",
+              twn_nonpatented_pharma_share * 100, pharma_value))
+
+  # EXCEPTION 4: RECIPROCAL RATE FLOOR
+  us_imports[un_code == twn_un_code &
+             rr_exception == 0 &
+             ieepa_statute_exception == 0 &
+             twn_exception == 0 &
+             twn_pharma == 0, `:=`(
+    ieepa_rate = pmax(twn_ieepa_floor_rate, hts_rate) - hts_rate,
+    twn_floor = 1
+  )]
+
+  # Summary statistics
+  twn_total <- sum(us_imports[un_code == twn_un_code]$us_imports_bn, na.rm = TRUE)
+  twn_floor_applied <- sum(us_imports[un_code == twn_un_code & twn_floor == 1]$us_imports_bn, na.rm = TRUE)
+  twn_excepted <- sum(us_imports[un_code == twn_un_code &
+                                  (rr_exception == 1 | ieepa_statute_exception == 1 |
+                                   twn_exception == 1 | twn_pharma == 1)]$us_imports_bn, na.rm = TRUE)
+
+  cat(sprintf("    IEEPA floor (%.0f%%): $%.1f billion\n", twn_ieepa_floor_rate, twn_floor_applied))
+  cat(sprintf("    Excepted (Annex 2 + statutory + unconditional + pharma): $%.1f billion\n", twn_excepted))
+  cat(sprintf("    Chinese Taipei total: $%.1f billion, Excepted: $%.1f billion (%.1f%%)\n",
+              twn_total, twn_excepted, 100 * twn_excepted / twn_total))
+
+} else {
+  cat(sprintf("    Chinese Taipei deal NOT active (effective %s, policy_date %s)\n",
+              twn_deal_effective_date, policy_date))
+}
+
+# -----------------------------------------------------------------------------
 # 7.99: COUNTRY-SPECIFIC SURCHARGES (Across-the-Board Tariff Additions)
 # -----------------------------------------------------------------------------
 # Apply additional tariffs that stack on top of everything else (like S301)
@@ -2583,6 +2728,8 @@ us_imports[wto_aircraft == 1 & un_code %in% eu_members, aircraft_share := eu_civ
 us_imports[wto_aircraft == 1 & un_code == uk_un_code, aircraft_share := uk_civil_aircraft_share]
 us_imports[wto_aircraft == 1 & un_code == korea_un_code, aircraft_share := kor_civil_aircraft_share]
 us_imports[wto_aircraft == 1 & un_code %in% swiss_liechtenstein, aircraft_share := che_civil_aircraft_share]
+us_imports[wto_aircraft == 1 & un_code == argentina_un_code, aircraft_share := arg_civil_aircraft_share]
+us_imports[wto_aircraft == 1 & un_code == twn_un_code, aircraft_share := twn_civil_aircraft_share]
 
 cat("  Step 7: Determined aircraft_share for each product (country-specific)\n")
 
@@ -3028,6 +3175,8 @@ us_imports <- us_imports %>%
         jpn_lumber_derivative, eu_lumber_derivative,
         kor_floor, kor_lumber_derivative, kor_aircraft, kor_auto,
         che_floor, che_aircraft, che_exception, che_pharma,
+        arg_exception, arg_pharma, arg_aircraft,
+        twn_floor, twn_aircraft, twn_exception, twn_pharma,
         wto_aircraft, chn_opioid, sec301_tariff, can_northern_border, can_northern_border_energy, mex_emergency) %>%
   as.data.frame()
 

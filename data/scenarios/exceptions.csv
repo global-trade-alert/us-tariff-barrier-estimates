@@ -12047,3 +12047,775 @@ hs_8digit;rate_type;import_origin;exception_type;effective_date;end_date;source
 85234950;country_surcharge_528;NLD;surcharge_exception;2025-01-01;;IEEPA statutory exemption
 97012100;country_surcharge_528;NLD;surcharge_exception;2025-01-01;;IEEPA statutory exemption
 97019900;country_surcharge_528;NLD;surcharge_exception;2025-01-01;;IEEPA statutory exemption
+01061991;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+01063901;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+05100040;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+06021000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+06031901;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+12119089;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+12122900;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+13021991;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+14011000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+14012020;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+15159060;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+15159081;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+21022060;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+25041010;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+25041050;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+25049000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+25111010;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+25111050;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+25191000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+25199010;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+25199020;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+25249000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+25292100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+25292200;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+25302010;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+25302020;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+25309010;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+25309020;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+25309080;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+26020000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+26040000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+26050000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+26060000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+26080000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+26090000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+26100000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+26110030;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+26110060;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+26122000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+26139000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+26140030;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+26140060;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+26159030;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+26159060;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+26161000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+26171000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+26209950;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28012000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28048000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28049000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28051910;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28051990;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28053000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28111100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28111910;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28112910;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28112920;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28139010;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28161000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28164010;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28164020;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28170000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28181010;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28181020;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28182000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28201000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28211000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28212000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28220000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28230000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28254000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28256000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28258000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28259015;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28259030;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28259090;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28261200;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28263000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28269090;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28273100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28273945;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28273960;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28275951;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28332400;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28332700;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28332910;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28332945;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28332951;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28342100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28342920;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28342951;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28366000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28369100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28369200;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28369910;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28369950;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28418000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28419020;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28461000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28469080;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28492010;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28492020;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+28499030;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+32061100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+32061900;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+33011951;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+36069030;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+40011000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+40012100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+40012200;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+40012900;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+40013000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44034100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44034200;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44034902;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44072100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44072200;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44072301;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44072500;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44072600;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44072700;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44072800;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44072902;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44083101;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44083902;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44092205;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44092210;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44092225;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44092240;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44092250;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44092260;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44092265;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44092290;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44123106;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44123126;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44123142;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44123145;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44123148;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44123152;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44123161;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44123192;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44124100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44125110;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44125131;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44125141;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44125151;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44129106;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44129110;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44129131;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44129141;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+44129151;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+45011000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+45019020;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+45019040;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+45020000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+45031020;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+45031030;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+45031040;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+45031060;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+45039020;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+45039040;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+45039060;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+45041010;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+45041020;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+45041030;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+45041040;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+45041045;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+45041047;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+45041050;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+45049000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+46012240;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+46012280;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+46012290;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+46012940;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+46019301;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+46019305;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+46019320;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+46021205;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+46021214;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+46021216;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+46021223;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+46021225;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+46021235;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+46021245;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+50040000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+50050000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+50060010;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+50060090;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+50071030;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+50071060;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+50072000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+50079030;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+71011030;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+71011060;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+71021000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+71023100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+71023900;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+71031020;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+71031040;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+71039100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+71039910;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+71039950;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+71101100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+71101900;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+71102100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+71102900;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+71103100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+71103900;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+71104100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+71104900;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+71129201;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+71189000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+72011000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+72012000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+72015030;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+72021110;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+72021150;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+72021910;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+72021950;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+72023000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+72024100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+72024910;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+72024950;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+72025000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+72026000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+72028000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+72029100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+72029340;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+72029380;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+72042100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+72051000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+75011000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+75021000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+75022000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+75030000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+75040000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+79011100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+79011210;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+79011250;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+79012000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+79020000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+79039030;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+80011000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+80012000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+80020000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81011000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81019700;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81032000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81033000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81039100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81041100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81041900;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81042000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81043000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81049000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81052030;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81052060;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81052090;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81053000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81061000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81069000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81082000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81083000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81101000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81102000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81109000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81110047;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81110049;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81122100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81122200;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81124110;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81124150;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81129207;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81129210;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81129230;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81129240;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81129260;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81129265;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81129910;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+81129991;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2A
+08084020;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+08084040;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+08109046;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+08119052;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+08119080;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+09021090;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+09022010;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+09022090;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+09023000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+09024000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+09030000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+09042120;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+09042220;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+09042273;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+09042276;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+09092100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+09092200;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+09109100;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+09109940;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+09109960;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+15211000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+15219020;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+19059010;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+19059090;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+20079950;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+20089991;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+20093160;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+20093920;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+21011129;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+21011290;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+21012020;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+31042000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+31043000;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+31049001;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+33012951;arg_ieepa_deal;ARG;country_exception;2099-01-01;;Argentina Annex 2B
+01061991;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+01062000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+01069001;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+06011090;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+06021000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+06029020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+06031100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+06031230;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+06031270;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+06031300;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+06031400;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+06031500;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+06031901;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+06042000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+06049010;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+06049030;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+06049060;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+07123200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+07123420;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+07144010;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+07144020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+07144050;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+07144060;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+07149046;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+07149061;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+08011100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+08043020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+08043040;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+08043060;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+08044000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+08045040;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+08045060;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+08045080;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+08109046;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+08119050;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+08119052;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+08119080;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+08129040;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09011100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09011200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09012100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09012200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09019020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09021010;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09021090;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09022010;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09022090;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09023000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09024000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09041100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09041200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09042160;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09042273;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09042276;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09042280;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09051000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09062000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09072000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09093200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09096200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09101200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09103000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09109100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+09109960;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+11062090;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+11081400;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+11081900;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+12119089;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+12122100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+12122900;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+13019091;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+13021991;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+13023100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+14011000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+14049090;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+15119000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+15159081;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+18050000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+19030020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+19030040;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+19059010;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+19059090;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+20019045;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+20059160;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+20060040;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+20079940;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+20079950;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+20081915;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+20082000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+20089940;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+20089991;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+20093160;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+20093920;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+20094940;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+21011129;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+21011290;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+21012020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+21022060;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+21069099;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+25041010;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+25041050;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+25049000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+25111010;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+25111050;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+25191000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+25199010;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+25199020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+25249000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+25292100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+25292200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+25302010;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+25302020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+25309010;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+25309020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+25309080;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+26020000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+26040000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+26050000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+26060000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+26080000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+26090000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+26100000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+26110030;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+26110060;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+26122000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+26139000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+26140030;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+26140060;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+26159030;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+26159060;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+26161000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+26171000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+26209950;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28012000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28048000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28049000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28051910;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28051990;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28053000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28111100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28111910;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28112910;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28112920;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28139010;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28161000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28164010;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28164020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28170000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28181010;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28181020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28182000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28201000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28211000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28212000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28220000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28230000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28254000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28256000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28258000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28259015;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28259030;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28259090;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28261200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28263000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28269090;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28273100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28273945;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28273960;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28275951;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28332400;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28332700;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28332910;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28332945;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28332951;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28342100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28342920;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28342951;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28366000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28369100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28369200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28369910;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28369950;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28418000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28419020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28461000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28469080;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28492010;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28492020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+28499030;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+31042000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+31043000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+31049001;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+32061100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+32061900;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+33011951;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+33012910;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+33012951;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+33013000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+36069030;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+38231100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+38231200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+38231920;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+38237040;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+40011000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+40012100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+40012200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+40012900;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+40013000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44034100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44034200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44034902;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44072100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44072200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44072301;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44072500;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44072600;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44072700;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44072800;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44072902;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44083101;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44083902;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44092205;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44092210;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44092225;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44092240;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44092250;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44092260;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44092265;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44092290;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44123106;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44123126;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44123142;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44123145;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44123148;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44123152;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44123161;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44123192;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44124100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44125110;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44125131;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44125141;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44125151;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44129106;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44129110;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44129131;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44129141;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+44129151;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+45011000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+45019020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+45019040;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+45020000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+45031020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+45031030;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+45031040;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+45031060;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+45039020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+45039040;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+45039060;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+45041010;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+45041020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+45041030;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+45041040;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+45041045;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+45041047;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+45041050;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+45049000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+46012240;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+46012280;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+46012290;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+46012940;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+46019301;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+46019305;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+46019320;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+46021205;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+46021214;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+46021216;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+46021223;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+46021225;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+46021235;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+46021245;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+50010000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+50020000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+50030010;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+50030090;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+50040000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+50050000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+50060010;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+50060090;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+50071030;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+50071060;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+50072000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+50079030;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+51021190;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+71011030;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+71011060;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+71021000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+71023100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+71023900;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+71031020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+71031040;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+71039100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+71039910;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+71039950;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+71101100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+71101900;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+71102100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+71102900;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+71103100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+71103900;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+71104100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+71104900;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+71129201;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+71189000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+72011000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+72012000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+72015030;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+72021110;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+72021150;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+72021910;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+72021950;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+72023000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+72024100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+72024910;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+72024950;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+72025000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+72026000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+72028000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+72029100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+72029340;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+72029380;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+72042100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+72051000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+75011000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+75021000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+75022000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+75030000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+75040000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+79011100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+79011210;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+79011250;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+79012000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+79020000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+79039030;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+80011000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+80012000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+80020000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81011000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81019700;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81032000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81033000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81039100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81041100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81041900;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81042000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81043000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81049000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81052030;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81052060;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81052090;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81053000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81061000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81069000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81082000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81083000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81101000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81102000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81109000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81110047;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81110049;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81122100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81122200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81124110;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81124150;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81129207;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81129210;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81129230;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81129240;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81129260;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81129265;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81129910;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+81129991;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2A
+07123200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+07123420;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+07144010;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+07144020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+07144050;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+07144060;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+07149046;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+07149061;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+08011100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+08043020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+08043040;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+08043060;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+08044000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+08045040;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+08045060;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+08045080;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+08109046;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+08119050;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+08119052;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+08119080;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+08129040;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09011100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09011200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09012100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09012200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09019020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09021010;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09021090;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09022010;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09022090;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09023000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09024000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09041100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09041200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09042160;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09042273;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09042276;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09042280;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09051000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09062000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09072000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09093200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09096200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09101200;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09103000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09109100;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+09109960;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+11062090;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+11081400;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+11081900;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+14049090;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+18050000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+19030020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+19030040;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+19059010;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+19059090;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+20019045;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+20059160;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+20060040;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+20079940;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+20079950;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+20081915;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+20082000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+20089940;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+20089991;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+20093160;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+20093920;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+20094940;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+21011129;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+21011290;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+21012020;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+21069099;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+31042000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+31043000;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+31049001;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B
+33012951;twn_ieepa_deal;TWN;country_exception;2099-01-01;;Chinese Taipei Annex 2B

@@ -260,3 +260,4 @@ s232_floor_override_528,25,Greenland8_IEEPA_S232_10pct,7.5,Netherlands S232 floo
 s232_floor_override_752,25,Greenland8_IEEPA_S232_10pct,7.5,Sweden S232 floor 25% (Greenland G8),2026-02-01
 uk_ceiling_rate,20,Greenland8_IEEPA_S232_10pct,7.3,UK auto ceiling +10pp Greenland,2026-02-01
 uk_steel_alu_cap,35,Greenland8_IEEPA_S232_10pct,7.3,UK steel/alu cap +10pp Greenland,2026-02-01
+ieepa_topup_50,9,baseline,4.2,Bangladesh IEEPA top-up (reduced by deal),2099-01-01

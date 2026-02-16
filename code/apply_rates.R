@@ -159,12 +159,16 @@ slv_civil_aircraft_share <- get_share("slv_civil_aircraft_share")
 gtm_nonpatented_pharma_share <- get_share("gtm_nonpatented_pharma_share")
 gtm_civil_aircraft_share <- get_share("gtm_civil_aircraft_share")
 
-cat(sprintf("    Civil aircraft shares: Brazil=%.0f%%, Japan=%.0f%%, EU=%.0f%%, UK=%.0f%%, Korea=%.0f%%, Switzerland=%.0f%%, Chinese Taipei=%.0f%%, El Salvador=%.0f%%, Guatemala=%.0f%%\n",
+# BANGLADESH EXCEPTION PARAMETERS
+bgd_nonpatented_pharma_share <- get_share("bgd_nonpatented_pharma_share")
+bgd_civil_aircraft_share <- get_share("bgd_civil_aircraft_share")
+
+cat(sprintf("    Civil aircraft shares: Brazil=%.0f%%, Japan=%.0f%%, EU=%.0f%%, UK=%.0f%%, Korea=%.0f%%, Switzerland=%.0f%%, Chinese Taipei=%.0f%%, El Salvador=%.0f%%, Guatemala=%.0f%%, Bangladesh=%.0f%%\n",
             bra_civil_aircraft_share * 100, jpn_civil_aircraft_share * 100,
             eu_civil_aircraft_share * 100, uk_civil_aircraft_share * 100,
             kor_civil_aircraft_share * 100, che_civil_aircraft_share * 100,
             twn_civil_aircraft_share * 100, slv_civil_aircraft_share * 100,
-            gtm_civil_aircraft_share * 100))
+            gtm_civil_aircraft_share * 100, bgd_civil_aircraft_share * 100))
 cat(sprintf("    Korea parameters: floor=%.0f%%, auto_floor=%.0f%%, lumber_rate=%.0f%%\n",
             kor_ieepa_floor_rate, kor_s232_floor_rate, kor_lumber_derivative_rate))
 cat(sprintf("    Switzerland/Liechtenstein parameters: floor=%.0f%%, non-patented pharma=%.0f%%\n",
@@ -1980,6 +1984,69 @@ if (policy_date >= gtm_deal_effective_date) {
 }
 
 # -----------------------------------------------------------------------------
+# 7.12: Bangladesh (Type C - IEEPA Exceptions Only)
+# -----------------------------------------------------------------------------
+
+cat("\n  7.12 Bangladesh (IEEPA Exceptions)...\n")
+
+bgd_deal_effective_date <- as.Date("2099-01-01")
+
+if (policy_date >= bgd_deal_effective_date) {
+
+  # EXCEPTION 1: UNCONDITIONAL EXCEPTIONS (from exceptions.csv)
+  bgd_exception_codes <- get_exceptions("bgd_ieepa_deal", "country_exception",
+                                         policy_date, "BGD")
+  cat(sprintf("    Loading Bangladesh exceptions (%d codes)\n",
+              length(bgd_exception_codes)))
+
+  us_imports[un_code == bgd_un_code &
+             hs_8digit %in% bgd_exception_codes, `:=`(
+    ieepa_rate = 0,
+    bgd_exception = 1
+  )]
+
+  exception_value <- sum(us_imports[un_code == bgd_un_code & bgd_exception == 1]$us_imports_bn, na.rm = TRUE)
+  cat(sprintf("    Unconditional exceptions: $%.1f billion\n", exception_value))
+
+  # EXCEPTION 2: CIVIL AIRCRAFT (from deal-specific aircraft list)
+  bgd_aircraft_codes <- get_exceptions("bgd_ieepa_deal", "aircraft",
+                                        policy_date, "BGD")
+  us_imports[un_code == bgd_un_code & hs_8digit %in% bgd_aircraft_codes, `:=`(
+    bgd_aircraft = 1,
+    wto_aircraft = 1
+  )]
+
+  aircraft_value <- sum(us_imports[un_code == bgd_un_code & bgd_aircraft == 1]$us_imports_bn, na.rm = TRUE)
+  cat(sprintf("    Civil aircraft (%.0f%% share): $%.1f billion\n",
+              bgd_civil_aircraft_share * 100, aircraft_value))
+
+  # EXCEPTION 3: NON-PATENTED PHARMACEUTICALS (from deal-specific pharma list)
+  bgd_pharma_codes <- get_exceptions("bgd_ieepa_deal", "pharma",
+                                      policy_date, "BGD")
+  us_imports[un_code == bgd_un_code &
+             hs_8digit %in% bgd_pharma_codes, `:=`(
+    ieepa_rate = (1 - bgd_nonpatented_pharma_share) * ieepa_rate,
+    bgd_pharma = 1
+  )]
+
+  pharma_value <- sum(us_imports[un_code == bgd_un_code & bgd_pharma == 1]$us_imports_bn, na.rm = TRUE)
+  cat(sprintf("    Non-patented pharma (%.0f%% share): $%.1f billion\n",
+              bgd_nonpatented_pharma_share * 100, pharma_value))
+
+  # Summary statistics
+  bgd_total <- sum(us_imports[un_code == bgd_un_code]$us_imports_bn, na.rm = TRUE)
+  bgd_excepted <- sum(us_imports[un_code == bgd_un_code &
+                                  (bgd_exception == 1 | bgd_pharma == 1 |
+                                   rr_exception == 1 | ieepa_statute_exception == 1)]$us_imports_bn, na.rm = TRUE)
+  cat(sprintf("    Bangladesh total: $%.1f billion, Excepted: $%.1f billion (%.1f%%)\n",
+              bgd_total, bgd_excepted, 100 * bgd_excepted / bgd_total))
+
+} else {
+  cat(sprintf("    Bangladesh deal NOT active (effective %s, policy_date %s)\n",
+              bgd_deal_effective_date, policy_date))
+}
+
+# -----------------------------------------------------------------------------
 # 7.99: COUNTRY-SPECIFIC SURCHARGES (Across-the-Board Tariff Additions)
 # -----------------------------------------------------------------------------
 # Apply additional tariffs that stack on top of everything else (like S301)
@@ -2267,6 +2334,7 @@ us_imports[wto_aircraft == 1 & un_code == argentina_un_code, aircraft_share := a
 us_imports[wto_aircraft == 1 & un_code == twn_un_code, aircraft_share := twn_civil_aircraft_share]
 us_imports[wto_aircraft == 1 & un_code == slv_un_code, aircraft_share := slv_civil_aircraft_share]
 us_imports[wto_aircraft == 1 & un_code == gtm_un_code, aircraft_share := gtm_civil_aircraft_share]
+us_imports[wto_aircraft == 1 & un_code == bgd_un_code, aircraft_share := bgd_civil_aircraft_share]
 
 cat("  Step 7: Determined aircraft_share for each product (country-specific)\n")
 

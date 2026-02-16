@@ -15304,3 +15304,1636 @@ hs_8digit;rate_type;import_origin;exception_type;effective_date;end_date;source
 94049020;ieepa_baseline_rate;ALL;cafta_dr;2025-04-02;;CAFTA-DR Schedule
 94049081;ieepa_baseline_rate;ALL;cafta_dr;2025-04-02;;CAFTA-DR Schedule
 94049096;ieepa_baseline_rate;ALL;cafta_dr;2025-04-02;;CAFTA-DR Schedule
+06049030;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+12119089;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+12129400;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+14011000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+15153000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+15159081;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+21022060;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+25041010;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+25041050;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+25049000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+25111010;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+25111050;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+25191000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+25199010;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+25199020;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+25249000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+25292100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+25292200;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+25302010;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+25302020;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+25309010;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+25309020;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+25309080;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+26020000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+26040000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+26050000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+26060000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+26080000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+26090000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+26100000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+26110030;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+26110060;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+26122000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+26139000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+26140030;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+26140060;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+26159030;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+26159060;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+26161000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+26171000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+26209950;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28012000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28048000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28049000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28051910;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28051990;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28053000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28111100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28111910;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28112910;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28112920;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28139010;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28161000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28164010;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28164020;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28170000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28181010;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28181020;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28182000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28201000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28211000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28212000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28220000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28230000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28254000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28256000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28258000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28259015;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28259030;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28259090;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28261200;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28263000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28269090;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28273100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28273945;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28273960;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28275951;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28332400;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28332700;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28332910;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28332945;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28332951;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28342100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28342920;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28342951;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28366000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28369100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28369200;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28369910;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28369950;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28418000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28419020;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28461000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28469080;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28492010;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28492020;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+28499030;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+32061100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+32061900;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+36069030;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+40011000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+40012100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+40012200;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+40012900;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+40013000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44034100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44034200;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44034902;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44072100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44072200;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44072301;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44072500;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44072600;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44072700;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44072800;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44072902;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44083101;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44083902;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44092205;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44092210;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44092225;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44092240;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44092250;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44092260;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44092265;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44092290;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44123106;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44123126;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44123142;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44123145;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44123148;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44123152;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44123161;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44123192;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44124100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44125110;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44125131;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44125141;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44125151;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44129106;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44129110;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44129131;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44129141;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+44129151;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+45011000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+45019020;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+45019040;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+45020000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+45031020;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+45031030;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+45031040;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+45031060;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+45039020;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+45039040;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+45039060;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+45041010;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+45041020;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+45041030;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+45041040;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+45041045;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+45041047;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+45041050;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+45049000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+46012240;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+46012280;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+46012290;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+46012940;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+46019301;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+46019305;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+46019320;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+46021205;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+46021214;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+46021216;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+46021223;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+46021225;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+46021235;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+46021245;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+50040000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+50050000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+50060010;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+50060090;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+50071030;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+50071060;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+50072000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+50079030;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+71011030;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+71011060;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+71021000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+71023100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+71023900;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+71031020;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+71031040;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+71039100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+71039910;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+71039950;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+71101100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+71101900;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+71102100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+71102900;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+71103100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+71103900;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+71104100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+71104900;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+71129201;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+71189000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+72011000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+72012000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+72015030;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+72021110;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+72021150;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+72021910;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+72021950;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+72023000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+72024100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+72024910;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+72024950;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+72025000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+72026000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+72028000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+72029100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+72029340;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+72029380;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+72042100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+72051000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+75011000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+75021000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+75022000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+75030000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+75040000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+79011100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+79011210;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+79011250;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+79012000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+79020000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+79039030;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+80011000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+80012000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+80020000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81011000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81019700;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81032000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81033000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81039100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81041100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81041900;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81042000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81043000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81049000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81052030;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81052060;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81052090;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81053000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81061000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81069000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81082000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81083000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81101000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81102000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81109000;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81110047;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81110049;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81122100;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81122200;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81124110;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81124150;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81129207;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81129210;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81129230;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81129240;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81129260;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81129265;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81129910;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+81129991;bgd_ieepa_deal;BGD;country_exception;2099-01-01;;Bangladesh deal
+39172100;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+39172200;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+39172300;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+39172900;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+39173100;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+39173300;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+39173900;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+39174000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+39269045;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+39269094;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+39269096;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+39269099;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+40082920;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+40091200;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+40092200;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+40093200;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+40094200;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+40113000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+40121300;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+40122010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+40161000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+40169350;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+40169935;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+40169960;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+40170000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+48239010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+48239020;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+48239031;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+48239040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+48239050;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+48239060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+48239067;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+48239070;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+48239080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+48239086;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+68128090;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+68129910;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+68129920;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+68129990;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+68132000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+68138100;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+68138900;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+70072111;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73043130;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73043160;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73043900;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73044130;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73044160;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73044900;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73045110;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73045150;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73045910;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73045920;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73045960;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73045980;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73049010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73049030;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73049050;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73049070;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73063010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73063030;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73063050;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73064010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73064050;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73065010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73065030;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73065050;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73066110;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73066130;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73066150;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73066170;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73066910;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73066930;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73066950;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73066970;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73121005;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73121010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73121020;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73121030;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73121050;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73121060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73121070;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73121080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73121090;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73129000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73229000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73241000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73249000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+73262000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+74130090;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+76081000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+76082000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+81089060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+83021060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+83021090;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+83022000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+83024230;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+83024260;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+83024940;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+83024960;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+83024980;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+83026030;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+83071030;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+83079030;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84071000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84089090;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84091000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84111140;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84111180;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84111240;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84111280;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84112140;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84112180;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84112240;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84112280;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84118140;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84118240;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84119110;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84119190;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84119910;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84119990;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84121000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84122100;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84122940;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84122980;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84123100;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84123900;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84128010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84128090;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84129090;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84131900;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84132000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84133010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84133090;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84135000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84136000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84137010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84137020;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84138100;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84139110;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84139120;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84139190;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84141000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84142000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84143040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84143080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84145130;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84145190;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84145930;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84145965;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84148005;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84148016;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84148020;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84148090;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84149010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84149030;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84149041;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84149091;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84151060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84151090;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84158101;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84158201;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84158300;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84159040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84159080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84181000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84183000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84184000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84186101;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84186901;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84195010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84195050;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84198150;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84198190;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84199010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84199020;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84199030;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84199050;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84199085;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84211900;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84212100;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84212300;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84212900;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84213100;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84213200;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84213901;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84241000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84251100;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84251900;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84253101;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84253901;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84254200;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84254900;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84269900;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84281000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84282000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84283300;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84283900;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84289003;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84433100;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84433210;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84433250;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84714101;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84714900;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84715001;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84716010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84716020;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84716070;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84716080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84716090;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84717010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84717020;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84717030;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84717040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84717050;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84717060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84717090;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84798910;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84798920;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84798965;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84798970;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84798995;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84799041;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84799045;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84799055;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84799065;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84799075;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84799085;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84799095;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84831010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84831030;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84831050;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84833040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84833080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84834010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84834030;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84834050;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84834070;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84834080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84834090;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84835040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84835060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84835090;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84836040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84836080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84839010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84839020;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84839030;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84839050;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84839080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84841000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+84849000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85012050;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85012060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85013150;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85013160;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85013181;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85013220;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85013255;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85013261;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85013320;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85013330;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85013361;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85013461;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85014050;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85014060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85015150;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85015160;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85015240;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85015280;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85015340;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85015360;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85016101;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85016201;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85016301;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85017100;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85017210;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85017220;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85017230;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85017290;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85018010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85018020;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85018030;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85021100;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85021200;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85021300;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85022000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85023100;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85023900;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85024000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85041000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85043120;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85043140;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85043160;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85043200;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85043300;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85044040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85044060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85044070;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85044085;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85044095;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85045040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85045080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85071000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85072080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85073080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85075000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85076000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85078082;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85079040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85079080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85111000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85112000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85113000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85114000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85115000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85118020;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85118040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85118060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85142040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85168040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85168080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85171300;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85171400;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85176100;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85176200;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85176900;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85177100;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85181040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85181080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85182100;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85182200;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85182940;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85182980;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85183010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85183020;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85184010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85184020;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85185000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85198110;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85198120;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85198125;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85198130;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85198141;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85198910;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85198920;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85198930;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85211030;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85211060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85211090;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85229025;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85229036;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85229045;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85229058;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85229065;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85229080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85261000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85269100;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85269210;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85269250;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85284200;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85285200;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85286200;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85291021;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85291040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85291091;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299004;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299005;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299006;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299009;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299013;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299016;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299019;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299021;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299024;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299029;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299033;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299036;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299039;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299043;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299046;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299049;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299055;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299063;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299068;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299073;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299077;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299078;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299081;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299083;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299087;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299088;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299089;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299093;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299095;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299097;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85299098;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85311000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85312000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85318015;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85318090;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85367000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85391000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85395100;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85437042;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85437045;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85437060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85437080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85437091;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85437095;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85439012;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85439015;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85439035;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85439065;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85439068;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85439085;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85439088;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+85443000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+88010000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+88021101;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+88021201;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+88022001;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+88023001;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+88024001;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+88052900;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+88071000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+88072000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+88073000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+88079090;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90019040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90019050;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90019060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90019080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90019090;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90029020;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90029040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90029070;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90029085;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90029095;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90141010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90141060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90141070;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90141090;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90142020;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90142040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90142060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90142080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90149010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90149020;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90149040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90149060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90200040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90200060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90251120;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90251140;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90251940;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90251980;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90258010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90258015;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90258020;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90258035;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90258040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90258050;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90259006;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90261020;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90261040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90261060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90262040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90262080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90268020;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90268040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90268060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90269020;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90269040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90269060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90291080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90292040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90299080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90301000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90302005;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90302010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90303100;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90303200;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90303334;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90303338;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90303901;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90304000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90308400;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90308901;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90309025;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90309046;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90309066;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90309068;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90309084;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90309089;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90318040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90318080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90319021;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90319045;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90319054;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90319059;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90319070;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90319091;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90321000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90322000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90328100;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90328920;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90328940;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90328960;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90329021;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90329041;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90329061;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+90330090;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+91040005;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+91040010;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+91040020;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+91040025;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+91040030;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+91040040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+91040045;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+91040050;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+91040060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+91091050;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+91091060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+91099020;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+94011040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+94011080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+94032000;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+94037040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+94037080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+94051140;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+94051160;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+94051180;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+94051940;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+94051960;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+94051980;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+94056120;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+94056140;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+94056160;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+94056920;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+94056940;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+94056960;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+94059200;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+94059920;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+94059940;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+96200050;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+96200060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+98020040;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+98020050;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+98020060;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+98020080;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+98180005;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+98180007;bgd_ieepa_deal;BGD;aircraft;2099-01-01;;Bangladesh deal aircraft
+28041000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28042900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28043000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28045000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28051920;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28061000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28070000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28092000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28111200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28112250;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28121200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28121900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28141000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28142000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28151100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28151200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28152000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28153000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28251000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28252000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28273965;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28273990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28276020;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28276051;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28321000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28323010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28331150;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28331900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28332100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28332200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28341010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28352200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28352400;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28362000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28363000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28364020;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28372051;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28419040;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28421000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28429090;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28432901;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28433000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28439000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28444100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28444200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28444300;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28444400;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28452000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28453000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28459001;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28469020;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28469040;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28470000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28500050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28531000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28539010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28539050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+28539090;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29011040;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29021900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29029030;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29031200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29031300;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29032200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29034110;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29034210;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29034310;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29034410;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29034510;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29034610;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29034710;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29034800;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29034900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29035110;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29035910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29035990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29036910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29036990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29037101;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29037700;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29037800;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29037990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29038100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29038915;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29038920;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29038970;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29039200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29039300;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29039400;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29039920;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29039980;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29041032;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29041050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29042010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29042015;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29042020;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29042030;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29042035;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29042040;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29042045;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29042050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29049904;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29049908;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29049915;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29049920;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29049930;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29049935;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29049940;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29049947;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29049950;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29051120;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29051200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29051300;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29051910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29051990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29052210;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29052220;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29052250;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29052990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29053100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29053200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29053990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29054920;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29054950;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29055100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29055910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29055990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29061100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29061950;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29062960;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29071100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29071910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29071920;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29071940;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29071980;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29072990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29081910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29081935;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29081960;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29089912;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29089915;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29089925;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29091100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29091918;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29091960;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29092000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29093040;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29093060;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29094905;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29094910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29094915;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29094920;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29094960;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29095020;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29095040;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29095045;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29095050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29101000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29103000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29104000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29105000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29109010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29109020;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29109091;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29110010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29110050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29121950;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29122960;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29124926;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29126000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29141110;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29141900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29142930;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29142950;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29143990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29144040;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29144090;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29145010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29145030;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29145050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29146200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29146921;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29146990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29147100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29147910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29147940;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29147960;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29147990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29152100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29152400;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29152930;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29152950;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29153200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29153600;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29153910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29153931;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29153935;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29153940;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29153945;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29153947;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29153970;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29153990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29154010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29154020;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29154030;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29154050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29155020;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29159010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29159014;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29159018;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29159020;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29159050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29161600;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29161930;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29161950;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29162050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29163130;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29163150;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29163915;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29163917;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29163946;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29163979;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29171300;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29171910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29171915;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29171917;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29171920;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29171923;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29171927;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29171930;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29171935;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29171940;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29171970;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29172000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29173401;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29173700;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29173930;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29181151;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29181200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29181350;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29181400;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29181650;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29181800;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29181915;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29181920;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29181931;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29181960;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29181990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29182110;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29182210;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29182250;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29182310;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29182330;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29182350;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29182920;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29182922;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29182965;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29182975;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29183010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29183015;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29183025;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29183030;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29183070;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29183090;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29189905;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29189930;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29189943;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29189947;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29189950;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29191000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29199030;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29199050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29201940;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29201950;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29202100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29202200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29202300;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29202400;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29202900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29203000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29209020;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29209051;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29211100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29211400;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29211911;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29211961;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29212900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29213010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29213030;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29213050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29214110;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29214120;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29214265;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29214290;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29214340;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29214560;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29214590;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29214600;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29214938;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29214943;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29214945;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29214950;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29215940;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29215980;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29221100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29221200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29221400;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29221500;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29221600;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29221700;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29221800;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29221909;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29221920;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29221933;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29221960;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29221970;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29221990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29221996;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29222110;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29222125;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29222140;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29222150;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29222903;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29222906;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29222908;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29222910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29222913;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29222915;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29222920;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29222926;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29222927;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29222929;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29222961;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29222981;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29223100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29223905;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29223910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29223914;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29223917;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29223925;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29223945;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29223950;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29224100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29224210;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29224250;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29224310;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29224350;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29224400;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29224905;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29224910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29224926;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29224930;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29224937;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29224943;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29224949;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29224960;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29224980;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29225007;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29225010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29225011;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29225013;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29225014;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29225017;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29225019;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29225025;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29225035;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29225040;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29225050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29231000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29232010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29232020;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29233000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29234000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29239001;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29241100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29241200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29241911;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29241980;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242116;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242120;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242145;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242150;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242370;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242375;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242400;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242500;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242901;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242903;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242905;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242923;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242926;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242928;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242933;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242957;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242962;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242965;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242971;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242977;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242980;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29242995;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29251200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29251942;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29251991;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29252100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29252910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29252918;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29252920;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29252960;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29252970;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29252990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29263010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29264000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29269014;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29269043;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29269048;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29269050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29270040;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29270050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29280010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29280015;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29280025;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29280030;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29280050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29299005;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29299015;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29299020;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29299050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29301001;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29302020;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29302090;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29303060;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29304000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29306000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29307000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29309029;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29309049;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29309092;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29314100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29314200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29314300;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29314400;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29314500;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29314600;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29314700;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29314800;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29314900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29315100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29315200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29315300;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29315400;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29315900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29319022;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29319030;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29319060;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29319090;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29321100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29321400;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29321910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29321951;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29322005;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29322020;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29322025;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29322030;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29322045;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29322050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29329500;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29329904;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29329908;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29329921;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29329932;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29329935;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29329939;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29329955;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29329961;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29329970;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29329990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29331100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29331908;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29331935;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29331937;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29331943;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29331945;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29331990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29332100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29332905;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29332910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29332920;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29332935;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29332943;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29332945;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29332960;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29332990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29333100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29333301;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29333400;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29333500;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29333600;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29333700;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29333908;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29333910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29333920;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29333921;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29333923;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29333925;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29333927;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29333931;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29333941;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29333961;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29333992;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29334100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29334920;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29334926;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29334960;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29334970;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29335300;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29335400;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29335500;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29335910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29335915;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29335918;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29335921;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29335922;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29335936;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29335946;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29335953;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29335959;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29335970;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29335980;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29335985;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29335995;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29336950;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29336960;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29337200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29337904;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29337908;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29337915;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29337920;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29337930;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29337940;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29337985;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339901;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339902;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339905;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339906;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339908;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339911;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339912;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339914;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339916;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339917;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339922;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339924;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339926;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339942;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339946;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339951;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339953;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339955;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339958;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339961;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339965;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339970;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339975;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339979;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339982;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339985;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339989;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29339997;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29341010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29341020;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29341070;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29341090;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29342040;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29342080;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29343018;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29343023;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29343027;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29343043;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29343050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29349100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29349200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29349901;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29349903;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29349905;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29349906;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29349907;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29349908;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29349909;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29349911;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29349912;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29349915;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29349916;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29349918;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29349920;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29349930;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29349939;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29349944;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29349947;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29349970;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29349990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29359006;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29359029;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29359030;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29359032;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29359033;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29359042;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29359048;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29359060;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29359075;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29359095;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29362100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29362200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29362300;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29362401;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29362500;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29362600;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29362700;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29362800;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29362910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29362916;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29362920;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29362950;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29369001;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29371100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29371200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29371900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29372100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29372200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29372310;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29372325;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29372350;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29372910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29372990;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29375000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29379005;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29379010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29379020;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29379040;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29379045;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29379090;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29381000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29389000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29391100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29391910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29391920;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29391950;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29392000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29393000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29394100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29394200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29394300;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29394400;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29394500;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29394903;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29395100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29395900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29396100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29396200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29396300;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29396900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29397200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29397900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29398000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29400060;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29411010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29411020;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29411030;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29411050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29412050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29413000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29414000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29415000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29419010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29419030;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29419050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29420003;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29420005;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29420010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29420035;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+29420050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30012000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30019001;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30021200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30021300;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30021400;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30021500;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30024100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30024200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30024900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30025100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30025900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30029010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30029052;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30031000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30032000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30033100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30033910;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30033950;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30034100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30034200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30034300;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30034900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30036000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30039001;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30041010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30041050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30042000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30043100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30043200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30043900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30044100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30044200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30044300;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30044900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30045010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30045020;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30045030;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30045040;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30045050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30046000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30049010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30049092;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30063010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30063050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30066000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30067000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30069200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30069310;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30069320;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30069350;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30069360;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+30069380;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+32030080;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+32041360;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+32041380;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+32041800;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+32049000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+34013010;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+34024210;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+34024220;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+34024290;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+34025011;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+35079070;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38021000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38085940;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38085950;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38086150;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38089410;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38089450;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38123100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38151100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38151200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38159050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38248100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38248210;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38248290;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38248300;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38248400;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38248500;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38248600;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38248700;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38248800;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38248900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38249100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38249200;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38249925;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38249929;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38249949;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38249950;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38249955;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38260030;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38271300;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38271400;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+38274000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39019090;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39029000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39046100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39059110;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39059150;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39059980;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39069050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39071000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39072100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39077000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39081000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39089020;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39091000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39094000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39112000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39119025;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39119045;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39119091;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39122000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39123100;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39123900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39129000;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39139020;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39139050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39140020;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+39140060;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+75089050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+79070060;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+80070050;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma
+81125900;bgd_ieepa_deal;BGD;pharma;2099-01-01;;Bangladesh deal pharma

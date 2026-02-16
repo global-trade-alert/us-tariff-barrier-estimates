@@ -308,6 +308,7 @@ argentina_un_code <- get_country("ARG")
 twn_un_code <- get_country("TWN")
 slv_un_code <- get_country("SLV")
 gtm_un_code <- get_country("GTM")
+bgd_un_code <- get_country("BGD")
 
 usmca_partners <- get_country_group("usmca")
 china_hkg_codes <- get_country_group("china_pair")
@@ -364,6 +365,7 @@ us_imports[, `:=`(
   twn_floor = 0, twn_aircraft = 0, twn_exception = 0, twn_pharma = 0,
   slv_exception = 0, slv_pharma = 0, slv_aircraft = 0, slv_cafta = 0,
   gtm_exception = 0, gtm_pharma = 0, gtm_aircraft = 0, gtm_cafta = 0,
+  bgd_exception = 0, bgd_pharma = 0, bgd_aircraft = 0,
   wto_aircraft = 0, chn_opioid = 0, sec301_tariff = 0,
   can_northern_border = 0, can_northern_border_energy = 0, mex_emergency = 0
 )]

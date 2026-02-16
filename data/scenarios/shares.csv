@@ -59,3 +59,7 @@ slv_civil_aircraft_share,1.0,s232_100pct,0.5,El Salvador aircraft for civil use 
 slv_nonpatented_pharma_share,1.0,s232_100pct,0.5,El Salvador non-patented pharma share (full exemption per deal)
 gtm_civil_aircraft_share,1.0,s232_100pct,0.5,Guatemala aircraft for civil use share (full exemption per deal)
 gtm_nonpatented_pharma_share,1.0,s232_100pct,0.5,Guatemala non-patented pharma share (full exemption per deal)
+bgd_civil_aircraft_share,1.0,baseline,0.5,Bangladesh aircraft for civil use share (full exemption per deal)
+bgd_nonpatented_pharma_share,1.0,baseline,0.5,Bangladesh non-patented pharma share (full exemption per deal)
+bgd_civil_aircraft_share,1.0,s232_100pct,0.5,Bangladesh aircraft for civil use share (full exemption per deal)
+bgd_nonpatented_pharma_share,1.0,s232_100pct,0.5,Bangladesh non-patented pharma share (full exemption per deal)

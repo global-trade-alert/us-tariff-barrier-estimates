@@ -1683,6 +1683,12 @@ pharma_hs_codes <- get_exceptions("ieepa_baseline_rate", "pharma", policy_date)
 cat(sprintf("  Loaded unified pharma exceptions list: %d products\n",
             length(pharma_hs_codes)))
 
+# Load unified CAFTA-DR schedule (used by El Salvador, Guatemala) - from exceptions.csv
+cafta_dr_codes <- get_exceptions("ieepa_baseline_rate", "cafta_dr", policy_date)
+
+cat(sprintf("  Loaded unified CAFTA-DR schedule: %d products\n",
+            length(cafta_dr_codes)))
+
 # -----------------------------------------------------------------------------
 # 7.0: S232 STEEL COUNTRY EXEMPTIONS (Pre-March 12, 2025)
 # -----------------------------------------------------------------------------
@@ -2511,13 +2517,12 @@ if (policy_date >= slv_deal_effective_date) {
   # EXCEPTION 4: CAFTA-DR DUTY EXEMPTION (Annex 2)
   # Products under CAFTA-DR receive full duty exemption (compliance = 1).
   # IEEPA zeroed here; HTS zeroed in Section 8 Step 1c.
-  slv_cafta_codes <- get_exceptions("slv_cafta_deal", "country_exception",
-                                     policy_date, "SLV")
-  cat(sprintf("    Loading CAFTA-DR product list (%d codes)\n",
-              length(slv_cafta_codes)))
+  # Uses unified cafta_dr_codes loaded alongside pharma/aircraft.
+  cat(sprintf("    Applying CAFTA-DR product list (%d codes)\n",
+              length(cafta_dr_codes)))
 
   us_imports[un_code == slv_un_code &
-             hs_8digit %in% slv_cafta_codes, `:=`(
+             hs_8digit %in% cafta_dr_codes, `:=`(
     ieepa_rate = 0,
     slv_cafta = 1
   )]
@@ -2587,13 +2592,12 @@ if (policy_date >= gtm_deal_effective_date) {
   # EXCEPTION 4: CAFTA-DR DUTY EXEMPTION (Annex 2)
   # Products under CAFTA-DR receive full duty exemption (compliance = 1).
   # IEEPA zeroed here; HTS zeroed in Section 8 Step 1c.
-  gtm_cafta_codes <- get_exceptions("gtm_cafta_deal", "country_exception",
-                                     policy_date, "GTM")
-  cat(sprintf("    Loading CAFTA-DR product list (%d codes)\n",
-              length(gtm_cafta_codes)))
+  # Uses unified cafta_dr_codes loaded alongside pharma/aircraft.
+  cat(sprintf("    Applying CAFTA-DR product list (%d codes)\n",
+              length(cafta_dr_codes)))
 
   us_imports[un_code == gtm_un_code &
-             hs_8digit %in% gtm_cafta_codes, `:=`(
+             hs_8digit %in% cafta_dr_codes, `:=`(
     ieepa_rate = 0,
     gtm_cafta = 1
   )]

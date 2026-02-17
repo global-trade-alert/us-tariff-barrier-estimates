@@ -113,6 +113,9 @@ country_is_affected <- function(affected_str, iso3) {
   if (is.na(affected_str) || affected_str == "") return(FALSE)
   if (affected_str == "ALL") return(TRUE)
 
+  # Treat EU27 bloc code as an EU member for matching purposes
+  is_eu_bloc <- iso3 %in% c("EU27", "EU")
+
   # Handle ALL_EXCEPT:XXX:YYY
   if (startsWith(affected_str, "ALL_EXCEPT:")) {
     excluded <- unlist(strsplit(sub("^ALL_EXCEPT:", "", affected_str), ":"))
@@ -122,7 +125,7 @@ country_is_affected <- function(affected_str, iso3) {
   # Handle EU_MEMBERS
   if (affected_str == "EU_MEMBERS" || grepl("EU_MEMBERS", affected_str)) {
     parts <- unlist(strsplit(affected_str, ":"))
-    if ("EU_MEMBERS" %in% parts && iso3 %in% eu_iso3) return(TRUE)
+    if ("EU_MEMBERS" %in% parts && (iso3 %in% eu_iso3 || is_eu_bloc)) return(TRUE)
     if (iso3 %in% parts) return(TRUE)
     return(FALSE)
   }
@@ -130,7 +133,7 @@ country_is_affected <- function(affected_str, iso3) {
   # Explicit list: GBR:JPN:EU_MEMBERS or CHN:HKG
   parts <- unlist(strsplit(affected_str, ":"))
   if (iso3 %in% parts) return(TRUE)
-  if ("EU_MEMBERS" %in% parts && iso3 %in% eu_iso3) return(TRUE)
+  if ("EU_MEMBERS" %in% parts && (iso3 %in% eu_iso3 || is_eu_bloc)) return(TRUE)
 
   return(FALSE)
 }
@@ -326,7 +329,7 @@ compose_narrative <- function(events_dt, deltas, total_delta, iso3, date, is_fir
   # Add total avg_rate summary when component deltas differ from total
   # (due to tariff stacking, precedence rules, or offsetting movements)
   if (abs(total_delta) >= 0.005) {
-    sum_comp_deltas <- sum(sapply(comp_groups, function(g) g$delta))
+    sum_comp_deltas <- if (length(comp_groups) > 0) sum(vapply(comp_groups, function(g) g$delta, numeric(1))) else 0
     if (abs(sum_comp_deltas - total_delta) > 0.05) {
       parts <- c(parts, sprintf("Net effect on avg_rate: %s (component interactions and stacking rules apply).",
                                  fmt_delta(total_delta)))

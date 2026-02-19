@@ -27,6 +27,7 @@ can_emergency_general_rate,25,baseline,5.2,Canada non-energy general,2025-03-04
 can_emergency_general_rate,35,baseline,5.2,Canada non-energy general,2025-08-01
 mex_emergency_rate,25,baseline,5.3,Mexico emergency rate,2025-03-04
 india_russia_topup,25,baseline,7.1,India/Russia additional top-up,2025-08-27
+india_russia_topup,0,baseline,7.1,India/Russia additional top-up,2026-02-07
 bra_topup,40,baseline,7.2,Brazil additional top-up,2025-08-06
 uk_ceiling_rate,10,baseline,7.3,UK auto/PV parts ceiling,2025-06-30
 uk_steel_alu_cap,25,baseline,7.3,UK steel/aluminum cap (within quota),2025-06-30
@@ -261,3 +262,17 @@ s232_floor_override_752,25,Greenland8_IEEPA_S232_10pct,7.5,Sweden S232 floor 25%
 uk_ceiling_rate,20,Greenland8_IEEPA_S232_10pct,7.3,UK auto ceiling +10pp Greenland,2026-02-01
 uk_steel_alu_cap,35,Greenland8_IEEPA_S232_10pct,7.3,UK steel/alu cap +10pp Greenland,2026-02-01
 ieepa_topup_50,9,baseline,4.2,Bangladesh IEEPA top-up (reduced by deal),2099-01-01
+s232_auto_rate,0,no_s232,3.1,Automobiles S232 disabled,2025-01-01
+s232_mhdv_main_rate,0,no_s232,3.2,MHDV S232 disabled,2025-01-01
+s232_mhdv_bus_rate,0,no_s232,3.2,MHDV buses S232 disabled,2025-01-01
+s232_mhdv_parts_rate,0,no_s232,3.2,MHDV parts S232 disabled,2025-01-01
+s232_pv_parts_rate,0,no_s232,3.3,PV/light truck parts S232 disabled,2025-01-01
+s232_steel_rate,0,no_s232,3.4,Steel S232 disabled,2025-01-01
+s232_alu_rate,0,no_s232,3.5,Aluminum S232 disabled,2025-01-01
+s232_copper_rate,0,no_s232,3.6,Copper S232 disabled,2025-01-01
+s232_lumber_rate,0,no_s232,3.7,Lumber S232 disabled,2025-01-01
+s232_lumber_cabinet_rate,0,no_s232,3.7,Lumber cabinet S232 disabled,2025-01-01
+s232_lumber_upholstered_rate,0,no_s232,3.7,Lumber upholstered S232 disabled,2025-01-01
+jpn_s232_floor_rate,0,no_s232,7.4,Japan S232 floor disabled,2025-01-01
+eu_s232_floor_rate,0,no_s232,7.5,EU S232 floor disabled,2025-01-01
+kor_s232_floor_rate,0,no_s232,7.6,Korea S232 floor disabled,2025-01-01

@@ -212,12 +212,16 @@ compose_narrative <- function(events_dt, deltas, total_delta, iso3, date, is_fir
                    fmt_delta(total_delta)))
   }
 
+  # Events to suppress from narratives (kept in registry for documentation)
+  suppress_ids <- c("ieepa_aircraft_exception", "ieepa_pharma_exception")
+
   # Separate events into relevant (affects this country) vs irrelevant
   relevant_events <- list()
   irrelevant_events <- list()
 
   for (evt_i in seq_len(nrow(events_dt))) {
     evt <- events_dt[evt_i]
+    if (evt$event_id %in% suppress_ids) next
     if (country_is_affected(evt$affected_countries, iso3)) {
       relevant_events <- c(relevant_events, list(evt))
     } else {

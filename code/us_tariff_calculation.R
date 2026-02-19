@@ -91,6 +91,22 @@ if (!exists("EXCLUDE_S301_TARIFFS") || is.null(EXCLUDE_S301_TARIFFS)) {
 }
 cat(sprintf("Section 301 tariffs: %s\n", ifelse(EXCLUDE_S301_TARIFFS, "EXCLUDED", "included")))
 
+# Option: Fill gaps for a specific jurisdiction with synthetic zero-trade rows
+# When set to a UN country code (e.g., 276 for Germany), generates synthetic rows
+# for all HTS8 codes in the MFN schedule that have no trade data for that jurisdiction.
+# This allows the pipeline to calculate exact applied rates for non-traded products.
+if (!exists("FILL_GAPS_FOR") || is.null(FILL_GAPS_FOR) || FILL_GAPS_FOR == "") {
+  env_fill_gaps <- Sys.getenv("FILL_GAPS_FOR", unset = "")
+  if (env_fill_gaps != "") {
+    FILL_GAPS_FOR <- as.integer(env_fill_gaps)
+  } else {
+    FILL_GAPS_FOR <- NULL
+  }
+}
+if (!is.null(FILL_GAPS_FOR)) {
+  cat(sprintf("Fill gaps for jurisdiction: UN %d\n", FILL_GAPS_FOR))
+}
+
 # Get scenarios directory - expects to run from project root
 # (This script is run from project root, not code/ directory)
 scenarios_dir <- "data/scenarios"
@@ -556,6 +572,53 @@ us_imports <- merge(us_imports,
                    by = "un_code",
                    all.x = TRUE)
 cat(sprintf("    Merged 3-letter ISO codes from GTA jurisdiction list\n"))
+
+# --- Optional: Inject synthetic zero-trade rows for gap HTS8 codes ---
+# When FILL_GAPS_FOR is set, this creates rows for every MFN schedule HTS8
+# that has no trade data for the target jurisdiction. The pipeline then
+# calculates exact applied rates instead of requiring downstream estimation.
+if (!is.null(FILL_GAPS_FOR)) {
+  cat("    Injecting synthetic zero-trade rows for gap HTS8 codes...\n")
+
+  # All HTS8 codes in the MFN schedule
+  mfn_hts8 <- unique(MFN_RATES_DB[source_key == "hts_schedule", hs_8digit])
+
+  # HTS8 codes already present for this jurisdiction
+  existing_hts8 <- unique(us_imports[un_code == FILL_GAPS_FOR, hs_8digit])
+
+  # Gap = MFN schedule minus existing
+  gap_hts8 <- setdiff(mfn_hts8, existing_hts8)
+
+  if (length(gap_hts8) > 0) {
+    # Look up jurisdiction details
+    fill_jurisdiction <- gta_jurisdictions[un_code == FILL_GAPS_FOR]
+    fill_exporter <- if (nrow(fill_jurisdiction) > 0) fill_jurisdiction$jurisdiction_name[1] else paste("UN", FILL_GAPS_FOR)
+    fill_iso_code <- if (nrow(fill_jurisdiction) > 0) fill_jurisdiction$iso_code[1] else NA_character_
+
+    synthetic <- data.table(
+      data_type = "Synthetic Gap Fill",
+      exporter = fill_exporter,
+      iso2 = NA_character_,
+      un_code = FILL_GAPS_FOR,
+      hs_8digit = gap_hts8,
+      hs_8digit_name = NA_character_,
+      us_imports = 0,
+      us_imports_bn = 0,
+      iso_code = fill_iso_code
+    )
+
+    us_imports <- rbindlist(list(us_imports, synthetic), fill = TRUE)
+
+    cat(sprintf("    Injected %s synthetic zero-trade rows for %s (UN %d)\n",
+                format(length(gap_hts8), big.mark = ","), fill_exporter, FILL_GAPS_FOR))
+    cat(sprintf("    MFN schedule HTS8: %s, existing: %s, gap: %s\n",
+                format(length(mfn_hts8), big.mark = ","),
+                format(length(existing_hts8), big.mark = ","),
+                format(length(gap_hts8), big.mark = ",")))
+  } else {
+    cat("    No gap HTS8 codes to inject (full coverage already exists)\n")
+  }
+}
 
 # Load product-level USMCA compliance rates
 cat("    Loading product-level USMCA compliance rates...\n")

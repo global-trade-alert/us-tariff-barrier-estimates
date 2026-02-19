@@ -461,6 +461,25 @@ if (!is.null(origin_filter)) {
               paste(origin_filter, collapse = ", "), nrow(timeline)))
 }
 
+# Prune dates with no rate change for any country in the set
+# A date is kept if avg_rate changes by >= 0.001pp for at least one country
+dates_before <- length(unique(timeline$policy_date))
+setorder(timeline, iso3, policy_date)
+timeline[, prev_rate := shift(avg_rate, 1, type = "lag"), by = iso3]
+timeline[, rate_changed := is.na(prev_rate) | abs(avg_rate - prev_rate) >= 0.001]
+dates_with_bite <- timeline[rate_changed == TRUE, unique(policy_date)]
+pruned <- timeline[policy_date %in% dates_with_bite]
+pruned[, c("prev_rate", "rate_changed") := NULL]
+timeline[, c("prev_rate", "rate_changed") := NULL]
+dates_after <- length(dates_with_bite)
+cat(sprintf("  Pruned unchanged dates: %d → %d dates (%d removed)\n",
+            dates_before, dates_after, dates_before - dates_after))
+if (dates_before > dates_after) {
+  removed_dates <- setdiff(unique(timeline$policy_date), dates_with_bite)
+  cat(sprintf("    Removed: %s\n", paste(sort(removed_dates), collapse = ", ")))
+}
+timeline <- pruned
+
 # Create output directory
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 

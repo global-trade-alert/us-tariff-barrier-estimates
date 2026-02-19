@@ -323,6 +323,14 @@ us_imports_2025_file <- "data/us_imports_2025.csv"
 if (file.exists(us_imports_2025_file)) {
   us_imports_2025 <- fread(us_imports_2025_file, sep = ";")
   us_imports <- rbindlist(list(us_imports, us_imports_2025), fill = TRUE)
+
+  # Deduplicate: drop zero-trade 2025 placeholders that duplicate 2024 rows
+  dup_keys <- us_imports[, .N, by = .(exporter, hs_8digit)][N > 1]
+  if (nrow(dup_keys) > 0) {
+    is_dup <- us_imports[dup_keys, on = .(exporter, hs_8digit), nomatch = 0L, which = TRUE]
+    is_dup_zero <- intersect(is_dup, which(us_imports$us_imports == 0))
+    if (length(is_dup_zero) > 0) us_imports <- us_imports[-is_dup_zero]
+  }
 }
 
 us_imports[, us_imports_bn := us_imports / 1e9]

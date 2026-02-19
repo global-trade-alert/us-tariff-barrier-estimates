@@ -551,6 +551,24 @@ if (file.exists(us_imports_2025_file)) {
   cat(sprintf("    Loaded %s rows of 2025 new combinations (zero-value placeholders)\n", 
               format(nrow(us_imports_2025), big.mark = ",")))
   us_imports <- rbindlist(list(us_imports, us_imports_2025), fill = TRUE)
+
+  # Deduplicate: 15 small countries have broken un_code/iso2 in the 2024 USITC file
+  # (un_code=NA, iso2=#N/A) but valid codes in the 2025 placeholders. When both files
+  # contain the same exporter × hs8, keep the 2024 row (has real trade data) and drop
+  # the zero-trade 2025 placeholder.
+  n_before <- nrow(us_imports)
+  dup_keys <- us_imports[, .N, by = .(exporter, hs_8digit)][N > 1]
+  if (nrow(dup_keys) > 0) {
+    is_dup <- us_imports[dup_keys, on = .(exporter, hs_8digit), nomatch = 0L,
+                          which = TRUE]
+    is_dup_zero <- intersect(is_dup, which(us_imports$us_imports == 0))
+    if (length(is_dup_zero) > 0) {
+      us_imports <- us_imports[-is_dup_zero]
+    }
+    cat(sprintf("    Deduplicated: removed %d zero-trade rows duplicating 2024 data\n",
+                length(is_dup_zero)))
+  }
+
   cat(sprintf("    Combined total: %s rows\n", format(nrow(us_imports), big.mark = ",")))
 } else {
   cat("    Note: No 2025 combinations file found (data/us_imports_2025.csv)\n")

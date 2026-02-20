@@ -10,10 +10,10 @@
 if (Sys.getenv("POLICY_DATE") != "") {
   POLICY_DATE <- as.Date(Sys.getenv("POLICY_DATE"))
 } else {
-  POLICY_DATE <- as.Date("2026-01-20")  # Policy effective date (default)
+  POLICY_DATE <- as.Date("2026-02-20")  # Policy effective date (default)
 }
 
-UPDATE_DATE <- as.Date("2026-01-20")   # Processing/update date
+UPDATE_DATE <- as.Date("2026-02-20")   # Processing/update date
 
 # Set locale to English for consistent date formatting
 Sys.setlocale("LC_TIME", "C")

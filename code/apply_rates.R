@@ -716,6 +716,17 @@ cat("  4.1 Adding IEEPA baseline rate (10% universal)...\n")
 
 # IEEPA Baseline Rate Parameter (loaded from rates.csv - scenario-aware)
 ieepa_baseline_rate <- get_rate("ieepa_baseline_rate")  # Universal IEEPA baseline rate
+
+# Section 122 override: if s122_baseline_rate is defined and > 0, it replaces IEEPA
+s122_baseline_rate <- tryCatch(get_rate("s122_baseline_rate"), error = function(e) 0)
+if (s122_baseline_rate > 0) {
+  cat(sprintf("  [S122 MODE] Using Section 122 rate: %.0f%%\n", s122_baseline_rate))
+  ieepa_baseline_rate <- s122_baseline_rate  # Override IEEPA baseline with S122
+  s122_mode <- TRUE
+} else {
+  s122_mode <- FALSE
+}
+
 if (ieepa_baseline_rate != 10) {
   cat(sprintf("  [SCENARIO] IEEPA baseline set to %.0f%%\n", ieepa_baseline_rate))
 }
@@ -815,10 +826,12 @@ cat("\n  4.4 Applying Annex 2 product exceptions...\n")
 # Load Annex II exceptions (time-dependent via effective_date and end_date)
 # Timeline covers all versions: Apr 5 initial, Sep 5 additions, Nov 13 additions
 # End dates handle: Sep 4 removals, Oct 13 lumber removal
-annex2_codes <- get_exceptions("ieepa_baseline_rate", "annex2", policy_date)
+# In S122 mode, route through s122_baseline_rate key (no Annex 2 rows exist = no exceptions)
+exception_key <- if (s122_mode) "s122_baseline_rate" else "ieepa_baseline_rate"
+annex2_codes <- get_exceptions(exception_key, "annex2", policy_date)
 
 # Load semiconductor codes (identified by "Semiconductor" in category)
-semiconductor_codes <- get_exceptions("ieepa_baseline_rate", "semiconductor", policy_date)
+semiconductor_codes <- get_exceptions(exception_key, "semiconductor", policy_date)
 
 # Combine into single vector for reciprocal exceptions
 reciprocal_exception_codes <- unique(c(annex2_codes, semiconductor_codes))
@@ -851,7 +864,8 @@ cat(sprintf("    Applied Annex 2 exceptions to %s flows ($%.1f billion)\n",
 cat("\n  4.5 Applying statutory IEEPA exceptions...\n")
 
 # Load statutory IEEPA exceptions (from exceptions.csv)
-ieepa_statute_codes <- get_exceptions("ieepa_baseline_rate", "statutory", policy_date)
+# In S122 mode, route through s122_baseline_rate key (no statutory rows exist = no exceptions)
+ieepa_statute_codes <- get_exceptions(exception_key, "statutory", policy_date)
 
 cat(sprintf("    Loaded %d HS8 codes with statutory IEEPA exceptions\n",
             length(ieepa_statute_codes)))
@@ -2084,13 +2098,22 @@ if (policy_date >= bgd_deal_effective_date) {
 
 cat("\n  7.99 Country-Specific Surcharges...\n")
 
+# Check for universal surcharge (applies to ALL countries, e.g. Section 122 flat surcharge)
+universal_surcharge_rate <- tryCatch(get_rate("country_surcharge_universal"), error = function(e) 0)
+if (universal_surcharge_rate > 0) {
+  us_imports[, country_surcharge_rate := universal_surcharge_rate]
+  cat(sprintf("    Universal surcharge: +%.0f%% on ALL imports ($%.1f billion)\n",
+              universal_surcharge_rate, sum(us_imports$us_imports_bn, na.rm = TRUE)))
+}
+
 # Discover which countries have surcharge rates defined for this scenario
 surcharge_rate_types <- rates[grepl("^country_surcharge_", rate_type) &
+                               !grepl("^country_surcharge_universal$", rate_type) &
                                scenario == SCENARIO_NAME,
                               unique(rate_type)]
 
 if (length(surcharge_rate_types) == 0) {
-  cat("    No country surcharges defined for this scenario\n")
+  cat("    No country-specific surcharges defined for this scenario\n")
 } else {
   cat(sprintf("    Found %d country surcharge rate(s) defined\n",
               length(surcharge_rate_types)))
@@ -2169,6 +2192,48 @@ cat(sprintf("    Total: %d products with country surcharge ($%.1f billion)\n",
             surcharge_affected, surcharge_value))
 
 cat("\n  Section 7 complete: Country exceptions applied\n")
+
+# -----------------------------------------------------------------------------
+# 7.POST: S122 Mode Post-Processing
+# -----------------------------------------------------------------------------
+# In S122 mode, country-specific deals (EU, Japan, Korea, Switzerland) are void.
+# Section 7 deal code may have overwritten ieepa_rate for deal countries because
+# their floor rates are 0 (inherited from IEEPA strike-down rows).
+# Restore the flat S122 rate for all products except Chapter 98.
+if (s122_mode) {
+  cat("\n  [S122] Post-processing: restoring Section 122 baseline rate...\n")
+
+  # Identify Chapter 98 products (keep at ieepa_rate = 0)
+  ch98_mask <- as.numeric(us_imports$hs_8digit) >= 98000000 &
+               !us_imports$hs_8digit %in% chapter_98_exceptions
+
+  # Count rows that need restoration
+  needs_restore <- !ch98_mask & us_imports$ieepa_rate != s122_baseline_rate
+  restore_n <- sum(needs_restore)
+  restore_value <- sum(us_imports[needs_restore]$us_imports_bn, na.rm = TRUE)
+
+  if (restore_n > 0) {
+    cat(sprintf("    Restoring %s rows ($%.1f bn) overwritten by deal sections\n",
+                format(restore_n, big.mark = ","), restore_value))
+  }
+
+  # Restore S122 rate for all non-Chapter-98 products
+  us_imports[!ch98_mask, ieepa_rate := s122_baseline_rate]
+
+  # Clear exception flags set by deal sections (S122 has no IEEPA deal exceptions)
+  # rr_exception stays 1 only for Chapter 98; all deal-set flags are cleared
+  us_imports[!ch98_mask, rr_exception := 0L]
+  us_imports[, ieepa_statute_exception := 0L]
+
+  # Verify
+  s122_applied <- sum(us_imports$ieepa_rate == s122_baseline_rate)
+  s122_value <- sum(us_imports[ieepa_rate == s122_baseline_rate]$us_imports_bn, na.rm = TRUE)
+  cat(sprintf("    S122 rate (%.0f%%) now applied to %s products ($%.1f bn)\n",
+              s122_baseline_rate, format(s122_applied, big.mark = ","), s122_value))
+  cat(sprintf("    Chapter 98 excluded: %s products\n",
+              format(sum(ch98_mask), big.mark = ",")))
+}
+
 cat("\n")
 
 # =============================================================================

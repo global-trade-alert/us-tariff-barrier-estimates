@@ -348,11 +348,13 @@ generate_scenario_report <- function(scenario_name,
   if (using_alt_mfn) {
     chart_data <- data.frame(
       Scenario = c("HTS Schedule", paste0("Baseline (", mfn_display, ")"), scenario_name),
-      HTS = c(hts_stats$hts_rate, stats$hts_base, stats$hts_scen),
-      IEEPA = c(hts_stats$ieepa_rate, stats$ieepa_base, stats$ieepa_scen),
-      S232 = c(hts_stats$s232_rate, stats$s232_base, stats$s232_scen),
-      Emergency = c(hts_stats$emergency_rate, stats$emergency_base, stats$emergency_scen),
-      S301 = c(hts_stats$s301_rate, stats$s301_base, stats$s301_scen)
+      HTS = c(contrib$hts_hts, contrib$hts_base, contrib$hts_scen),
+      IEEPA = c(contrib$ieepa_baseline_hts + contrib$ieepa_topup_hts,
+                contrib$ieepa_baseline_base + contrib$ieepa_topup_base,
+                contrib$ieepa_baseline_scen + contrib$ieepa_topup_scen),
+      S232 = c(contrib$s232_hts, contrib$s232_base, contrib$s232_scen),
+      Emergency = c(contrib$emergency_hts, contrib$emergency_base, contrib$emergency_scen),
+      S301 = c(contrib$s301_hts, contrib$s301_base, contrib$s301_scen)
     )
     chart_levels <- c(scenario_name, paste0("Baseline (", mfn_display, ")"), "HTS Schedule")
     chart_subtitle <- sprintf("HTS: %.2f%% → %s: %.2f%% → Scenario: %.2f%%",
@@ -360,11 +362,12 @@ generate_scenario_report <- function(scenario_name,
   } else {
     chart_data <- data.frame(
       Scenario = c("Baseline", scenario_name),
-      HTS = c(stats$hts_base, stats$hts_scen),
-      IEEPA = c(stats$ieepa_base, stats$ieepa_scen),
-      S232 = c(stats$s232_base, stats$s232_scen),
-      Emergency = c(stats$emergency_base, stats$emergency_scen),
-      S301 = c(stats$s301_base, stats$s301_scen)
+      HTS = c(contrib$hts_base, contrib$hts_scen),
+      IEEPA = c(contrib$ieepa_baseline_base + contrib$ieepa_topup_base,
+                contrib$ieepa_baseline_scen + contrib$ieepa_topup_scen),
+      S232 = c(contrib$s232_base, contrib$s232_scen),
+      Emergency = c(contrib$emergency_base, contrib$emergency_scen),
+      S301 = c(contrib$s301_base, contrib$s301_scen)
     )
     chart_levels <- c(scenario_name, "Baseline")
     chart_subtitle <- sprintf("Change: %.2f pp (%.2f%% to %.2f%%)",

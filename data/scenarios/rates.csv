@@ -278,3 +278,201 @@ s232_lumber_upholstered_rate,0,no_s232,3.7,Lumber upholstered S232 disabled,2025
 jpn_s232_floor_rate,0,no_s232,7.4,Japan S232 floor disabled,2025-01-01
 eu_s232_floor_rate,0,no_s232,7.5,EU S232 floor disabled,2025-01-01
 kor_s232_floor_rate,0,no_s232,7.6,Korea S232 floor disabled,2025-01-01
+ieepa_baseline_rate,0,s122_ieepa_stack,4.1,S122 IEEPA stack - no baseline,2025-01-01
+china_opioid_rate,0,s122_ieepa_stack,5.1,S122 IEEPA stack - no China opioid,2025-01-01
+can_emergency_energy_rate,0,s122_ieepa_stack,5.2,S122 IEEPA stack - no Canada energy emergency,2025-01-01
+can_emergency_general_rate,0,s122_ieepa_stack,5.2,S122 IEEPA stack - no Canada general emergency,2025-01-01
+mex_emergency_rate,0,s122_ieepa_stack,5.3,S122 IEEPA stack - no Mexico emergency,2025-01-01
+ieepa_topup_156,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no China top-up,2025-01-01
+ieepa_topup_4,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Afghanistan top-up,2025-01-01
+ieepa_topup_24,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Angola top-up,2025-01-01
+ieepa_topup_40,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Austria top-up,2025-01-01
+ieepa_topup_50,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Bangladesh top-up,2025-01-01
+ieepa_topup_56,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Belgium top-up,2025-01-01
+ieepa_topup_68,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Bolivia top-up,2025-01-01
+ieepa_topup_70,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Bosnia top-up,2025-01-01
+ieepa_topup_72,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Botswana top-up,2025-01-01
+ieepa_topup_96,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Brunei top-up,2025-01-01
+ieepa_topup_100,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Bulgaria top-up,2025-01-01
+ieepa_topup_116,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Cambodia top-up,2025-01-01
+ieepa_topup_120,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Cameroon top-up,2025-01-01
+ieepa_topup_148,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Chad top-up,2025-01-01
+ieepa_topup_188,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Costa Rica top-up,2025-01-01
+ieepa_topup_384,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Cote d Ivoire top-up,2025-01-01
+ieepa_topup_191,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Croatia top-up,2025-01-01
+ieepa_topup_196,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Cyprus top-up,2025-01-01
+ieepa_topup_203,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Czechia top-up,2025-01-01
+ieepa_topup_180,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no DR Congo top-up,2025-01-01
+ieepa_topup_208,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Denmark top-up,2025-01-01
+ieepa_topup_218,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Ecuador top-up,2025-01-01
+ieepa_topup_226,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Equatorial Guinea top-up,2025-01-01
+ieepa_topup_233,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Estonia top-up,2025-01-01
+ieepa_topup_242,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Fiji top-up,2025-01-01
+ieepa_topup_251,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no France top-up,2025-01-01
+ieepa_topup_276,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Germany top-up,2025-01-01
+ieepa_topup_288,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Ghana top-up,2025-01-01
+ieepa_topup_300,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Greece top-up,2025-01-01
+ieepa_topup_328,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Guyana top-up,2025-01-01
+ieepa_topup_348,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Hungary top-up,2025-01-01
+ieepa_topup_352,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Iceland top-up,2025-01-01
+ieepa_topup_699,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no India top-up,2025-01-01
+ieepa_topup_360,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Indonesia top-up,2025-01-01
+ieepa_topup_368,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Iraq top-up,2025-01-01
+ieepa_topup_372,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Ireland top-up,2025-01-01
+ieepa_topup_376,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Israel top-up,2025-01-01
+ieepa_topup_381,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Italy top-up,2025-01-01
+ieepa_topup_392,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Japan top-up,2025-01-01
+ieepa_topup_400,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Jordan top-up,2025-01-01
+ieepa_topup_398,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Kazakhstan top-up,2025-01-01
+ieepa_topup_418,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Laos top-up,2025-01-01
+ieepa_topup_428,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Latvia top-up,2025-01-01
+ieepa_topup_426,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Lesotho top-up,2025-01-01
+ieepa_topup_434,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Libya top-up,2025-01-01
+ieepa_topup_438,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Liechtenstein top-up,2025-01-01
+ieepa_topup_440,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Lithuania top-up,2025-01-01
+ieepa_topup_442,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Luxembourg top-up,2025-01-01
+ieepa_topup_450,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Madagascar top-up,2025-01-01
+ieepa_topup_454,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Malawi top-up,2025-01-01
+ieepa_topup_458,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Malaysia top-up,2025-01-01
+ieepa_topup_470,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Malta top-up,2025-01-01
+ieepa_topup_480,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Mauritius top-up,2025-01-01
+ieepa_topup_498,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Moldova top-up,2025-01-01
+ieepa_topup_508,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Mozambique top-up,2025-01-01
+ieepa_topup_104,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Myanmar top-up,2025-01-01
+ieepa_topup_516,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Namibia top-up,2025-01-01
+ieepa_topup_520,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Nauru top-up,2025-01-01
+ieepa_topup_528,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Netherlands top-up,2025-01-01
+ieepa_topup_554,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no New Zealand top-up,2025-01-01
+ieepa_topup_558,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Nicaragua top-up,2025-01-01
+ieepa_topup_566,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Nigeria top-up,2025-01-01
+ieepa_topup_807,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no North Macedonia top-up,2025-01-01
+ieepa_topup_586,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Pakistan top-up,2025-01-01
+ieepa_topup_598,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Papua New Guinea top-up,2025-01-01
+ieepa_topup_608,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Philippines top-up,2025-01-01
+ieepa_topup_616,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Poland top-up,2025-01-01
+ieepa_topup_620,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Portugal top-up,2025-01-01
+ieepa_topup_642,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Romania top-up,2025-01-01
+ieepa_topup_688,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Serbia top-up,2025-01-01
+ieepa_topup_703,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Slovakia top-up,2025-01-01
+ieepa_topup_705,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Slovenia top-up,2025-01-01
+ieepa_topup_410,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no South Korea top-up,2025-01-01
+ieepa_topup_724,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Spain top-up,2025-01-01
+ieepa_topup_144,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Sri Lanka top-up,2025-01-01
+ieepa_topup_752,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Sweden top-up,2025-01-01
+ieepa_topup_756,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Switzerland top-up,2025-01-01
+ieepa_topup_158,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Taiwan top-up,2025-01-01
+ieepa_topup_764,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Thailand top-up,2025-01-01
+ieepa_topup_788,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Tunisia top-up,2025-01-01
+ieepa_topup_792,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Turkey top-up,2025-01-01
+ieepa_topup_800,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Uganda top-up,2025-01-01
+ieepa_topup_548,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Vanuatu top-up,2025-01-01
+ieepa_topup_704,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Vietnam top-up,2025-01-01
+ieepa_topup_894,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Zambia top-up,2025-01-01
+ieepa_topup_716,0,s122_ieepa_stack,4.2,S122 IEEPA stack - no Zimbabwe top-up,2025-01-01
+india_russia_topup,0,s122_ieepa_stack,7.1,S122 IEEPA stack - no India/Russia top-up,2025-01-01
+bra_topup,0,s122_ieepa_stack,7.2,S122 IEEPA stack - no Brazil top-up,2025-01-01
+jpn_ieepa_floor_rate,0,s122_ieepa_stack,7.4,S122 IEEPA stack - no Japan IEEPA floor,2025-01-01
+eu_ieepa_floor_rate,0,s122_ieepa_stack,7.5,S122 IEEPA stack - no EU IEEPA floor,2025-01-01
+kor_ieepa_floor_rate,0,s122_ieepa_stack,7.6,S122 IEEPA stack - no Korea IEEPA floor,2025-01-01
+che_ieepa_floor_rate,0,s122_ieepa_stack,7.7,S122 IEEPA stack - no Switzerland IEEPA floor,2025-01-01
+twn_ieepa_floor_rate,0,s122_ieepa_stack,7.9,S122 IEEPA stack - no Chinese Taipei IEEPA floor,2025-01-01
+s122_baseline_rate,10,s122_ieepa_stack,4.1,Section 122 baseline rate (replaces IEEPA),2025-01-01
+ieepa_baseline_rate,0,s122_flat_surcharge,4.1,S122 flat surcharge - no baseline,2025-01-01
+china_opioid_rate,0,s122_flat_surcharge,5.1,S122 flat surcharge - no China opioid,2025-01-01
+can_emergency_energy_rate,0,s122_flat_surcharge,5.2,S122 flat surcharge - no Canada energy emergency,2025-01-01
+can_emergency_general_rate,0,s122_flat_surcharge,5.2,S122 flat surcharge - no Canada general emergency,2025-01-01
+mex_emergency_rate,0,s122_flat_surcharge,5.3,S122 flat surcharge - no Mexico emergency,2025-01-01
+ieepa_topup_156,0,s122_flat_surcharge,4.2,S122 flat surcharge - no China top-up,2025-01-01
+ieepa_topup_4,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Afghanistan top-up,2025-01-01
+ieepa_topup_24,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Angola top-up,2025-01-01
+ieepa_topup_40,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Austria top-up,2025-01-01
+ieepa_topup_50,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Bangladesh top-up,2025-01-01
+ieepa_topup_56,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Belgium top-up,2025-01-01
+ieepa_topup_68,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Bolivia top-up,2025-01-01
+ieepa_topup_70,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Bosnia top-up,2025-01-01
+ieepa_topup_72,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Botswana top-up,2025-01-01
+ieepa_topup_96,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Brunei top-up,2025-01-01
+ieepa_topup_100,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Bulgaria top-up,2025-01-01
+ieepa_topup_116,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Cambodia top-up,2025-01-01
+ieepa_topup_120,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Cameroon top-up,2025-01-01
+ieepa_topup_148,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Chad top-up,2025-01-01
+ieepa_topup_188,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Costa Rica top-up,2025-01-01
+ieepa_topup_384,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Cote d Ivoire top-up,2025-01-01
+ieepa_topup_191,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Croatia top-up,2025-01-01
+ieepa_topup_196,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Cyprus top-up,2025-01-01
+ieepa_topup_203,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Czechia top-up,2025-01-01
+ieepa_topup_180,0,s122_flat_surcharge,4.2,S122 flat surcharge - no DR Congo top-up,2025-01-01
+ieepa_topup_208,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Denmark top-up,2025-01-01
+ieepa_topup_218,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Ecuador top-up,2025-01-01
+ieepa_topup_226,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Equatorial Guinea top-up,2025-01-01
+ieepa_topup_233,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Estonia top-up,2025-01-01
+ieepa_topup_242,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Fiji top-up,2025-01-01
+ieepa_topup_251,0,s122_flat_surcharge,4.2,S122 flat surcharge - no France top-up,2025-01-01
+ieepa_topup_276,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Germany top-up,2025-01-01
+ieepa_topup_288,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Ghana top-up,2025-01-01
+ieepa_topup_300,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Greece top-up,2025-01-01
+ieepa_topup_328,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Guyana top-up,2025-01-01
+ieepa_topup_348,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Hungary top-up,2025-01-01
+ieepa_topup_352,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Iceland top-up,2025-01-01
+ieepa_topup_699,0,s122_flat_surcharge,4.2,S122 flat surcharge - no India top-up,2025-01-01
+ieepa_topup_360,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Indonesia top-up,2025-01-01
+ieepa_topup_368,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Iraq top-up,2025-01-01
+ieepa_topup_372,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Ireland top-up,2025-01-01
+ieepa_topup_376,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Israel top-up,2025-01-01
+ieepa_topup_381,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Italy top-up,2025-01-01
+ieepa_topup_392,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Japan top-up,2025-01-01
+ieepa_topup_400,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Jordan top-up,2025-01-01
+ieepa_topup_398,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Kazakhstan top-up,2025-01-01
+ieepa_topup_418,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Laos top-up,2025-01-01
+ieepa_topup_428,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Latvia top-up,2025-01-01
+ieepa_topup_426,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Lesotho top-up,2025-01-01
+ieepa_topup_434,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Libya top-up,2025-01-01
+ieepa_topup_438,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Liechtenstein top-up,2025-01-01
+ieepa_topup_440,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Lithuania top-up,2025-01-01
+ieepa_topup_442,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Luxembourg top-up,2025-01-01
+ieepa_topup_450,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Madagascar top-up,2025-01-01
+ieepa_topup_454,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Malawi top-up,2025-01-01
+ieepa_topup_458,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Malaysia top-up,2025-01-01
+ieepa_topup_470,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Malta top-up,2025-01-01
+ieepa_topup_480,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Mauritius top-up,2025-01-01
+ieepa_topup_498,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Moldova top-up,2025-01-01
+ieepa_topup_508,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Mozambique top-up,2025-01-01
+ieepa_topup_104,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Myanmar top-up,2025-01-01
+ieepa_topup_516,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Namibia top-up,2025-01-01
+ieepa_topup_520,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Nauru top-up,2025-01-01
+ieepa_topup_528,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Netherlands top-up,2025-01-01
+ieepa_topup_554,0,s122_flat_surcharge,4.2,S122 flat surcharge - no New Zealand top-up,2025-01-01
+ieepa_topup_558,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Nicaragua top-up,2025-01-01
+ieepa_topup_566,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Nigeria top-up,2025-01-01
+ieepa_topup_807,0,s122_flat_surcharge,4.2,S122 flat surcharge - no North Macedonia top-up,2025-01-01
+ieepa_topup_586,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Pakistan top-up,2025-01-01
+ieepa_topup_598,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Papua New Guinea top-up,2025-01-01
+ieepa_topup_608,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Philippines top-up,2025-01-01
+ieepa_topup_616,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Poland top-up,2025-01-01
+ieepa_topup_620,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Portugal top-up,2025-01-01
+ieepa_topup_642,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Romania top-up,2025-01-01
+ieepa_topup_688,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Serbia top-up,2025-01-01
+ieepa_topup_703,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Slovakia top-up,2025-01-01
+ieepa_topup_705,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Slovenia top-up,2025-01-01
+ieepa_topup_410,0,s122_flat_surcharge,4.2,S122 flat surcharge - no South Korea top-up,2025-01-01
+ieepa_topup_724,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Spain top-up,2025-01-01
+ieepa_topup_144,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Sri Lanka top-up,2025-01-01
+ieepa_topup_752,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Sweden top-up,2025-01-01
+ieepa_topup_756,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Switzerland top-up,2025-01-01
+ieepa_topup_158,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Taiwan top-up,2025-01-01
+ieepa_topup_764,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Thailand top-up,2025-01-01
+ieepa_topup_788,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Tunisia top-up,2025-01-01
+ieepa_topup_792,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Turkey top-up,2025-01-01
+ieepa_topup_800,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Uganda top-up,2025-01-01
+ieepa_topup_548,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Vanuatu top-up,2025-01-01
+ieepa_topup_704,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Vietnam top-up,2025-01-01
+ieepa_topup_894,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Zambia top-up,2025-01-01
+ieepa_topup_716,0,s122_flat_surcharge,4.2,S122 flat surcharge - no Zimbabwe top-up,2025-01-01
+india_russia_topup,0,s122_flat_surcharge,7.1,S122 flat surcharge - no India/Russia top-up,2025-01-01
+bra_topup,0,s122_flat_surcharge,7.2,S122 flat surcharge - no Brazil top-up,2025-01-01
+jpn_ieepa_floor_rate,0,s122_flat_surcharge,7.4,S122 flat surcharge - no Japan IEEPA floor,2025-01-01
+eu_ieepa_floor_rate,0,s122_flat_surcharge,7.5,S122 flat surcharge - no EU IEEPA floor,2025-01-01
+kor_ieepa_floor_rate,0,s122_flat_surcharge,7.6,S122 flat surcharge - no Korea IEEPA floor,2025-01-01
+che_ieepa_floor_rate,0,s122_flat_surcharge,7.7,S122 flat surcharge - no Switzerland IEEPA floor,2025-01-01
+twn_ieepa_floor_rate,0,s122_flat_surcharge,7.9,S122 flat surcharge - no Chinese Taipei IEEPA floor,2025-01-01
+country_surcharge_universal,10,s122_flat_surcharge,7.99,Section 122 universal surcharge,2026-02-20

@@ -440,6 +440,30 @@ cat(sprintf("    Standard rate: %.0f%% (Japan/EU 15%% floor applied in Section 7
             s232_auto_rate))
 
 # -----------------------------------------------------------------------------
+# 3.1b: AUTO PARTS S232 (Same Precedence as Auto Vehicles)
+# -----------------------------------------------------------------------------
+
+cat("  3.1b Auto Parts S232 (25%) - Same precedence as auto vehicles...\n")
+
+# S232 Auto Parts Rate Parameter (loaded from rates.csv)
+s232_auto_parts_rate <- get_rate("s232_auto_parts_rate")  # Auto parts standard rate
+
+# Load auto parts S232 products (from exceptions.csv)
+sec232_auto_parts_codes <- get_exceptions("s232_auto_parts_rate", "product_scope", policy_date)
+
+# Mark all auto parts products (effective 3 May 2025, one month after vehicles)
+us_imports[hs_8digit %in% sec232_auto_parts_codes & s232_auto == 0, `:=`(
+  s232_auto_parts = 1,
+  s232_rate = s232_auto_parts_rate
+)]
+
+auto_parts_value <- sum(us_imports[s232_auto_parts == 1]$us_imports_bn, na.rm = TRUE)
+cat(sprintf("    Applied auto parts S232 to %d HS8 codes ($%.1f billion)\n",
+            length(sec232_auto_parts_codes), auto_parts_value))
+cat(sprintf("    Standard rate: %.0f%% (same deal treatment as vehicles)\n",
+            s232_auto_parts_rate))
+
+# -----------------------------------------------------------------------------
 # 3.2: MHDV S232 (Second Precedence) - WITH NESTED USMCA LOGIC
 # -----------------------------------------------------------------------------
 
@@ -459,19 +483,19 @@ parts_codes <- get_exceptions("s232_mhdv_parts_rate", "product_scope", policy_da
 # Country-specific adjustments handled in Section 7
 
 # MHDV main products - ALL COUNTRIES
-us_imports[hs_8digit %in% mhdv_main & s232_auto == 0, `:=`(
+us_imports[hs_8digit %in% mhdv_main & s232_auto == 0 & s232_auto_parts == 0, `:=`(
   s232_mhdv = 1,
   s232_rate = s232_mhdv_main_rate
 )]
 
 # Bus products - ALL COUNTRIES
-us_imports[hs_8digit %in% bus_codes & s232_auto == 0, `:=`(
+us_imports[hs_8digit %in% bus_codes & s232_auto == 0 & s232_auto_parts == 0, `:=`(
   s232_mhdv = 1,
   s232_rate = s232_mhdv_bus_rate
 )]
 
 # Parts products - ALL COUNTRIES
-us_imports[hs_8digit %in% parts_codes & s232_auto == 0, `:=`(
+us_imports[hs_8digit %in% parts_codes & s232_auto == 0 & s232_auto_parts == 0, `:=`(
   s232_mhdv = 1,
   s232_rate = s232_mhdv_parts_rate
 )]
@@ -505,6 +529,7 @@ if (length(sec232_pv_parts_codes) > 0) {
   us_imports[hs_8digit %in% sec232_pv_parts_codes &
              !excluded_by_chapter &
              s232_auto == 0 &
+             s232_auto_parts == 0 &
              s232_mhdv == 0, `:=`(
     s232_pv_parts = 1,
     s232_rate = s232_pv_parts_rate
@@ -536,6 +561,7 @@ steel_derivatives <- get_exceptions("s232_steel_rate", "product_scope_derivative
 # Main steel products (excluded from higher-precedence S232s)
 us_imports[hs_8digit %in% steel_main &
            s232_auto == 0 &
+           s232_auto_parts == 0 &
            s232_mhdv == 0 &
            s232_pv_parts == 0, `:=`(
   s232_steel = 1,
@@ -545,6 +571,7 @@ us_imports[hs_8digit %in% steel_main &
 # Steel derivatives (tariff applies to steel content share)
 us_imports[hs_8digit %in% steel_derivatives &
            s232_auto == 0 &
+           s232_auto_parts == 0 &
            s232_mhdv == 0 &
            s232_pv_parts == 0, `:=`(
   s232_steel_derivative = 1,
@@ -571,14 +598,14 @@ alu_derivatives <- get_exceptions("s232_alu_rate", "product_scope_derivative", p
 
 # Main aluminum products
 us_imports[hs_8digit %in% alu_main &
-           s232_auto == 0 & s232_mhdv == 0 & s232_pv_parts == 0, `:=`(
+           s232_auto == 0 & s232_auto_parts == 0 & s232_mhdv == 0 & s232_pv_parts == 0, `:=`(
   s232_alu = 1,
   s232_rate = s232_alu_rate  # UK cap at 25% in Section 7
 )]
 
 # Aluminum derivatives
 us_imports[hs_8digit %in% alu_derivatives &
-           s232_auto == 0 & s232_mhdv == 0 & s232_pv_parts == 0, `:=`(
+           s232_auto == 0 & s232_auto_parts == 0 & s232_mhdv == 0 & s232_pv_parts == 0, `:=`(
   s232_alu_derivative = 1,
   s232_rate = s232_alu_rate  # Full rate for fully in-scope product
 )]
@@ -603,7 +630,7 @@ copper_main <- get_exceptions("s232_copper_rate", "product_scope", policy_date)
 copper_derivatives <- character(0)  # Empty - derivatives commented out below
 
 us_imports[hs_8digit %in% copper_main &
-           s232_auto == 0 & s232_mhdv == 0 & s232_pv_parts == 0, `:=`(
+           s232_auto == 0 & s232_auto_parts == 0 & s232_mhdv == 0 & s232_pv_parts == 0, `:=`(
   s232_copper = 1,
   s232_rate = s232_copper_rate
 )]
@@ -637,14 +664,14 @@ lumber_upholstered <- get_exceptions("s232_lumber_upholstered_rate", "product_sc
 
 # Apply lumber main products
 us_imports[hs_8digit %in% lumber_main &
-           s232_auto == 0 & s232_mhdv == 0 & s232_pv_parts == 0, `:=`(
+           s232_auto == 0 & s232_auto_parts == 0 & s232_mhdv == 0 & s232_pv_parts == 0, `:=`(
   s232_lumber = 1,
   s232_rate = s232_lumber_rate
 )]
 
 # Apply kitchen cabinet products (lumber derivative)
 us_imports[hs_8digit %in% lumber_cabinet &
-           s232_auto == 0 & s232_mhdv == 0 & s232_pv_parts == 0, `:=`(
+           s232_auto == 0 & s232_auto_parts == 0 & s232_mhdv == 0 & s232_pv_parts == 0, `:=`(
   s232_lumber = 1,
   s232_lumber_derivative = 1,
   s232_rate = s232_lumber_cabinet_rate
@@ -652,7 +679,7 @@ us_imports[hs_8digit %in% lumber_cabinet &
 
 # Apply upholstered furniture products
 us_imports[hs_8digit %in% lumber_upholstered &
-           s232_auto == 0 & s232_mhdv == 0 & s232_pv_parts == 0, `:=`(
+           s232_auto == 0 & s232_auto_parts == 0 & s232_mhdv == 0 & s232_pv_parts == 0, `:=`(
   s232_lumber = 1,
   s232_upholstered_furniture = 1,
   s232_rate = s232_lumber_upholstered_rate
@@ -1231,7 +1258,7 @@ if (policy_date >= uk_deal_effective_date) {
   # Apply formula: ceiling - max(ceiling, hts_rate)
   # If hts_rate >= ceiling%, s232_rate = 0 or negative (floor at 0)
   # If hts_rate < ceiling%, s232_rate makes up the difference to reach ceiling% total
-  us_imports[un_code == uk_un_code & s232_auto == 1, `:=`(
+  us_imports[un_code == uk_un_code & (s232_auto == 1 | s232_auto_parts == 1), `:=`(
     s232_rate = pmax(0, uk_ceiling_rate - hts_rate),
     uk_auto = 1
   )]
@@ -1350,7 +1377,7 @@ if (policy_date >= jpn_deal_effective_date) {
   # S232 RATE CAPS FOR JAPAN (floor treatment) - uses separate S232 floor rate
   # Only apply to products not exempt from reciprocal rates
   us_imports[un_code == japan_un_code &
-             (s232_auto == 1 | s232_mhdv == 1) &
+             (s232_auto == 1 | s232_auto_parts == 1 | s232_mhdv == 1) &
              rr_exception == 0 & ieepa_statute_exception == 0,
              s232_rate := pmax(jpn_s232_floor_rate, hts_rate) - hts_rate]
   
@@ -1512,7 +1539,7 @@ if (policy_date >= eu_deal_effective_date) {
 
   # Apply default EU S232 floor
   us_imports[un_code %in% eu_members &
-             (s232_auto == 1 | s232_mhdv == 1) &
+             (s232_auto == 1 | s232_auto_parts == 1 | s232_mhdv == 1) &
              rr_exception == 0 & ieepa_statute_exception == 0,
              s232_rate := pmax(eu_s232_floor_rate, hts_rate) - hts_rate]
 
@@ -1521,7 +1548,7 @@ if (policy_date >= eu_deal_effective_date) {
     eu_un <- as.integer(eu_un_str)
     override_floor <- eu_s232_floor_overrides[[eu_un_str]]
     us_imports[un_code == eu_un &
-               (s232_auto == 1 | s232_mhdv == 1) &
+               (s232_auto == 1 | s232_auto_parts == 1 | s232_mhdv == 1) &
                rr_exception == 0 & ieepa_statute_exception == 0,
                s232_rate := pmax(override_floor, hts_rate) - hts_rate]
   }
@@ -1552,7 +1579,7 @@ cat("\n  7.6 Korea (Multiple Exception Types)...\n")
 # Formula: s232_rate = pmax(floor, hts_rate) - hts_rate ensures total >= 15%
 # NOTE: Korea deal not yet finalized - set to impossible future date
 if(policy_date >= as.Date("2025-11-14")) {
-  us_imports[un_code == korea_un_code & s232_auto == 1, `:=`(
+  us_imports[un_code == korea_un_code & (s232_auto == 1 | s232_auto_parts == 1), `:=`(
     s232_rate = pmax(kor_s232_floor_rate, hts_rate) - hts_rate,
     kor_auto = 1
   )]
@@ -1595,6 +1622,7 @@ if(policy_date >= as.Date("2025-11-14")) {
   # Excludes: autos (kor_auto==1), Annex 2 (rr_exception==1), statutory IEEPA (ieepa_statute_exception==1)
   us_imports[un_code == korea_un_code &
              kor_auto == 0 &
+             s232_auto_parts == 0 &
              rr_exception == 0 &
              ieepa_statute_exception == 0, `:=`(
     ieepa_rate = pmax(kor_ieepa_floor_rate, hts_rate) - hts_rate,
@@ -2266,6 +2294,11 @@ us_imports[s232_auto == 1 &
            un_code %in% c(canada_un_code, mexico_un_code),
            s232_rate_weighted := usmca_compliance * 0 + (1 - usmca_compliance) * s232_auto_rate]
 
+# AUTO PARTS S232 - Canada and Mexico (product-level compliance)
+us_imports[s232_auto_parts == 1 &
+           un_code %in% c(canada_un_code, mexico_un_code),
+           s232_rate_weighted := usmca_compliance * 0 + (1 - usmca_compliance) * s232_auto_parts_rate]
+
 # MHDV main - Canada and Mexico (product-level compliance)
 us_imports[s232_mhdv == 1 &
            hs_8digit %in% mhdv_main &
@@ -2283,7 +2316,7 @@ cat("  Step 4: Applied USMCA weighting to S232 auto and MHDV rates (product-leve
 # Step 5: Create S232 type markers
 # Distinguish transport S232 from materials S232
 us_imports[, `:=`(
-  transport_s232 = as.integer(s232_auto == 1 | s232_mhdv == 1 | s232_pv_parts == 1),
+  transport_s232 = as.integer(s232_auto == 1 | s232_auto_parts == 1 | s232_mhdv == 1 | s232_pv_parts == 1),
   materials_s232 = as.integer(s232_steel == 1 | s232_steel_derivative == 1 |
                               s232_alu == 1 | s232_alu_derivative == 1 |
                               s232_copper == 1 | s232_copper_derivative == 1 |
@@ -2405,6 +2438,8 @@ us_imports[transport_s232 == 0 & materials_s232 == 0 &
 # Formula 1: Transport S232 (determine specific type)
 us_imports[transport_s232 == 1 & s232_auto == 1,
            rate_formula := "Transport S232: HTS + S232(auto) + Emergency + S301"]
+us_imports[transport_s232 == 1 & s232_auto_parts == 1,
+           rate_formula := "Transport S232: HTS + S232(auto parts) + Emergency + S301"]
 us_imports[transport_s232 == 1 & s232_mhdv == 1,
            rate_formula := "Transport S232: HTS + S232(MHDV) + Emergency + S301"]
 us_imports[transport_s232 == 1 & s232_pv_parts == 1,

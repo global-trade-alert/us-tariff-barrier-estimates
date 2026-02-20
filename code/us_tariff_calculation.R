@@ -697,7 +697,7 @@ us_imports[, `:=`(
 
 # Initialize boolean marker columns (all start at 0)
 us_imports[, `:=`(
-  s232_auto = 0, s232_mhdv = 0, s232_pv_parts = 0,
+  s232_auto = 0, s232_auto_parts = 0, s232_mhdv = 0, s232_pv_parts = 0,
   s232_steel = 0, s232_steel_derivative = 0, s232_steel_exempt = 0,
   s232_alu = 0, s232_alu_derivative = 0,
   s232_copper = 0, s232_copper_derivative = 0,
@@ -949,7 +949,7 @@ us_imports <- us_imports %>%
         # Composition weighting factors
         usmca_compliance, content_share, aircraft_share,
         # Boolean markers
-        s232_auto, s232_mhdv, s232_pv_parts,
+        s232_auto, s232_auto_parts, s232_mhdv, s232_pv_parts,
         s232_steel, s232_steel_derivative,
         s232_alu, s232_alu_derivative,
         s232_copper, s232_copper_derivative,

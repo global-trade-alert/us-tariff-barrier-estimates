@@ -311,7 +311,7 @@ compose_narrative <- function(events_dt, deltas, total_delta, iso3, date, is_fir
   # Mention major irrelevant events briefly
   headline_ids <- c("ieepa_baseline_10pct", "ieepa_reciprocal_topups",
                     "s232_steel_50pct", "s232_alu_50pct", "eu_deal", "jpn_deal",
-                    "chn_ieepa_topup_115pp", "s232_auto_25pct")
+                    "chn_ieepa_topup_115pp", "s232_auto_25pct", "s232_auto_parts_25pct")
   for (evt in irrelevant_events) {
     if (evt$event_id %in% headline_ids) {
       parts <- c(parts, sprintf("Also on this date: %s — does not apply to this country.",

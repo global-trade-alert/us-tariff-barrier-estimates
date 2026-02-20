@@ -8717,142 +8717,142 @@ hs_8digit;rate_type;import_origin;exception_type;effective_date;end_date;source
 98020080;ieepa_baseline_rate;ALL;aircraft;2025-04-05;;WTO Agreement on Trade in Civil Aircraft
 98180005;ieepa_baseline_rate;ALL;aircraft;2025-04-05;;WTO Agreement on Trade in Civil Aircraft
 98180007;ieepa_baseline_rate;ALL;aircraft;2025-04-05;;WTO Agreement on Trade in Civil Aircraft
-40091200;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-40092200;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-40093200;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-40094200;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-40111010;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-40111050;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-40112010;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-40121940;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-40121980;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-40122060;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-40131000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-40169960;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-70072151;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-70091000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-73201030;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-73201060;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-73201090;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-73202010;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-83012000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-83021030;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-83023030;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-83023060;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84073100;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84073210;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84073220;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84073290;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84073310;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84073330;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84073360;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84073390;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84073405;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84073414;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84073418;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84073425;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84073435;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84073444;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84073448;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84073455;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84082020;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84099110;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84099910;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84133010;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84133090;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84139110;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84139190;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84143080;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84145930;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84145965;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84148005;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84152000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84212300;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84213200;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84254900;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84269100;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84311000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84713001;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84714101;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84714900;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84715001;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84716010;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84716020;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84716070;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84716080;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84716090;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84717010;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84717020;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84717030;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84717040;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84717050;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84717060;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84717090;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84718010;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84718040;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84718090;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84821010;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84821050;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84822000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84824000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84825000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84831010;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-84831030;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85013220;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85013245;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85013255;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85013261;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85013320;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85013330;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85013340;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85013361;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85013430;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85013461;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85014020;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85014040;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85014050;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85014060;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85015120;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85015140;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85015150;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85015160;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85015240;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85015280;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85071000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85076000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85079040;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85079080;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85111000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85112000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85113000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85114000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85115000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85118020;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85118060;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85119060;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85122020;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85122040;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85123000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85124020;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85124040;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85129020;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85129060;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85129070;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85198120;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85256010;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85272115;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85272125;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85272140;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85272940;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85272980;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85364100;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85371030;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85371060;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85371080;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85371091;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85372000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85391000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-85443000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
+40091200;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+40092200;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+40093200;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+40094200;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+40111010;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+40111050;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+40112010;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+40121940;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+40121980;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+40122060;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+40131000;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+40169960;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+70072151;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+70091000;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+73201030;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+73201060;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+73201090;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+73202010;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+83012000;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+83021030;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+83023030;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+83023060;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84073100;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84073210;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84073220;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84073290;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84073310;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84073330;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84073360;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84073390;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84073405;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84073414;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84073418;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84073425;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84073435;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84073444;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84073448;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84073455;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84082020;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84099110;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84099910;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84133010;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84133090;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84139110;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84139190;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84143080;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84145930;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84145965;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84148005;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84152000;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84212300;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84213200;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84254900;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84269100;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84311000;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84713001;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84714101;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84714900;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84715001;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84716010;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84716020;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84716070;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84716080;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84716090;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84717010;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84717020;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84717030;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84717040;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84717050;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84717060;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84717090;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84718010;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84718040;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84718090;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84821010;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84821050;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84822000;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84824000;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84825000;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84831010;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+84831030;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85013220;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85013245;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85013255;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85013261;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85013320;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85013330;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85013340;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85013361;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85013430;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85013461;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85014020;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85014040;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85014050;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85014060;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85015120;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85015140;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85015150;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85015160;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85015240;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85015280;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85071000;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85076000;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85079040;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85079080;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85111000;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85112000;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85113000;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85114000;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85115000;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85118020;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85118060;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85119060;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85122020;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85122040;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85123000;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85124020;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85124040;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85129020;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85129060;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85129070;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85198120;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85256010;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85272115;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85272125;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85272140;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85272940;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85272980;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85364100;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85371030;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85371060;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85371080;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85371091;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85372000;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85391000;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+85443000;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
 87032201;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
 87032301;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
 87032401;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
@@ -8870,84 +8870,84 @@ hs_8digit;rate_type;import_origin;exception_type;effective_date;end_date;source
 87044100;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
 87045100;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
 87046000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87060003;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87060005;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87060015;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87060025;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87071000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87079010;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87079050;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87081030;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87081060;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87082100;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87082200;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87082915;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87082921;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87082925;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87082951;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87083010;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87083050;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87084011;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87084070;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87084075;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87085011;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87085031;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87085051;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87085061;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87085065;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87085070;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87085075;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87085079;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87085081;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87085085;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87085089;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87085091;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87085093;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87085095;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87085099;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87087005;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87087015;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87087025;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87087035;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87087045;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87087060;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87088003;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87088005;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87088013;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87088016;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87088051;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87088055;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87088060;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87088065;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089110;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089150;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089160;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089165;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089170;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089175;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089360;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089375;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089410;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089450;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089460;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089465;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089470;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089475;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089505;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089510;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089515;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089520;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089953;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089955;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089958;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87089968;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-87169050;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-90151040;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-90151080;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-90291040;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-90291080;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-90292040;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
-94012000;s232_auto_rate;ALL;product_scope;2025-04-03;;Section 232 Auto
+87060003;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87060005;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87060015;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87060025;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87071000;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87079010;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87079050;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87081030;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87081060;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87082100;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87082200;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87082915;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87082921;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87082925;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87082951;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87083010;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87083050;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87084011;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87084070;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87084075;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87085011;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87085031;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87085051;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87085061;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87085065;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87085070;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87085075;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87085079;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87085081;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87085085;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87085089;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87085091;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87085093;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87085095;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87085099;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87087005;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87087015;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87087025;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87087035;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87087045;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87087060;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87088003;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87088005;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87088013;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87088016;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87088051;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87088055;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87088060;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87088065;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089110;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089150;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089160;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089165;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089170;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089175;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089360;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089375;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089410;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089450;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089460;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089465;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089470;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089475;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089505;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089510;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089515;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089520;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089953;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089955;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089958;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87089968;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+87169050;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+90151040;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+90151080;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+90291040;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+90291080;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+90292040;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
+94012000;s232_auto_parts_rate;ALL;product_scope;2025-05-03;;Section 232 Auto Parts
 000000NA;s232_copper_rate;ALL;product_scope;2025-08-01;;Section 232 Copper
 74061000;s232_copper_rate;ALL;product_scope;2025-08-01;;Section 232 Copper
 74062000;s232_copper_rate;ALL;product_scope;2025-08-01;;Section 232 Copper

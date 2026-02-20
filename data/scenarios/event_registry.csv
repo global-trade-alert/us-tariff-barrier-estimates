@@ -12,6 +12,7 @@ effective_date,event_id,event_name,description,rate_component,affected_countries
 2025-04-05,ieepa_aircraft_exception,WTO aircraft agreement exceptions activated,Civil aircraft products covered by the WTO Agreement on Trade in Civil Aircraft excluded from IEEPA tariffs.,ieepa,ALL,4.5
 2025-04-05,ieepa_pharma_exception,Pharmaceutical agreement exceptions activated,Pharmaceutical products covered by WTO agreements excluded from IEEPA tariffs.,ieepa,ALL,4.5
 2025-04-03,s232_auto_25pct,S232 automobiles tariff (25%),Section 232 tariff of 25% imposed on passenger vehicles and light trucks.,s232,ALL,3.1
+2025-05-03,s232_auto_parts_25pct,S232 auto parts tariff (25%),Section 232 tariff of 25% imposed on automobile parts.,s232,ALL,3.1
 2025-04-04,s232_alu_derivative_expansion,S232 aluminium derivative scope expanded,Aluminium derivative products added to Section 232 scope at derivative incidence rates.,s232,ALL,3.5
 2025-04-05,ieepa_baseline_10pct,Universal IEEPA baseline activated (10%),Universal 10% IEEPA baseline tariff applied to nearly all imports from all countries (except Canada and Mexico which face emergency rates).,ieepa,ALL_EXCEPT:CAN:MEX,4.1
 2025-04-05,ieepa_annex2_v1,Annex 2 product exceptions activated,First tranche of Annex 2 product exceptions from IEEPA tariffs activated covering select intermediate goods.,ieepa,ALL,4.4

@@ -4,6 +4,7 @@ usmca_rate,0,s232_100pct,2,USMCA preferential rate,2025-01-01
 korus_rate,0,baseline,2,KORUS preferential rate,2025-01-01
 korus_rate,0,s232_100pct,2,KORUS preferential rate,2025-01-01
 s232_auto_rate,25,baseline,3.1,Automobiles Section 232,2025-04-03
+s232_auto_parts_rate,25,baseline,3.1,Auto parts Section 232,2025-05-03
 s232_mhdv_main_rate,25,baseline,3.2,MHDV main products,2025-11-01
 s232_mhdv_bus_rate,10,baseline,3.2,MHDV buses (lower rate),2025-11-01
 s232_mhdv_parts_rate,25,baseline,3.2,MHDV parts,2025-11-01
@@ -263,6 +264,7 @@ uk_ceiling_rate,20,Greenland8_IEEPA_S232_10pct,7.3,UK auto ceiling +10pp Greenla
 uk_steel_alu_cap,35,Greenland8_IEEPA_S232_10pct,7.3,UK steel/alu cap +10pp Greenland,2026-02-01
 ieepa_topup_50,9,baseline,4.2,Bangladesh IEEPA top-up (reduced by deal),2099-01-01
 s232_auto_rate,0,no_s232,3.1,Automobiles S232 disabled,2025-01-01
+s232_auto_parts_rate,0,no_s232,3.1,Auto parts S232 disabled,2025-01-01
 s232_mhdv_main_rate,0,no_s232,3.2,MHDV S232 disabled,2025-01-01
 s232_mhdv_bus_rate,0,no_s232,3.2,MHDV buses S232 disabled,2025-01-01
 s232_mhdv_parts_rate,0,no_s232,3.2,MHDV parts S232 disabled,2025-01-01

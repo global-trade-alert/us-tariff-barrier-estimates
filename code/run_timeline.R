@@ -357,7 +357,7 @@ us_imports[, `:=`(
 
 # Initialize boolean marker columns
 us_imports[, `:=`(
-  s232_auto = 0, s232_mhdv = 0, s232_pv_parts = 0,
+  s232_auto = 0, s232_auto_parts = 0, s232_mhdv = 0, s232_pv_parts = 0,
   s232_steel = 0, s232_steel_derivative = 0, s232_steel_exempt = 0,
   s232_alu = 0, s232_alu_derivative = 0,
   s232_copper = 0, s232_copper_derivative = 0,

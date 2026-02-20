@@ -55,7 +55,7 @@ compute_contributions <- function(data, ieepa_baseline_rate = 10, verbose = FALS
   }
 
   # Ensure S232 flag columns exist (default to 0)
-  s232_flags <- c("s232_auto", "s232_mhdv", "s232_pv_parts",
+  s232_flags <- c("s232_auto", "s232_auto_parts", "s232_mhdv", "s232_pv_parts",
                   "s232_steel", "s232_steel_derivative",
                   "s232_alu", "s232_alu_derivative",
                   "s232_copper", "s232_copper_derivative",
@@ -71,7 +71,7 @@ compute_contributions <- function(data, ieepa_baseline_rate = 10, verbose = FALS
   # ---------------------------------------------------------------------------
   data[, `:=`(
     # Transport S232 (auto, MHDV, PV parts) - IEEPA excluded
-    is_transport_s232 = (s232_auto == 1 | s232_mhdv == 1 | s232_pv_parts == 1),
+    is_transport_s232 = (s232_auto == 1 | s232_auto_parts == 1 | s232_mhdv == 1 | s232_pv_parts == 1),
     # Materials S232 (steel/alu/copper/lumber, including derivatives)
     is_materials_s232 = (s232_steel == 1 | s232_steel_derivative == 1 |
                            s232_alu == 1 | s232_alu_derivative == 1 |
@@ -264,19 +264,19 @@ aggregate_s232_subtypes <- function(data, total_imports = NULL) {
   # Create mutually exclusive category flags (in priority order)
   # This avoids double-counting products flagged in multiple categories
   data[, `:=`(
-    s232_cat_auto = (s232_auto == 1),
-    s232_cat_mhdv = (s232_mhdv == 1 | s232_pv_parts == 1) & (s232_auto != 1),
+    s232_cat_auto = (s232_auto == 1 | s232_auto_parts == 1),
+    s232_cat_mhdv = (s232_mhdv == 1 | s232_pv_parts == 1) & (s232_auto != 1) & (s232_auto_parts != 1),
     s232_cat_steel = (s232_steel == 1 | s232_steel_derivative == 1) &
-                     (s232_auto != 1) & (s232_mhdv != 1) & (s232_pv_parts != 1),
+                     (s232_auto != 1) & (s232_auto_parts != 1) & (s232_mhdv != 1) & (s232_pv_parts != 1),
     s232_cat_alu = (s232_alu == 1 | s232_alu_derivative == 1) &
-                   (s232_auto != 1) & (s232_mhdv != 1) & (s232_pv_parts != 1) &
+                   (s232_auto != 1) & (s232_auto_parts != 1) & (s232_mhdv != 1) & (s232_pv_parts != 1) &
                    (s232_steel != 1) & (s232_steel_derivative != 1),
     s232_cat_copper = (s232_copper == 1 | s232_copper_derivative == 1) &
-                      (s232_auto != 1) & (s232_mhdv != 1) & (s232_pv_parts != 1) &
+                      (s232_auto != 1) & (s232_auto_parts != 1) & (s232_mhdv != 1) & (s232_pv_parts != 1) &
                       (s232_steel != 1) & (s232_steel_derivative != 1) &
                       (s232_alu != 1) & (s232_alu_derivative != 1),
     s232_cat_lumber = (s232_lumber == 1 | s232_lumber_derivative == 1) &
-                      (s232_auto != 1) & (s232_mhdv != 1) & (s232_pv_parts != 1) &
+                      (s232_auto != 1) & (s232_auto_parts != 1) & (s232_mhdv != 1) & (s232_pv_parts != 1) &
                       (s232_steel != 1) & (s232_steel_derivative != 1) &
                       (s232_alu != 1) & (s232_alu_derivative != 1) &
                       (s232_copper != 1) & (s232_copper_derivative != 1)

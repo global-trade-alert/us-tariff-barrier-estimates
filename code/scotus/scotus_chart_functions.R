@@ -1394,12 +1394,14 @@ create_four_scenario_sector_chart_mobile <- function(baseline_hs2, ieepa_hs2,
 # =============================================================================
 # CHART S122-4: create_surcharge_vs_stack_chart()
 # =============================================================================
-#' Create stacked horizontal bar chart decomposing the surcharge scenario into
-#' three components per country:
-#'   1. IEEPA Strike Down rate (base after SCOTUS)
-#'   2. S122 Stack increment (stack rate - strike-down rate)
-#'   3. Surcharge increment (surcharge rate - stack rate)
-#' Together these three sum to the surcharge scenario total.
+#' Create 3-layer stacked horizontal bar chart showing tariff composition
+#' under the two Section 122 interpretations.
+#'
+#' Three layers (left to right):
+#'   1. IEEPA Strike Down base rate (navy) — post-SCOTUS tariff floor
+#'   2. S122 Stack increment (orange) — additional rate from IEEPA-like stacking
+#'   3. Surcharge top-up (teal) — further increment under flat surcharge interpretation
+#' Total bar length = S122 Flat Surcharge rate.
 #'
 #' @param ieepa_country data.table with country-level compositions (IEEPA strike-down)
 #' @param stack_country data.table with country-level compositions (S122 stack)
@@ -1429,8 +1431,8 @@ create_surcharge_vs_stack_chart <- function(ieepa_country, stack_country,
 
   # Compute three stacked components
   merged[, `:=`(
-    base_ieepa      = rate_ieepa,
-    increment_stack  = pmax(0, rate_stack - rate_ieepa),
+    base_ieepa          = rate_ieepa,
+    increment_stack     = pmax(0, rate_stack - rate_ieepa),
     increment_surcharge = pmax(0, rate_surcharge - rate_stack)
   )]
 
@@ -1442,46 +1444,59 @@ create_surcharge_vs_stack_chart <- function(ieepa_country, stack_country,
   # Top N by import value
   merged <- merged[order(-total_imports_bn)][seq_len(min(top_n, nrow(merged)))]
 
-  # Display label with import value
-  merged[, display_label := sprintf("%s ($%.1f)", geography, total_imports_bn)]
-  # Order by surcharge rate (descending, so highest at top in coord_flip)
+  # Order by surcharge rate (largest total at top)
   merged <- merged[order(rate_surcharge)]
-  merged[, display_label := factor(display_label, levels = display_label)]
+  merged[, geography := factor(geography, levels = geography)]
 
-  # Pivot to long for stacking
+  # Pivot to long for stacking (three components)
   plot_dt <- melt(merged,
-                  id.vars = c("display_label", "rate_surcharge"),
-                  measure.vars = c("base_ieepa", "increment_stack", "increment_surcharge"),
+                  id.vars = c("geography", "rate_surcharge", "rate_stack",
+                              "rate_ieepa"),
+                  measure.vars = c("base_ieepa", "increment_stack",
+                                   "increment_surcharge"),
                   variable.name = "component", value.name = "value")
 
-  # Factor ordering: base first (leftmost), then stack, then surcharge
-  component_levels <- c("base_ieepa", "increment_stack", "increment_surcharge")
-  component_labels <- c("IEEPA Strike Down (base)", "+ S122 Stack", "+ Surcharge top-up")
-  component_colors <- c("base_ieepa" = "#003366",
-                         "increment_stack" = "#2CA58D",
-                         "increment_surcharge" = "#F5A623")
+  # Factor levels REVERSED so ggplot2+coord_flip puts base_ieepa on the LEFT
+  # (ggplot2 stacks last level at bottom = left in coord_flip)
+  component_levels <- c("increment_surcharge", "increment_stack", "base_ieepa")
+  component_colors <- c("base_ieepa"          = GTA_NAVY,
+                         "increment_stack"      = "#F5A623",
+                         "increment_surcharge"  = "#2CA58D")
+  component_labels_named <- c("base_ieepa"          = "Post-ruling base",
+                               "increment_stack"      = "S122 Stack increment",
+                               "increment_surcharge"  = "Additional flat surcharge")
   plot_dt[, component := factor(component, levels = component_levels)]
 
-  p <- ggplot(plot_dt, aes(x = display_label, y = value, fill = component)) +
+  p <- ggplot(plot_dt, aes(x = geography, y = value, fill = component)) +
     geom_bar(stat = "identity", width = 0.65) +
-    # Total label at bar end
+    # Label: S122 Stack rate at boundary between orange and green
+    geom_text(
+      data = merged[increment_stack > 0.3],
+      aes(x = geography, y = rate_stack, fill = NULL,
+          label = sprintf("%.1f%%", rate_stack)),
+      hjust = 1.15, size = 3.0, color = "white", fontface = "bold"
+    ) +
+    # Label: total surcharge rate at bar end
     geom_text(
       data = merged,
-      aes(x = display_label, y = rate_surcharge, fill = NULL,
+      aes(x = geography, y = rate_surcharge, fill = NULL,
           label = sprintf("%.1f%%", rate_surcharge)),
       hjust = -0.12, size = 3.8, fontface = "bold", color = "grey30"
     ) +
     scale_fill_manual(
       values = component_colors,
-      labels = component_labels,
-      name   = NULL
+      labels = component_labels_named,
+      name   = NULL,
+      # Legend in reading order: base, stack, surcharge
+      breaks = c("base_ieepa", "increment_stack", "increment_surcharge")
     ) +
     scale_y_continuous(
       labels = function(x) paste0(x, "%"),
-      expand = expansion(mult = c(0, 0.15))
+      expand = expansion(mult = c(0, 0.12)),
+      breaks = seq(0, 35, 5)
     ) +
     coord_flip() +
-    labs(x = NULL, y = "Trade-weighted average tariff rate (%)") +
+    labs(x = NULL, y = "Trade-weighted tariff rate (%)") +
     theme_gta_inner +
     theme(
       axis.text.y     = element_text(size = 10, face = "bold"),
@@ -1493,8 +1508,8 @@ create_surcharge_vs_stack_chart <- function(ieepa_country, stack_country,
 
   gta_wrap(
     p,
-    title    = "How the surcharge scenario builds on the strike-down base",
-    subtitle = "Stacked components: post-SCOTUS base + S122 stack increment + surcharge top-up. Top 20 by import value."
+    title    = "How the surcharge builds on the post-ruling base rate",
+    subtitle = "Three layers: post-ruling base (navy), S122 stacking increment (orange), additional flat surcharge (green). Top 20 by import value."
   )
 }
 

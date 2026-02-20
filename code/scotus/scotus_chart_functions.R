@@ -1467,16 +1467,40 @@ create_surcharge_vs_stack_chart <- function(ieepa_country, stack_country,
                                "increment_surcharge"  = "Additional flat surcharge")
   plot_dt[, component := factor(component, levels = component_levels)]
 
+  # Midpoints for label positioning inside each segment
+  merged[, `:=`(
+    mid_base      = base_ieepa / 2,
+    mid_stack     = base_ieepa + increment_stack / 2,
+    mid_surcharge = base_ieepa + increment_stack + increment_surcharge / 2
+  )]
+
+  # Minimum segment width (pp) to show a label inside
+  MIN_WIDTH <- 1.2
+
   p <- ggplot(plot_dt, aes(x = geography, y = value, fill = component)) +
     geom_bar(stat = "identity", width = 0.65) +
-    # Label: S122 Stack rate at boundary between orange and green
+    # Label 1: navy segment — post-ruling base rate
     geom_text(
-      data = merged[increment_stack > 0.3],
-      aes(x = geography, y = rate_stack, fill = NULL,
-          label = sprintf("%.1f%%", rate_stack)),
-      hjust = 1.15, size = 3.0, color = "white", fontface = "bold"
+      data = merged[base_ieepa >= MIN_WIDTH],
+      aes(x = geography, y = mid_base, fill = NULL,
+          label = sprintf("%.1f", base_ieepa)),
+      size = 2.8, color = "white", fontface = "bold"
     ) +
-    # Label: total surcharge rate at bar end
+    # Label 2: orange segment — S122 Stack increment
+    geom_text(
+      data = merged[increment_stack >= MIN_WIDTH],
+      aes(x = geography, y = mid_stack, fill = NULL,
+          label = sprintf("%.1f", increment_stack)),
+      size = 2.8, color = "white", fontface = "bold"
+    ) +
+    # Label 3: green segment — additional flat surcharge
+    geom_text(
+      data = merged[increment_surcharge >= MIN_WIDTH],
+      aes(x = geography, y = mid_surcharge, fill = NULL,
+          label = sprintf("%.1f", increment_surcharge)),
+      size = 2.8, color = "white", fontface = "bold"
+    ) +
+    # Label 4: total surcharge rate at bar end
     geom_text(
       data = merged,
       aes(x = geography, y = rate_surcharge, fill = NULL,

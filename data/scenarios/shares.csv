@@ -61,5 +61,7 @@ gtm_civil_aircraft_share,1.0,s232_100pct,0.5,Guatemala aircraft for civil use sh
 gtm_nonpatented_pharma_share,1.0,s232_100pct,0.5,Guatemala non-patented pharma share (full exemption per deal)
 bgd_civil_aircraft_share,1.0,baseline,0.5,Bangladesh aircraft for civil use share (full exemption per deal)
 bgd_nonpatented_pharma_share,1.0,baseline,0.5,Bangladesh non-patented pharma share (full exemption per deal)
+cafta_textile_compliance,0.95,baseline,4b,CAFTA-DR textile compliance rate (default for all members)
 bgd_civil_aircraft_share,1.0,s232_100pct,0.5,Bangladesh aircraft for civil use share (full exemption per deal)
 bgd_nonpatented_pharma_share,1.0,s232_100pct,0.5,Bangladesh non-patented pharma share (full exemption per deal)
+cafta_textile_compliance,0.95,s232_100pct,4b,CAFTA-DR textile compliance rate (default for all members)

@@ -2412,6 +2412,29 @@ us_imports[un_code %in% c(canada_un_code, mexico_un_code),
 
 cat("  Step 3b: Applied USMCA weighting to S122 rates (product-level compliance)\n")
 
+# Step 3c: CAFTA-DR textile compliance weighting for S122
+# CAFTA members get compliance-weighted S122 on ATC textile products
+# Compliance rate from shares.csv (default 95% for all members)
+cafta_textile_codes <- get_exceptions("s122_baseline_rate", "cafta_textiles", policy_date)
+cafta_compliance <- get_share("cafta_textile_compliance")
+
+if (length(cafta_textile_codes) > 0) {
+  us_imports[un_code %in% cafta_partners & hs_8digit %in% cafta_textile_codes,
+             s122_rate_weighted := cafta_compliance * 0 +
+                                   (1 - cafta_compliance) * s122_rate]
+
+  cafta_textile_affected <- nrow(us_imports[un_code %in% cafta_partners &
+                                            hs_8digit %in% cafta_textile_codes])
+  cafta_textile_value <- sum(us_imports[un_code %in% cafta_partners &
+                                        hs_8digit %in% cafta_textile_codes]$us_imports_bn,
+                             na.rm = TRUE)
+  cat(sprintf("  Step 3c: CAFTA textile compliance (%.0f%%) on %s flows ($%.2f bn, %d products)\n",
+              cafta_compliance * 100, format(cafta_textile_affected, big.mark = ","),
+              cafta_textile_value, length(cafta_textile_codes)))
+} else {
+  cat("  Step 3c: No CAFTA textile codes active for this date\n")
+}
+
 # Step 4: Calculate s232_rate_weighted for USMCA auto and MHDV products
 # Uses product-level USMCA compliance
 us_imports[, s232_rate_weighted := s232_rate]  # Default: no weighting

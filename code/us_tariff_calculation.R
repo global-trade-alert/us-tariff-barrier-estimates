@@ -517,12 +517,13 @@ china_hkg_codes <- get_country_group("china_pair")
 swiss_liechtenstein <- get_country_group("swiss_pair")
 eu_members <- get_country_group("eu_member")
 sanctioned_countries <- get_country_group("sanctioned")
+cafta_partners <- get_country_group("cafta")
 
 cat(sprintf("    Loaded %d countries, %d groups from CSV\n",
             nrow(COUNTRIES_DB), length(unique(COUNTRY_GROUPS_DB$group_name))))
-cat(sprintf("    USMCA: %d, EU: %d, Sanctioned: %d\n",
+cat(sprintf("    USMCA: %d, EU: %d, Sanctioned: %d, CAFTA-DR: %d\n",
             length(usmca_partners), length(eu_members),
-            length(sanctioned_countries)))
+            length(sanctioned_countries), length(cafta_partners)))
 
 
 # =============================================================================

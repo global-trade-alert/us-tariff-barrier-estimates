@@ -20,6 +20,7 @@ s232_lumber_rate,10,baseline,3.7,S232 Lumber base rate,2025-10-14
 s232_lumber_cabinet_rate,25,baseline,3.7,S232 Lumber cabinet/vanity derivative rate,2025-10-14
 s232_lumber_upholstered_rate,25,baseline,3.7,S232 Lumber upholstered furniture rate,2025-10-14
 ieepa_baseline_rate,10,baseline,4.1,Universal IEEPA baseline,2025-04-05
+s122_baseline_rate,10,baseline,4b.1,Section 122 baseline rate,2026-02-24
 china_opioid_rate,10,baseline,5.1,China synthetic opioid emergency,2025-02-04
 china_opioid_rate,20,baseline,5.1,China synthetic opioid emergency,2025-03-04
 china_opioid_rate,10,baseline,5.1,China synthetic opioid emergency,2025-11-10
@@ -225,6 +226,11 @@ ieepa_topup_894,0,baseline,4.2,IEEPA struck down (court ruling 2026-02-20),2026-
 ieepa_topup_716,0,baseline,4.2,IEEPA struck down (court ruling 2026-02-20),2026-02-20
 india_russia_topup,0,baseline,7.1,IEEPA struck down (court ruling 2026-02-20),2026-02-20
 bra_topup,0,baseline,7.2,IEEPA struck down (court ruling 2026-02-20),2026-02-20
+jpn_ieepa_floor_rate,0,baseline,7.4,IEEPA struck down (court ruling 2026-02-20),2026-02-20
+eu_ieepa_floor_rate,0,baseline,7.5,IEEPA struck down (court ruling 2026-02-20),2026-02-20
+kor_ieepa_floor_rate,0,baseline,7.6,IEEPA struck down (court ruling 2026-02-20),2026-02-20
+che_ieepa_floor_rate,0,baseline,7.7,IEEPA struck down (court ruling 2026-02-20),2026-02-20
+twn_ieepa_floor_rate,0,baseline,7.9,IEEPA struck down (court ruling 2026-02-20),2026-02-20
 ieepa_baseline_rate,0,ieepa_full_strike_down,4.1,IEEPA struck down - no baseline,2025-01-01
 china_opioid_rate,0,ieepa_full_strike_down,5.1,IEEPA struck down - no China opioid,2025-01-01
 can_emergency_energy_rate,0,ieepa_full_strike_down,5.2,IEEPA struck down - no Canada energy emergency,2025-01-01

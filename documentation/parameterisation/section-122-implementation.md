@@ -4,7 +4,7 @@
 
 ## Overview
 
-Section 122 of the Trade Act of 1974 is modelled as an **additive parallel tariff layer** that stacks on top of IEEPA. It operates through its own column (`s122_rate`) and follows the same four-formula aggregation logic, but with a distinct exception list and FTA preference structure.
+Section 122 of the Trade Act of 1974 is modelled as an **additive parallel tariff layer**. It operates through its own column (`s122_rate`) and follows the same four-formula aggregation logic as IEEPA, but with a distinct exception list and FTA preference structure.
 
 Key parameters:
 
@@ -16,7 +16,7 @@ Key parameters:
 | Legal authority | Section 122, Trade Act of 1974 |
 | S232 interaction | Non-additive (S232 primacy via content/aircraft shares) |
 
-The S122 rate is **not a replacement** for IEEPA in the code. Both `ieepa_rate` and `s122_rate` columns exist simultaneously. Scenarios configure which is active via `rates.csv`. The baseline scenario sets both `ieepa_baseline_rate = 10` and `s122_baseline_rate = 10`; the `s122_ieepa_stack` scenario zeroes out all IEEPA rates while keeping S122 active.
+Both `ieepa_rate` and `s122_rate` columns exist simultaneously in the model. The baseline scenario uses date-based rate loading to reflect the policy transition: `ieepa_baseline_rate = 10` from 5 April 2025, overridden to 0 from 20 February 2026 (line 136 of `rates.csv`); `s122_baseline_rate = 10` from 24 February 2026. For any policy date after the SCOTUS ruling, the baseline gives IEEPA = 0 and S122 = 10, consistent with S122 replacing the struck-down IEEPA tariffs.
 
 For the policy narrative, see `s122-explainer.md` in the repository root.
 
@@ -30,7 +30,15 @@ S122 parameters are distributed across four configuration files in `data/scenari
 s122_baseline_rate,10,baseline,4b.1,Section 122 baseline rate,2026-02-24
 ```
 
-Loaded at line 901 of `apply_rates.R` via `get_rate("s122_baseline_rate")`. Returns 0 if the rate is not defined in the active scenario, which disables the entire Section 4b pipeline.
+Loaded at line 901 of `apply_rates.R` via `get_rate("s122_baseline_rate")`. Returns 0 if the rate is not defined in the active scenario or if the policy date precedes the effective date, which disables the entire Section 4b pipeline.
+
+The corresponding IEEPA zeroing entry ensures the two layers do not stack in the baseline scenario:
+
+```
+ieepa_baseline_rate,0,baseline,4.1,IEEPA struck down (court ruling 2026-02-20),2026-02-20
+```
+
+`get_rate()` resolves date conflicts by selecting the most recent entry for a given rate key on or before the policy date. For dates after 20 February 2026, this yields IEEPA = 0 and S122 = 10.
 
 ### exceptions.csv
 
@@ -294,7 +302,7 @@ How S122 interacts with every other tariff layer in the model:
 | **HTS (MFN)** | Additive. S122 always stacks on top of HTS base rates. |
 | **S232 transport** | S232 replaces S122 entirely (Formula 1). |
 | **S232 materials** | S232 primacy via content share. S122 applies to `(1 - content_share)` portion only, further reduced by `(1 - aircraft_share)` (Formula 2). |
-| **IEEPA** | Additive. S122 and IEEPA stack in all formulas where both are present. In practice, scenarios typically activate one or the other, not both. |
+| **IEEPA** | Additive in all formulas where both are present. In the baseline scenario, the IEEPA rate is zeroed from 20 February 2026 (SCOTUS ruling), so S122 effectively replaces IEEPA. Alternative scenarios (e.g. `s122_ieepa_stack`) model S122 as a standalone layer with IEEPA explicitly zeroed. |
 | **Emergency** | Additive in Formulas 0 and 3. In Formula 2, both sit inside the content-share bracket (unless `emergency_additive = 1`). |
 | **S301 (China)** | Additive. S122 and S301 always stack without interaction. |
 | **Country surcharge** | Additive. Independent layer. |
@@ -346,7 +354,8 @@ All S122-related variables, their source files, and code locations.
 
 | File | Content |
 |------|---------|
-| `data/scenarios/rates.csv` (line 23) | `s122_baseline_rate` definition |
+| `data/scenarios/rates.csv` (line 23) | `s122_baseline_rate` definition (10%, from 2026-02-24) |
+| `data/scenarios/rates.csv` (line 136) | `ieepa_baseline_rate` override to 0 (from 2026-02-20) |
 | `data/scenarios/exceptions.csv` | 2,749 S122 exception entries across 4 types |
 | `data/scenarios/shares.csv` (line 64) | `cafta_textile_compliance` rate |
 | `data/scenarios/country_groups.csv` (lines 39-44) | `cafta` group membership |

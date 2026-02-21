@@ -1,0 +1,1681 @@
+hs_8digit;hs_92_origin;description;excluded;source;mapping_method
+30059010;3005.90;Wadding, gauze, bandages and the like;1;WTO ATC Annex;both
+30059050;3005.90;Wadding, gauze, bandages and the like;1;WTO ATC Annex;both
+50040000;5004.00;Silk yarn (other than yarn spun from silk waste) not put up for retail sale;0;WTO ATC Annex;both
+50050000;5005.00;Yarn spun from silk waste, not put up for retail sale;0;WTO ATC Annex;both
+50060010;5006.00;"Silk yarn & yarn spun from silk waste, put up f retail sale; silk-worm gut";0;WTO ATC Annex;both
+50060090;5006.00;"Silk yarn & yarn spun from silk waste, put up f retail sale; silk-worm gut";0;WTO ATC Annex;both
+50071030;5007.10;Woven fabrics of noil silk;0;WTO ATC Annex;both
+50071060;5007.10;Woven fabrics of noil silk;0;WTO ATC Annex;both
+50072000;5007.20;Woven fabrics of silk/silk waste, other than noil silk, 85%/more of such fibres;0;WTO ATC Annex;both
+50079030;5007.90;Woven fabrics of silk, nes;0;WTO ATC Annex;both
+50079060;5007.90;Woven fabrics of silk, nes;0;WTO ATC Annex;both
+51051000;5105.10;Carded wool;0;WTO ATC Annex;both
+51052100;5105.21;Combed wool in fragments;0;WTO ATC Annex;both
+51052900;5105.29;Wool tops and other combed wool, other than combed wool in fragments;0;WTO ATC Annex;both
+51053100;5105.30;Fine animal hair, carded or combed;0;WTO ATC Annex;concordance
+51053900;5105.30;Fine animal hair, carded or combed;0;WTO ATC Annex;concordance
+51061000;5106.10;Yarn of carded wool,>/=85% by weight of wool, nt put up for retail sale;0;WTO ATC Annex;both
+51062000;5106.20;Yarn of carded, wool,<85% by weight of wool, not put up for retail sale;0;WTO ATC Annex;both
+51071030;5107.10;Yarn of combed wool,>/=85% by weight of wool, not put up for retail sale;0;WTO ATC Annex;both
+51071060;5107.10;Yarn of combed wool,>/=85% by weight of wool, not put up for retail sale;0;WTO ATC Annex;both
+51072030;5107.20;Yarn of combed wool,<85% by weight of wool, not put up for retail sale;0;WTO ATC Annex;both
+51072060;5107.20;Yarn of combed wool,<85% by weight of wool, not put up for retail sale;0;WTO ATC Annex;both
+51081030;5108.10;Yarn of carded fine animal hair, not put up for retail sale;0;WTO ATC Annex;both
+51081040;5108.10;Yarn of carded fine animal hair, not put up for retail sale;0;WTO ATC Annex;both
+51081080;5108.10;Yarn of carded fine animal hair, not put up for retail sale;0;WTO ATC Annex;both
+51082030;5108.20;Yarn of combed fine animal hair, not put up for retail sale;0;WTO ATC Annex;both
+51082040;5108.20;Yarn of combed fine animal hair, not put up for retail sale;0;WTO ATC Annex;both
+51082080;5108.20;Yarn of combed fine animal hair, not put up for retail sale;0;WTO ATC Annex;both
+51091020;5109.10;Yarn of wool/of fine animal hair,>/=85% by weight of such fibres, put up;0;WTO ATC Annex;both
+51091040;5109.10;Yarn of wool/of fine animal hair,>/=85% by weight of such fibres, put up;0;WTO ATC Annex;both
+51091080;5109.10;Yarn of wool/of fine animal hair,>/=85% by weight of such fibres, put up;0;WTO ATC Annex;both
+51091090;5109.10;Yarn of wool/of fine animal hair,>/=85% by weight of such fibres, put up;0;WTO ATC Annex;both
+51099020;5109.90;Yarn of wool/of fine animal hair,<85% by weight of such fibres, put up;0;WTO ATC Annex;both
+51099040;5109.90;Yarn of wool/of fine animal hair,<85% by weight of such fibres, put up;0;WTO ATC Annex;both
+51099080;5109.90;Yarn of wool/of fine animal hair,<85% by weight of such fibres, put up;0;WTO ATC Annex;both
+51099090;5109.90;Yarn of wool/of fine animal hair,<85% by weight of such fibres, put up;0;WTO ATC Annex;both
+51100000;5110.00;Yarn of coarse animal hair or of horsehair;0;WTO ATC Annex;both
+51111120;5111.11;Woven fabrics of carded wool/fine animal hair,>/=85% by weight,</=300 g/m2;0;WTO ATC Annex;both
+51111130;5111.11;Woven fabrics of carded wool/fine animal hair,>/=85% by weight,</=300 g/m2;0;WTO ATC Annex;both
+51111170;5111.11;Woven fabrics of carded wool/fine animal hair,>/=85% by weight,</=300 g/m2;0;WTO ATC Annex;both
+51111910;5111.19;Woven fabrics of carded wool/fine animal hair,>/=85% by weight,>300 g/m2;0;WTO ATC Annex;both
+51111920;5111.19;Woven fabrics of carded wool/fine animal hair,>/=85% by weight,>300 g/m2;0;WTO ATC Annex;both
+51111960;5111.19;Woven fabrics of carded wool/fine animal hair,>/=85% by weight,>300 g/m2;0;WTO ATC Annex;both
+51112005;5111.20;"Woven fabric of carded wool/fine animal hair,<85% by
+                weight, mixed with m-m filament";0;WTO ATC Annex;both
+51112010;5111.20;"Woven fabric of carded wool/fine animal hair,<85% by
+                weight, mixed with m-m filament";0;WTO ATC Annex;both
+51112090;5111.20;"Woven fabric of carded wool/fine animal hair,<85% by
+                weight, mixed with m-m filament";0;WTO ATC Annex;both
+51113005;5111.30;"Woven fabric of carded wool/fine animal hair,<85% by
+                weight, mixed with m-m fibre";0;WTO ATC Annex;both
+51113010;5111.30;"Woven fabric of carded wool/fine animal hair,<85% by
+                weight, mixed with m-m fibre";0;WTO ATC Annex;both
+51113090;5111.30;"Woven fabric of carded wool/fine animal hair,<85% by
+                weight, mixed with m-m fibre";0;WTO ATC Annex;both
+51119030;5111.90;Woven fabrics of carded wool/fine animal hair,<85% by weight, nes;0;WTO ATC Annex;both
+51119040;5111.90;Woven fabrics of carded wool/fine animal hair,<85% by weight, nes;0;WTO ATC Annex;both
+51119050;5111.90;Woven fabrics of carded wool/fine animal hair,<85% by weight, nes;0;WTO ATC Annex;both
+51119090;5111.90;Woven fabrics of carded wool/fine animal hair,<85% by weight, nes;0;WTO ATC Annex;both
+51121110;5112.11;Woven fabric of combed wool/fine animal hair,>/=85% by weight,</=200 g/m2;0;WTO ATC Annex;both
+51121130;5112.11;Woven fabric of combed wool/fine animal hair,>/=85% by weight,</=200 g/m2;0;WTO ATC Annex;both
+51121160;5112.11;Woven fabric of combed wool/fine animal hair,>/=85% by weight,</=200 g/m2;0;WTO ATC Annex;both
+51121920;5112.19;Woven fabrics of combed wool/fine animal hair,>/=85% by weight,>200 g/m2;0;WTO ATC Annex;both
+51121960;5112.19;Woven fabrics of combed wool/fine animal hair,>/=85% by weight,>200 g/m2;0;WTO ATC Annex;both
+51121995;5112.19;Woven fabrics of combed wool/fine animal hair,>/=85% by weight,>200 g/m2;0;WTO ATC Annex;both
+51122010;5112.20;"Woven fabrics of combed wool/fine animal hair,<85% by
+                weight, mixed with m-m filament";0;WTO ATC Annex;both
+51122020;5112.20;"Woven fabrics of combed wool/fine animal hair,<85% by
+                weight, mixed with m-m filament";0;WTO ATC Annex;both
+51122030;5112.20;"Woven fabrics of combed wool/fine animal hair,<85% by
+                weight, mixed with m-m filament";0;WTO ATC Annex;both
+51123010;5112.30;"Woven fabrics of combed wool/fine animal hair,<85% by
+                weight, mixed with m-m fibre";0;WTO ATC Annex;both
+51123020;5112.30;"Woven fabrics of combed wool/fine animal hair,<85% by
+                weight, mixed with m-m fibre";0;WTO ATC Annex;both
+51123030;5112.30;"Woven fabrics of combed wool/fine animal hair,<85% by
+                weight, mixed with m-m fibre";0;WTO ATC Annex;both
+51129030;5112.90;Woven fabrics of combed wool/fine animal hair, <85% by weight, nes;0;WTO ATC Annex;both
+51129040;5112.90;Woven fabrics of combed wool/fine animal hair, <85% by weight, nes;0;WTO ATC Annex;both
+51129050;5112.90;Woven fabrics of combed wool/fine animal hair, <85% by weight, nes;0;WTO ATC Annex;both
+51129090;5112.90;Woven fabrics of combed wool/fine animal hair, <85% by weight, nes;0;WTO ATC Annex;both
+51130000;5113.00;Woven fabrics of coarse animal hair or of horsehair;0;WTO ATC Annex;both
+52041100;5204.11;Cotton sewing thread >/=85% by weight of cotton, not put up for retail sale;0;WTO ATC Annex;both
+52041900;5204.19;Cotton sewing thread,<85% by weight of cotton, not put up for retail sale;0;WTO ATC Annex;both
+52042000;5204.20;Cotton sewing thread, put up for retail sale;0;WTO ATC Annex;both
+52051110;5205.11;Cotton yarn,>/=85%,single, uncombed,>/=714.29 dtex, nt put up;0;WTO ATC Annex;both
+52051120;5205.11;Cotton yarn,>/=85%,single, uncombed,>/=714.29 dtex, nt put up;0;WTO ATC Annex;both
+52051210;5205.12;Cotton yarn,>/=85%,single, uncombed, 714.29 >dtex>/=232.56, not put up;0;WTO ATC Annex;both
+52051220;5205.12;Cotton yarn,>/=85%,single, uncombed, 714.29 >dtex>/=232.56, not put up;0;WTO ATC Annex;both
+52051310;5205.13;Cotton yarn,>/=85%,single, uncombed, 232.56>dtex>/=192.31, not put up;0;WTO ATC Annex;both
+52051320;5205.13;Cotton yarn,>/=85%,single, uncombed, 232.56>dtex>/=192.31, not put up;0;WTO ATC Annex;both
+52051410;5205.14;Cotton yarn,>/=85%,single, uncombed, 192.31 >dtex>/=125, not put up;0;WTO ATC Annex;both
+52051420;5205.14;Cotton yarn,>/=85%,single, uncombed, 192.31 >dtex>/=125, not put up;0;WTO ATC Annex;both
+52051510;5205.15;Cotton yarn,>/=85%,single, uncombed,<125 dtex, nt put up f retail sale;0;WTO ATC Annex;both
+52051520;5205.15;Cotton yarn,>/=85%,single, uncombed,<125 dtex, nt put up f retail sale;0;WTO ATC Annex;both
+52052100;5205.21;Cotton yarn,>/=85%, single, combed,>/=714.29, not put up;0;WTO ATC Annex;both
+52052200;5205.22;Cotton yarn,>/=85%,single, combed, 714.29 >dtex>/=232.56, not put up;0;WTO ATC Annex;both
+52052300;5205.23;Cotton yarn,>/=85%, single, combed, 232.56 >dtex>/=192.31, not put up;0;WTO ATC Annex;both
+52052400;5205.24;Cotton yarn,>/=85%, single, combed, 192.31 >dtex>/=125, not put up;0;WTO ATC Annex;both
+52052600;5205.25;Cotton yarn,>/=85%,single, combed,<125 dtex, not put up for retail sale;0;WTO ATC Annex;concordance
+52052700;5205.25;Cotton yarn,>/=85%,single, combed,<125 dtex, not put up for retail sale;0;WTO ATC Annex;concordance
+52052800;5205.25;Cotton yarn,>/=85%,single, combed,<125 dtex, not put up for retail sale;0;WTO ATC Annex;concordance
+52053100;5205.31;Cotton yarn,>/=85%, multi, uncombed,>/=714.29 dtex, not put up, nes;0;WTO ATC Annex;both
+52053200;5205.32;Cotton yarn,>/=85%,multi, uncombed, 714.29 >dtex>/=232.56, not put up, nes;0;WTO ATC Annex;both
+52053300;5205.33;Cotton yarn,>/=85%,multi, uncombed, 232.56 >dtex>/=192.31, not put up, nes;0;WTO ATC Annex;both
+52053400;5205.34;Cotton yarn,>/=85%,multi, uncombed, 192.31 >dtex>/=125, nt put up, nes;0;WTO ATC Annex;both
+52053500;5205.35;Cotton yarn,>/=85%,multi, uncombed, <125 dtex, not put up, nes;0;WTO ATC Annex;both
+52054100;5205.41;Cotton yarn,>/=85%, multiple, combed,>/=714.29 dtex, not put up, nes;0;WTO ATC Annex;both
+52054200;5205.42;Cotton yarn,>/=85%,multi, combed, 714.29 >dtex>/=232.56, nt put up, nes;0;WTO ATC Annex;both
+52054300;5205.43;Cotton yarn,>/=85%,multi, combed, 232.56 >dtex>/=192.31, nt put up, nes;0;WTO ATC Annex;both
+52054400;5205.44;Cotton yarn,>/=85%,multiple, combed, 192.31 >dtex>/=125, not put up, nes;0;WTO ATC Annex;both
+52054600;5205.45;Cotton yarn,>/=85%, multiple, combed, <125 dtex, not put up, nes;0;WTO ATC Annex;concordance
+52054700;5205.45;Cotton yarn,>/=85%, multiple, combed, <125 dtex, not put up, nes;0;WTO ATC Annex;concordance
+52054800;5205.45;Cotton yarn,>/=85%, multiple, combed, <125 dtex, not put up, nes;0;WTO ATC Annex;concordance
+52061100;5206.11;Cotton yarn, <85%, single, uncombed,>/=714.29, not put up;0;WTO ATC Annex;both
+52061200;5206.12;Cotton yarn, <85%, single, uncombed, 714.29 >dtex>/=232.56, nt put up;0;WTO ATC Annex;both
+52061300;5206.13;Cotton yarn, <85%, single, uncombed, 232.56 >dtex>/=192.31, not put up;0;WTO ATC Annex;both
+52061400;5206.14;Cotton yarn, <85%, single, uncombed, 192.31 >dtex>/=125, nt put up;0;WTO ATC Annex;both
+52061500;5206.15;Cotton yarn,<85%,single, uncombed,<125 dtex, not put up for retail sale;0;WTO ATC Annex;both
+52062100;5206.21;Cotton yarn, <85%, single, combed,>/=714.29 dtex, nt put up;0;WTO ATC Annex;both
+52062200;5206.22;Cotton yarn, <85%, single, combed, 714.29 >dtex>/=232.56, not put up;0;WTO ATC Annex;both
+52062300;5206.23;Cotton yarn, <85%, single, combed, 232.56 >dtex>/=192.31, not put up;0;WTO ATC Annex;both
+52062400;5206.24;Cotton yarn, <85%, single, combed, 192.31 >dtex>/=125, not put up;0;WTO ATC Annex;both
+52062500;5206.25;Cotton yarn,<85%,single, combed,<125 dtex, not put up for retail sale;0;WTO ATC Annex;both
+52063100;5206.31;Cotton yarn, <85%, multiple, uncombed,>/=714.29, not put up, nes;0;WTO ATC Annex;both
+52063200;5206.32;Cotton yarn,<85%,multiple, uncombed, 714.29 >dtex>/=232.56, nt put up, nes;0;WTO ATC Annex;both
+52063300;5206.33;Cotton yarn,<85%,multiple, uncombed, 232.56 >dex>/=192.31, nt put up, nes;0;WTO ATC Annex;both
+52063400;5206.34;Cotton yarn,<85%,multiple, uncombed, 192.31 >dtex>/=125, nt put up, nes;0;WTO ATC Annex;both
+52063500;5206.35;Cotton yarn, <85%, multiple, uncombed, <125 dtex, not put up, nes;0;WTO ATC Annex;both
+52064100;5206.41;Cotton yarn, <85%, multiple, combed,>/=714.29, nt put up, nes;0;WTO ATC Annex;both
+52064200;5206.42;Cotton yarn,<85%,multiple, combed, 714.29 >dtex>/=232.56, nt put up, nes;0;WTO ATC Annex;both
+52064300;5206.43;Cotton yarn,<85%,multiple, combed, 232.56 >dtex>/=192.31, nt put up, nes;0;WTO ATC Annex;both
+52064400;5206.44;Cotton yarn,<85%,multiple, combed, 192.31 >dtex>/=125, nt put up, nes;0;WTO ATC Annex;both
+52064500;5206.45;Cotton yarn, <85%, multiple, combed, <125 dtex, not put up, nes;0;WTO ATC Annex;both
+52071000;5207.10;Cotton yarn (other than sewing thread)>/=85% by weight of cotton, put up;0;WTO ATC Annex;both
+52079000;5207.90;Cotton yarn (other than sewg thread) <85% by wt of cotton, put up f retl sale;0;WTO ATC Annex;both
+52081120;5208.11;Plain weave cotton fabric,>/=85%, not more than 100 g/m2, unbleached;0;WTO ATC Annex;both
+52081140;5208.11;Plain weave cotton fabric,>/=85%, not more than 100 g/m2, unbleached;0;WTO ATC Annex;both
+52081160;5208.11;Plain weave cotton fabric,>/=85%, not more than 100 g/m2, unbleached;0;WTO ATC Annex;both
+52081180;5208.11;Plain weave cotton fabric,>/=85%, not more than 100 g/m2, unbleached;0;WTO ATC Annex;both
+52081240;5208.12;Plain weave cotton fabric,>/=85%, >100 g/m2 to 200 g/m2, unbleached;0;WTO ATC Annex;both
+52081260;5208.12;Plain weave cotton fabric,>/=85%, >100 g/m2 to 200 g/m2, unbleached;0;WTO ATC Annex;both
+52081280;5208.12;Plain weave cotton fabric,>/=85%, >100 g/m2 to 200 g/m2, unbleached;0;WTO ATC Annex;both
+52081300;5208.13;Twill weave cotton fabric,>/=85%, not more than 200 g/m2, unbleached;0;WTO ATC Annex;both
+52081920;5208.19;Woven fabrics of cotton,>/=85%, not more than 200 g/m2, unbleached, nes;0;WTO ATC Annex;both
+52081940;5208.19;Woven fabrics of cotton,>/=85%, not more than 200 g/m2, unbleached, nes;0;WTO ATC Annex;both
+52081960;5208.19;Woven fabrics of cotton,>/=85%, not more than 200 g/m2, unbleached, nes;0;WTO ATC Annex;both
+52081980;5208.19;Woven fabrics of cotton,>/=85%, not more than 200 g/m2, unbleached, nes;0;WTO ATC Annex;both
+52082120;5208.21;Plain weave cotton fabrics,>/=85%, not more than 100 g/m2, bleached;0;WTO ATC Annex;both
+52082140;5208.21;Plain weave cotton fabrics,>/=85%, not more than 100 g/m2, bleached;0;WTO ATC Annex;both
+52082160;5208.21;Plain weave cotton fabrics,>/=85%, not more than 100 g/m2, bleached;0;WTO ATC Annex;both
+52082240;5208.22;Plain weave cotton fabric,>/=85%, >100 g/m2 to 200 g/m2, bleached;0;WTO ATC Annex;both
+52082260;5208.22;Plain weave cotton fabric,>/=85%, >100 g/m2 to 200 g/m2, bleached;0;WTO ATC Annex;both
+52082280;5208.22;Plain weave cotton fabric,>/=85%, >100 g/m2 to 200 g/m2, bleached;0;WTO ATC Annex;both
+52082300;5208.23;Twill weave cotton fabric,>/=85%, not more than 200 g/m2, bleached;0;WTO ATC Annex;both
+52082920;5208.29;Woven fabrics of cotton,>/=85%, nt more than 200 g/m2, bleached, nes;0;WTO ATC Annex;both
+52082940;5208.29;Woven fabrics of cotton,>/=85%, nt more than 200 g/m2, bleached, nes;0;WTO ATC Annex;both
+52082960;5208.29;Woven fabrics of cotton,>/=85%, nt more than 200 g/m2, bleached, nes;0;WTO ATC Annex;both
+52082980;5208.29;Woven fabrics of cotton,>/=85%, nt more than 200 g/m2, bleached, nes;0;WTO ATC Annex;both
+52083120;5208.31;Plain weave cotton fabric,>/=85%, not more than 100 g/m2, dyed;0;WTO ATC Annex;both
+52083140;5208.31;Plain weave cotton fabric,>/=85%, not more than 100 g/m2, dyed;0;WTO ATC Annex;both
+52083160;5208.31;Plain weave cotton fabric,>/=85%, not more than 100 g/m2, dyed;0;WTO ATC Annex;both
+52083180;5208.31;Plain weave cotton fabric,>/=85%, not more than 100 g/m2, dyed;0;WTO ATC Annex;both
+52083210;5208.32;Plain weave cotton fabric,>/=85%,>100g/m= to 200g/m=, dyed;0;WTO ATC Annex;both
+52083230;5208.32;Plain weave cotton fabric,>/=85%,>100g/m= to 200g/m=, dyed;0;WTO ATC Annex;both
+52083240;5208.32;Plain weave cotton fabric,>/=85%,>100g/m= to 200g/m=, dyed;0;WTO ATC Annex;both
+52083250;5208.32;Plain weave cotton fabric,>/=85%,>100g/m= to 200g/m=, dyed;0;WTO ATC Annex;both
+52083300;5208.33;Twill weave cotton fabrics,>/=85%, not more than 200 g/m2, dyed;0;WTO ATC Annex;both
+52083920;5208.39;Woven fabrics of cotton,>/=85%, not more than 200 g/m2, dyed, nes;0;WTO ATC Annex;both
+52083940;5208.39;Woven fabrics of cotton,>/=85%, not more than 200 g/m2, dyed, nes;0;WTO ATC Annex;both
+52083960;5208.39;Woven fabrics of cotton,>/=85%, not more than 200 g/m2, dyed, nes;0;WTO ATC Annex;both
+52083980;5208.39;Woven fabrics of cotton,>/=85%, not more than 200 g/m2, dyed, nes;0;WTO ATC Annex;both
+52084120;5208.41;Plain weave cotton fabric,>/=85%, not more than 100 g/m2, yarn dyed;0;WTO ATC Annex;both
+52084140;5208.41;Plain weave cotton fabric,>/=85%, not more than 100 g/m2, yarn dyed;0;WTO ATC Annex;both
+52084160;5208.41;Plain weave cotton fabric,>/=85%, not more than 100 g/m2, yarn dyed;0;WTO ATC Annex;both
+52084180;5208.41;Plain weave cotton fabric,>/=85%, not more than 100 g/m2, yarn dyed;0;WTO ATC Annex;both
+52084210;5208.42;Plain weave cotton fabrics,>/=85%, >100 g/m2 to 200 g/m2, yarn dyed;0;WTO ATC Annex;both
+52084230;5208.42;Plain weave cotton fabrics,>/=85%, >100 g/m2 to 200 g/m2, yarn dyed;0;WTO ATC Annex;both
+52084240;5208.42;Plain weave cotton fabrics,>/=85%, >100 g/m2 to 200 g/m2, yarn dyed;0;WTO ATC Annex;both
+52084250;5208.42;Plain weave cotton fabrics,>/=85%, >100 g/m2 to 200 g/m2, yarn dyed;0;WTO ATC Annex;both
+52084300;5208.43;Twill weave cotton fabric,>/=85%, not more than 200 g/m2, yarn dyed;0;WTO ATC Annex;both
+52084920;5208.49;Woven fabrics of cotton,>/=85%,nt more than 200 g/m2, yarn dyed, nes;0;WTO ATC Annex;both
+52084940;5208.49;Woven fabrics of cotton,>/=85%,nt more than 200 g/m2, yarn dyed, nes;0;WTO ATC Annex;both
+52084960;5208.49;Woven fabrics of cotton,>/=85%,nt more than 200 g/m2, yarn dyed, nes;0;WTO ATC Annex;both
+52084980;5208.49;Woven fabrics of cotton,>/=85%,nt more than 200 g/m2, yarn dyed, nes;0;WTO ATC Annex;both
+52085120;5208.51;Plain weave cotton fabrics,>/=85%, not more than 100 g/m2, printed;0;WTO ATC Annex;both
+52085140;5208.51;Plain weave cotton fabrics,>/=85%, not more than 100 g/m2, printed;0;WTO ATC Annex;both
+52085160;5208.51;Plain weave cotton fabrics,>/=85%, not more than 100 g/m2, printed;0;WTO ATC Annex;both
+52085180;5208.51;Plain weave cotton fabrics,>/=85%, not more than 100 g/m2, printed;0;WTO ATC Annex;both
+52085210;5208.52;Plain weave cotton fabric,>/=85%, >100 g/m2 to 200 g/m2, printed;0;WTO ATC Annex;both
+52085230;5208.52;Plain weave cotton fabric,>/=85%, >100 g/m2 to 200 g/m2, printed;0;WTO ATC Annex;both
+52085240;5208.52;Plain weave cotton fabric,>/=85%, >100 g/m2 to 200 g/m2, printed;0;WTO ATC Annex;both
+52085250;5208.52;Plain weave cotton fabric,>/=85%, >100 g/m2 to 200 g/m2, printed;0;WTO ATC Annex;both
+52085910;5208.59;Woven fabrics of cotton,>/=85%, not more than 200 g/m2, printed, nes;0;WTO ATC Annex;both
+52085920;5208.59;Woven fabrics of cotton,>/=85%, not more than 200 g/m2, printed, nes;0;WTO ATC Annex;both
+52085940;5208.59;Woven fabrics of cotton,>/=85%, not more than 200 g/m2, printed, nes;0;WTO ATC Annex;both
+52085960;5208.59;Woven fabrics of cotton,>/=85%, not more than 200 g/m2, printed, nes;0;WTO ATC Annex;both
+52085980;5208.59;Woven fabrics of cotton,>/=85%, not more than 200 g/m2, printed, nes;0;WTO ATC Annex;both
+52091100;5209.11;Plain weave cotton fabric,>/=85%, more than 200 g/m2, unbleached;0;WTO ATC Annex;both
+52091200;5209.12;Twill weave cotton fabric,>/=85%, more than 200 g/m2, unbleached;0;WTO ATC Annex;both
+52091900;5209.19;Woven fabrics of cotton,>/=85%,more than 200 g/m2, unbleached, nes;0;WTO ATC Annex;both
+52092100;5209.21;Plain weave cotton fabric,>/=85%, more than 200 g/m2, bleached;0;WTO ATC Annex;both
+52092200;5209.22;Twill weave cotton fabrics,>/=85%, more than 200 g/m2, bleached;0;WTO ATC Annex;both
+52092900;5209.29;Woven fabrics of cotton,>/=85%, more than 200 g/m2, bleached, nes;0;WTO ATC Annex;both
+52093130;5209.31;Plain weave cotton fabrics,>/=85%, more than 200 g/m2, dyed;0;WTO ATC Annex;both
+52093160;5209.31;Plain weave cotton fabrics,>/=85%, more than 200 g/m2, dyed;0;WTO ATC Annex;both
+52093200;5209.32;Twill weave cotton fabrics,>/=85%, more than 200 g/m2, dyed;0;WTO ATC Annex;both
+52093900;5209.39;Woven fabrics of cotton,>/=85%, more than 200 g/m2, dyed, nes;0;WTO ATC Annex;both
+52094130;5209.41;Plain weave cotton fabrics,>/=85%, more than 200 g/m2, yarn dyed;0;WTO ATC Annex;both
+52094160;5209.41;Plain weave cotton fabrics,>/=85%, more than 200 g/m2, yarn dyed;0;WTO ATC Annex;both
+52094200;5209.42;Denim fabrics of cotton,>/=85%, more than 200 g/m2;0;WTO ATC Annex;both
+52094300;5209.43;Twill weave cotton fab, other than denim,>/=85%,more than 200 g/m2, yarn dyed;0;WTO ATC Annex;both
+52094900;5209.49;Woven fabrics of cotton,>/=85%, more than 200 g/m2, yarn dyed, nes;0;WTO ATC Annex;both
+52095130;5209.51;Plain weave cotton fabrics,>/=85%, more than 200 g/m2, printed;0;WTO ATC Annex;both
+52095160;5209.51;Plain weave cotton fabrics,>/=85%, more than 200 g/m2, printed;0;WTO ATC Annex;both
+52095200;5209.52;Twill weave cotton fabrics,>/=85%, more than 200 g/m2, printed;0;WTO ATC Annex;both
+52095900;5209.59;Woven fabrics of cotton,>/=85%, more than 200 g/m2, printed, nes;0;WTO ATC Annex;both
+52101140;5210.11;Plain weave cotton fab,<85% mixd w m-m fib, not more than 200 g/m2, unbl;0;WTO ATC Annex;both
+52101160;5210.11;Plain weave cotton fab,<85% mixd w m-m fib, not more than 200 g/m2, unbl;0;WTO ATC Annex;both
+52101180;5210.11;Plain weave cotton fab,<85% mixd w m-m fib, not more than 200 g/m2, unbl;0;WTO ATC Annex;both
+52101910;5210.19;Woven fab of cotton,<85% mixd with m-m fib,</=200 g/m2, unbl, nes;0;WTO ATC Annex;both
+52101920;5210.19;Woven fab of cotton,<85% mixd with m-m fib,</=200 g/m2, unbl, nes;0;WTO ATC Annex;both
+52101940;5210.19;Woven fab of cotton,<85% mixd with m-m fib,</=200 g/m2, unbl, nes;0;WTO ATC Annex;both
+52101960;5210.19;Woven fab of cotton,<85% mixd with m-m fib,</=200 g/m2, unbl, nes;0;WTO ATC Annex;both
+52101980;5210.19;Woven fab of cotton,<85% mixd with m-m fib,</=200 g/m2, unbl, nes;0;WTO ATC Annex;both
+52102140;5210.21;Plain weave cotton fab,<85% mixd w m-m fib, not more than 200 g/m2, bl;0;WTO ATC Annex;both
+52102160;5210.21;Plain weave cotton fab,<85% mixd w m-m fib, not more than 200 g/m2, bl;0;WTO ATC Annex;both
+52102180;5210.21;Plain weave cotton fab,<85% mixd w m-m fib, not more than 200 g/m2, bl;0;WTO ATC Annex;both
+52102910;5210.29;Woven fabrics of cotton,<85% mixd with m-m fib,</=200 g/m2, bl, nes;0;WTO ATC Annex;both
+52102920;5210.29;Woven fabrics of cotton,<85% mixd with m-m fib,</=200 g/m2, bl, nes;0;WTO ATC Annex;both
+52102940;5210.29;Woven fabrics of cotton,<85% mixd with m-m fib,</=200 g/m2, bl, nes;0;WTO ATC Annex;both
+52102960;5210.29;Woven fabrics of cotton,<85% mixd with m-m fib,</=200 g/m2, bl, nes;0;WTO ATC Annex;both
+52102980;5210.29;Woven fabrics of cotton,<85% mixd with m-m fib,</=200 g/m2, bl, nes;0;WTO ATC Annex;both
+52103140;5210.31;Plain weave cotton fab,<85% mixd w m-m fib, not more than 200 g/m2, dyd;0;WTO ATC Annex;both
+52103160;5210.31;Plain weave cotton fab,<85% mixd w m-m fib, not more than 200 g/m2, dyd;0;WTO ATC Annex;both
+52103180;5210.31;Plain weave cotton fab,<85% mixd w m-m fib, not more than 200 g/m2, dyd;0;WTO ATC Annex;both
+52103200;5210.32;Twill weave cotton fab,<85% mixd w m-m fib, not more than 200 g/m2, dyd;0;WTO ATC Annex;both
+52103920;5210.39;Woven fabrics of cotton,<85% mixd with m-m fib,</=200 g/m2, dyed, nes;0;WTO ATC Annex;both
+52103940;5210.39;Woven fabrics of cotton,<85% mixd with m-m fib,</=200 g/m2, dyed, nes;0;WTO ATC Annex;both
+52103960;5210.39;Woven fabrics of cotton,<85% mixd with m-m fib,</=200 g/m2, dyed, nes;0;WTO ATC Annex;both
+52103980;5210.39;Woven fabrics of cotton,<85% mixd with m-m fib,</=200 g/m2, dyed, nes;0;WTO ATC Annex;both
+52104140;5210.41;Plain weave cotton fab,<85% mixd w m-m fib, nt mor thn 200g/m2, yarn dyd;0;WTO ATC Annex;both
+52104160;5210.41;Plain weave cotton fab,<85% mixd w m-m fib, nt mor thn 200g/m2, yarn dyd;0;WTO ATC Annex;both
+52104180;5210.41;Plain weave cotton fab,<85% mixd w m-m fib, nt mor thn 200g/m2, yarn dyd;0;WTO ATC Annex;both
+52104910;5210.49;Woven fabrics of cotton,<85% mixed w m-m fib,</=200g/m2, yarn dyed, nes;0;WTO ATC Annex;both
+52104920;5210.49;Woven fabrics of cotton,<85% mixed w m-m fib,</=200g/m2, yarn dyed, nes;0;WTO ATC Annex;both
+52104940;5210.49;Woven fabrics of cotton,<85% mixed w m-m fib,</=200g/m2, yarn dyed, nes;0;WTO ATC Annex;both
+52104960;5210.49;Woven fabrics of cotton,<85% mixed w m-m fib,</=200g/m2, yarn dyed, nes;0;WTO ATC Annex;both
+52104980;5210.49;Woven fabrics of cotton,<85% mixed w m-m fib,</=200g/m2, yarn dyed, nes;0;WTO ATC Annex;both
+52105140;5210.51;Plain weave cotton fab,<85% mixd w m-m fib, nt more thn 200 g/m2, printd;0;WTO ATC Annex;both
+52105160;5210.51;Plain weave cotton fab,<85% mixd w m-m fib, nt more thn 200 g/m2, printd;0;WTO ATC Annex;both
+52105180;5210.51;Plain weave cotton fab,<85% mixd w m-m fib, nt more thn 200 g/m2, printd;0;WTO ATC Annex;both
+52105910;5210.59;Woven fabrics of cotton,<85% mixed with m-m fib,</=200g/m2, printed, nes;0;WTO ATC Annex;both
+52105920;5210.59;Woven fabrics of cotton,<85% mixed with m-m fib,</=200g/m2, printed, nes;0;WTO ATC Annex;both
+52105940;5210.59;Woven fabrics of cotton,<85% mixed with m-m fib,</=200g/m2, printed, nes;0;WTO ATC Annex;both
+52105960;5210.59;Woven fabrics of cotton,<85% mixed with m-m fib,</=200g/m2, printed, nes;0;WTO ATC Annex;both
+52105980;5210.59;Woven fabrics of cotton,<85% mixed with m-m fib,</=200g/m2, printed, nes;0;WTO ATC Annex;both
+52111100;5211.11;Plain weave cotton fab,<85% mixd w m-m fib, more thn 200 g/m2, unbleachd;0;WTO ATC Annex;both
+52111200;5211.12;Twill weave cotton fab,<85% mixed with m-m fib, more than 200 g/m2, unbl;0;WTO ATC Annex;both
+52111900;5211.19;Woven fabrics of cotton,<85% mixd w m-m fib, more thn 200g/m2, unbl, nes;0;WTO ATC Annex;both
+52112021;5211.29;Woven fabrics of cotton,<85% mixd w m-m fib, more than 200 g/m2, bl, nes;0;WTO ATC Annex;concordance
+52112022;5211.29;Woven fabrics of cotton,<85% mixd w m-m fib, more than 200 g/m2, bl, nes;0;WTO ATC Annex;concordance
+52112029;5211.29;Woven fabrics of cotton,<85% mixd w m-m fib, more than 200 g/m2, bl, nes;0;WTO ATC Annex;concordance
+52113100;5211.31;Plain weave cotton fab,<85% mixed with m-m fib, more than 200 g/m2, dyed;0;WTO ATC Annex;both
+52113200;5211.32;Twill weave cotton fab,<85% mixed with m-m fib, more than 200 g/m2, dyed;0;WTO ATC Annex;both
+52113900;5211.39;Woven fabrics of cotton,<85% mixd w m-m fib, more than 200 g/m2, dyd, nes;0;WTO ATC Annex;both
+52114100;5211.41;Plain weave cotton fab,<85% mixd w m-m fib, more than 200 g/m2, yarn dyd;0;WTO ATC Annex;both
+52114200;5211.42;Denim fabrics of cotton, <85% mixed with m-m fib, more than 200 g/m2;0;WTO ATC Annex;both
+52114300;5211.43;Twill weave cotton fab, other than denim,<85% mixd w m-m fib,>200g/m2, yarn dyd;0;WTO ATC Annex;both
+52114900;5211.49;Woven fabrics of cotton,<85% mixd with m-m fib,>200 g/m2, yarn dyed, nes;0;WTO ATC Annex;both
+52115100;5211.51;Plain weave cotton fab,<85% mixd w m-m fib, more than 200 g/m2, printd;0;WTO ATC Annex;both
+52115200;5211.52;Twill weave cotton fab,<85% mixd w m-m fib, more than 200 g/m2, printd;0;WTO ATC Annex;both
+52115900;5211.59;Woven fabrics of cotton,<85% mixd w m-m fib, mor thn 200g/m2, printd, nes;0;WTO ATC Annex;both
+52121110;5212.11;Woven fabrics of cotton, weighing not more than 200 g/m2, unbleached, nes;0;WTO ATC Annex;both
+52121160;5212.11;Woven fabrics of cotton, weighing not more than 200 g/m2, unbleached, nes;0;WTO ATC Annex;both
+52121210;5212.12;Woven fabrics of cotton, weighing not more than 200 g/m2, bleached, nes;0;WTO ATC Annex;both
+52121260;5212.12;Woven fabrics of cotton, weighing not more than 200 g/m2, bleached, nes;0;WTO ATC Annex;both
+52121310;5212.13;Woven fabrics of cotton, weighing not more than 200 g/m2, dyed, nes;0;WTO ATC Annex;both
+52121360;5212.13;Woven fabrics of cotton, weighing not more than 200 g/m2, dyed, nes;0;WTO ATC Annex;both
+52121410;5212.14;"Woven fabrics of cotton,</=200g/m2, of yarns of different
+                colours, nes";0;WTO ATC Annex;both
+52121460;5212.14;"Woven fabrics of cotton,</=200g/m2, of yarns of different
+                colours, nes";0;WTO ATC Annex;both
+52121510;5212.15;Woven fabrics of cotton, weighing not more than 200 g/m2, printed, nes;0;WTO ATC Annex;both
+52121560;5212.15;Woven fabrics of cotton, weighing not more than 200 g/m2, printed, nes;0;WTO ATC Annex;both
+52122110;5212.21;Woven fabrics of cotton, weighing more than 200 g/m2, unbleached, nes;0;WTO ATC Annex;both
+52122160;5212.21;Woven fabrics of cotton, weighing more than 200 g/m2, unbleached, nes;0;WTO ATC Annex;both
+52122210;5212.22;Woven fabrics of cotton, weighing more than 200 g/m2, bleached, nes;0;WTO ATC Annex;both
+52122260;5212.22;Woven fabrics of cotton, weighing more than 200 g/m2, bleached, nes;0;WTO ATC Annex;both
+52122310;5212.23;Woven fabrics of cotton, weighing more than 200 g/m2, dyed, nes;0;WTO ATC Annex;both
+52122360;5212.23;Woven fabrics of cotton, weighing more than 200 g/m2, dyed, nes;0;WTO ATC Annex;both
+52122410;5212.24;"Woven fabrics of cotton, >200 g/m2, of yarns of different
+                colours, nes";0;WTO ATC Annex;both
+52122460;5212.24;"Woven fabrics of cotton, >200 g/m2, of yarns of different
+                colours, nes";0;WTO ATC Annex;both
+52122510;5212.25;Woven fabrics of cotton, weighing more than 200 g/m2, printed, nes;0;WTO ATC Annex;both
+52122560;5212.25;Woven fabrics of cotton, weighing more than 200 g/m2, printed, nes;0;WTO ATC Annex;both
+53061000;5306.10;Flax yarn, single;0;WTO ATC Annex;both
+53062000;5306.20;Flax yarn, multile (folded) or cabled;0;WTO ATC Annex;both
+53071000;5307.10;"Yarn of jute or of other textile bast
+                fibres, single";0;WTO ATC Annex;both
+53072000;5307.20;"Yarn of jute or of oth textile bast
+                fibres, multiple (folded) or cabled";0;WTO ATC Annex;both
+53082000;5308.20;True hemp yarn;0;WTO ATC Annex;both
+53089010;5308.90;Yarn of other vegetable textile fibres;0;WTO ATC Annex;both
+53089090;5308.90;Yarn of other vegetable textile fibres;0;WTO ATC Annex;both
+53091100;5309.11;Woven fabrics, containg 85% or more by weight of flax, unbleached or bl;0;WTO ATC Annex;both
+53091900;5309.19;Woven fabrics, containing 85% or more by weight of flax, other than unbl or bl;0;WTO ATC Annex;both
+53092120;5309.21;Woven fabrics of flax, containg <85% by weight of flax, unbleached or bl;0;WTO ATC Annex;both
+53092130;5309.21;Woven fabrics of flax, containg <85% by weight of flax, unbleached or bl;0;WTO ATC Annex;both
+53092140;5309.21;Woven fabrics of flax, containg <85% by weight of flax, unbleached or bl;0;WTO ATC Annex;both
+53092920;5309.29;Woven fabrics of flax, containing <85% by weight of flax, other than unbl or bl;0;WTO ATC Annex;both
+53092930;5309.29;Woven fabrics of flax, containing <85% by weight of flax, other than unbl or bl;0;WTO ATC Annex;both
+53092940;5309.29;Woven fabrics of flax, containing <85% by weight of flax, other than unbl or bl;0;WTO ATC Annex;both
+53101000;5310.10;"Woven fabrics of jute or of other textile bast
+                fibres, unbleached";0;WTO ATC Annex;both
+53109000;5310.90;"Woven fabrics of jute or of other textile bast
+                fibres, other than unbleached";0;WTO ATC Annex;both
+53110020;5311.00;"Woven fabrics of oth vegetable textile
+                fibres; woven fab of paper yarn";0;WTO ATC Annex;both
+53110030;5311.00;"Woven fabrics of oth vegetable textile
+                fibres; woven fab of paper yarn";0;WTO ATC Annex;both
+53110040;5311.00;"Woven fabrics of oth vegetable textile
+                fibres; woven fab of paper yarn";0;WTO ATC Annex;both
+53110060;5311.00;"Woven fabrics of oth vegetable textile
+                fibres; woven fab of paper yarn";0;WTO ATC Annex;both
+54011000;5401.10;Sewing thread of synthetic filaments;0;WTO ATC Annex;both
+54012000;5401.20;Sewing thread of artificial filaments;0;WTO ATC Annex;both
+54021130;5402.10;"High tenacity yarn (other than sewg
+                thread),nylon/oth polyamides fi, nt put up";0;WTO ATC Annex;concordance
+54021160;5402.10;"High tenacity yarn (other than sewg
+                thread),nylon/oth polyamides fi, nt put up";0;WTO ATC Annex;concordance
+54021930;5402.10;"High tenacity yarn (other than sewg
+                thread),nylon/oth polyamides fi, nt put up";0;WTO ATC Annex;concordance
+54021960;5402.10;"High tenacity yarn (other than sewg
+                thread),nylon/oth polyamides fi, nt put up";0;WTO ATC Annex;concordance
+54022030;5402.20;High tenacity yarn (other than sewg thread),of polyester filaments, not put up;0;WTO ATC Annex;both
+54022060;5402.20;High tenacity yarn (other than sewg thread),of polyester filaments, not put up;0;WTO ATC Annex;both
+54023130;5402.31;"Texturd yarn
+                nes, of nylon/oth polyamides fi,</=50tex/s.y.,not put up";0;WTO ATC Annex;both
+54023160;5402.31;"Texturd yarn
+                nes, of nylon/oth polyamides fi,</=50tex/s.y.,not put up";0;WTO ATC Annex;both
+54023230;5402.32;"Texturd yarn
+                nes, of nylon/oth polyamides fi,>50 tex/s.y.,not put up";0;WTO ATC Annex;both
+54023260;5402.32;"Texturd yarn
+                nes, of nylon/oth polyamides fi,>50 tex/s.y.,not put up";0;WTO ATC Annex;both
+54023330;5402.33;"Textured yarn
+                nes, of polyester filaments, not put up for retail sale";0;WTO ATC Annex;both
+54023360;5402.33;"Textured yarn
+                nes, of polyester filaments, not put up for retail sale";0;WTO ATC Annex;both
+54023430;5402.39;"Textured yarn of synthetic filaments,
+                nes, not put up";0;WTO ATC Annex;concordance
+54023460;5402.39;"Textured yarn of synthetic filaments,
+                nes, not put up";0;WTO ATC Annex;concordance
+54023931;5402.39;"Textured yarn of synthetic filaments,
+                nes, not put up";0;WTO ATC Annex;both
+54023961;5402.39;"Textured yarn of synthetic filaments,
+                nes, not put up";0;WTO ATC Annex;both
+54024510;5402.41;"Yarn of nylon or other polyamides
+                fi, single, untwisted, nes, not put up";0;WTO ATC Annex;concordance
+54024590;5402.41;"Yarn of nylon or other polyamides
+                fi, single, untwisted, nes, not put up";0;WTO ATC Annex;concordance
+54024600;5402.42;"Yarn of polyester filaments, partially oriented, single,
+                nes, not put up";0;WTO ATC Annex;concordance
+54024710;5402.43;Yarn of polyester filaments, single, untwisted, nes, not put up;0;WTO ATC Annex;concordance
+54024790;5402.43;Yarn of polyester filaments, single, untwisted, nes, not put up;0;WTO ATC Annex;concordance
+54024800;5402.49;Yarn of synthetic filaments, single, untwisted, nes, not put up;0;WTO ATC Annex;concordance
+54024911;5402.49;Yarn of synthetic filaments, single, untwisted, nes, not put up;0;WTO ATC Annex;both
+54024991;5402.49;Yarn of synthetic filaments, single, untwisted, nes, not put up;0;WTO ATC Annex;both
+54025100;5402.51;Yarn of nylon or other polyamides fi, single, >50 turns/m, not put up;0;WTO ATC Annex;both
+54025210;5402.52;Yarn of polyester filaments, single, >50 turns per metre, not put up;0;WTO ATC Annex;both
+54025290;5402.52;Yarn of polyester filaments, single, >50 turns per metre, not put up;0;WTO ATC Annex;both
+54025300;5402.59;Yarn of synthetic filaments, single,>50 turns per metre, nes, not put up;0;WTO ATC Annex;concordance
+54025901;5402.59;Yarn of synthetic filaments, single,>50 turns per metre, nes, not put up;0;WTO ATC Annex;both
+54026100;5402.61;Yarn of nylon or other polyamides fi, multiple, nes, not put up;0;WTO ATC Annex;both
+54026200;5402.62;Yarn of polyester filaments, multiple, nes, not put up;0;WTO ATC Annex;both
+54026300;5402.69;Yarn of synthetic filaments, multiple, nes, not put up;0;WTO ATC Annex;concordance
+54026901;5402.69;Yarn of synthetic filaments, multiple, nes, not put up;0;WTO ATC Annex;both
+54031030;5403.10;High tenacity yarn (other than sewg thread),of viscose rayon filamt, nt put up;0;WTO ATC Annex;both
+54031060;5403.10;High tenacity yarn (other than sewg thread),of viscose rayon filamt, nt put up;0;WTO ATC Annex;both
+54033100;5403.31;Yarn of viscose rayon filaments, single, untwisted, nes, not put up;0;WTO ATC Annex;both
+54033200;5403.32;Yarn of viscose rayon filaments, single,>120 turns per m, nes, nt put up;0;WTO ATC Annex;both
+54033300;5403.33;Yarn of cellulose acetate filaments, single, nes, not put up;0;WTO ATC Annex;both
+54033910;5403.39;Yarn of artificial filaments, single, nes, not put up;0;WTO ATC Annex;both
+54033990;5403.39;Yarn of artificial filaments, single, nes, not put up;0;WTO ATC Annex;both
+54034100;5403.41;Yarn of viscose rayon filaments, multiple, nes, not put up;0;WTO ATC Annex;both
+54034200;5403.42;Yarn of cellulose acetate filaments, multiple, nes, not put up;0;WTO ATC Annex;both
+54034910;5403.49;Yarn of artificial filaments, multiple, nes, not put up;0;WTO ATC Annex;both
+54034990;5403.49;Yarn of artificial filaments, multiple, nes, not put up;0;WTO ATC Annex;both
+54041100;5404.10;Synthetic mono,>/=67dtex, no cross sectional dimension exceeds 1 mm;0;WTO ATC Annex;concordance
+54041210;5404.10;Synthetic mono,>/=67dtex, no cross sectional dimension exceeds 1 mm;0;WTO ATC Annex;concordance
+54041290;5404.10;Synthetic mono,>/=67dtex, no cross sectional dimension exceeds 1 mm;0;WTO ATC Annex;concordance
+54041910;5404.10;Synthetic mono,>/=67dtex, no cross sectional dimension exceeds 1 mm;0;WTO ATC Annex;concordance
+54041980;5404.10;Synthetic mono,>/=67dtex, no cross sectional dimension exceeds 1 mm;0;WTO ATC Annex;concordance
+54049000;5404.90;Strip&the like of syn tex material of an apparent width nt exceedg 5mm;0;WTO ATC Annex;both
+54050030;5405.00;"Artificial mono, 67 dtex, cross-sect >1mm; strip of arti tex mat w </=5mm";0;WTO ATC Annex;both
+54050060;5405.00;"Artificial mono, 67 dtex, cross-sect >1mm; strip of arti tex mat w </=5mm";0;WTO ATC Annex;both
+54060010;5406.20;Yarn of artificial filament (other than sewing thread),put up for retail sale;0;WTO ATC Annex;concordance
+54060020;5406.20;Yarn of artificial filament (other than sewing thread),put up for retail sale;0;WTO ATC Annex;concordance
+54071000;5407.10;Woven fab of high tenacity fi yarns of nylon oth polyamides/polyesters;0;WTO ATC Annex;both
+54072000;5407.20;Woven fab obtaind from strip/the like of synthetic textile materials;0;WTO ATC Annex;both
+54073010;5407.30;Fabrics specif in Note 9 Section XI (layers of parallel syn tex yarn);0;WTO ATC Annex;both
+54073090;5407.30;Fabrics specif in Note 9 Section XI (layers of parallel syn tex yarn);0;WTO ATC Annex;both
+54074100;5407.41;Woven fab,>/=85% of nylon/other polyamides filaments, unbl or bl, nes;0;WTO ATC Annex;both
+54074200;5407.42;Woven fabrics,>/=85% of nylon/other polyamides filaments, dyed, nes;0;WTO ATC Annex;both
+54074310;5407.43;Woven fab,>/=85% of nylon/other polyamides filaments, yarn dyed, nes;0;WTO ATC Annex;both
+54074320;5407.43;Woven fab,>/=85% of nylon/other polyamides filaments, yarn dyed, nes;0;WTO ATC Annex;both
+54074400;5407.44;Woven fabrics,>/=85% of nylon/other polyamides filaments, printed, nes;0;WTO ATC Annex;both
+54075100;5407.51;Woven fabrics,>/=85% of textured polyester filaments, unbl or bl, nes;0;WTO ATC Annex;both
+54075205;5407.52;Woven fabrics,>/=85% of textured polyester filaments, dyed, nes;0;WTO ATC Annex;both
+54075220;5407.52;Woven fabrics,>/=85% of textured polyester filaments, dyed, nes;0;WTO ATC Annex;both
+54075310;5407.53;Woven fabrics,>/=85% of textured polyester filaments, yarn dyed, nes;0;WTO ATC Annex;both
+54075320;5407.53;Woven fabrics,>/=85% of textured polyester filaments, yarn dyed, nes;0;WTO ATC Annex;both
+54075400;5407.54;Woven fabrics,>/=85% of textured polyester filaments, printed, nes;0;WTO ATC Annex;both
+54076111;5407.60;Woven fabrics,>/=85% of non-textured polyester filaments, nes;0;WTO ATC Annex;concordance
+54076119;5407.60;Woven fabrics,>/=85% of non-textured polyester filaments, nes;0;WTO ATC Annex;concordance
+54076121;5407.60;Woven fabrics,>/=85% of non-textured polyester filaments, nes;0;WTO ATC Annex;concordance
+54076129;5407.60;Woven fabrics,>/=85% of non-textured polyester filaments, nes;0;WTO ATC Annex;concordance
+54076191;5407.60;Woven fabrics,>/=85% of non-textured polyester filaments, nes;0;WTO ATC Annex;concordance
+54076199;5407.60;Woven fabrics,>/=85% of non-textured polyester filaments, nes;0;WTO ATC Annex;concordance
+54077100;5407.71;Woven fab,>/=85% of synthetic filaments, unbleached or bleached, nes;0;WTO ATC Annex;both
+54077200;5407.72;Woven fabrics,>/=85% of synthetic filaments, dyed, nes;0;WTO ATC Annex;both
+54077310;5407.73;Woven fabrics,>/=85% of synthetic filaments, yarn dyed, nes;0;WTO ATC Annex;both
+54077320;5407.73;Woven fabrics,>/=85% of synthetic filaments, yarn dyed, nes;0;WTO ATC Annex;both
+54077400;5407.74;Woven fabrics,>/=85% of synthetic filaments, printed, nes;0;WTO ATC Annex;both
+54078100;5407.81;Woven fabrics of synthetic filaments,<85% mixd w cotton, unbl o bl, nes;0;WTO ATC Annex;both
+54078200;5407.82;Woven fabrics of synthetic filaments,<85% mixed with cotton, dyed, nes;0;WTO ATC Annex;both
+54078300;5407.83;Woven fabrics of synthetic filaments,<85% mixd w cotton, yarn dyd, nes;0;WTO ATC Annex;both
+54078400;5407.84;Woven fabrics of synthetic filaments,<85% mixd with cotton, printed, nes;0;WTO ATC Annex;both
+54079105;5407.91;Woven fabrics of synthetic filaments, unbleached or bleached, nes;0;WTO ATC Annex;both
+54079110;5407.91;Woven fabrics of synthetic filaments, unbleached or bleached, nes;0;WTO ATC Annex;both
+54079120;5407.91;Woven fabrics of synthetic filaments, unbleached or bleached, nes;0;WTO ATC Annex;both
+54079205;5407.92;Woven fabrics of synthetic filaments, dyed, nes;0;WTO ATC Annex;both
+54079210;5407.92;Woven fabrics of synthetic filaments, dyed, nes;0;WTO ATC Annex;both
+54079220;5407.92;Woven fabrics of synthetic filaments, dyed, nes;0;WTO ATC Annex;both
+54079305;5407.93;Woven fabrics of synthetic filaments, yarn dyed, nes;0;WTO ATC Annex;both
+54079310;5407.93;Woven fabrics of synthetic filaments, yarn dyed, nes;0;WTO ATC Annex;both
+54079315;5407.93;Woven fabrics of synthetic filaments, yarn dyed, nes;0;WTO ATC Annex;both
+54079320;5407.93;Woven fabrics of synthetic filaments, yarn dyed, nes;0;WTO ATC Annex;both
+54079405;5407.94;Woven fabrics of synthetic filaments, printed, nes;0;WTO ATC Annex;both
+54079410;5407.94;Woven fabrics of synthetic filaments, printed, nes;0;WTO ATC Annex;both
+54079420;5407.94;Woven fabrics of synthetic filaments, printed, nes;0;WTO ATC Annex;both
+54081000;5408.10;Woven fabrics of high tenacity filament yarns of viscose rayon;0;WTO ATC Annex;both
+54082100;5408.21;Woven fab,>/=85% of artificial fi o strip of art tex mat, unbl/bl, nes;0;WTO ATC Annex;both
+54082210;5408.22;Woven fab,>/=85% of artificial fi or strip of art tex mat, dyed, nes;0;WTO ATC Annex;both
+54082290;5408.22;Woven fab,>/=85% of artificial fi or strip of art tex mat, dyed, nes;0;WTO ATC Annex;both
+54082311;5408.23;Woven fab,>/=85% of artificial fi or strip of art tex mat, y dyed, nes;0;WTO ATC Annex;both
+54082319;5408.23;Woven fab,>/=85% of artificial fi or strip of art tex mat, y dyed, nes;0;WTO ATC Annex;both
+54082321;5408.23;Woven fab,>/=85% of artificial fi or strip of art tex mat, y dyed, nes;0;WTO ATC Annex;both
+54082329;5408.23;Woven fab,>/=85% of artificial fi or strip of art tex mat, y dyed, nes;0;WTO ATC Annex;both
+54082410;5408.24;Woven fab,>/=85% of artificial fi or strip of art tex mat, printd, nes;0;WTO ATC Annex;both
+54082490;5408.24;Woven fab,>/=85% of artificial fi or strip of art tex mat, printd, nes;0;WTO ATC Annex;both
+54083105;5408.31;Woven fabrics of artificial filaments, unbleached or bleached, nes;0;WTO ATC Annex;both
+54083110;5408.31;Woven fabrics of artificial filaments, unbleached or bleached, nes;0;WTO ATC Annex;both
+54083120;5408.31;Woven fabrics of artificial filaments, unbleached or bleached, nes;0;WTO ATC Annex;both
+54083205;5408.32;Woven fabrics of artificial filaments, dyed, nes;0;WTO ATC Annex;both
+54083210;5408.32;Woven fabrics of artificial filaments, dyed, nes;0;WTO ATC Annex;both
+54083230;5408.32;Woven fabrics of artificial filaments, dyed, nes;0;WTO ATC Annex;both
+54083290;5408.32;Woven fabrics of artificial filaments, dyed, nes;0;WTO ATC Annex;both
+54083305;5408.33;Woven fabrics of artificial filaments, yarn dyed, nes;0;WTO ATC Annex;both
+54083310;5408.33;Woven fabrics of artificial filaments, yarn dyed, nes;0;WTO ATC Annex;both
+54083315;5408.33;Woven fabrics of artificial filaments, yarn dyed, nes;0;WTO ATC Annex;both
+54083330;5408.33;Woven fabrics of artificial filaments, yarn dyed, nes;0;WTO ATC Annex;both
+54083390;5408.33;Woven fabrics of artificial filaments, yarn dyed, nes;0;WTO ATC Annex;both
+54083405;5408.34;Woven fabrics of artificial filaments, printed, nes;0;WTO ATC Annex;both
+54083410;5408.34;Woven fabrics of artificial filaments, printed, nes;0;WTO ATC Annex;both
+54083430;5408.34;Woven fabrics of artificial filaments, printed, nes;0;WTO ATC Annex;both
+54083490;5408.34;Woven fabrics of artificial filaments, printed, nes;0;WTO ATC Annex;both
+55011100;5501.10;Filament tow of nylon or other polyamides;0;WTO ATC Annex;concordance
+55011900;5501.10;Filament tow of nylon or other polyamides;0;WTO ATC Annex;concordance
+55012000;5501.20;Filament tow of polyesters;0;WTO ATC Annex;both
+55013000;5501.30;Filament tow of acrylic or modacrylic;0;WTO ATC Annex;both
+55014000;5501.90;Synthetic filament tow, nes;0;WTO ATC Annex;concordance
+55019001;5501.90;Synthetic filament tow, nes;0;WTO ATC Annex;both
+55021000;5502.00;Artificial filament tow;0;WTO ATC Annex;concordance
+55029000;5502.00;Artificial filament tow;0;WTO ATC Annex;concordance
+55031100;5503.10;Staple fibres of nylon or other polyamides, not carded or combed;0;WTO ATC Annex;concordance
+55031910;5503.10;Staple fibres of nylon or other polyamides, not carded or combed;0;WTO ATC Annex;concordance
+55031990;5503.10;Staple fibres of nylon or other polyamides, not carded or combed;0;WTO ATC Annex;concordance
+55032000;5503.20;Staple fibres of polyesters, not carded or combed;0;WTO ATC Annex;both
+55033000;5503.30;Staple fibres of acrylic or modacrylic, not carded or combed;0;WTO ATC Annex;both
+55034000;5503.40;Staple fibres of polypropylene, not carded or combed;0;WTO ATC Annex;both
+55039010;5503.90;Synthetic staple fibres, not carded or combed, nes;0;WTO ATC Annex;both
+55039090;5503.90;Synthetic staple fibres, not carded or combed, nes;0;WTO ATC Annex;both
+55041000;5504.10;Staple fibres of viscose, not carded or combed;0;WTO ATC Annex;both
+55049000;5504.90;Artificial staple fibres, other than viscose, not carded or combed;0;WTO ATC Annex;both
+55051000;5505.10;Waste of synthetic fibres;0;WTO ATC Annex;both
+55052000;5505.20;Waste of artificial fibres;0;WTO ATC Annex;both
+55061000;5506.10;Staple fibres of nylon or other polyamides, carded or combed;0;WTO ATC Annex;both
+55062000;5506.20;Staple fibres of polyesters, carded or combed;0;WTO ATC Annex;both
+55063000;5506.30;Staple fibres of acrylic or modacrylic, carded or combed;0;WTO ATC Annex;both
+55064000;5506.90;Synthetic staple fibres, carded or combed, nes;0;WTO ATC Annex;concordance
+55069001;5506.90;Synthetic staple fibres, carded or combed, nes;0;WTO ATC Annex;both
+55070000;5507.00;Artificial staple fibres, carded or combed;0;WTO ATC Annex;both
+55081000;5508.10;Sewing thread of synthetic staple fibres;0;WTO ATC Annex;both
+55082000;5508.20;Sewing thread of artificial staple fibres;0;WTO ATC Annex;both
+55091100;5509.11;Yarn,>/=85% nylon or other polyamides staple fibres, single, not put up;0;WTO ATC Annex;both
+55091200;5509.12;Yarn,>/=85% nylon o oth polyamides staple fibres, multi, not put up, nes;0;WTO ATC Annex;both
+55092100;5509.21;Yarn,>/=85% of polyester staple fibres, single, not put up;0;WTO ATC Annex;both
+55092200;5509.22;Yarn,>/=85% of polyester staple fibres, multiple, not put up, nes;0;WTO ATC Annex;both
+55093100;5509.31;Yarn,>/=85% of acrylic or modacrylic staple fibres, single, not put up;0;WTO ATC Annex;both
+55093200;5509.32;Yarn,>/=85% acrylic/modacrylic staple fibres, multiple, not put up, nes;0;WTO ATC Annex;both
+55094100;5509.41;Yarn,>/=85% of other synthetic staple fibres, single, not put up;0;WTO ATC Annex;both
+55094200;5509.42;Yarn,>/=85% of other synthetic staple fibres, multiple, not put up, nes;0;WTO ATC Annex;both
+55095130;5509.51;Yarn of polyester staple fibres mixd w/ arti staple fib, not put up, nes;0;WTO ATC Annex;both
+55095160;5509.51;Yarn of polyester staple fibres mixd w/ arti staple fib, not put up, nes;0;WTO ATC Annex;both
+55095200;5509.52;Yarn of polyester staple fib mixd w wool/fine animal hair, nt put up, nes;0;WTO ATC Annex;both
+55095300;5509.53;Yarn of polyester staple fibres mixed with cotton, not put up, nes;0;WTO ATC Annex;both
+55095900;5509.59;Yarn of polyester staple fibres, not put up, nes;0;WTO ATC Annex;both
+55096100;5509.61;Yarn of acrylic staple fib mixd w wool/fine animal hair, not put up, nes;0;WTO ATC Annex;both
+55096200;5509.62;Yarn of acrylic staple fibres mixed with cotton, not put up, nes;0;WTO ATC Annex;both
+55096920;5509.69;Yarn of acrylic staple fibres, not put up, nes;0;WTO ATC Annex;both
+55096940;5509.69;Yarn of acrylic staple fibres, not put up, nes;0;WTO ATC Annex;both
+55096960;5509.69;Yarn of acrylic staple fibres, not put up, nes;0;WTO ATC Annex;both
+55099100;5509.91;Yarn of oth synthetic staple fibres mixed w/wool/fine animal hair, nes;0;WTO ATC Annex;both
+55099200;5509.92;Yarn of other synthetic staple fibres mixed with cotton, not put up, nes;0;WTO ATC Annex;both
+55099920;5509.99;Yarn of other synthetic staple fibres, not put up, nes;0;WTO ATC Annex;both
+55099940;5509.99;Yarn of other synthetic staple fibres, not put up, nes;0;WTO ATC Annex;both
+55099960;5509.99;Yarn of other synthetic staple fibres, not put up, nes;0;WTO ATC Annex;both
+55101100;5510.11;Yarn,>/=85% of artificial staple fibres, single, not put up;0;WTO ATC Annex;both
+55101200;5510.12;Yarn,>/=85% of artificial staple fibres, multiple, not put up, nes;0;WTO ATC Annex;both
+55102000;5510.20;Yarn of artificl staple fib mixd w wool/fine animal hair, not put up, nes;0;WTO ATC Annex;both
+55103000;5510.30;Yarn of artificial staple fibres mixed with cotton, not put up, nes;0;WTO ATC Annex;both
+55109020;5510.90;Yarn of artificial staple fibres, not put up, nes;0;WTO ATC Annex;both
+55109040;5510.90;Yarn of artificial staple fibres, not put up, nes;0;WTO ATC Annex;both
+55109060;5510.90;Yarn of artificial staple fibres, not put up, nes;0;WTO ATC Annex;both
+55111000;5511.10;Yarn,>/=85% of synthetic staple fibres, other than sewing thread, put up;0;WTO ATC Annex;both
+55112000;5511.20;Yarn, <85% of synthetic staple fibres, put up for retail sale, nes;0;WTO ATC Annex;both
+55113000;5511.30;Yarn of artificial fibres (other than sewing thread), put up for retail sale;0;WTO ATC Annex;both
+55121100;5512.11;Woven fabrics, containing>/=85% of polyester staple fibres, unbl or bl;0;WTO ATC Annex;both
+55121900;5512.19;Woven fabrics, containg>/=85% of polyester staple fibres, other than unbl or bl;0;WTO ATC Annex;both
+55122100;5512.21;Woven fabrics, containg>/=85% of acrylic staple fibres, unbleached or bl;0;WTO ATC Annex;both
+55122900;5512.29;Woven fabrics, containing>/=85% of acrylic staple fibres, other than unbl or bl;0;WTO ATC Annex;both
+55129100;5512.91;Woven fabrics, containing>/=85% of oth synthetic staple fibres, unbl/bl;0;WTO ATC Annex;both
+55129900;5512.99;Woven fabrics, containg>/=85% of other synthetic staple fib, other than unbl/bl;0;WTO ATC Annex;both
+55131100;5513.11;Plain weave polyest stapl fib fab,<85%,mixd w/cottn,</=170g/m2, unbl/bl;0;WTO ATC Annex;both
+55131200;5513.12;Twill weave polyest stapl fib fab,<85%,mixd w/cottn,</=170g/m2, unbl/bl;0;WTO ATC Annex;both
+55131300;5513.13;Woven fab of polyest staple fib,<85% mixd w/cot,</=170g/m2, unbl/bl, nes;0;WTO ATC Annex;both
+55131900;5513.19;Woven fabrics of oth syn staple fib,<85%,mixd w/cot,</=170g/m2, unbl/bl;0;WTO ATC Annex;both
+55132100;5513.21;Plain weave polyester staple fib fab,<85%,mixd w/cotton,</=170g/m2, dyd;0;WTO ATC Annex;both
+55132301;5513.23;Woven fab of polyester staple fib,<85%,mixd w/cot,</=170 g/m2, dyd, nes;0;WTO ATC Annex;both
+55132900;5513.29;Woven fabrics of oth syn staple fib,<85% mixd w/cotton,</=170g/m2, dyed;0;WTO ATC Annex;both
+55133100;5513.31;Plain weave polyest stapl fib fab,<85% mixd w/cot,</=170g/m2, yarn dyd;0;WTO ATC Annex;both
+55133901;5513.39;Woven fab of oth syn staple fib,<85% mixd w/cot,</=170g/m2, yarn dyd;0;WTO ATC Annex;both
+55134100;5513.41;Plain weave polyester stapl fib fab,<85%,mixd w/cot,</=170g/m2, printd;0;WTO ATC Annex;both
+55134910;5513.49;Woven fab of oth syn staple fib,<85%,mixed w/cot,</=170g/m2, printed;0;WTO ATC Annex;both
+55134920;5513.49;Woven fab of oth syn staple fib,<85%,mixed w/cot,</=170g/m2, printed;0;WTO ATC Annex;both
+55134990;5513.49;Woven fab of oth syn staple fib,<85%,mixed w/cot,</=170g/m2, printed;0;WTO ATC Annex;both
+55141100;5514.11;Plain weave polyest staple fib fab,<85%,mixd w/cotton,>170g/m2, unbl/bl;0;WTO ATC Annex;both
+55141200;5514.12;Twill weave polyest stapl fib fab,<85%,mixd w/cotton,>170g/m2, unbl/bl;0;WTO ATC Annex;both
+55141910;5514.19;Woven fabrics of oth syn staple fib,<85%,mixed w/cot,>170 g/m2, unbl/bl;0;WTO ATC Annex;both
+55141990;5514.19;Woven fabrics of oth syn staple fib,<85%,mixed w/cot,>170 g/m2, unbl/bl;0;WTO ATC Annex;both
+55142100;5514.21;Plain weave polyester staple fibre fab,<85%,mixd w/cotton,>170g/m2, dyd;0;WTO ATC Annex;both
+55142200;5514.22;Twill weave polyester staple fibre fab,<85%,mixd w/cotton,>170g/m2, dyd;0;WTO ATC Annex;both
+55142300;5514.23;Woven fabrics of polyester staple fib,<85%,mixed w/cot,>170 g/m2, dyed;0;WTO ATC Annex;both
+55142900;5514.29;Woven fabrics of oth synthetic staple fib,<85%,mixd w/cot,>170g/m2, dyd;0;WTO ATC Annex;both
+55143031;5514.39;Woven fabrics of oth syn staple fib,<85% mixd w/cot,>170 g/m2, yarn dyd;0;WTO ATC Annex;concordance
+55143032;5514.39;Woven fabrics of oth syn staple fib,<85% mixd w/cot,>170 g/m2, yarn dyd;0;WTO ATC Annex;concordance
+55143033;5514.39;Woven fabrics of oth syn staple fib,<85% mixd w/cot,>170 g/m2, yarn dyd;0;WTO ATC Annex;concordance
+55143039;5514.39;Woven fabrics of oth syn staple fib,<85% mixd w/cot,>170 g/m2, yarn dyd;0;WTO ATC Annex;concordance
+55144100;5514.41;Plain weave polyester staple fibre fab,<85%,mixd w/cot,>170g/m2, printd;0;WTO ATC Annex;both
+55144200;5514.42;Twill weave polyester staple fibre fab,<85%,mixd w/cot,>170g/m2, printd;0;WTO ATC Annex;both
+55144300;5514.43;Woven fab of polyester staple fibres <85%,mixd w/cot,>170g/m2, ptd, nes;0;WTO ATC Annex;both
+55144900;5514.49;Woven fabrics of oth syn staple fib,<85%,mixed w/cot,>170 g/m2, printed;0;WTO ATC Annex;both
+55151100;5515.11;Woven fab of polyester staple fib mixd w viscose rayon staple fib, nes;0;WTO ATC Annex;both
+55151200;5515.12;Woven fabrics of polyester staple fibres mixd w man-made filaments, nes;0;WTO ATC Annex;both
+55151305;5515.13;Woven fab of polyester staple fibres mixd w/wool/fine animal hair, nes;0;WTO ATC Annex;both
+55151310;5515.13;Woven fab of polyester staple fibres mixd w/wool/fine animal hair, nes;0;WTO ATC Annex;both
+55151900;5515.19;Woven fabrics of polyester staple fibres, nes;0;WTO ATC Annex;both
+55152100;5515.21;Woven fabrics of acrylic staple fibres, mixd w man-made filaments, nes;0;WTO ATC Annex;both
+55152205;5515.22;Woven fab of acrylic staple fibres, mixd w/wool/fine animal hair, nes;0;WTO ATC Annex;both
+55152210;5515.22;Woven fab of acrylic staple fibres, mixd w/wool/fine animal hair, nes;0;WTO ATC Annex;both
+55152900;5515.29;Woven fabrics of acrylic or modacrylic staple fibres, nes;0;WTO ATC Annex;both
+55159100;5515.91;Woven fabrics of oth syn staple fib, mixed with man-made filaments, nes;0;WTO ATC Annex;both
+55159905;5515.99;Woven fabrics of synthetic staple fibres, nes;0;WTO ATC Annex;both
+55159910;5515.99;Woven fabrics of synthetic staple fibres, nes;0;WTO ATC Annex;both
+55159990;5515.99;Woven fabrics of synthetic staple fibres, nes;0;WTO ATC Annex;both
+55161100;5516.11;Woven fabrics, containg>/=85% of artificial staple fibres, unbleached/bl;0;WTO ATC Annex;both
+55161200;5516.12;Woven fabrics, containing>/=85% of artificial staple fibres, dyed;0;WTO ATC Annex;both
+55161300;5516.13;Woven fabrics, containing>/=85% of artificial staple fib, yarn dyed;0;WTO ATC Annex;both
+55161400;5516.14;Woven fabrics, containing>/=85% of artificial staple fibres, printed;0;WTO ATC Annex;both
+55162100;5516.21;Woven fabrics of artificial staple fib,<85%,mixd w man-made fi, unbl/bl;0;WTO ATC Annex;both
+55162200;5516.22;Woven fabrics of artificial staple fib,<85%,mixd with man-made fi, dyd;0;WTO ATC Annex;both
+55162300;5516.23;Woven fabrics of artificial staple fib,<85%,mixd with m-m fi, yarn dyd;0;WTO ATC Annex;both
+55162400;5516.24;Woven fabrics of artificial staple fib,<85%,mixd w man-made fi, printd;0;WTO ATC Annex;both
+55163105;5516.31;Woven fab of arti staple fib,<85% mixd w/wool/fine animal hair, unbl/bl;0;WTO ATC Annex;both
+55163110;5516.31;Woven fab of arti staple fib,<85% mixd w/wool/fine animal hair, unbl/bl;0;WTO ATC Annex;both
+55163205;5516.32;Woven fabrics of arti staple fib,<85% mixd w/wool/fine animal hair, dyd;0;WTO ATC Annex;both
+55163210;5516.32;Woven fabrics of arti staple fib,<85% mixd w/wool/fine animal hair, dyd;0;WTO ATC Annex;both
+55163305;5516.33;Woven fab of arti staple fib,<85% mixd w/wool/fine animal hair, yarn dyd;0;WTO ATC Annex;both
+55163310;5516.33;Woven fab of arti staple fib,<85% mixd w/wool/fine animal hair, yarn dyd;0;WTO ATC Annex;both
+55163405;5516.34;Woven fab of arti staple fib,<85% mixd w/wool/fine animal hair, printd;0;WTO ATC Annex;both
+55163410;5516.34;Woven fab of arti staple fib,<85% mixd w/wool/fine animal hair, printd;0;WTO ATC Annex;both
+55164100;5516.41;Woven fabrics of artificial staple fib,<85% mixd with cotton, unbl o bl;0;WTO ATC Annex;both
+55164200;5516.42;Woven fabrics of artificial staple fib, <85% mixed with cotton, dyed;0;WTO ATC Annex;both
+55164300;5516.43;Woven fabrics of artificial staple fib,<85% mixd with cotton, yarn dyd;0;WTO ATC Annex;both
+55164400;5516.44;Woven fabrics of artificial staple fib,<85% mixed with cotton, printed;0;WTO ATC Annex;both
+55169100;5516.91;Woven fabrics of artificial staple fibres, unbleached or bleached, nes;0;WTO ATC Annex;both
+55169200;5516.92;Woven fabrics of artificial staple fibres, dyed, nes;0;WTO ATC Annex;both
+55169300;5516.93;Woven fabrics of artificial staple fibres, yarn dyed, nes;0;WTO ATC Annex;both
+55169400;5516.94;Woven fabrics of artificial staple fibres, printed, nes;0;WTO ATC Annex;both
+56012100;5601.21;Wadding of cotton and articles thereof, other than sanitary articles;0;WTO ATC Annex;both
+56012200;5601.22;Wadding of man-made fibres and articles thereof, other than sanitary articles;0;WTO ATC Annex;both
+56012900;5601.29;Waddg of oth textile materials&articles thereof, other than sanitary articles;0;WTO ATC Annex;both
+56013000;5601.30;Textile flock and dust and mill neps;0;WTO ATC Annex;both
+56021010;5602.10;Needleloom felt and stitch-bonded fibre fabrics;0;WTO ATC Annex;both
+56021090;5602.10;Needleloom felt and stitch-bonded fibre fabrics;0;WTO ATC Annex;both
+56022100;5602.21;Felt other than needleloom, of wool or fine animal hair, not impreg, ctd, cov etc;0;WTO ATC Annex;both
+56022900;5602.29;Felt other than needleloom, of other textile materials, not impreg, ctd, cov etc;0;WTO ATC Annex;both
+56029030;5602.90;Felt of textile materials, nes;0;WTO ATC Annex;both
+56029060;5602.90;Felt of textile materials, nes;0;WTO ATC Annex;both
+56029090;5602.90;Felt of textile materials, nes;0;WTO ATC Annex;both
+56031100;5603.00;Nonwovens, whether or not impregnated, coated, covered or laminated;0;WTO ATC Annex;concordance
+56031200;5603.00;Nonwovens, whether or not impregnated, coated, covered or laminated;0;WTO ATC Annex;concordance
+56031300;5603.00;Nonwovens, whether or not impregnated, coated, covered or laminated;0;WTO ATC Annex;concordance
+56031430;5603.00;Nonwovens, whether or not impregnated, coated, covered or laminated;0;WTO ATC Annex;concordance
+56031490;5603.00;Nonwovens, whether or not impregnated, coated, covered or laminated;0;WTO ATC Annex;concordance
+56039100;5603.00;Nonwovens, whether or not impregnated, coated, covered or laminated;0;WTO ATC Annex;concordance
+56039200;5603.00;Nonwovens, whether or not impregnated, coated, covered or laminated;0;WTO ATC Annex;concordance
+56039300;5603.00;Nonwovens, whether or not impregnated, coated, covered or laminated;0;WTO ATC Annex;concordance
+56039410;5603.00;Nonwovens, whether or not impregnated, coated, covered or laminated;0;WTO ATC Annex;concordance
+56039430;5603.00;Nonwovens, whether or not impregnated, coated, covered or laminated;0;WTO ATC Annex;concordance
+56039490;5603.00;Nonwovens, whether or not impregnated, coated, covered or laminated;0;WTO ATC Annex;concordance
+56041000;5604.10;Rubber thread and cord, textile covered;0;WTO ATC Annex;both
+56049020;5604.90;Textile yarn, strips&the like, impreg ctd/cov with rubber o plastics, nes;0;WTO ATC Annex;both
+56049090;5604.90;Textile yarn, strips&the like, impreg ctd/cov with rubber o plastics, nes;0;WTO ATC Annex;both
+56050010;5605.00;Metallisd yarn, beg textile yarn combind w metal thread, strip/powder;0;WTO ATC Annex;both
+56050090;5605.00;Metallisd yarn, beg textile yarn combind w metal thread, strip/powder;0;WTO ATC Annex;both
+56060000;5606.00;"Gimped yarn nes; chenille yarn; loop wale-yarn";0;WTO ATC Annex;both
+56072100;5607.21;Binder o baler twine, of sisal o oth textile fibres of the genus Agave;0;WTO ATC Annex;both
+56072900;5607.29;Twine nes, cordage, ropes and cables, of sisal textile fibres;0;WTO ATC Annex;both
+56074110;5607.41;Binder or baler twine, of polyethylene or polypropylene;0;WTO ATC Annex;both
+56074130;5607.41;Binder or baler twine, of polyethylene or polypropylene;0;WTO ATC Annex;both
+56074910;5607.49;Twine nes, cordage, ropes and cables, of polyethylene or polypropylene;0;WTO ATC Annex;both
+56074915;5607.49;Twine nes, cordage, ropes and cables, of polyethylene or polypropylene;0;WTO ATC Annex;both
+56074925;5607.49;Twine nes, cordage, ropes and cables, of polyethylene or polypropylene;0;WTO ATC Annex;both
+56074930;5607.49;Twine nes, cordage, ropes and cables, of polyethylene or polypropylene;0;WTO ATC Annex;both
+56075025;5607.50;Twine, cordage, ropes and cables, of other synthetic fibres;0;WTO ATC Annex;both
+56075035;5607.50;Twine, cordage, ropes and cables, of other synthetic fibres;0;WTO ATC Annex;both
+56075040;5607.50;Twine, cordage, ropes and cables, of other synthetic fibres;0;WTO ATC Annex;both
+56079010;5607.90;Twine, cordage, ropes and cables, of other materials;0;WTO ATC Annex;both
+56079015;5607.90;Twine, cordage, ropes and cables, of other materials;0;WTO ATC Annex;both
+56079025;5607.90;Twine, cordage, ropes and cables, of other materials;0;WTO ATC Annex;both
+56079035;5607.90;Twine, cordage, ropes and cables, of other materials;0;WTO ATC Annex;both
+56079090;5607.90;Twine, cordage, ropes and cables, of other materials;0;WTO ATC Annex;both
+56081100;5608.11;Made up fishing nets, of man-made textile materials;0;WTO ATC Annex;both
+56081910;5608.19;Knottd nettg of twine/cordage/rope, and oth made up nets of m-m tex mat;0;WTO ATC Annex;both
+56081920;5608.19;Knottd nettg of twine/cordage/rope, and oth made up nets of m-m tex mat;0;WTO ATC Annex;both
+56089010;5608.90;Knottd nettg of twine/cordage/rope, nes, and made up nets of oth tex mat;0;WTO ATC Annex;both
+56089023;5608.90;Knottd nettg of twine/cordage/rope, nes, and made up nets of oth tex mat;0;WTO ATC Annex;both
+56089027;5608.90;Knottd nettg of twine/cordage/rope, nes, and made up nets of oth tex mat;0;WTO ATC Annex;both
+56089030;5608.90;Knottd nettg of twine/cordage/rope, nes, and made up nets of oth tex mat;0;WTO ATC Annex;both
+56090010;5609.00;Articles of yarn, strip, twine, cordage, rope and cables, nes;0;WTO ATC Annex;both
+56090020;5609.00;Articles of yarn, strip, twine, cordage, rope and cables, nes;0;WTO ATC Annex;both
+56090030;5609.00;Articles of yarn, strip, twine, cordage, rope and cables, nes;0;WTO ATC Annex;both
+56090040;5609.00;Articles of yarn, strip, twine, cordage, rope and cables, nes;0;WTO ATC Annex;both
+57011013;5701.10;Carpets of wool or fine animal hair, knotted;0;WTO ATC Annex;both
+57011016;5701.10;Carpets of wool or fine animal hair, knotted;0;WTO ATC Annex;both
+57011040;5701.10;Carpets of wool or fine animal hair, knotted;0;WTO ATC Annex;both
+57011090;5701.10;Carpets of wool or fine animal hair, knotted;0;WTO ATC Annex;both
+57019010;5701.90;Carpets of other textile materials, knotted;0;WTO ATC Annex;both
+57019020;5701.90;Carpets of other textile materials, knotted;0;WTO ATC Annex;both
+57021010;5702.10;Kelem, Schumacks, Karamanie and similar textile hand-woven rugs;0;WTO ATC Annex;both
+57021090;5702.10;Kelem, Schumacks, Karamanie and similar textile hand-woven rugs;0;WTO ATC Annex;both
+57022010;5702.20;Floor coverings of coconut fibres (coir);0;WTO ATC Annex;both
+57022020;5702.20;Floor coverings of coconut fibres (coir);0;WTO ATC Annex;both
+57023110;5702.31;Carpets of wool/fine animl hair, of wovn pile constructn, nt made up nes;0;WTO ATC Annex;both
+57023120;5702.31;Carpets of wool/fine animl hair, of wovn pile constructn, nt made up nes;0;WTO ATC Annex;both
+57023210;5702.32;Carpets of man-made textile mat, of wovn pile construct, nt made up, nes;0;WTO ATC Annex;both
+57023220;5702.32;Carpets of man-made textile mat, of wovn pile construct, nt made up, nes;0;WTO ATC Annex;both
+57023910;5702.39;Carpets of oth textile mat, of woven pile constructn, nt made up, nes;0;WTO ATC Annex;both
+57023920;5702.39;Carpets of oth textile mat, of woven pile constructn, nt made up, nes;0;WTO ATC Annex;both
+57024110;5702.41;Carpets of wool/fine animal hair, of wovn pile construction, made up, nes;0;WTO ATC Annex;both
+57024120;5702.41;Carpets of wool/fine animal hair, of wovn pile construction, made up, nes;0;WTO ATC Annex;both
+57024210;5702.42;Carpets of man-made textile mat, of woven pile construction, made up, nes;0;WTO ATC Annex;both
+57024220;5702.42;Carpets of man-made textile mat, of woven pile construction, made up, nes;0;WTO ATC Annex;both
+57024910;5702.49;Carpets of oth textile materials, of wovn pile construction, made up, nes;0;WTO ATC Annex;both
+57024915;5702.49;Carpets of oth textile materials, of wovn pile construction, made up, nes;0;WTO ATC Annex;both
+57024920;5702.49;Carpets of oth textile materials, of wovn pile construction, made up, nes;0;WTO ATC Annex;both
+57025020;5702.59;Carpets of other textile materials, woven, not made up, nes;0;WTO ATC Annex;concordance
+57025040;5702.59;Carpets of other textile materials, woven, not made up, nes;0;WTO ATC Annex;concordance
+57025052;5702.59;Carpets of other textile materials, woven, not made up, nes;0;WTO ATC Annex;concordance
+57025056;5702.59;Carpets of other textile materials, woven, not made up, nes;0;WTO ATC Annex;concordance
+57025059;5702.59;Carpets of other textile materials, woven, not made up, nes;0;WTO ATC Annex;concordance
+57029120;5702.91;Carpets of wool or fine animal hair, woven, made up, nes;0;WTO ATC Annex;both
+57029130;5702.91;Carpets of wool or fine animal hair, woven, made up, nes;0;WTO ATC Annex;both
+57029140;5702.91;Carpets of wool or fine animal hair, woven, made up, nes;0;WTO ATC Annex;both
+57029210;5702.92;Carpets of man-made textile materials, woven, made up, nes;0;WTO ATC Annex;both
+57029290;5702.92;Carpets of man-made textile materials, woven, made up, nes;0;WTO ATC Annex;both
+57029905;5702.99;Carpets of other textile materials, woven, made up, nes;0;WTO ATC Annex;both
+57029915;5702.99;Carpets of other textile materials, woven, made up, nes;0;WTO ATC Annex;both
+57029920;5702.99;Carpets of other textile materials, woven, made up, nes;0;WTO ATC Annex;both
+57031020;5703.10;Carpets of wool or fine animal hair, tufted;0;WTO ATC Annex;both
+57031080;5703.10;Carpets of wool or fine animal hair, tufted;0;WTO ATC Annex;both
+57032100;5703.20;Carpets of nylon or other polyamides, tufted;0;WTO ATC Annex;concordance
+57032910;5703.20;Carpets of nylon or other polyamides, tufted;0;WTO ATC Annex;concordance
+57032920;5703.20;Carpets of nylon or other polyamides, tufted;0;WTO ATC Annex;concordance
+57033100;5703.30;Carpets of other man-made textile materials, tufted;0;WTO ATC Annex;concordance
+57033910;5703.30;Carpets of other man-made textile materials, tufted;0;WTO ATC Annex;concordance
+57033920;5703.30;Carpets of other man-made textile materials, tufted;0;WTO ATC Annex;concordance
+57039000;5703.90;Carpets of other textile materials, tufted;0;WTO ATC Annex;both
+57041000;5704.10;Tiles of felt of textile materials, havg a max surface area of 0.3 m2;0;WTO ATC Annex;both
+57042000;5704.90;Carpets of felt of textile materials, nes;0;WTO ATC Annex;concordance
+57049001;5704.90;Carpets of felt of textile materials, nes;0;WTO ATC Annex;both
+57050010;5705.00;Carpets and other textile floor coverings, nes;0;WTO ATC Annex;both
+57050020;5705.00;Carpets and other textile floor coverings, nes;0;WTO ATC Annex;both
+58011000;5801.10;Woven pile fabrics of wool/fine animal hair, other than terry&narrow fabrics;0;WTO ATC Annex;both
+58012100;5801.21;Woven uncut weft pile fabrics of cotton, other than terry and narrow fabrics;0;WTO ATC Annex;both
+58012210;5801.22;Cut corduroy fabrics of cotton, other than narrow fabrics;0;WTO ATC Annex;both
+58012290;5801.22;Cut corduroy fabrics of cotton, other than narrow fabrics;0;WTO ATC Annex;both
+58012300;5801.23;Woven weft pile fabrics of cotton, nes;0;WTO ATC Annex;both
+58012600;5801.26;Chenille fabrics of cotton, other than narrow fabrics;0;WTO ATC Annex;both
+58012710;5801.25;Woven warp pile fabrics of cotton, cut, other than terry and narrow fabrics;0;WTO ATC Annex;concordance
+58012750;5801.25;Woven warp pile fabrics of cotton, cut, other than terry and narrow fabrics;0;WTO ATC Annex;concordance
+58013100;5801.31;Woven uncut weft pile fabrics of manmade fibres, other than terry&narrow fab.;0;WTO ATC Annex;both
+58013200;5801.32;Cut corduroy fabrics of man-made fibres, other than narrow fabrics;0;WTO ATC Annex;both
+58013300;5801.33;Woven weft pile fabrics of man-made fibres, nes;0;WTO ATC Annex;both
+58013600;5801.36;Chenille fabrics of man-made fibres, other than narrow fabrics;0;WTO ATC Annex;both
+58013710;5801.35;Woven warp pile fabrics of man-made fib, cut, other than terry & narrow fabrics;0;WTO ATC Annex;concordance
+58013750;5801.35;Woven warp pile fabrics of man-made fib, cut, other than terry & narrow fabrics;0;WTO ATC Annex;concordance
+58019010;5801.90;Woven pile fab&chenille fab of other tex mat, other than terry&narrow fabrics;0;WTO ATC Annex;both
+58019020;5801.90;Woven pile fab&chenille fab of other tex mat, other than terry&narrow fabrics;0;WTO ATC Annex;both
+58021010;5802.19;Terry towellg&similar woven terry fab of cotton, other than unbl&other than nar fab;0;WTO ATC Annex;concordance
+58021090;5802.19;Terry towellg&similar woven terry fab of cotton, other than unbl&other than nar fab;0;WTO ATC Annex;concordance
+58022000;5802.20;Terry towellg&sim woven terry fab of oth tex mat, other than narrow fabrics;0;WTO ATC Annex;both
+58023000;5802.30;Tufted textile fabrics, other than products of heading No 57.03;0;WTO ATC Annex;both
+58030010;5803.90;Gauze of other textile material, other than narrow fabrics;0;WTO ATC Annex;concordance
+58030020;5803.90;Gauze of other textile material, other than narrow fabrics;0;WTO ATC Annex;concordance
+58030030;5803.90;Gauze of other textile material, other than narrow fabrics;0;WTO ATC Annex;concordance
+58030040;5803.90;Gauze of other textile material, other than narrow fabrics;0;WTO ATC Annex;concordance
+58030050;5803.90;Gauze of other textile material, other than narrow fabrics;0;WTO ATC Annex;concordance
+58030090;5803.90;Gauze of other textile material, other than narrow fabrics;0;WTO ATC Annex;concordance
+58041010;5804.10;Tulles & other net fabrics, not incl woven, knitted or crocheted fabrics;0;WTO ATC Annex;both
+58041090;5804.10;Tulles & other net fabrics, not incl woven, knitted or crocheted fabrics;0;WTO ATC Annex;both
+58042100;5804.21;Mechanically made lace of man-made fib, in the piece, in strips/motifs;0;WTO ATC Annex;both
+58042910;5804.29;Mechanically made lace of oth tex mat, in the piece, in strips/in motifs;0;WTO ATC Annex;both
+58042990;5804.29;Mechanically made lace of oth tex mat, in the piece, in strips/in motifs;0;WTO ATC Annex;both
+58043000;5804.30;Hand-made lace, in the piece, in strips or in motifs;0;WTO ATC Annex;both
+58050010;5805.00;Hand-woven tapestries & needle-worked tapestries, whether or not made up;0;WTO ATC Annex;both
+58050020;5805.00;Hand-woven tapestries & needle-worked tapestries, whether or not made up;0;WTO ATC Annex;both
+58050025;5805.00;Hand-woven tapestries & needle-worked tapestries, whether or not made up;0;WTO ATC Annex;both
+58050030;5805.00;Hand-woven tapestries & needle-worked tapestries, whether or not made up;0;WTO ATC Annex;both
+58050040;5805.00;Hand-woven tapestries & needle-worked tapestries, whether or not made up;0;WTO ATC Annex;both
+58061010;5806.10;Narrow woven pile fabrics and narrow chenille fabrics;0;WTO ATC Annex;both
+58061024;5806.10;Narrow woven pile fabrics and narrow chenille fabrics;0;WTO ATC Annex;both
+58061028;5806.10;Narrow woven pile fabrics and narrow chenille fabrics;0;WTO ATC Annex;both
+58061030;5806.10;Narrow woven pile fabrics and narrow chenille fabrics;0;WTO ATC Annex;both
+58062000;5806.20;Narrow woven fab, cntg by wt>/=5% elastomeric yarn/rubber thread nes;0;WTO ATC Annex;both
+58063100;5806.31;Narrow woven fabrics of cotton, nes;0;WTO ATC Annex;both
+58063210;5806.32;Narrow woven fabrics of man-made fibres, nes;0;WTO ATC Annex;both
+58063220;5806.32;Narrow woven fabrics of man-made fibres, nes;0;WTO ATC Annex;both
+58063910;5806.39;Narrow woven fabrics of other textile materials, nes;0;WTO ATC Annex;both
+58063920;5806.39;Narrow woven fabrics of other textile materials, nes;0;WTO ATC Annex;both
+58063930;5806.39;Narrow woven fabrics of other textile materials, nes;0;WTO ATC Annex;both
+58064000;5806.40;Fabrics consisting of warp w/o weft assembled by means of an adhesive;0;WTO ATC Annex;both
+58071005;5807.10;Labels, badges and similar woven articles of textile materials;0;WTO ATC Annex;both
+58071015;5807.10;Labels, badges and similar woven articles of textile materials;0;WTO ATC Annex;both
+58071020;5807.10;Labels, badges and similar woven articles of textile materials;0;WTO ATC Annex;both
+58079005;5807.90;Labels, badges and similar articles, not woven, of textile materials, nes;0;WTO ATC Annex;both
+58079015;5807.90;Labels, badges and similar articles, not woven, of textile materials, nes;0;WTO ATC Annex;both
+58079020;5807.90;Labels, badges and similar articles, not woven, of textile materials, nes;0;WTO ATC Annex;both
+58081010;5808.10;Braids in the piece;0;WTO ATC Annex;both
+58081040;5808.10;Braids in the piece;0;WTO ATC Annex;both
+58081050;5808.10;Braids in the piece;0;WTO ATC Annex;both
+58081070;5808.10;Braids in the piece;0;WTO ATC Annex;both
+58081090;5808.10;Braids in the piece;0;WTO ATC Annex;both
+58089000;5808.90;"Ornamental trimmings in the piece, other than knit; tassels, pompons & similar art";0;WTO ATC Annex;both
+58090000;5809.00;Woven fabrics of metal thread/of metallisd yarn, for apparel, etc, nes;0;WTO ATC Annex;both
+58101000;5810.10;Embroidery without visible ground, in the piece, in strips or in motifs;0;WTO ATC Annex;both
+58109100;5810.91;Embroidery of cotton, in the piece, in strips or in motifs, nes;0;WTO ATC Annex;both
+58109210;5810.92;Embroidery of man-made fibres, in the piece, in strips or in motifs, nes;0;WTO ATC Annex;both
+58109290;5810.92;Embroidery of man-made fibres, in the piece, in strips or in motifs, nes;0;WTO ATC Annex;both
+58109910;5810.99;Embroidery of oth textile materials, in the piece, in strips/motifs, nes;0;WTO ATC Annex;both
+58109990;5810.99;Embroidery of oth textile materials, in the piece, in strips/motifs, nes;0;WTO ATC Annex;both
+58110010;5811.00;Quilted textile products in the piece;0;WTO ATC Annex;both
+58110020;5811.00;Quilted textile products in the piece;0;WTO ATC Annex;both
+58110030;5811.00;Quilted textile products in the piece;0;WTO ATC Annex;both
+58110040;5811.00;Quilted textile products in the piece;0;WTO ATC Annex;both
+59011010;5901.10;Textile fabrics coatd with gum, of a kind usd for outer covers of books;0;WTO ATC Annex;both
+59011020;5901.10;Textile fabrics coatd with gum, of a kind usd for outer covers of books;0;WTO ATC Annex;both
+59019020;5901.90;"Tracg cloth; prepared paintg canvas; stiffened textile fab; for hats etc";0;WTO ATC Annex;both
+59019040;5901.90;"Tracg cloth; prepared paintg canvas; stiffened textile fab; for hats etc";0;WTO ATC Annex;both
+59021000;5902.10;Tire cord fabric made of nylon or other polyamides high tenacity yarns;0;WTO ATC Annex;both
+59022000;5902.20;Tire cord fabric made of polyester high tenacity yarns;0;WTO ATC Annex;both
+59029000;5902.90;Tire cord fabric made of viscose rayon high tenacity yarns;0;WTO ATC Annex;both
+59031010;5903.10;Textile fab impregnatd, ctd, cov, or laminatd w polyvinyl chloride, nes;0;WTO ATC Annex;both
+59031015;5903.10;Textile fab impregnatd, ctd, cov, or laminatd w polyvinyl chloride, nes;0;WTO ATC Annex;both
+59031018;5903.10;Textile fab impregnatd, ctd, cov, or laminatd w polyvinyl chloride, nes;0;WTO ATC Annex;both
+59031020;5903.10;Textile fab impregnatd, ctd, cov, or laminatd w polyvinyl chloride, nes;0;WTO ATC Annex;both
+59031025;5903.10;Textile fab impregnatd, ctd, cov, or laminatd w polyvinyl chloride, nes;0;WTO ATC Annex;both
+59031030;5903.10;Textile fab impregnatd, ctd, cov, or laminatd w polyvinyl chloride, nes;0;WTO ATC Annex;both
+59032010;5903.20;Textile fabrics impregnated, ctd, cov, or laminated with polyurethane, nes;0;WTO ATC Annex;both
+59032015;5903.20;Textile fabrics impregnated, ctd, cov, or laminated with polyurethane, nes;0;WTO ATC Annex;both
+59032018;5903.20;Textile fabrics impregnated, ctd, cov, or laminated with polyurethane, nes;0;WTO ATC Annex;both
+59032020;5903.20;Textile fabrics impregnated, ctd, cov, or laminated with polyurethane, nes;0;WTO ATC Annex;both
+59032025;5903.20;Textile fabrics impregnated, ctd, cov, or laminated with polyurethane, nes;0;WTO ATC Annex;both
+59032030;5903.20;Textile fabrics impregnated, ctd, cov, or laminated with polyurethane, nes;0;WTO ATC Annex;both
+59039010;5903.90;Textile fabrics impregnated, ctd, cov, or laminated with plastics, nes;0;WTO ATC Annex;both
+59039015;5903.90;Textile fabrics impregnated, ctd, cov, or laminated with plastics, nes;0;WTO ATC Annex;both
+59039018;5903.90;Textile fabrics impregnated, ctd, cov, or laminated with plastics, nes;0;WTO ATC Annex;both
+59039020;5903.90;Textile fabrics impregnated, ctd, cov, or laminated with plastics, nes;0;WTO ATC Annex;both
+59039025;5903.90;Textile fabrics impregnated, ctd, cov, or laminated with plastics, nes;0;WTO ATC Annex;both
+59039030;5903.90;Textile fabrics impregnated, ctd, cov, or laminated with plastics, nes;0;WTO ATC Annex;both
+59041000;5904.10;Lineoleum, whether or not cut to shape;0;WTO ATC Annex;both
+59049010;5904.92;Floor coverings, other than linoleum, with other textile base;0;WTO ATC Annex;concordance
+59049090;5904.92;Floor coverings, other than linoleum, with other textile base;0;WTO ATC Annex;concordance
+59050010;5905.00;Textile wall coverings;0;WTO ATC Annex;both
+59050090;5905.00;Textile wall coverings;0;WTO ATC Annex;both
+59061000;5906.10;Rubberised textile adhesive tape of a width not exceeding 20 cm;0;WTO ATC Annex;both
+59069110;5906.91;Rubberised textile knitted or crocheted fabrics, nes;0;WTO ATC Annex;both
+59069120;5906.91;Rubberised textile knitted or crocheted fabrics, nes;0;WTO ATC Annex;both
+59069125;5906.91;Rubberised textile knitted or crocheted fabrics, nes;0;WTO ATC Annex;both
+59069130;5906.91;Rubberised textile knitted or crocheted fabrics, nes;0;WTO ATC Annex;both
+59069910;5906.99;Rubberised textile fabrics, nes;0;WTO ATC Annex;both
+59069920;5906.99;Rubberised textile fabrics, nes;0;WTO ATC Annex;both
+59069925;5906.99;Rubberised textile fabrics, nes;0;WTO ATC Annex;both
+59069930;5906.99;Rubberised textile fabrics, nes;0;WTO ATC Annex;both
+59070005;5907.00;"Textile fab impreg, ctd, cov nes; paintd canvas (e.g.threatrical scenery)";0;WTO ATC Annex;both
+59070015;5907.00;"Textile fab impreg, ctd, cov nes; paintd canvas (e.g.threatrical scenery)";0;WTO ATC Annex;both
+59070025;5907.00;"Textile fab impreg, ctd, cov nes; paintd canvas (e.g.threatrical scenery)";0;WTO ATC Annex;both
+59070035;5907.00;"Textile fab impreg, ctd, cov nes; paintd canvas (e.g.threatrical scenery)";0;WTO ATC Annex;both
+59070060;5907.00;"Textile fab impreg, ctd, cov nes; paintd canvas (e.g.threatrical scenery)";0;WTO ATC Annex;both
+59070080;5907.00;"Textile fab impreg, ctd, cov nes; paintd canvas (e.g.threatrical scenery)";0;WTO ATC Annex;both
+59080000;5908.00;"Textile wicks f lamps, stoves, etc; gas mantles&knittd gas mantle fabric";0;WTO ATC Annex;both
+59090010;5909.00;Textile hosepiping and similar textile tubing;0;WTO ATC Annex;both
+59090020;5909.00;Textile hosepiping and similar textile tubing;0;WTO ATC Annex;both
+59100010;5910.00;Transmission or conveyor belts or belting of textile material;0;WTO ATC Annex;both
+59100090;5910.00;Transmission or conveyor belts or belting of textile material;0;WTO ATC Annex;both
+59111010;5911.10;Textile fabrics usd f card clothing, and sim fabric f technical uses;0;WTO ATC Annex;both
+59111020;5911.10;Textile fabrics usd f card clothing, and sim fabric f technical uses;0;WTO ATC Annex;both
+59112010;5911.20;Textile bolting cloth, whether or not made up;0;WTO ATC Annex;both
+59112020;5911.20;Textile bolting cloth, whether or not made up;0;WTO ATC Annex;both
+59112030;5911.20;Textile bolting cloth, whether or not made up;0;WTO ATC Annex;both
+59113100;5911.31;Textile fabrics used in paper-making or similar machines, <650 g/m2;0;WTO ATC Annex;both
+59113200;5911.32;Textile fabrics usd in paper-makg or similar mach, weighg >/=650 g/m2;0;WTO ATC Annex;both
+59114001;5911.40;Textile straing cloth usd in oil presses o the like, incl of human hair;0;WTO ATC Annex;both
+59119000;5911.90;Textile products and articles for technical uses, nes;0;WTO ATC Annex;both
+60011020;6001.10;Long pile knitted or crocheted textile fabrics;0;WTO ATC Annex;both
+60011060;6001.10;Long pile knitted or crocheted textile fabrics;0;WTO ATC Annex;both
+60012100;6001.21;Looped pile knitted or crocheted fabrics, of cotton;0;WTO ATC Annex;both
+60012200;6001.22;Looped pile knitted or crocheted fabrics, of man-made fibres;0;WTO ATC Annex;both
+60012900;6001.29;Looped pile knitted or crocheted fabrics, of other textile materials;0;WTO ATC Annex;both
+60019100;6001.91;Pile knitted or crocheted fabrics, of cotton, nes;0;WTO ATC Annex;both
+60019200;6001.92;Pile knitted or crocheted fabrics, of man-made fibres, nes;0;WTO ATC Annex;both
+60019910;6001.99;Pile knitted or crocheted fabrics, of other textile materials, nes;0;WTO ATC Annex;both
+60019990;6001.99;Pile knitted or crocheted fabrics, of other textile materials, nes;0;WTO ATC Annex;both
+60024040;6002.10;Knittd or crochetd tex fab, w</=30 cm,>/=5% of elastomeric/rubber, nes;0;WTO ATC Annex;concordance
+60024080;6002.10;Knittd or crochetd tex fab, w</=30 cm,>/=5% of elastomeric/rubber, nes;0;WTO ATC Annex;concordance
+60029040;6002.10;Knittd or crochetd tex fab, w</=30 cm,>/=5% of elastomeric/rubber, nes;0;WTO ATC Annex;concordance
+60029080;6002.10;Knittd or crochetd tex fab, w</=30 cm,>/=5% of elastomeric/rubber, nes;0;WTO ATC Annex;concordance
+60031010;6002.20;Knitted or crocheted textile fabrics, of a width not exceedg 30 cm, nes;0;WTO ATC Annex;concordance
+60031090;6002.20;Knitted or crocheted textile fabrics, of a width not exceedg 30 cm, nes;0;WTO ATC Annex;concordance
+60032010;6002.20;Knitted or crocheted textile fabrics, of a width not exceedg 30 cm, nes;0;WTO ATC Annex;concordance
+60032030;6002.20;Knitted or crocheted textile fabrics, of a width not exceedg 30 cm, nes;0;WTO ATC Annex;concordance
+60033010;6002.20;Knitted or crocheted textile fabrics, of a width not exceedg 30 cm, nes;0;WTO ATC Annex;concordance
+60033060;6002.20;Knitted or crocheted textile fabrics, of a width not exceedg 30 cm, nes;0;WTO ATC Annex;concordance
+60034010;6002.20;Knitted or crocheted textile fabrics, of a width not exceedg 30 cm, nes;0;WTO ATC Annex;concordance
+60034060;6002.20;Knitted or crocheted textile fabrics, of a width not exceedg 30 cm, nes;0;WTO ATC Annex;concordance
+60039010;6002.20;Knitted or crocheted textile fabrics, of a width not exceedg 30 cm, nes;0;WTO ATC Annex;concordance
+60039090;6002.20;Knitted or crocheted textile fabrics, of a width not exceedg 30 cm, nes;0;WTO ATC Annex;concordance
+60041000;6002.30;Knittd/crochetd tex fab, width > 30 cm,>/=5% of elastomeric/rubber, nes;0;WTO ATC Annex;concordance
+60049020;6002.30;Knittd/crochetd tex fab, width > 30 cm,>/=5% of elastomeric/rubber, nes;0;WTO ATC Annex;concordance
+60049090;6002.30;Knittd/crochetd tex fab, width > 30 cm,>/=5% of elastomeric/rubber, nes;0;WTO ATC Annex;concordance
+60052100;6002.42;Warp knitted fabrics, of cotton, nes;0;WTO ATC Annex;concordance
+60052200;6002.42;Warp knitted fabrics, of cotton, nes;0;WTO ATC Annex;concordance
+60052300;6002.42;Warp knitted fabrics, of cotton, nes;0;WTO ATC Annex;concordance
+60052400;6002.42;Warp knitted fabrics, of cotton, nes;0;WTO ATC Annex;concordance
+60053500;6002.43;Warp knitted fabrics, of man-made fibres, nes;0;WTO ATC Annex;concordance
+60053600;6002.43;Warp knitted fabrics, of man-made fibres, nes;0;WTO ATC Annex;concordance
+60053700;6002.43;Warp knitted fabrics, of man-made fibres, nes;0;WTO ATC Annex;concordance
+60053800;6002.43;Warp knitted fabrics, of man-made fibres, nes;0;WTO ATC Annex;concordance
+60053900;6002.43;Warp knitted fabrics, of man-made fibres, nes;0;WTO ATC Annex;concordance
+60054100;6002.43;Warp knitted fabrics, of man-made fibres, nes;0;WTO ATC Annex;concordance
+60054200;6002.43;Warp knitted fabrics, of man-made fibres, nes;0;WTO ATC Annex;concordance
+60054300;6002.43;Warp knitted fabrics, of man-made fibres, nes;0;WTO ATC Annex;concordance
+60054400;6002.43;Warp knitted fabrics, of man-made fibres, nes;0;WTO ATC Annex;concordance
+60059010;6002.41;Warp knitted fabrics, of wool or fine animal hair, nes;0;WTO ATC Annex;concordance
+60059090;6002.41;Warp knitted fabrics, of wool or fine animal hair, nes;0;WTO ATC Annex;concordance
+60061000;6002.91;Knitted or crocheted fabrics, of wool or of fine animal hair, nes;0;WTO ATC Annex;concordance
+60062110;6002.92;Knitted or crocheted fabrics, of cotton, nes;0;WTO ATC Annex;concordance
+60062190;6002.92;Knitted or crocheted fabrics, of cotton, nes;0;WTO ATC Annex;concordance
+60062210;6002.92;Knitted or crocheted fabrics, of cotton, nes;0;WTO ATC Annex;concordance
+60062290;6002.92;Knitted or crocheted fabrics, of cotton, nes;0;WTO ATC Annex;concordance
+60062310;6002.92;Knitted or crocheted fabrics, of cotton, nes;0;WTO ATC Annex;concordance
+60062390;6002.92;Knitted or crocheted fabrics, of cotton, nes;0;WTO ATC Annex;concordance
+60062410;6002.92;Knitted or crocheted fabrics, of cotton, nes;0;WTO ATC Annex;concordance
+60062490;6002.92;Knitted or crocheted fabrics, of cotton, nes;0;WTO ATC Annex;concordance
+60063100;6002.93;Knitted or crocheted fabrics, of manmade fibres, nes;0;WTO ATC Annex;concordance
+60063200;6002.93;Knitted or crocheted fabrics, of manmade fibres, nes;0;WTO ATC Annex;concordance
+60063300;6002.93;Knitted or crocheted fabrics, of manmade fibres, nes;0;WTO ATC Annex;concordance
+60063400;6002.93;Knitted or crocheted fabrics, of manmade fibres, nes;0;WTO ATC Annex;concordance
+60064100;6002.93;Knitted or crocheted fabrics, of manmade fibres, nes;0;WTO ATC Annex;concordance
+60064200;6002.93;Knitted or crocheted fabrics, of manmade fibres, nes;0;WTO ATC Annex;concordance
+60064300;6002.93;Knitted or crocheted fabrics, of manmade fibres, nes;0;WTO ATC Annex;concordance
+60064400;6002.93;Knitted or crocheted fabrics, of manmade fibres, nes;0;WTO ATC Annex;concordance
+60069010;6002.99;Knitted or crocheted fabrics, of other materials, nes;0;WTO ATC Annex;concordance
+60069090;6002.99;Knitted or crocheted fabrics, of other materials, nes;0;WTO ATC Annex;concordance
+61012000;6101.20;Mens/boys overcoats, anoraks etc, of cotton, knitted;0;WTO ATC Annex;both
+61013010;6101.30;Mens/boys overcoats, anoraks etc, of man-made fibres, knitted;0;WTO ATC Annex;both
+61013015;6101.30;Mens/boys overcoats, anoraks etc, of man-made fibres, knitted;0;WTO ATC Annex;both
+61013020;6101.30;Mens/boys overcoats, anoraks etc, of man-made fibres, knitted;0;WTO ATC Annex;both
+61019005;6101.90;Mens/boys overcoats, anoraks etc, of other textile materials, knitted;0;WTO ATC Annex;both
+61019010;6101.90;Mens/boys overcoats, anoraks etc, of other textile materials, knitted;0;WTO ATC Annex;both
+61019090;6101.90;Mens/boys overcoats, anoraks etc, of other textile materials, knitted;0;WTO ATC Annex;both
+61021000;6102.10;Womens/girls overcoats, anoraks etc, of wool or fine animal hair, knitted;0;WTO ATC Annex;both
+61022000;6102.20;Womens/girls overcoats, anoraks etc, of cotton, knitted;0;WTO ATC Annex;both
+61023005;6102.30;Womens/girls overcoats, anoraks etc, of man-made fibres, knitted;0;WTO ATC Annex;both
+61023010;6102.30;Womens/girls overcoats, anoraks etc, of man-made fibres, knitted;0;WTO ATC Annex;both
+61023020;6102.30;Womens/girls overcoats, anoraks etc, of man-made fibres, knitted;0;WTO ATC Annex;both
+61029010;6102.90;Womens/girls overcoats, anoraks etc, of other textile materials, knitted;0;WTO ATC Annex;both
+61029090;6102.90;Womens/girls overcoats, anoraks etc, of other textile materials, knitted;0;WTO ATC Annex;both
+61031010;6103.19;Mens/boys suits, of other textile materials, knitted;0;WTO ATC Annex;concordance
+61031020;6103.19;Mens/boys suits, of other textile materials, knitted;0;WTO ATC Annex;concordance
+61031030;6103.19;Mens/boys suits, of other textile materials, knitted;0;WTO ATC Annex;concordance
+61031040;6103.19;Mens/boys suits, of other textile materials, knitted;0;WTO ATC Annex;concordance
+61031050;6103.19;Mens/boys suits, of other textile materials, knitted;0;WTO ATC Annex;concordance
+61031060;6103.19;Mens/boys suits, of other textile materials, knitted;0;WTO ATC Annex;concordance
+61031070;6103.19;Mens/boys suits, of other textile materials, knitted;0;WTO ATC Annex;concordance
+61031090;6103.19;Mens/boys suits, of other textile materials, knitted;0;WTO ATC Annex;concordance
+61032200;6103.22;Mens/boys ensembles, of cotton, knitted;0;WTO ATC Annex;both
+61032300;6103.23;Mens/boys ensembles, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61032905;6103.29;Mens/boys ensembles, of other textile materials, knitted;0;WTO ATC Annex;both
+61032910;6103.29;Mens/boys ensembles, of other textile materials, knitted;0;WTO ATC Annex;both
+61032920;6103.29;Mens/boys ensembles, of other textile materials, knitted;0;WTO ATC Annex;both
+61033100;6103.31;Mens/boys jackets and blazers, of wool or fine animal hair, knitted;0;WTO ATC Annex;both
+61033200;6103.32;Mens/boys jackets and blazers, of cotton, knitted;0;WTO ATC Annex;both
+61033310;6103.33;Mens/boys jackets and blazers, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61033320;6103.33;Mens/boys jackets and blazers, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61033910;6103.39;Mens/boys jackets and blazers, of other textile materials, knitted;0;WTO ATC Annex;both
+61033940;6103.39;Mens/boys jackets and blazers, of other textile materials, knitted;0;WTO ATC Annex;both
+61033980;6103.39;Mens/boys jackets and blazers, of other textile materials, knitted;0;WTO ATC Annex;both
+61034110;6103.41;Mens/boys trousers and shorts, of wool or fine animal hair, knitted;0;WTO ATC Annex;both
+61034120;6103.41;Mens/boys trousers and shorts, of wool or fine animal hair, knitted;0;WTO ATC Annex;both
+61034210;6103.42;Mens/boys trousers and shorts, of cotton, knitted;0;WTO ATC Annex;both
+61034220;6103.42;Mens/boys trousers and shorts, of cotton, knitted;0;WTO ATC Annex;both
+61034310;6103.43;Mens/boys trousers and shorts, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61034315;6103.43;Mens/boys trousers and shorts, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61034320;6103.43;Mens/boys trousers and shorts, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61034910;6103.49;Mens/boys trousers and shorts, of other textile materials, knitted;0;WTO ATC Annex;both
+61034920;6103.49;Mens/boys trousers and shorts, of other textile materials, knitted;0;WTO ATC Annex;both
+61034940;6103.49;Mens/boys trousers and shorts, of other textile materials, knitted;0;WTO ATC Annex;both
+61034980;6103.49;Mens/boys trousers and shorts, of other textile materials, knitted;0;WTO ATC Annex;both
+61041310;6104.13;Womens/girls suits, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61041320;6104.13;Womens/girls suits, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61041910;6104.19;Womens/girls suits, of other textile materials, knitted;0;WTO ATC Annex;both
+61041915;6104.19;Womens/girls suits, of other textile materials, knitted;0;WTO ATC Annex;both
+61041940;6104.19;Womens/girls suits, of other textile materials, knitted;0;WTO ATC Annex;both
+61041950;6104.19;Womens/girls suits, of other textile materials, knitted;0;WTO ATC Annex;both
+61041960;6104.19;Womens/girls suits, of other textile materials, knitted;0;WTO ATC Annex;both
+61041980;6104.19;Womens/girls suits, of other textile materials, knitted;0;WTO ATC Annex;both
+61042200;6104.22;Womens/girls ensembles, of cotton, knitted;0;WTO ATC Annex;both
+61042300;6104.23;Womens/girls ensembles, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61042905;6104.29;Womens/girls ensembles, of other textile materials, knitted;0;WTO ATC Annex;both
+61042910;6104.29;Womens/girls ensembles, of other textile materials, knitted;0;WTO ATC Annex;both
+61042920;6104.29;Womens/girls ensembles, of other textile materials, knitted;0;WTO ATC Annex;both
+61043100;6104.31;Womens/girls jackets, of wool or fine animal hair, knitted;0;WTO ATC Annex;both
+61043200;6104.32;Womens/girls jackets, of cotton, knitted;0;WTO ATC Annex;both
+61043310;6104.33;Womens/girls jackets, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61043320;6104.33;Womens/girls jackets, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61043910;6104.39;Womens/girls jackets, of other textile materials, knitted;0;WTO ATC Annex;both
+61043920;6104.39;Womens/girls jackets, of other textile materials, knitted;0;WTO ATC Annex;both
+61044100;6104.41;Womens/girls dresses, of wool or fine animal hair, knitted;0;WTO ATC Annex;both
+61044200;6104.42;Womens/girls dresses, of cotton, knitted;0;WTO ATC Annex;both
+61044310;6104.43;Womens/girls dresses, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61044320;6104.43;Womens/girls dresses, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61044410;6104.44;Womens/girls dresses, of artificial fibres, knitted;0;WTO ATC Annex;both
+61044420;6104.44;Womens/girls dresses, of artificial fibres, knitted;0;WTO ATC Annex;both
+61044910;6104.49;Womens/girls dresses, of other textile materials, knitted;0;WTO ATC Annex;both
+61044990;6104.49;Womens/girls dresses, of other textile materials, knitted;0;WTO ATC Annex;both
+61045100;6104.51;Womens/girls skirts, of wool or fine animal hair, knitted;0;WTO ATC Annex;both
+61045200;6104.52;Womens/girls skirts, of cotton, knitted;0;WTO ATC Annex;both
+61045310;6104.53;Womens/girls skirts, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61045320;6104.53;Womens/girls skirts, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61045910;6104.59;Womens/girls skirts, of other textile materials, knitted;0;WTO ATC Annex;both
+61045940;6104.59;Womens/girls skirts, of other textile materials, knitted;0;WTO ATC Annex;both
+61045980;6104.59;Womens/girls skirts, of other textile materials, knitted;0;WTO ATC Annex;both
+61046100;6104.61;Womens/girls trousers and shorts, of wool or fine animal hair, knitted;0;WTO ATC Annex;both
+61046210;6104.62;Womens/girls trousers and shorts, of cotton, knitted;0;WTO ATC Annex;both
+61046220;6104.62;Womens/girls trousers and shorts, of cotton, knitted;0;WTO ATC Annex;both
+61046310;6104.63;Womens/girls trousers and shorts, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61046315;6104.63;Womens/girls trousers and shorts, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61046320;6104.63;Womens/girls trousers and shorts, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61046910;6104.69;Womens/girls trousers and shorts, of other textile materials, knitted;0;WTO ATC Annex;both
+61046920;6104.69;Womens/girls trousers and shorts, of other textile materials, knitted;0;WTO ATC Annex;both
+61046940;6104.69;Womens/girls trousers and shorts, of other textile materials, knitted;0;WTO ATC Annex;both
+61046980;6104.69;Womens/girls trousers and shorts, of other textile materials, knitted;0;WTO ATC Annex;both
+61051000;6105.10;Mens/boys shirts, of cotton, knitted;0;WTO ATC Annex;both
+61052010;6105.20;Mens/boys shirts, of man-made fibres, knitted;0;WTO ATC Annex;both
+61052020;6105.20;Mens/boys shirts, of man-made fibres, knitted;0;WTO ATC Annex;both
+61059010;6105.90;Mens/boys shirts, of other textile materials, knitted;0;WTO ATC Annex;both
+61059040;6105.90;Mens/boys shirts, of other textile materials, knitted;0;WTO ATC Annex;both
+61059080;6105.90;Mens/boys shirts, of other textile materials, knitted;0;WTO ATC Annex;both
+61061000;6106.10;Womens/girls blouses and shirts, of cotton, knitted;0;WTO ATC Annex;both
+61062010;6106.20;Womens/girls blouses and shirts, of man-made fibres, knitted;0;WTO ATC Annex;both
+61062020;6106.20;Womens/girls blouses and shirts, of man-made fibres, knitted;0;WTO ATC Annex;both
+61069010;6106.90;Womens/girls blouses and shirts, of other materials, knitted;0;WTO ATC Annex;both
+61069015;6106.90;Womens/girls blouses and shirts, of other materials, knitted;0;WTO ATC Annex;both
+61069025;6106.90;Womens/girls blouses and shirts, of other materials, knitted;0;WTO ATC Annex;both
+61069030;6106.90;Womens/girls blouses and shirts, of other materials, knitted;0;WTO ATC Annex;both
+61071100;6107.11;Mens/boys underpants and briefs, of cotton, knitted;0;WTO ATC Annex;both
+61071200;6107.12;Mens/boys underpants and briefs, of man-made fibres, knitted;0;WTO ATC Annex;both
+61071910;6107.19;Mens/boys underpants and briefs, of other textile materials, knitted;0;WTO ATC Annex;both
+61071990;6107.19;Mens/boys underpants and briefs, of other textile materials, knitted;0;WTO ATC Annex;both
+61072100;6107.21;Mens/boys nightshirts and pyjamas, of cotton, knitted;0;WTO ATC Annex;both
+61072200;6107.22;Mens/boys nightshirts and pyjamas, of man-made fibres, knitted;0;WTO ATC Annex;both
+61072920;6107.29;Mens/boys nightshirts and pyjamas, of other textile materials, knitted;0;WTO ATC Annex;both
+61072950;6107.29;Mens/boys nightshirts and pyjamas, of other textile materials, knitted;0;WTO ATC Annex;both
+61072990;6107.29;Mens/boys nightshirts and pyjamas, of other textile materials, knitted;0;WTO ATC Annex;both
+61079100;6107.91;Mens/boys bathrobes, dressing gowns etc of cotton, knitted;0;WTO ATC Annex;both
+61079910;6107.99;Mens/boys bathrobes, dressg gowns, etc of oth textile materials, knitted;0;WTO ATC Annex;both
+61079920;6107.99;Mens/boys bathrobes, dressg gowns, etc of oth textile materials, knitted;0;WTO ATC Annex;both
+61079950;6107.99;Mens/boys bathrobes, dressg gowns, etc of oth textile materials, knitted;0;WTO ATC Annex;both
+61079990;6107.99;Mens/boys bathrobes, dressg gowns, etc of oth textile materials, knitted;0;WTO ATC Annex;both
+61081100;6108.11;Womens/girls slips and petticoats, of man-made fibres, knitted;0;WTO ATC Annex;both
+61081910;6108.19;Womens/girls slips and petticoats, of other textile materials, knitted;0;WTO ATC Annex;both
+61081990;6108.19;Womens/girls slips and petticoats, of other textile materials, knitted;0;WTO ATC Annex;both
+61082100;6108.21;Womens/girls briefs and panties, of cotton, knitted;0;WTO ATC Annex;both
+61082210;6108.22;Womens/girls briefs and panties, of man-made fibres, knitted;0;WTO ATC Annex;both
+61082290;6108.22;Womens/girls briefs and panties, of man-made fibres, knitted;0;WTO ATC Annex;both
+61082910;6108.29;Womens/girls briefs and panties, of other textile materials, knitted;0;WTO ATC Annex;both
+61082990;6108.29;Womens/girls briefs and panties, of other textile materials, knitted;0;WTO ATC Annex;both
+61083100;6108.31;Womens/girls nightdresses and pyjamas, of cotton, knitted;0;WTO ATC Annex;both
+61083200;6108.32;Womens/girls nightdresses and pyjamas, of man-made fibres, knitted;0;WTO ATC Annex;both
+61083910;6108.39;Womens/girls nightdresses & pyjamas, of other textile materials, knitted;0;WTO ATC Annex;both
+61083940;6108.39;Womens/girls nightdresses & pyjamas, of other textile materials, knitted;0;WTO ATC Annex;both
+61083980;6108.39;Womens/girls nightdresses & pyjamas, of other textile materials, knitted;0;WTO ATC Annex;both
+61089100;6108.91;Womens/girls bathrobes, dressing gowns, etc, of cotton, knitted;0;WTO ATC Annex;both
+61089200;6108.92;Womens/girls bathrobes, dressing gowns, etc, of man-made fibres, knitted;0;WTO ATC Annex;both
+61089920;6108.99;Women/girls bathrobes, dressg gowns, etc, of oth textile materials, knittd;0;WTO ATC Annex;both
+61089950;6108.99;Women/girls bathrobes, dressg gowns, etc, of oth textile materials, knittd;0;WTO ATC Annex;both
+61089990;6108.99;Women/girls bathrobes, dressg gowns, etc, of oth textile materials, knittd;0;WTO ATC Annex;both
+61091000;6109.10;T-shirts, singlets and other vests, of cotton, knitted;0;WTO ATC Annex;both
+61099010;6109.90;T-shirts, singlets and other vests, of other textile materials, knitted;0;WTO ATC Annex;both
+61099015;6109.90;T-shirts, singlets and other vests, of other textile materials, knitted;0;WTO ATC Annex;both
+61099040;6109.90;T-shirts, singlets and other vests, of other textile materials, knitted;0;WTO ATC Annex;both
+61099080;6109.90;T-shirts, singlets and other vests, of other textile materials, knitted;0;WTO ATC Annex;both
+61101100;6110.10;Pullovers, cardigans & similar article of wool or fine animal hair, knittd;0;WTO ATC Annex;concordance
+61101210;6110.10;Pullovers, cardigans & similar article of wool or fine animal hair, knittd;0;WTO ATC Annex;concordance
+61101220;6110.10;Pullovers, cardigans & similar article of wool or fine animal hair, knittd;0;WTO ATC Annex;concordance
+61101900;6110.10;Pullovers, cardigans & similar article of wool or fine animal hair, knittd;0;WTO ATC Annex;concordance
+61102010;6110.20;Pullovers, cardigans and similar articles of cotton, knitted;0;WTO ATC Annex;both
+61102020;6110.20;Pullovers, cardigans and similar articles of cotton, knitted;0;WTO ATC Annex;both
+61103010;6110.30;Pullovers, cardigans and similar articles of man-made fibres, knitted;0;WTO ATC Annex;both
+61103015;6110.30;Pullovers, cardigans and similar articles of man-made fibres, knitted;0;WTO ATC Annex;both
+61103020;6110.30;Pullovers, cardigans and similar articles of man-made fibres, knitted;0;WTO ATC Annex;both
+61103030;6110.30;Pullovers, cardigans and similar articles of man-made fibres, knitted;0;WTO ATC Annex;both
+61109010;6110.90;Pullovers, cardigans & similar articles of oth textile materials, knittd;0;WTO ATC Annex;both
+61109090;6110.90;Pullovers, cardigans & similar articles of oth textile materials, knittd;0;WTO ATC Annex;both
+61112010;6111.20;Babies garments and clothing accessories of cotton, knitted;0;WTO ATC Annex;both
+61112020;6111.20;Babies garments and clothing accessories of cotton, knitted;0;WTO ATC Annex;both
+61112030;6111.20;Babies garments and clothing accessories of cotton, knitted;0;WTO ATC Annex;both
+61112040;6111.20;Babies garments and clothing accessories of cotton, knitted;0;WTO ATC Annex;both
+61112050;6111.20;Babies garments and clothing accessories of cotton, knitted;0;WTO ATC Annex;both
+61112060;6111.20;Babies garments and clothing accessories of cotton, knitted;0;WTO ATC Annex;both
+61113010;6111.30;Babies garments and clothing accessories of synthetic fibres, knitted;0;WTO ATC Annex;both
+61113020;6111.30;Babies garments and clothing accessories of synthetic fibres, knitted;0;WTO ATC Annex;both
+61113030;6111.30;Babies garments and clothing accessories of synthetic fibres, knitted;0;WTO ATC Annex;both
+61113040;6111.30;Babies garments and clothing accessories of synthetic fibres, knitted;0;WTO ATC Annex;both
+61113050;6111.30;Babies garments and clothing accessories of synthetic fibres, knitted;0;WTO ATC Annex;both
+61119005;6111.90;Babies garments & clothg accessories of other textile materials, knitted;0;WTO ATC Annex;prefix_match
+61119010;6111.90;Babies garments & clothg accessories of other textile materials, knitted;0;WTO ATC Annex;prefix_match
+61119020;6111.90;Babies garments & clothg accessories of other textile materials, knitted;0;WTO ATC Annex;prefix_match
+61119030;6111.90;Babies garments & clothg accessories of other textile materials, knitted;0;WTO ATC Annex;prefix_match
+61119040;6111.90;Babies garments & clothg accessories of other textile materials, knitted;0;WTO ATC Annex;prefix_match
+61119050;6111.90;Babies garments & clothg accessories of other textile materials, knitted;0;WTO ATC Annex;prefix_match
+61119070;6111.90;Babies garments & clothg accessories of other textile materials, knitted;0;WTO ATC Annex;prefix_match
+61119090;6111.90;Babies garments & clothg accessories of other textile materials, knitted;0;WTO ATC Annex;prefix_match
+61121100;6112.11;Track suits, of cotton, knitted;0;WTO ATC Annex;both
+61121200;6112.12;Track suits, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61121910;6112.19;Track suits, of other textile materials, knitted;0;WTO ATC Annex;both
+61121940;6112.19;Track suits, of other textile materials, knitted;0;WTO ATC Annex;both
+61121980;6112.19;Track suits, of other textile materials, knitted;0;WTO ATC Annex;both
+61122010;6112.20;Ski suits, of textile materials, knitted;0;WTO ATC Annex;both
+61122020;6112.20;Ski suits, of textile materials, knitted;0;WTO ATC Annex;both
+61123100;6112.31;Mens/boys swimwear, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61123900;6112.39;Mens/boys swimwear, of other textile materials, knitted;0;WTO ATC Annex;both
+61124100;6112.41;Womens/girls swimwear, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61124900;6112.49;Womens/girls swimwear, of other textile materials, knitted;0;WTO ATC Annex;both
+61130010;6113.00;Garments made up of impreg, coatd, coverd or laminatd textile knittd fab;0;WTO ATC Annex;both
+61130090;6113.00;Garments made up of impreg, coatd, coverd or laminatd textile knittd fab;0;WTO ATC Annex;both
+61142000;6114.20;Garments nes, of cotton, knitted;0;WTO ATC Annex;both
+61143010;6114.30;Garments nes, of man-made fibres, knitted;0;WTO ATC Annex;both
+61143020;6114.30;Garments nes, of man-made fibres, knitted;0;WTO ATC Annex;both
+61143030;6114.30;Garments nes, of man-made fibres, knitted;0;WTO ATC Annex;both
+61149005;6114.90;Garments nes, of other textile materials, knitted;0;WTO ATC Annex;both
+61149010;6114.90;Garments nes, of other textile materials, knitted;0;WTO ATC Annex;both
+61149090;6114.90;Garments nes, of other textile materials, knitted;0;WTO ATC Annex;both
+61152100;6115.11;Panty hose & tights, of synthetic fibre yarns <67 dtex/single yarn knittd;0;WTO ATC Annex;concordance
+61152200;6115.12;Panty hose & tights, of synthetic fib yarns >/=67 dtex/single yarn knittd;0;WTO ATC Annex;concordance
+61152940;6115.19;Panty hose and tights, of other textile materials, knitted;0;WTO ATC Annex;concordance
+61152980;6115.19;Panty hose and tights, of other textile materials, knitted;0;WTO ATC Annex;concordance
+61153010;6115.20;Women full-l/knee-l hosiery, of textile yarn<67 dtex/single yarn knittd;0;WTO ATC Annex;concordance
+61153090;6115.20;Women full-l/knee-l hosiery, of textile yarn<67 dtex/single yarn knittd;0;WTO ATC Annex;concordance
+61159400;6115.91;Hosiery nes, of wool or fine animal hair, knitted;0;WTO ATC Annex;concordance
+61159560;6115.92;Hosiery nes, of cotton, knitted;0;WTO ATC Annex;concordance
+61159590;6115.92;Hosiery nes, of cotton, knitted;0;WTO ATC Annex;concordance
+61159660;6115.93;Hosiery nes, of synthetic fibres, knitted;0;WTO ATC Annex;concordance
+61159690;6115.93;Hosiery nes, of synthetic fibres, knitted;0;WTO ATC Annex;concordance
+61159914;6115.99;Hosiery nes, of other textile materials, knitted;0;WTO ATC Annex;both
+61159919;6115.99;Hosiery nes, of other textile materials, knitted;0;WTO ATC Annex;both
+61159940;6115.99;Hosiery nes, of other textile materials, knitted;0;WTO ATC Annex;both
+61159990;6115.99;Hosiery nes, of other textile materials, knitted;0;WTO ATC Annex;both
+61161005;6116.10;Gloves impregnated, coated or covered with plastics or rubber, knitted;0;WTO ATC Annex;both
+61161008;6116.10;Gloves impregnated, coated or covered with plastics or rubber, knitted;0;WTO ATC Annex;both
+61161013;6116.10;Gloves impregnated, coated or covered with plastics or rubber, knitted;0;WTO ATC Annex;both
+61161017;6116.10;Gloves impregnated, coated or covered with plastics or rubber, knitted;0;WTO ATC Annex;both
+61161044;6116.10;Gloves impregnated, coated or covered with plastics or rubber, knitted;0;WTO ATC Annex;both
+61161048;6116.10;Gloves impregnated, coated or covered with plastics or rubber, knitted;0;WTO ATC Annex;both
+61161055;6116.10;Gloves impregnated, coated or covered with plastics or rubber, knitted;0;WTO ATC Annex;both
+61161065;6116.10;Gloves impregnated, coated or covered with plastics or rubber, knitted;0;WTO ATC Annex;both
+61161075;6116.10;Gloves impregnated, coated or covered with plastics or rubber, knitted;0;WTO ATC Annex;both
+61161095;6116.10;Gloves impregnated, coated or covered with plastics or rubber, knitted;0;WTO ATC Annex;both
+61169100;6116.91;Gloves, mittens and mitts, nes, of wool or fine animal hair, knitted;0;WTO ATC Annex;both
+61169205;6116.92;Gloves, mittens and mitts, nes, of cotton, knitted;0;WTO ATC Annex;both
+61169208;6116.92;Gloves, mittens and mitts, nes, of cotton, knitted;0;WTO ATC Annex;both
+61169264;6116.92;Gloves, mittens and mitts, nes, of cotton, knitted;0;WTO ATC Annex;both
+61169274;6116.92;Gloves, mittens and mitts, nes, of cotton, knitted;0;WTO ATC Annex;both
+61169288;6116.92;Gloves, mittens and mitts, nes, of cotton, knitted;0;WTO ATC Annex;both
+61169294;6116.92;Gloves, mittens and mitts, nes, of cotton, knitted;0;WTO ATC Annex;both
+61169305;6116.93;Gloves, mittens and mitts, nes, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61169308;6116.93;Gloves, mittens and mitts, nes, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61169364;6116.93;Gloves, mittens and mitts, nes, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61169374;6116.93;Gloves, mittens and mitts, nes, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61169388;6116.93;Gloves, mittens and mitts, nes, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61169394;6116.93;Gloves, mittens and mitts, nes, of synthetic fibres, knitted;0;WTO ATC Annex;both
+61169920;6116.99;Gloves, mittens and mitts, nes, of other textile materials, knitted;0;WTO ATC Annex;both
+61169935;6116.99;Gloves, mittens and mitts, nes, of other textile materials, knitted;0;WTO ATC Annex;both
+61169948;6116.99;Gloves, mittens and mitts, nes, of other textile materials, knitted;0;WTO ATC Annex;both
+61169954;6116.99;Gloves, mittens and mitts, nes, of other textile materials, knitted;0;WTO ATC Annex;both
+61169975;6116.99;Gloves, mittens and mitts, nes, of other textile materials, knitted;0;WTO ATC Annex;both
+61169995;6116.99;Gloves, mittens and mitts, nes, of other textile materials, knitted;0;WTO ATC Annex;both
+61171010;6117.10;Shawls, scarves, veils and the like, of textile materials, knitted;0;WTO ATC Annex;both
+61171020;6117.10;Shawls, scarves, veils and the like, of textile materials, knitted;0;WTO ATC Annex;both
+61171040;6117.10;Shawls, scarves, veils and the like, of textile materials, knitted;0;WTO ATC Annex;both
+61171060;6117.10;Shawls, scarves, veils and the like, of textile materials, knitted;0;WTO ATC Annex;both
+61178020;6117.80;Clothing accessories nes, of textile materials, knitted;0;WTO ATC Annex;both
+61178030;6117.80;Clothing accessories nes, of textile materials, knitted;0;WTO ATC Annex;both
+61178085;6117.80;Clothing accessories nes, of textile materials, knitted;0;WTO ATC Annex;both
+61178087;6117.80;Clothing accessories nes, of textile materials, knitted;0;WTO ATC Annex;both
+61178095;6117.80;Clothing accessories nes, of textile materials, knitted;0;WTO ATC Annex;both
+61179010;6117.90;Parts of garments/of clothg accessories, of textile materials, knittd;0;WTO ATC Annex;both
+61179090;6117.90;Parts of garments/of clothg accessories, of textile materials, knittd;0;WTO ATC Annex;both
+62012011;6201.91;Mens/boys anoraks & similar articles, of wool/fine animal hair, not knittd;0;WTO ATC Annex;concordance
+62012019;6201.91;Mens/boys anoraks & similar articles, of wool/fine animal hair, not knittd;0;WTO ATC Annex;concordance
+62012029;6201.91;Mens/boys anoraks & similar articles, of wool/fine animal hair, not knittd;0;WTO ATC Annex;concordance
+62012035;6201.91;Mens/boys anoraks & similar articles, of wool/fine animal hair, not knittd;0;WTO ATC Annex;concordance
+62012040;6201.91;Mens/boys anoraks & similar articles, of wool/fine animal hair, not knittd;0;WTO ATC Annex;concordance
+62013012;6201.92;Mens/boys anoraks and similar articles, of cotton, not knitted;0;WTO ATC Annex;concordance
+62013020;6201.92;Mens/boys anoraks and similar articles, of cotton, not knitted;0;WTO ATC Annex;concordance
+62013030;6201.92;Mens/boys anoraks and similar articles, of cotton, not knitted;0;WTO ATC Annex;concordance
+62013040;6201.92;Mens/boys anoraks and similar articles, of cotton, not knitted;0;WTO ATC Annex;concordance
+62013050;6201.92;Mens/boys anoraks and similar articles, of cotton, not knitted;0;WTO ATC Annex;concordance
+62013060;6201.92;Mens/boys anoraks and similar articles, of cotton, not knitted;0;WTO ATC Annex;concordance
+62013070;6201.92;Mens/boys anoraks and similar articles, of cotton, not knitted;0;WTO ATC Annex;concordance
+62013080;6201.92;Mens/boys anoraks and similar articles, of cotton, not knitted;0;WTO ATC Annex;concordance
+62014010;6201.93;Mens/boys anoraks and similar articles, of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62014015;6201.93;Mens/boys anoraks and similar articles, of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62014020;6201.93;Mens/boys anoraks and similar articles, of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62014025;6201.93;Mens/boys anoraks and similar articles, of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62014035;6201.93;Mens/boys anoraks and similar articles, of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62014040;6201.93;Mens/boys anoraks and similar articles, of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62014045;6201.93;Mens/boys anoraks and similar articles, of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62014050;6201.93;Mens/boys anoraks and similar articles, of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62014055;6201.93;Mens/boys anoraks and similar articles, of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62014060;6201.93;Mens/boys anoraks and similar articles, of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62014065;6201.93;Mens/boys anoraks and similar articles, of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62014070;6201.93;Mens/boys anoraks and similar articles, of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62014075;6201.93;Mens/boys anoraks and similar articles, of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62019019;6201.99;Mens/boys anoraks & similar articles, of oth textile materials, not knittd;0;WTO ATC Annex;concordance
+62019029;6201.99;Mens/boys anoraks & similar articles, of oth textile materials, not knittd;0;WTO ATC Annex;concordance
+62019039;6201.99;Mens/boys anoraks & similar articles, of oth textile materials, not knittd;0;WTO ATC Annex;concordance
+62019049;6201.99;Mens/boys anoraks & similar articles, of oth textile materials, not knittd;0;WTO ATC Annex;concordance
+62019059;6201.99;Mens/boys anoraks & similar articles, of oth textile materials, not knittd;0;WTO ATC Annex;concordance
+62019069;6201.99;Mens/boys anoraks & similar articles, of oth textile materials, not knittd;0;WTO ATC Annex;concordance
+62022011;6202.91;Womens/girls anoraks & similar article of wool/fine animal hair, not knit;0;WTO ATC Annex;concordance
+62022019;6202.91;Womens/girls anoraks & similar article of wool/fine animal hair, not knit;0;WTO ATC Annex;concordance
+62022029;6202.91;Womens/girls anoraks & similar article of wool/fine animal hair, not knit;0;WTO ATC Annex;concordance
+62022035;6202.91;Womens/girls anoraks & similar article of wool/fine animal hair, not knit;0;WTO ATC Annex;concordance
+62022040;6202.91;Womens/girls anoraks & similar article of wool/fine animal hair, not knit;0;WTO ATC Annex;concordance
+62023012;6202.92;Womens/girls anoraks and similar article of cotton, not knitted;0;WTO ATC Annex;concordance
+62023020;6202.92;Womens/girls anoraks and similar article of cotton, not knitted;0;WTO ATC Annex;concordance
+62023030;6202.92;Womens/girls anoraks and similar article of cotton, not knitted;0;WTO ATC Annex;concordance
+62023040;6202.92;Womens/girls anoraks and similar article of cotton, not knitted;0;WTO ATC Annex;concordance
+62023050;6202.92;Womens/girls anoraks and similar article of cotton, not knitted;0;WTO ATC Annex;concordance
+62023060;6202.92;Womens/girls anoraks and similar article of cotton, not knitted;0;WTO ATC Annex;concordance
+62023070;6202.92;Womens/girls anoraks and similar article of cotton, not knitted;0;WTO ATC Annex;concordance
+62023080;6202.92;Womens/girls anoraks and similar article of cotton, not knitted;0;WTO ATC Annex;concordance
+62024010;6202.93;Womens/girls anoraks & similar article of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62024015;6202.93;Womens/girls anoraks & similar article of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62024020;6202.93;Womens/girls anoraks & similar article of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62024025;6202.93;Womens/girls anoraks & similar article of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62024035;6202.93;Womens/girls anoraks & similar article of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62024040;6202.93;Womens/girls anoraks & similar article of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62024045;6202.93;Womens/girls anoraks & similar article of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62024050;6202.93;Womens/girls anoraks & similar article of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62024055;6202.93;Womens/girls anoraks & similar article of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62024060;6202.93;Womens/girls anoraks & similar article of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62024065;6202.93;Womens/girls anoraks & similar article of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62024070;6202.93;Womens/girls anoraks & similar article of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62024075;6202.93;Womens/girls anoraks & similar article of man-made fibres, not knitted;0;WTO ATC Annex;concordance
+62029019;6202.99;Womens/girls anoraks & similar article of oth textile materials, not knit;0;WTO ATC Annex;concordance
+62029029;6202.99;Womens/girls anoraks & similar article of oth textile materials, not knit;0;WTO ATC Annex;concordance
+62029039;6202.99;Womens/girls anoraks & similar article of oth textile materials, not knit;0;WTO ATC Annex;concordance
+62029049;6202.99;Womens/girls anoraks & similar article of oth textile materials, not knit;0;WTO ATC Annex;concordance
+62029059;6202.99;Womens/girls anoraks & similar article of oth textile materials, not knit;0;WTO ATC Annex;concordance
+62029069;6202.99;Womens/girls anoraks & similar article of oth textile materials, not knit;0;WTO ATC Annex;concordance
+62031115;6203.11;Mens/boys suits, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62031130;6203.11;Mens/boys suits, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62031160;6203.11;Mens/boys suits, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62031190;6203.11;Mens/boys suits, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62031210;6203.12;Mens/boys suits, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62031220;6203.12;Mens/boys suits, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62031910;6203.19;Mens/boys suits, of other textile materials, not knitted;0;WTO ATC Annex;both
+62031920;6203.19;Mens/boys suits, of other textile materials, not knitted;0;WTO ATC Annex;both
+62031930;6203.19;Mens/boys suits, of other textile materials, not knitted;0;WTO ATC Annex;both
+62031950;6203.19;Mens/boys suits, of other textile materials, not knitted;0;WTO ATC Annex;both
+62031990;6203.19;Mens/boys suits, of other textile materials, not knitted;0;WTO ATC Annex;both
+62032210;6203.22;Mens/boys ensembles, of cotton, not knitted;0;WTO ATC Annex;both
+62032230;6203.22;Mens/boys ensembles, of cotton, not knitted;0;WTO ATC Annex;both
+62032300;6203.23;Mens/boys ensembles, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62032910;6203.29;Mens/boys ensembles, of other textile materials, not knitted;0;WTO ATC Annex;both
+62032915;6203.29;Mens/boys ensembles, of other textile materials, not knitted;0;WTO ATC Annex;both
+62032920;6203.29;Mens/boys ensembles, of other textile materials, not knitted;0;WTO ATC Annex;both
+62032930;6203.29;Mens/boys ensembles, of other textile materials, not knitted;0;WTO ATC Annex;both
+62033150;6203.31;Mens/boys jackets and blazers, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62033190;6203.31;Mens/boys jackets and blazers, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62033210;6203.32;Mens/boys jackets and blazers, of cotton, not knitted;0;WTO ATC Annex;both
+62033220;6203.32;Mens/boys jackets and blazers, of cotton, not knitted;0;WTO ATC Annex;both
+62033310;6203.33;Mens/boys jackets and blazers, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62033320;6203.33;Mens/boys jackets and blazers, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62033910;6203.39;Mens/boys jackets and blazers, of other textile materials, not knitted;0;WTO ATC Annex;both
+62033920;6203.39;Mens/boys jackets and blazers, of other textile materials, not knitted;0;WTO ATC Annex;both
+62033950;6203.39;Mens/boys jackets and blazers, of other textile materials, not knitted;0;WTO ATC Annex;both
+62033990;6203.39;Mens/boys jackets and blazers, of other textile materials, not knitted;0;WTO ATC Annex;both
+62034101;6203.41;Mens/boys trousers and shorts, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62034103;6203.41;Mens/boys trousers and shorts, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62034106;6203.41;Mens/boys trousers and shorts, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62034108;6203.41;Mens/boys trousers and shorts, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62034125;6203.41;Mens/boys trousers and shorts, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62034130;6203.41;Mens/boys trousers and shorts, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62034160;6203.41;Mens/boys trousers and shorts, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62034180;6203.41;Mens/boys trousers and shorts, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62034203;6203.42;Mens/boys trousers and shorts, of cotton, not knitted;0;WTO ATC Annex;both
+62034205;6203.42;Mens/boys trousers and shorts, of cotton, not knitted;0;WTO ATC Annex;both
+62034207;6203.42;Mens/boys trousers and shorts, of cotton, not knitted;0;WTO ATC Annex;both
+62034217;6203.42;Mens/boys trousers and shorts, of cotton, not knitted;0;WTO ATC Annex;both
+62034225;6203.42;Mens/boys trousers and shorts, of cotton, not knitted;0;WTO ATC Annex;both
+62034245;6203.42;Mens/boys trousers and shorts, of cotton, not knitted;0;WTO ATC Annex;both
+62034301;6203.43;Mens/boys trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62034303;6203.43;Mens/boys trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62034305;6203.43;Mens/boys trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62034309;6203.43;Mens/boys trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62034311;6203.43;Mens/boys trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62034313;6203.43;Mens/boys trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62034345;6203.43;Mens/boys trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62034355;6203.43;Mens/boys trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62034360;6203.43;Mens/boys trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62034365;6203.43;Mens/boys trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62034370;6203.43;Mens/boys trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62034375;6203.43;Mens/boys trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62034390;6203.43;Mens/boys trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62034901;6203.49;Mens/boys trousers and shorts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62034905;6203.49;Mens/boys trousers and shorts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62034907;6203.49;Mens/boys trousers and shorts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62034909;6203.49;Mens/boys trousers and shorts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62034925;6203.49;Mens/boys trousers and shorts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62034935;6203.49;Mens/boys trousers and shorts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62034950;6203.49;Mens/boys trousers and shorts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62034960;6203.49;Mens/boys trousers and shorts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62034990;6203.49;Mens/boys trousers and shorts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62041100;6204.11;Womens/girls suits, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62041200;6204.12;Womens/girls suits, of cotton, not knitted;0;WTO ATC Annex;both
+62041310;6204.13;Womens/girls suits, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62041320;6204.13;Womens/girls suits, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62041910;6204.19;Womens/girls suits, of other textile materials, not knitted;0;WTO ATC Annex;both
+62041920;6204.19;Womens/girls suits, of other textile materials, not knitted;0;WTO ATC Annex;both
+62041940;6204.19;Womens/girls suits, of other textile materials, not knitted;0;WTO ATC Annex;both
+62041980;6204.19;Womens/girls suits, of other textile materials, not knitted;0;WTO ATC Annex;both
+62042100;6204.21;Womens/girls ensembles, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62042210;6204.22;Womens/girls ensembles, of cotton, not knitted;0;WTO ATC Annex;both
+62042230;6204.22;Womens/girls ensembles, of cotton, not knitted;0;WTO ATC Annex;both
+62042300;6204.23;Womens/girls ensembles, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62042920;6204.29;Womens/girls ensembles, of other textile materials, not knitted;0;WTO ATC Annex;both
+62042940;6204.29;Womens/girls ensembles, of other textile materials, not knitted;0;WTO ATC Annex;both
+62043110;6204.31;Womens/girls jackets, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62043120;6204.31;Womens/girls jackets, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62043210;6204.32;Womens/girls jackets, of cotton, not knitted;0;WTO ATC Annex;both
+62043220;6204.32;Womens/girls jackets, of cotton, not knitted;0;WTO ATC Annex;both
+62043310;6204.33;Womens/girls jackets, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62043320;6204.33;Womens/girls jackets, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62043340;6204.33;Womens/girls jackets, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62043350;6204.33;Womens/girls jackets, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62043920;6204.39;Womens/girls jackets, of other textile materials, not knitted;0;WTO ATC Annex;both
+62043930;6204.39;Womens/girls jackets, of other textile materials, not knitted;0;WTO ATC Annex;both
+62043960;6204.39;Womens/girls jackets, of other textile materials, not knitted;0;WTO ATC Annex;both
+62043980;6204.39;Womens/girls jackets, of other textile materials, not knitted;0;WTO ATC Annex;both
+62044110;6204.41;Womens/girls dresses, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62044120;6204.41;Womens/girls dresses, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62044210;6204.42;Womens/girls dresses, of cotton, not knitted;0;WTO ATC Annex;both
+62044220;6204.42;Womens/girls dresses, of cotton, not knitted;0;WTO ATC Annex;both
+62044230;6204.42;Womens/girls dresses, of cotton, not knitted;0;WTO ATC Annex;both
+62044310;6204.43;Womens/girls dresses, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62044320;6204.43;Womens/girls dresses, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62044330;6204.43;Womens/girls dresses, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62044340;6204.43;Womens/girls dresses, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62044420;6204.44;Womens/girls dresses, of artificial fibres, not knitted;0;WTO ATC Annex;both
+62044430;6204.44;Womens/girls dresses, of artificial fibres, not knitted;0;WTO ATC Annex;both
+62044440;6204.44;Womens/girls dresses, of artificial fibres, not knitted;0;WTO ATC Annex;both
+62044910;6204.49;Womens/girls dresses, of other textile materials, not knitted;0;WTO ATC Annex;both
+62044950;6204.49;Womens/girls dresses, of other textile materials, not knitted;0;WTO ATC Annex;both
+62045100;6204.51;Womens/girls skirts, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62045210;6204.52;Womens/girls skirts, of cotton, not knitted;0;WTO ATC Annex;both
+62045220;6204.52;Womens/girls skirts, of cotton, not knitted;0;WTO ATC Annex;both
+62045310;6204.53;Womens/girls skirts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62045320;6204.53;Womens/girls skirts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62045330;6204.53;Womens/girls skirts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62045910;6204.59;Womens/girls skirts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62045920;6204.59;Womens/girls skirts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62045930;6204.59;Womens/girls skirts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62045940;6204.59;Womens/girls skirts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62046105;6204.61;Womens/girls trousers & shorts, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62046115;6204.61;Womens/girls trousers & shorts, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62046160;6204.61;Womens/girls trousers & shorts, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62046180;6204.61;Womens/girls trousers & shorts, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62046203;6204.62;Womens/girls trousers and shorts, of cotton, not knitted;0;WTO ATC Annex;both
+62046205;6204.62;Womens/girls trousers and shorts, of cotton, not knitted;0;WTO ATC Annex;both
+62046215;6204.62;Womens/girls trousers and shorts, of cotton, not knitted;0;WTO ATC Annex;both
+62046250;6204.62;Womens/girls trousers and shorts, of cotton, not knitted;0;WTO ATC Annex;both
+62046260;6204.62;Womens/girls trousers and shorts, of cotton, not knitted;0;WTO ATC Annex;both
+62046270;6204.62;Womens/girls trousers and shorts, of cotton, not knitted;0;WTO ATC Annex;both
+62046280;6204.62;Womens/girls trousers and shorts, of cotton, not knitted;0;WTO ATC Annex;both
+62046301;6204.63;Womens/girls trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62046302;6204.63;Womens/girls trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62046303;6204.63;Womens/girls trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62046308;6204.63;Womens/girls trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62046309;6204.63;Womens/girls trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62046311;6204.63;Womens/girls trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62046350;6204.63;Womens/girls trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62046355;6204.63;Womens/girls trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62046360;6204.63;Womens/girls trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62046365;6204.63;Womens/girls trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62046370;6204.63;Womens/girls trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62046375;6204.63;Womens/girls trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62046390;6204.63;Womens/girls trousers and shorts, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62046901;6204.69;Womens/girls trousers & shorts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62046902;6204.69;Womens/girls trousers & shorts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62046903;6204.69;Womens/girls trousers & shorts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62046904;6204.69;Womens/girls trousers & shorts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62046905;6204.69;Womens/girls trousers & shorts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62046906;6204.69;Womens/girls trousers & shorts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62046915;6204.69;Womens/girls trousers & shorts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62046922;6204.69;Womens/girls trousers & shorts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62046928;6204.69;Womens/girls trousers & shorts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62046945;6204.69;Womens/girls trousers & shorts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62046965;6204.69;Womens/girls trousers & shorts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62046980;6204.69;Womens/girls trousers & shorts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62052010;6205.20;Mens/boys shirts, of cotton, not knitted;0;WTO ATC Annex;both
+62052020;6205.20;Mens/boys shirts, of cotton, not knitted;0;WTO ATC Annex;both
+62053010;6205.30;Mens/boys shirts, of man-made fibres, not knitted;0;WTO ATC Annex;both
+62053015;6205.30;Mens/boys shirts, of man-made fibres, not knitted;0;WTO ATC Annex;both
+62053020;6205.30;Mens/boys shirts, of man-made fibres, not knitted;0;WTO ATC Annex;both
+62059005;6205.90;Mens/boys shirts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62059007;6205.90;Mens/boys shirts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62059010;6205.90;Mens/boys shirts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62059030;6205.90;Mens/boys shirts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62059040;6205.90;Mens/boys shirts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62061000;6206.10;Womens/girls blouses and shirts, of silk or silk waste, not knitted;0;WTO ATC Annex;both
+62062010;6206.20;Womens/girls blouses & shirts, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62062020;6206.20;Womens/girls blouses & shirts, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62062030;6206.20;Womens/girls blouses & shirts, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62063010;6206.30;Womens/girls blouses and shirts, of cotton, not knitted;0;WTO ATC Annex;both
+62063020;6206.30;Womens/girls blouses and shirts, of cotton, not knitted;0;WTO ATC Annex;both
+62063030;6206.30;Womens/girls blouses and shirts, of cotton, not knitted;0;WTO ATC Annex;both
+62064010;6206.40;Womens/girls blouses and shirts, of man-made fibres, not knitted;0;WTO ATC Annex;both
+62064020;6206.40;Womens/girls blouses and shirts, of man-made fibres, not knitted;0;WTO ATC Annex;both
+62064025;6206.40;Womens/girls blouses and shirts, of man-made fibres, not knitted;0;WTO ATC Annex;both
+62064030;6206.40;Womens/girls blouses and shirts, of man-made fibres, not knitted;0;WTO ATC Annex;both
+62069000;6206.90;Womens/girls blouses and shirts, of other textile materials, not knitted;0;WTO ATC Annex;both
+62071100;6207.11;Mens/boys underpants and briefs, of cotton, not knitted;0;WTO ATC Annex;both
+62071910;6207.19;Mens/boys underpants and briefs, of other textile materials, not knitted;0;WTO ATC Annex;both
+62071990;6207.19;Mens/boys underpants and briefs, of other textile materials, not knitted;0;WTO ATC Annex;both
+62072100;6207.21;Mens/boys nightshirts and pyjamas, of cotton, not knitted;0;WTO ATC Annex;both
+62072200;6207.22;Mens/boys nightshirts and pyjamas, of man-made fibres, not knitted;0;WTO ATC Annex;both
+62072910;6207.29;Mens/boys nightshirts & pyjamas, of other textile materials, not knitted;0;WTO ATC Annex;both
+62072990;6207.29;Mens/boys nightshirts & pyjamas, of other textile materials, not knitted;0;WTO ATC Annex;both
+62079110;6207.91;Mens/boys bathrobes, dressing gowns, etc of cotton, not knitted;0;WTO ATC Annex;both
+62079130;6207.91;Mens/boys bathrobes, dressing gowns, etc of cotton, not knitted;0;WTO ATC Annex;both
+62079920;6207.99;Mens/boys bathrobes, dressg gowns, etc of oth textile materials, not knit;0;WTO ATC Annex;both
+62079940;6207.99;Mens/boys bathrobes, dressg gowns, etc of oth textile materials, not knit;0;WTO ATC Annex;both
+62079970;6207.99;Mens/boys bathrobes, dressg gowns, etc of oth textile materials, not knit;0;WTO ATC Annex;both
+62079975;6207.99;Mens/boys bathrobes, dressg gowns, etc of oth textile materials, not knit;0;WTO ATC Annex;both
+62079985;6207.99;Mens/boys bathrobes, dressg gowns, etc of oth textile materials, not knit;0;WTO ATC Annex;both
+62079990;6207.99;Mens/boys bathrobes, dressg gowns, etc of oth textile materials, not knit;0;WTO ATC Annex;both
+62081100;6208.11;Womens/girls slips and petticoats, of man-made fibres, not knitted;0;WTO ATC Annex;both
+62081920;6208.19;Womens/girls slips & petticoats, of other textile materials, not knitted;0;WTO ATC Annex;both
+62081950;6208.19;Womens/girls slips & petticoats, of other textile materials, not knitted;0;WTO ATC Annex;both
+62081990;6208.19;Womens/girls slips & petticoats, of other textile materials, not knitted;0;WTO ATC Annex;both
+62082100;6208.21;Womens/girls nightdresses and pyjamas, of cotton, not knitted;0;WTO ATC Annex;both
+62082200;6208.22;Womens/girls nightdresses and pyjamas, of man-made fibres, not knitted;0;WTO ATC Annex;both
+62082910;6208.29;Womens/girls nightdresses & pyjamas, of oth textile materials, not knitted;0;WTO ATC Annex;both
+62082990;6208.29;Womens/girls nightdresses & pyjamas, of oth textile materials, not knitted;0;WTO ATC Annex;both
+62089110;6208.91;Womens/girls panties, bathrobes, etc, of cotton, not knitted;0;WTO ATC Annex;both
+62089130;6208.91;Womens/girls panties, bathrobes, etc, of cotton, not knitted;0;WTO ATC Annex;both
+62089200;6208.92;Womens/girls panties, bathrobes, etc, of man-made fibres, not knitted;0;WTO ATC Annex;both
+62089920;6208.99;Womens/girls panties, bathrobes, etc, of oth textile materials, not knittd;0;WTO ATC Annex;both
+62089930;6208.99;Womens/girls panties, bathrobes, etc, of oth textile materials, not knittd;0;WTO ATC Annex;both
+62089950;6208.99;Womens/girls panties, bathrobes, etc, of oth textile materials, not knittd;0;WTO ATC Annex;both
+62089980;6208.99;Womens/girls panties, bathrobes, etc, of oth textile materials, not knittd;0;WTO ATC Annex;both
+62092010;6209.20;Babies garments and clothing accessories of cotton, not knitted;0;WTO ATC Annex;both
+62092020;6209.20;Babies garments and clothing accessories of cotton, not knitted;0;WTO ATC Annex;both
+62092030;6209.20;Babies garments and clothing accessories of cotton, not knitted;0;WTO ATC Annex;both
+62092050;6209.20;Babies garments and clothing accessories of cotton, not knitted;0;WTO ATC Annex;both
+62093010;6209.30;Babies garments & clothing accessories of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62093020;6209.30;Babies garments & clothing accessories of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62093030;6209.30;Babies garments & clothing accessories of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62099005;6209.90;Babies garments & clothg accessories of oth textile materials, not knittd;0;WTO ATC Annex;prefix_match
+62099010;6209.90;Babies garments & clothg accessories of oth textile materials, not knittd;0;WTO ATC Annex;prefix_match
+62099020;6209.90;Babies garments & clothg accessories of oth textile materials, not knittd;0;WTO ATC Annex;prefix_match
+62099030;6209.90;Babies garments & clothg accessories of oth textile materials, not knittd;0;WTO ATC Annex;prefix_match
+62099050;6209.90;Babies garments & clothg accessories of oth textile materials, not knittd;0;WTO ATC Annex;prefix_match
+62099090;6209.90;Babies garments & clothg accessories of oth textile materials, not knittd;0;WTO ATC Annex;prefix_match
+62101020;6210.10;Garments made up of textile felts and of nonwoven textile fabrics;0;WTO ATC Annex;both
+62101050;6210.10;Garments made up of textile felts and of nonwoven textile fabrics;0;WTO ATC Annex;both
+62101070;6210.10;Garments made up of textile felts and of nonwoven textile fabrics;0;WTO ATC Annex;both
+62101090;6210.10;Garments made up of textile felts and of nonwoven textile fabrics;0;WTO ATC Annex;both
+62102030;6210.20;Mens/boys overcoats & similar articles of impreg, ctd, cov etc, tex wov fab;0;WTO ATC Annex;both
+62102050;6210.20;Mens/boys overcoats & similar articles of impreg, ctd, cov etc, tex wov fab;0;WTO ATC Annex;both
+62102070;6210.20;Mens/boys overcoats & similar articles of impreg, ctd, cov etc, tex wov fab;0;WTO ATC Annex;both
+62102090;6210.20;Mens/boys overcoats & similar articles of impreg, ctd, cov etc, tex wov fab;0;WTO ATC Annex;both
+62103030;6210.30;Womens/girls overcoats & sim articles, of impreg, ctd, etc, tex wov fab;0;WTO ATC Annex;both
+62103050;6210.30;Womens/girls overcoats & sim articles, of impreg, ctd, etc, tex wov fab;0;WTO ATC Annex;both
+62103070;6210.30;Womens/girls overcoats & sim articles, of impreg, ctd, etc, tex wov fab;0;WTO ATC Annex;both
+62103090;6210.30;Womens/girls overcoats & sim articles, of impreg, ctd, etc, tex wov fab;0;WTO ATC Annex;both
+62104015;6210.40;Mens/boys garments nes, made up of impreg, ctd, cov, etc, textile woven fab;0;WTO ATC Annex;both
+62104025;6210.40;Mens/boys garments nes, made up of impreg, ctd, cov, etc, textile woven fab;0;WTO ATC Annex;both
+62104028;6210.40;Mens/boys garments nes, made up of impreg, ctd, cov, etc, textile woven fab;0;WTO ATC Annex;both
+62104029;6210.40;Mens/boys garments nes, made up of impreg, ctd, cov, etc, textile woven fab;0;WTO ATC Annex;both
+62104035;6210.40;Mens/boys garments nes, made up of impreg, ctd, cov, etc, textile woven fab;0;WTO ATC Annex;both
+62104055;6210.40;Mens/boys garments nes, made up of impreg, ctd, cov, etc, textile woven fab;0;WTO ATC Annex;both
+62104075;6210.40;Mens/boys garments nes, made up of impreg, ctd, cov, etc, textile woven fab;0;WTO ATC Annex;both
+62104080;6210.40;Mens/boys garments nes, made up of impreg, ctd, cov, etc, textile woven fab;0;WTO ATC Annex;both
+62105003;6210.50;Womens/girls garments nes, of impregnatd, ctd, cov, etc, textile woven fab;0;WTO ATC Annex;both
+62105005;6210.50;Womens/girls garments nes, of impregnatd, ctd, cov, etc, textile woven fab;0;WTO ATC Annex;both
+62105012;6210.50;Womens/girls garments nes, of impregnatd, ctd, cov, etc, textile woven fab;0;WTO ATC Annex;both
+62105022;6210.50;Womens/girls garments nes, of impregnatd, ctd, cov, etc, textile woven fab;0;WTO ATC Annex;both
+62105035;6210.50;Womens/girls garments nes, of impregnatd, ctd, cov, etc, textile woven fab;0;WTO ATC Annex;both
+62105055;6210.50;Womens/girls garments nes, of impregnatd, ctd, cov, etc, textile woven fab;0;WTO ATC Annex;both
+62105075;6210.50;Womens/girls garments nes, of impregnatd, ctd, cov, etc, textile woven fab;0;WTO ATC Annex;both
+62105080;6210.50;Womens/girls garments nes, of impregnatd, ctd, cov, etc, textile woven fab;0;WTO ATC Annex;both
+62111110;6211.11;Mens/boys swimwear, of textile materials not knitted;0;WTO ATC Annex;both
+62111140;6211.11;Mens/boys swimwear, of textile materials not knitted;0;WTO ATC Annex;both
+62111180;6211.11;Mens/boys swimwear, of textile materials not knitted;0;WTO ATC Annex;both
+62111210;6211.12;Womens/girls swimwear, of textile materials, not knitted;0;WTO ATC Annex;both
+62111240;6211.12;Womens/girls swimwear, of textile materials, not knitted;0;WTO ATC Annex;both
+62111280;6211.12;Womens/girls swimwear, of textile materials, not knitted;0;WTO ATC Annex;both
+62112004;6211.20;Ski suits, of textile materials, not knitted;0;WTO ATC Annex;both
+62112008;6211.20;Ski suits, of textile materials, not knitted;0;WTO ATC Annex;both
+62112015;6211.20;Ski suits, of textile materials, not knitted;0;WTO ATC Annex;both
+62112024;6211.20;Ski suits, of textile materials, not knitted;0;WTO ATC Annex;both
+62112028;6211.20;Ski suits, of textile materials, not knitted;0;WTO ATC Annex;both
+62112034;6211.20;Ski suits, of textile materials, not knitted;0;WTO ATC Annex;both
+62112038;6211.20;Ski suits, of textile materials, not knitted;0;WTO ATC Annex;both
+62112044;6211.20;Ski suits, of textile materials, not knitted;0;WTO ATC Annex;both
+62112048;6211.20;Ski suits, of textile materials, not knitted;0;WTO ATC Annex;both
+62112054;6211.20;Ski suits, of textile materials, not knitted;0;WTO ATC Annex;both
+62112058;6211.20;Ski suits, of textile materials, not knitted;0;WTO ATC Annex;both
+62112064;6211.20;Ski suits, of textile materials, not knitted;0;WTO ATC Annex;both
+62112068;6211.20;Ski suits, of textile materials, not knitted;0;WTO ATC Annex;both
+62112074;6211.20;Ski suits, of textile materials, not knitted;0;WTO ATC Annex;both
+62112078;6211.20;Ski suits, of textile materials, not knitted;0;WTO ATC Annex;both
+62113250;6211.32;Mens/boys garments nes, of cotton, not knitted;0;WTO ATC Annex;both
+62113290;6211.32;Mens/boys garments nes, of cotton, not knitted;0;WTO ATC Annex;both
+62113350;6211.33;Mens/boys garments nes, of man-made fibres, not knitted;0;WTO ATC Annex;both
+62113390;6211.33;Mens/boys garments nes, of man-made fibres, not knitted;0;WTO ATC Annex;both
+62113903;6211.39;Mens/boys garments nes, of other textile materials, not knitted;0;WTO ATC Annex;both
+62113907;6211.39;Mens/boys garments nes, of other textile materials, not knitted;0;WTO ATC Annex;both
+62113915;6211.39;Mens/boys garments nes, of other textile materials, not knitted;0;WTO ATC Annex;both
+62113930;6211.39;Mens/boys garments nes, of other textile materials, not knitted;0;WTO ATC Annex;both
+62113960;6211.39;Mens/boys garments nes, of other textile materials, not knitted;0;WTO ATC Annex;both
+62113980;6211.39;Mens/boys garments nes, of other textile materials, not knitted;0;WTO ATC Annex;both
+62114205;6211.42;Womens/girls garments nes, of cotton, not knitted;0;WTO ATC Annex;both
+62114210;6211.42;Womens/girls garments nes, of cotton, not knitted;0;WTO ATC Annex;both
+62114305;6211.43;Womens/girls garments nes, of man-made fibres, not knitted;0;WTO ATC Annex;both
+62114310;6211.43;Womens/girls garments nes, of man-made fibres, not knitted;0;WTO ATC Annex;both
+62114903;6211.49;Womens/girls garments nes, of other textile materials, not knitted;0;WTO ATC Annex;both
+62114915;6211.49;Womens/girls garments nes, of other textile materials, not knitted;0;WTO ATC Annex;both
+62114925;6211.49;Womens/girls garments nes, of other textile materials, not knitted;0;WTO ATC Annex;both
+62114950;6211.49;Womens/girls garments nes, of other textile materials, not knitted;0;WTO ATC Annex;both
+62114960;6211.49;Womens/girls garments nes, of other textile materials, not knitted;0;WTO ATC Annex;both
+62114980;6211.49;Womens/girls garments nes, of other textile materials, not knitted;0;WTO ATC Annex;both
+62121030;6212.10;Brassieres and parts thereof, of textile materials;0;WTO ATC Annex;both
+62121050;6212.10;Brassieres and parts thereof, of textile materials;0;WTO ATC Annex;both
+62121070;6212.10;Brassieres and parts thereof, of textile materials;0;WTO ATC Annex;both
+62121090;6212.10;Brassieres and parts thereof, of textile materials;0;WTO ATC Annex;both
+62122000;6212.20;Girdles, panty girdles and parts thereof, of textile materials;0;WTO ATC Annex;both
+62123000;6212.30;Corselettes and parts thereof, of textile materials;0;WTO ATC Annex;both
+62129000;6212.90;Corsets, braces & similar articles & parts thereof, of textile materials;0;WTO ATC Annex;both
+62132010;6213.20;Handkerchiefs, of cotton, not knitted;0;WTO ATC Annex;both
+62132020;6213.20;Handkerchiefs, of cotton, not knitted;0;WTO ATC Annex;both
+62139005;6213.90;Handkerchiefs, of other textile materials, not knitted;0;WTO ATC Annex;both
+62139007;6213.90;Handkerchiefs, of other textile materials, not knitted;0;WTO ATC Annex;both
+62139010;6213.90;Handkerchiefs, of other textile materials, not knitted;0;WTO ATC Annex;both
+62139020;6213.90;Handkerchiefs, of other textile materials, not knitted;0;WTO ATC Annex;both
+62141010;6214.10;Shawls, scarves, veils and the like, of silk or silk waste, not knitted;0;WTO ATC Annex;both
+62141020;6214.10;Shawls, scarves, veils and the like, of silk or silk waste, not knitted;0;WTO ATC Annex;both
+62142000;6214.20;Shawls, scarves, veils & the like, of wool or fine animal hair, not knitted;0;WTO ATC Annex;both
+62143000;6214.30;Shawls, scarves, veils and the like, of synthetic fibres, not knitted;0;WTO ATC Annex;both
+62144000;6214.40;Shawls, scarves, veils and the like, of artificial fibres, not knitted;0;WTO ATC Annex;both
+62149000;6214.90;Shawls, scarves, veils & the like, of other textile materials, not knitted;0;WTO ATC Annex;both
+62151000;6215.10;Ties, bow ties and cravats, of silk or silk waste, not knitted;0;WTO ATC Annex;both
+62152000;6215.20;Ties, bow ties and cravats, of man-made fibres, not knitted;0;WTO ATC Annex;both
+62159000;6215.90;Ties, bow ties and cravats, of other textile materials, not knitted;0;WTO ATC Annex;both
+62160005;6216.00;Gloves, mittens and mitts, of textile materials, not knitted;0;WTO ATC Annex;both
+62160008;6216.00;Gloves, mittens and mitts, of textile materials, not knitted;0;WTO ATC Annex;both
+62160013;6216.00;Gloves, mittens and mitts, of textile materials, not knitted;0;WTO ATC Annex;both
+62160017;6216.00;Gloves, mittens and mitts, of textile materials, not knitted;0;WTO ATC Annex;both
+62160019;6216.00;Gloves, mittens and mitts, of textile materials, not knitted;0;WTO ATC Annex;both
+62160021;6216.00;Gloves, mittens and mitts, of textile materials, not knitted;0;WTO ATC Annex;both
+62160024;6216.00;Gloves, mittens and mitts, of textile materials, not knitted;0;WTO ATC Annex;both
+62160026;6216.00;Gloves, mittens and mitts, of textile materials, not knitted;0;WTO ATC Annex;both
+62160029;6216.00;Gloves, mittens and mitts, of textile materials, not knitted;0;WTO ATC Annex;both
+62160031;6216.00;Gloves, mittens and mitts, of textile materials, not knitted;0;WTO ATC Annex;both
+62160033;6216.00;Gloves, mittens and mitts, of textile materials, not knitted;0;WTO ATC Annex;both
+62160035;6216.00;Gloves, mittens and mitts, of textile materials, not knitted;0;WTO ATC Annex;both
+62160038;6216.00;Gloves, mittens and mitts, of textile materials, not knitted;0;WTO ATC Annex;both
+62160041;6216.00;Gloves, mittens and mitts, of textile materials, not knitted;0;WTO ATC Annex;both
+62160043;6216.00;Gloves, mittens and mitts, of textile materials, not knitted;0;WTO ATC Annex;both
+62160046;6216.00;Gloves, mittens and mitts, of textile materials, not knitted;0;WTO ATC Annex;both
+62160054;6216.00;Gloves, mittens and mitts, of textile materials, not knitted;0;WTO ATC Annex;both
+62160058;6216.00;Gloves, mittens and mitts, of textile materials, not knitted;0;WTO ATC Annex;both
+62160080;6216.00;Gloves, mittens and mitts, of textile materials, not knitted;0;WTO ATC Annex;both
+62160090;6216.00;Gloves, mittens and mitts, of textile materials, not knitted;0;WTO ATC Annex;both
+62171010;6217.10;Clothing accessories nes, of textile materials, not knitted;0;WTO ATC Annex;both
+62171085;6217.10;Clothing accessories nes, of textile materials, not knitted;0;WTO ATC Annex;both
+62171095;6217.10;Clothing accessories nes, of textile materials, not knitted;0;WTO ATC Annex;both
+62179010;6217.90;Parts of garments or of clothg accessories nes, of tex mat, not knittd.;0;WTO ATC Annex;both
+62179090;6217.90;Parts of garments or of clothg accessories nes, of tex mat, not knittd.;0;WTO ATC Annex;both
+63011000;6301.10;Electric blankets, of textile materials;0;WTO ATC Annex;both
+63012000;6301.20;Blankets (other than electric) & travelling rugs, of wool or fine animal hair;0;WTO ATC Annex;both
+63013000;6301.30;Blankets (other than electric) and travelling rugs, of cotton;0;WTO ATC Annex;both
+63014000;6301.40;Blankets (other than electric) and travelling rugs, of synthetic fibres;0;WTO ATC Annex;both
+63019000;6301.90;Blankets (other than electric) and travelling rugs, of other textile materials;0;WTO ATC Annex;both
+63021000;6302.10;Bed linen, of textile knitted or crocheted materials;0;WTO ATC Annex;both
+63022130;6302.21;Bed linen, of cotton, printed, not knitted;0;WTO ATC Annex;both
+63022150;6302.21;Bed linen, of cotton, printed, not knitted;0;WTO ATC Annex;both
+63022170;6302.21;Bed linen, of cotton, printed, not knitted;0;WTO ATC Annex;both
+63022190;6302.21;Bed linen, of cotton, printed, not knitted;0;WTO ATC Annex;both
+63022210;6302.22;Bed linen, of man-made fibres, printed, not knitted;0;WTO ATC Annex;both
+63022220;6302.22;Bed linen, of man-made fibres, printed, not knitted;0;WTO ATC Annex;both
+63022900;6302.29;Bed linen, of other textile materials, printed, not knitted;0;WTO ATC Annex;both
+63023130;6302.31;Bed linen, of cotton, nes;0;WTO ATC Annex;both
+63023150;6302.31;Bed linen, of cotton, nes;0;WTO ATC Annex;both
+63023170;6302.31;Bed linen, of cotton, nes;0;WTO ATC Annex;both
+63023190;6302.31;Bed linen, of cotton, nes;0;WTO ATC Annex;both
+63023210;6302.32;Bed linen, of man-made fibres, nes;0;WTO ATC Annex;both
+63023220;6302.32;Bed linen, of man-made fibres, nes;0;WTO ATC Annex;both
+63023900;6302.39;Bed linen, of other textile materials, nes;0;WTO ATC Annex;both
+63024010;6302.40;Table linen, of textile knitted or crocheted materials;0;WTO ATC Annex;both
+63024020;6302.40;Table linen, of textile knitted or crocheted materials;0;WTO ATC Annex;both
+63025110;6302.51;Table linen, of cotton, not knitted;0;WTO ATC Annex;both
+63025120;6302.51;Table linen, of cotton, not knitted;0;WTO ATC Annex;both
+63025130;6302.51;Table linen, of cotton, not knitted;0;WTO ATC Annex;both
+63025140;6302.51;Table linen, of cotton, not knitted;0;WTO ATC Annex;both
+63025300;6302.53;Table linen, of man-made fibres, not knitted;0;WTO ATC Annex;both
+63025910;6302.59;Table linen, of other textile materials, not knitted;0;WTO ATC Annex;both
+63025920;6302.59;Table linen, of other textile materials, not knitted;0;WTO ATC Annex;both
+63025930;6302.59;Table linen, of other textile materials, not knitted;0;WTO ATC Annex;both
+63026000;6302.60;Toilet & kitchen linen, of terry towellg or similar terry fab, of cotton;0;WTO ATC Annex;both
+63029100;6302.91;Toilet and kitchen linen, of cotton, nes;0;WTO ATC Annex;both
+63029310;6302.93;Toilet and kitchen linen, of man-made fibres;0;WTO ATC Annex;both
+63029320;6302.93;Toilet and kitchen linen, of man-made fibres;0;WTO ATC Annex;both
+63029910;6302.99;Toilet and kitchen linen, of other textile materials;0;WTO ATC Annex;both
+63029915;6302.99;Toilet and kitchen linen, of other textile materials;0;WTO ATC Annex;both
+63029920;6302.99;Toilet and kitchen linen, of other textile materials;0;WTO ATC Annex;both
+63031200;6303.12;Curtains, drapes, interior blinds & curtain/bd valances, of syn fib, knittd;0;WTO ATC Annex;both
+63031911;6303.19;Curtains, drapes, interior blinds & curtain/bd valances, oth tex mat, knit;0;WTO ATC Annex;both
+63031921;6303.19;Curtains, drapes, interior blinds & curtain/bd valances, oth tex mat, knit;0;WTO ATC Annex;both
+63039100;6303.91;Curtains/drapes/interior blinds & curtain/bd valances, of cotton, not knit;0;WTO ATC Annex;both
+63039210;6303.92;Curtains/drapes/interior blinds curtain/bd valances, of syn fib, nt knit;0;WTO ATC Annex;both
+63039220;6303.92;Curtains/drapes/interior blinds curtain/bd valances, of syn fib, nt knit;0;WTO ATC Annex;both
+63039900;6303.99;Curtain/drape/interior blind curtain/bd valance, of oth tex mat, nt knit;0;WTO ATC Annex;both
+63041110;6304.11;Bedspreads of textile materials, nes, knitted or crocheted;0;WTO ATC Annex;both
+63041120;6304.11;Bedspreads of textile materials, nes, knitted or crocheted;0;WTO ATC Annex;both
+63041130;6304.11;Bedspreads of textile materials, nes, knitted or crocheted;0;WTO ATC Annex;both
+63041905;6304.19;Bedspreads of textile materials, nes, not knitted or crocheted;0;WTO ATC Annex;both
+63041910;6304.19;Bedspreads of textile materials, nes, not knitted or crocheted;0;WTO ATC Annex;both
+63041915;6304.19;Bedspreads of textile materials, nes, not knitted or crocheted;0;WTO ATC Annex;both
+63041920;6304.19;Bedspreads of textile materials, nes, not knitted or crocheted;0;WTO ATC Annex;both
+63041930;6304.19;Bedspreads of textile materials, nes, not knitted or crocheted;0;WTO ATC Annex;both
+63042000;6304.91;Furnishing articles nes, of textile materials, knitted or crocheted;0;WTO ATC Annex;concordance
+63049101;6304.91;Furnishing articles nes, of textile materials, knitted or crocheted;0;WTO ATC Annex;both
+63049200;6304.92;Furnishing articles nes, of cotton, not knitted or crocheted;0;WTO ATC Annex;both
+63049300;6304.93;Furnishing articles nes, of synthetic fibres, not knitted or crocheted;0;WTO ATC Annex;both
+63049910;6304.99;Furnishg articles nes, of oth textile materials, not knittd o crochetd;0;WTO ATC Annex;both
+63049915;6304.99;Furnishg articles nes, of oth textile materials, not knittd o crochetd;0;WTO ATC Annex;both
+63049925;6304.99;Furnishg articles nes, of oth textile materials, not knittd o crochetd;0;WTO ATC Annex;both
+63049935;6304.99;Furnishg articles nes, of oth textile materials, not knittd o crochetd;0;WTO ATC Annex;both
+63049940;6304.99;Furnishg articles nes, of oth textile materials, not knittd o crochetd;0;WTO ATC Annex;both
+63049960;6304.99;Furnishg articles nes, of oth textile materials, not knittd o crochetd;0;WTO ATC Annex;both
+63051000;6305.10;Sacks & bags, for packg of goods, of jute or of other textile bast fibres;0;WTO ATC Annex;both
+63052000;6305.20;Sacks and bags, for packing of goods, of cotton;0;WTO ATC Annex;both
+63053300;6305.31;Sacks & bags, for packg of goods, of polyethylene or polypropylene strips;0;WTO ATC Annex;concordance
+63053900;6305.39;Sacks & bags, for packing of goods, of other man-made textile materials;0;WTO ATC Annex;both
+63059000;6305.90;Sacks and bags, for packing of goods, of other textile materials;0;WTO ATC Annex;both
+63061200;6306.12;Tarpaulins, awnings and sunblinds, of synthetic fibres;0;WTO ATC Annex;both
+63061911;6306.19;Tarpaulins, awnings and sunblinds, of other textile materials;0;WTO ATC Annex;both
+63061921;6306.19;Tarpaulins, awnings and sunblinds, of other textile materials;0;WTO ATC Annex;both
+63062210;6306.22;Tents, of synthetic fibres;0;WTO ATC Annex;both
+63062290;6306.22;Tents, of synthetic fibres;0;WTO ATC Annex;both
+63062911;6306.29;Tents, of other textile materials;0;WTO ATC Annex;both
+63062921;6306.29;Tents, of other textile materials;0;WTO ATC Annex;both
+63063000;6306.39;Sails, of other textile materials;0;WTO ATC Annex;concordance
+63064041;6306.49;Pneumatic mattresses, of other textile materials;0;WTO ATC Annex;concordance
+63064049;6306.49;Pneumatic mattresses, of other textile materials;0;WTO ATC Annex;concordance
+63069010;6306.99;Camping goods nes, of other textile materials;0;WTO ATC Annex;concordance
+63069050;6306.99;Camping goods nes, of other textile materials;0;WTO ATC Annex;concordance
+63071010;6307.10;Floor-cloths, dish-cloths, dusters & similar cleaning cloths, of tex mat;0;WTO ATC Annex;both
+63071020;6307.10;Floor-cloths, dish-cloths, dusters & similar cleaning cloths, of tex mat;0;WTO ATC Annex;both
+63072000;6307.20;Life jackets and life belts, of textile materials;0;WTO ATC Annex;both
+63079030;6307.90;Made up articles, of textile materials, nes, including dress patterns;0;WTO ATC Annex;both
+63079040;6307.90;Made up articles, of textile materials, nes, including dress patterns;0;WTO ATC Annex;both
+63079050;6307.90;Made up articles, of textile materials, nes, including dress patterns;0;WTO ATC Annex;both
+63079060;6307.90;Made up articles, of textile materials, nes, including dress patterns;0;WTO ATC Annex;both
+63079068;6307.90;Made up articles, of textile materials, nes, including dress patterns;0;WTO ATC Annex;both
+63079072;6307.90;Made up articles, of textile materials, nes, including dress patterns;0;WTO ATC Annex;both
+63079075;6307.90;Made up articles, of textile materials, nes, including dress patterns;0;WTO ATC Annex;both
+63079085;6307.90;Made up articles, of textile materials, nes, including dress patterns;0;WTO ATC Annex;both
+63079089;6307.90;Made up articles, of textile materials, nes, including dress patterns;0;WTO ATC Annex;both
+63079098;6307.90;Made up articles, of textile materials, nes, including dress patterns;0;WTO ATC Annex;both
+63080000;6308.00;Sets consistg of woven fab & yarn, for makg up into rugs, tapestries etc;0;WTO ATC Annex;both
+63090000;6309.00;Worn clothing and other worn articles;0;WTO ATC Annex;both
+65010030;6501.00;"Hat-forms, hat bodies and hoods of felt; plateaux and manchons of felt";1;WTO ATC Annex;both
+65010060;6501.00;"Hat-forms, hat bodies and hoods of felt; plateaux and manchons of felt";1;WTO ATC Annex;both
+65010090;6501.00;"Hat-forms, hat bodies and hoods of felt; plateaux and manchons of felt";1;WTO ATC Annex;both
+65020020;6502.00;Hat-shapes, plaited or made by assembling strips of any material;1;WTO ATC Annex;both
+65020040;6502.00;Hat-shapes, plaited or made by assembling strips of any material;1;WTO ATC Annex;both
+65020060;6502.00;Hat-shapes, plaited or made by assembling strips of any material;1;WTO ATC Annex;both
+65020090;6502.00;Hat-shapes, plaited or made by assembling strips of any material;1;WTO ATC Annex;both
+65040030;6504.00;Hats & other headgear, plaited or made by assembling strips of any material;1;WTO ATC Annex;both
+65040060;6504.00;Hats & other headgear, plaited or made by assembling strips of any material;1;WTO ATC Annex;both
+65040090;6504.00;Hats & other headgear, plaited or made by assembling strips of any material;1;WTO ATC Annex;both
+65050001;6505.90;Hats & other headgear, knitted or made up from lace, or other textile material;1;WTO ATC Annex;concordance
+65050004;6505.90;Hats & other headgear, knitted or made up from lace, or other textile material;1;WTO ATC Annex;concordance
+65050008;6505.90;Hats & other headgear, knitted or made up from lace, or other textile material;1;WTO ATC Annex;concordance
+65050015;6505.90;Hats & other headgear, knitted or made up from lace, or other textile material;1;WTO ATC Annex;concordance
+65050020;6505.90;Hats & other headgear, knitted or made up from lace, or other textile material;1;WTO ATC Annex;concordance
+65050025;6505.90;Hats & other headgear, knitted or made up from lace, or other textile material;1;WTO ATC Annex;concordance
+65050030;6505.90;Hats & other headgear, knitted or made up from lace, or other textile material;1;WTO ATC Annex;concordance
+65050040;6505.90;Hats & other headgear, knitted or made up from lace, or other textile material;1;WTO ATC Annex;concordance
+65050050;6505.90;Hats & other headgear, knitted or made up from lace, or other textile material;1;WTO ATC Annex;concordance
+65050060;6505.90;Hats & other headgear, knitted or made up from lace, or other textile material;1;WTO ATC Annex;concordance
+65050070;6505.90;Hats & other headgear, knitted or made up from lace, or other textile material;1;WTO ATC Annex;concordance
+65050080;6505.90;Hats & other headgear, knitted or made up from lace, or other textile material;1;WTO ATC Annex;concordance
+65050090;6505.90;Hats & other headgear, knitted or made up from lace, or other textile material;1;WTO ATC Annex;concordance
+66011000;6601.10;Umbrellas and sun umbrellas, garden type;0;WTO ATC Annex;both
+66019100;6601.91;Other umbrella types, telescopic shaft;0;WTO ATC Annex;both
+66019900;6601.99;Other umbrellas;0;WTO ATC Annex;both
+87082100;8708.21;Safety seat belts for motor vehicles;1;WTO ATC Annex;both
+88040000;8804.00;"Parachutes; their parts and accessories";1;WTO ATC Annex;both
+91139040;9113.90;Watch straps, bands and bracelets of textile materials;1;WTO ATC Annex;both
+91139080;9113.90;Watch straps, bands and bracelets of textile materials;1;WTO ATC Annex;both
+96190005;5601.10;Sanitary articles of waddg of textile mat i.e. sanitary towels, tampons;0;WTO ATC Annex;concordance
+96190011;5601.10;Sanitary articles of waddg of textile mat i.e. sanitary towels, tampons;0;WTO ATC Annex;concordance
+96190015;5601.10;Sanitary articles of waddg of textile mat i.e. sanitary towels, tampons;0;WTO ATC Annex;concordance
+96190021;5601.10;Sanitary articles of waddg of textile mat i.e. sanitary towels, tampons;0;WTO ATC Annex;concordance
+96190025;5601.10;Sanitary articles of waddg of textile mat i.e. sanitary towels, tampons;0;WTO ATC Annex;concordance
+96190031;5601.10;Sanitary articles of waddg of textile mat i.e. sanitary towels, tampons;0;WTO ATC Annex;concordance
+96190033;5601.10;Sanitary articles of waddg of textile mat i.e. sanitary towels, tampons;0;WTO ATC Annex;concordance
+96190041;5601.10;Sanitary articles of waddg of textile mat i.e. sanitary towels, tampons;0;WTO ATC Annex;concordance
+96190043;5601.10;Sanitary articles of waddg of textile mat i.e. sanitary towels, tampons;0;WTO ATC Annex;concordance
+96190046;5601.10;Sanitary articles of waddg of textile mat i.e. sanitary towels, tampons;0;WTO ATC Annex;concordance
+96190048;5601.10;Sanitary articles of waddg of textile mat i.e. sanitary towels, tampons;0;WTO ATC Annex;concordance
+96190061;5601.10;Sanitary articles of waddg of textile mat i.e. sanitary towels, tampons;0;WTO ATC Annex;concordance
+96190064;5601.10;Sanitary articles of waddg of textile mat i.e. sanitary towels, tampons;0;WTO ATC Annex;concordance
+96190068;5601.10;Sanitary articles of waddg of textile mat i.e. sanitary towels, tampons;0;WTO ATC Annex;concordance
+96190071;5601.10;Sanitary articles of waddg of textile mat i.e. sanitary towels, tampons;0;WTO ATC Annex;concordance
+96190074;5601.10;Sanitary articles of waddg of textile mat i.e. sanitary towels, tampons;0;WTO ATC Annex;concordance
+96190078;5601.10;Sanitary articles of waddg of textile mat i.e. sanitary towels, tampons;0;WTO ATC Annex;concordance
+96190079;5601.10;Sanitary articles of waddg of textile mat i.e. sanitary towels, tampons;0;WTO ATC Annex;concordance
+96190090;5601.10;Sanitary articles of waddg of textile mat i.e. sanitary towels, tampons;0;WTO ATC Annex;concordance

@@ -45,3 +45,5 @@ effective_date,event_id,event_name,description,rate_component,affected_countries
 2025-11-13,bra_exceptions_expanded,Brazil product exceptions expanded,Additional product-specific exceptions from IEEPA top-up for Brazil activated.,ieepa,BRA,7.2
 2025-11-14,kor_deal,Korea bilateral deal,Korea deal establishing 15% IEEPA and S232 floor rates for automobiles with lumber derivative provisions and aircraft exceptions.,ieepa:s232,KOR,7.6
 2025-11-14,che_deal,Switzerland/Liechtenstein bilateral deal,Switzerland and Liechtenstein deal establishing 15% IEEPA floor rate with pharma exceptions and product-specific exceptions.,ieepa,CHE:LIE,7.7
+2026-02-07,ind_rus_surcharge_removed,India/Russia surcharge removed,India/Russia additional surcharge of 25pp removed.,surcharge,IND:RUS,7.1
+2026-02-20,scotus_ieepa_strike_down,IEEPA tariffs struck down by federal court,Federal court rules IEEPA-based tariffs unconstitutional. All IEEPA baseline reciprocal and emergency tariffs voided. Bilateral deal floors unaffected.,ieepa:emergency,ALL,4-5

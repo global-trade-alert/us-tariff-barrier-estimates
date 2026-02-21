@@ -9,9 +9,10 @@
 # - hts_rate: MFN rate from US tariff schedule (includes USMCA preferential)
 # - s232_rate: Rate from applicable S232 investigation (highest precedence only)
 # - ieepa_rate: IEEPA baseline (10%) + country-specific reciprocal top-up
+# - s122_rate: Section 122 additive tariff (parallel layer, stacks on IEEPA)
 # - emergency_rate: Country-specific security actions (China opioid, Canada border)
 # - s301_rate: Section 301 rate (China only)
-# - rate: Final applied rate = mfn + [applicable mix of s232, ieepa and emergency] + China-specific actions (S301; Opioid)
+# - rate: Final applied rate = mfn + [applicable mix of s232, ieepa, s122 and emergency] + China-specific actions (S301; Opioid)
 # =============================================================================
 
 # Load required libraries
@@ -689,9 +690,10 @@ cat("\n  1.3 Initializing rate and marker columns...\n")
 us_imports[, `:=`(
   s232_rate = 0,
   ieepa_rate = 0,
+  s122_rate = 0,                # Section 122 additive tariff (parallel to IEEPA)
   emergency_rate = 0,
   s301_rate = 0,
-  country_surcharge_rate = 0,  # Country-specific surcharges (Section 7.99)
+  country_surcharge_rate = 0,   # Country-specific surcharges (Section 7.99)
   rate = 0
 )]
 
@@ -704,6 +706,8 @@ us_imports[, `:=`(
   s232_lumber = 0, s232_lumber_derivative = 0,
   rr_exception = 0,
   ieepa_statute_exception = 0,
+  s122_exception = 0,            # S122 Annex II product exception
+  s122_statute_exception = 0,    # Statutory exception applied to S122
   missing_mfn = 0,
   bra_exception = 0, bra_aircraft = 0, bra_vehicle = 0,
   eu_exception = 0, eu_pharma = 0,
@@ -724,7 +728,7 @@ us_imports[, `:=`(
   mex_emergency = 0
 )]
 
-cat(sprintf("    Initialized %d rate columns and %d boolean marker columns\n", 13, 45))
+cat(sprintf("    Initialized %d rate columns and %d boolean marker columns\n", 14, 47))
 
 cat("\n  Section 1 complete: Data loaded and scoped\n")
 cat("\n")
@@ -760,6 +764,10 @@ cat(sprintf("    S232 applied: $%.1f billion (%.1f%%)\n",
             s232_applied, 100 * s232_applied / sum(us_imports$us_imports_bn)))
 cat(sprintf("    IEEPA applied: $%.1f billion (%.1f%%)\n",
             ieepa_applied, 100 * ieepa_applied / sum(us_imports$us_imports_bn)))
+
+s122_applied <- sum(us_imports[s122_rate > 0]$us_imports_bn, na.rm = TRUE)
+cat(sprintf("    S122 applied: $%.1f billion (%.1f%%)\n",
+            s122_applied, 100 * s122_applied / sum(us_imports$us_imports_bn)))
 
 # Determine output directory (scenario-aware)
 # Baseline goes to results/, scenarios go to results/scenarios/{scenario_name}/
@@ -941,11 +949,11 @@ if (missing_iso3_n > 0) {
 us_imports <- us_imports %>%
   select(exporter, iso_code, hs_8digit,
          us_imports, us_imports_bn,
-         hts_rate, s232_rate, ieepa_rate, emergency_rate, s301_rate, country_surcharge_rate, rate, rate_formula,
+         hts_rate, s232_rate, ieepa_rate, s122_rate, emergency_rate, s301_rate, country_surcharge_rate, rate, rate_formula,
         # Contribution columns (sum = rate)
-        hts_contrib, s232_contrib, ieepa_contrib, emergency_contrib, s301_contrib, country_surcharge_contrib,
+        hts_contrib, s232_contrib, ieepa_contrib, s122_contrib, emergency_contrib, s301_contrib, country_surcharge_contrib,
         # USMCA-weighted rates (intermediate values before content/aircraft weighting)
-        hts_rate_weighted, s232_rate_weighted, ieepa_rate_weighted, emergency_rate_weighted,
+        hts_rate_weighted, s232_rate_weighted, ieepa_rate_weighted, s122_rate_weighted, emergency_rate_weighted,
         # Composition weighting factors
         usmca_compliance, content_share, aircraft_share,
         # Boolean markers
@@ -954,7 +962,7 @@ us_imports <- us_imports %>%
         s232_alu, s232_alu_derivative,
         s232_copper, s232_copper_derivative,
         s232_lumber, s232_lumber_derivative,
-        rr_exception, ieepa_statute_exception, missing_mfn,
+        rr_exception, ieepa_statute_exception, s122_exception, s122_statute_exception, missing_mfn,
         bra_exception, bra_aircraft, bra_vehicle,
         eu_exception, eu_pharma, uk_aircraft, uk_auto,
         jpn_lumber_derivative, eu_lumber_derivative,
@@ -1033,10 +1041,10 @@ if (EXPORT_PROFILE %in% c("standard", "minimal_only")) {
   decomposed_data <- export_data %>%
     select(iso_code, hs_8digit, us_imports,
            # Weighted rates (after USMCA weighting, before content/aircraft weighting)
-           hts_rate_weighted, s232_rate_weighted, ieepa_rate_weighted,
+           hts_rate_weighted, s232_rate_weighted, ieepa_rate_weighted, s122_rate_weighted,
            emergency_rate_weighted, s301_rate, country_surcharge_rate,
            # Contribution to final rate (sum = rate)
-           hts_contrib, s232_contrib, ieepa_contrib, emergency_contrib, s301_contrib, country_surcharge_contrib,
+           hts_contrib, s232_contrib, ieepa_contrib, s122_contrib, emergency_contrib, s301_contrib, country_surcharge_contrib,
            rate)
   fwrite_safe(decomposed_data, decomposed_path, sep = ";")
   cat(sprintf("    Saved: %s/%s_decomposed.csv\n", output_dir, output_basename))

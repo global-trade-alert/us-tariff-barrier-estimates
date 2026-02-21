@@ -351,7 +351,7 @@ us_imports <- us_imports[!un_code %in% sanctioned_countries]
 
 # Initialize rate columns
 us_imports[, `:=`(
-  s232_rate = 0, ieepa_rate = 0, emergency_rate = 0,
+  s232_rate = 0, ieepa_rate = 0, s122_rate = 0, emergency_rate = 0,
   s301_rate = 0, country_surcharge_rate = 0, rate = 0
 )]
 
@@ -362,7 +362,8 @@ us_imports[, `:=`(
   s232_alu = 0, s232_alu_derivative = 0,
   s232_copper = 0, s232_copper_derivative = 0,
   s232_lumber = 0, s232_lumber_derivative = 0,
-  rr_exception = 0, ieepa_statute_exception = 0, missing_mfn = 0,
+  rr_exception = 0, ieepa_statute_exception = 0,
+  s122_exception = 0, s122_statute_exception = 0, missing_mfn = 0,
   bra_exception = 0, bra_aircraft = 0, bra_vehicle = 0,
   eu_exception = 0, eu_pharma = 0,
   uk_aircraft = 0, uk_auto = 0,
@@ -424,6 +425,7 @@ for (date_idx in seq_along(policy_dates)) {
     avg_rate = weighted.mean(rate, us_imports_bn, na.rm = TRUE),
     avg_hts = weighted.mean(hts_rate, us_imports_bn, na.rm = TRUE),
     avg_ieepa = weighted.mean(ieepa_rate, us_imports_bn, na.rm = TRUE),
+    avg_s122 = weighted.mean(s122_rate, us_imports_bn, na.rm = TRUE),
     avg_s232 = weighted.mean(s232_rate, us_imports_bn, na.rm = TRUE),
     avg_emergency = weighted.mean(emergency_rate, us_imports_bn, na.rm = TRUE),
     avg_s301 = weighted.mean(s301_rate, us_imports_bn, na.rm = TRUE),
@@ -530,7 +532,7 @@ if (!is.null(product_filter) || !is.null(product_prefixes)) {
       product_detail <- us_imports[match_mask, .(
         policy_date = date,
         hs_8digit, iso3 = iso_code,
-        rate, hts_rate, ieepa_rate, s232_rate,
+        rate, hts_rate, ieepa_rate, s122_rate, s232_rate,
         emergency_rate, s301_rate, country_surcharge_rate,
         us_imports_bn
       )]

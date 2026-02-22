@@ -10,10 +10,10 @@
 if (Sys.getenv("POLICY_DATE") != "") {
   POLICY_DATE <- as.Date(Sys.getenv("POLICY_DATE"))
 } else {
-  POLICY_DATE <- as.Date("2026-02-20")  # Policy effective date (default)
+  POLICY_DATE <- as.Date("2026-02-24")  # Policy effective date (default)
 }
 
-UPDATE_DATE <- as.Date("2026-02-20")   # Processing/update date
+UPDATE_DATE <- as.Date("2026-02-24")   # Processing/update date
 
 # Set locale to English for consistent date formatting
 Sys.setlocale("LC_TIME", "C")
@@ -52,7 +52,7 @@ if (!exists("MFN_RATE_SOURCE") || is.null(MFN_RATE_SOURCE) || MFN_RATE_SOURCE ==
   if (env_mfn_source != "") {
     MFN_RATE_SOURCE <- env_mfn_source
   } else {
-    MFN_RATE_SOURCE <- "hts_schedule"
+    MFN_RATE_SOURCE <- "baseline_boe"
   }
 }
 
@@ -78,7 +78,7 @@ if (!exists("DISABLE_HTS_USMCA_WEIGHTING") || is.null(DISABLE_HTS_USMCA_WEIGHTIN
   if (env_disable_usmca != "") {
     DISABLE_HTS_USMCA_WEIGHTING <- toupper(env_disable_usmca) %in% c("TRUE", "1", "YES")
   } else {
-    DISABLE_HTS_USMCA_WEIGHTING <- FALSE
+    DISABLE_HTS_USMCA_WEIGHTING <- TRUE
   }
 }
 
@@ -88,7 +88,7 @@ if (!exists("DISABLE_HTS_KORUS_WEIGHTING") || is.null(DISABLE_HTS_KORUS_WEIGHTIN
   if (env_disable_korus != "") {
     DISABLE_HTS_KORUS_WEIGHTING <- toupper(env_disable_korus) %in% c("TRUE", "1", "YES")
   } else {
-    DISABLE_HTS_KORUS_WEIGHTING <- FALSE
+    DISABLE_HTS_KORUS_WEIGHTING <- TRUE
   }
 }
 
@@ -98,7 +98,7 @@ if (!exists("EXCLUDE_S301_TARIFFS") || is.null(EXCLUDE_S301_TARIFFS)) {
   if (env_exclude_s301 != "") {
     EXCLUDE_S301_TARIFFS <- toupper(env_exclude_s301) %in% c("TRUE", "1", "YES")
   } else {
-    EXCLUDE_S301_TARIFFS <- FALSE
+    EXCLUDE_S301_TARIFFS <- TRUE
   }
 }
 

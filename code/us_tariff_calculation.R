@@ -20,6 +20,13 @@ library(data.table)
 library(writexl)
 library(dplyr)
 
+# Source date_config.R early so its defaults (MFN_RATE_SOURCE, option flags)
+# take effect before the guards below. When called from update_processing.R
+# these variables are already set; date_config.R's !exists() guards respect that.
+if (!exists("POLICY_DATE")) {
+  source("code/date_config.R")
+}
+
 # =============================================================================
 # SCENARIO LOADING: Load Rate & Share Tables from CSV (Option C: Rate Database)
 # =============================================================================
@@ -777,7 +784,8 @@ if (exists("SCENARIO_OUTPUT_DIR") && !is.null(SCENARIO_OUTPUT_DIR)) {
 } else if (SCENARIO_NAME != "baseline") {
   output_dir <- file.path("results", "scenarios", SCENARIO_NAME)
 } else {
-  output_dir <- "results"
+  output_dir <- file.path("results",
+                           paste0(UPDATE_DATE_SHORT, "-", POLICY_DATE_SHORT, "-", MFN_SUFFIX))
 }
 
 # Create directory if it doesn't exist

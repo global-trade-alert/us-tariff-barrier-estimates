@@ -44,7 +44,7 @@ cat(sprintf("  Output Basename: %s\n", OUTPUT_BASENAME))
 # All outputs go under results/{YYMMDD}/ — each run is self-contained.
 # No cleanup needed: a new date folder is a clean start.
 
-RUN_OUTPUT_DIR <- file.path("results", UPDATE_DATE_SHORT)
+RUN_OUTPUT_DIR <- file.path("results", paste0(UPDATE_DATE_SHORT, "-", POLICY_DATE_SHORT, "-", MFN_SUFFIX))
 
 # Create the full directory tree
 subdirs <- c(

@@ -67,12 +67,12 @@ LABEL_MIN_PP <- 0.3
 # GTA BASE THEME (inner ggplot only - no title/subtitle/caption)
 # =============================================================================
 
-theme_gta_inner <- theme_minimal(base_size = 12) +
+theme_gta_inner <- theme_minimal(base_size = 14) +
   theme(
     plot.background  = element_rect(fill = GTA_BG, colour = NA),
     panel.background = element_rect(fill = GTA_BG, colour = NA),
-    axis.text        = element_text(size = 11, color = "grey30"),
-    axis.title       = element_text(size = 10, color = GTA_TEXT_GREY),
+    axis.text        = element_text(size = 12, color = "grey30"),
+    axis.title       = element_text(size = 11, color = GTA_TEXT_GREY),
     axis.ticks       = element_blank(),
     panel.grid.minor = element_blank(),
     panel.grid.major.y = element_blank(),
@@ -81,8 +81,8 @@ theme_gta_inner <- theme_minimal(base_size = 12) +
     plot.subtitle    = element_blank(),
     plot.caption     = element_blank(),
     legend.position  = "bottom",
-    legend.text      = element_text(size = 9),
-    legend.key.size  = unit(0.5, "cm"),
+    legend.text      = element_text(size = 11),
+    legend.key.size  = unit(0.6, "cm"),
     legend.background = element_rect(fill = GTA_BG, colour = NA),
     plot.margin      = margin(5, 15, 5, 10)
   )
@@ -106,7 +106,7 @@ gta_wrap <- function(inner_plot,
                      subtitle = NULL,
                      source_text = SOURCE_TEXT,
                      logo_path = LOGO_PATH,
-                     title_size = 19,
+                     title_size = 20,
                      chart_y = 0.07,
                      chart_top = NULL) {
 
@@ -133,7 +133,7 @@ gta_wrap <- function(inner_plot,
     final <- final +
       draw_label(subtitle,
                  x = 0.04, y = sub_y, hjust = 0, vjust = 1,
-                 size = 11, color = GTA_TEXT_GREY)
+                 size = 13, color = GTA_TEXT_GREY)
   }
 
   # Main chart
@@ -145,7 +145,7 @@ gta_wrap <- function(inner_plot,
   final <- final +
     draw_label(source_text,
                x = 0.04, y = 0.025, hjust = 0,
-               size = 9, color = GTA_TEXT_GREY)
+               size = 10, color = GTA_TEXT_GREY)
 
   # GTA logo (bottom-right)
   if (file.exists(logo_path)) {
@@ -1534,6 +1534,544 @@ create_surcharge_vs_stack_chart <- function(ieepa_country, stack_country,
     p,
     title    = "How the surcharge builds on the post-ruling base rate",
     subtitle = "Three layers: post-ruling base (navy), S122 stacking increment (orange), additional flat surcharge (green). Top 20 by import value."
+  )
+}
+
+
+# =============================================================================
+# 3-SCENARIO COLOUR PALETTE (S122 Actual Blog Post)
+# =============================================================================
+
+SCENARIO_COLORS_3 <- c(
+  "Before SCOTUS"         = "#AAAAAA",   # grey
+  "IEEPA Strike Down"     = "#003366",   # navy
+  "Post-SCOTUS + S122"    = "#2CA58D"    # teal
+)
+
+SCENARIO_LEVELS_3 <- c("rate_before", "rate_ieepa", "rate_s122")
+SCENARIO_LABELS_3 <- c("Before SCOTUS", "IEEPA Strike Down", "Post-SCOTUS + S122")
+
+# Blog Post 3 palette: 4 scenarios — S122 dots are the main characters
+# Context scenarios in grey scale; S122 scenarios in saturated colours
+SCENARIO_COLORS_BLOG3 <- c(
+  "Pre-ruling"    = "#AAAAAA",   # light grey — historical context
+  "Post-ruling"   = "#666666",   # dark grey — IEEPA strike-down, recedes
+  "S122 10%"      = "#003366",   # navy — main character, initial S122
+  "S122 15%"      = "#2CA58D"    # teal — STORY COLOUR, current rate
+)
+
+SCENARIO_LEVELS_BLOG3 <- c("rate_before", "rate_ieepa", "rate_s122", "rate_s122_15")
+SCENARIO_LABELS_BLOG3 <- c("Pre-ruling", "Post-ruling", "S122 10%", "S122 15%")
+
+
+# =============================================================================
+# CHART S122A-1: create_three_scenario_chart()
+# =============================================================================
+#' Create hero chart showing aggregate tariff composition across 3 actual scenarios.
+#' Stacked horizontal bars with layer decomposition.
+#'
+#' @param baseline_comp Named list from aggregate_contributions_s122() for pre-SCOTUS
+#' @param ieepa_comp Named list from aggregate_contributions_s122() for IEEPA strike-down
+#' @param s122_comp Named list from aggregate_contributions_s122() for S122 actual
+#' @return cowplot ggdraw object (landscape)
+create_three_scenario_chart <- function(baseline_comp, ieepa_comp, s122_comp) {
+
+  # Build 3-row data.table (order: s122, ieepa, before — reversed for coord_flip)
+  chart_data <- data.table(
+    geography  = c("Post-SCOTUS + S122", "IEEPA Strike Down", "Before SCOTUS"),
+    iso_code   = rep("WLD", 3),
+    hts_layer              = c(s122_comp$hts_layer, ieepa_comp$hts_layer, baseline_comp$hts_layer),
+    ieepa_baseline_layer   = c(s122_comp$ieepa_baseline_layer, ieepa_comp$ieepa_baseline_layer, baseline_comp$ieepa_baseline_layer),
+    ieepa_topup_layer      = c(s122_comp$ieepa_topup_layer, ieepa_comp$ieepa_topup_layer, baseline_comp$ieepa_topup_layer),
+    s232_layer             = c(s122_comp$s232_layer, ieepa_comp$s232_layer, baseline_comp$s232_layer),
+    emergency_layer        = c(s122_comp$emergency_layer, ieepa_comp$emergency_layer, baseline_comp$emergency_layer),
+    s301_layer             = c(s122_comp$s301_layer, ieepa_comp$s301_layer, baseline_comp$s301_layer),
+    s122_layer             = c(s122_comp$s122_layer, ieepa_comp$s122_layer, baseline_comp$s122_layer),
+    total_rate             = c(s122_comp$total_rate, ieepa_comp$total_rate, baseline_comp$total_rate)
+  )
+
+  # Display labels with total rate
+  chart_data[, display_label := sprintf("%s (%.1f%%)", geography, total_rate)]
+  chart_data[, display_label := factor(display_label, levels = display_label)]
+
+  # Prepare long format (S122-aware)
+  chart_long <- prepare_composition_long_s122(chart_data)
+
+  # Inner ggplot
+  p <- ggplot(chart_long, aes(x = display_label, y = rate, fill = layer)) +
+    geom_bar(stat = "identity", width = 0.55) +
+    geom_text(aes(y = label_pos, label = rate_label),
+              color = "white", fontface = "bold", size = 4.5) +
+    scale_fill_manual(values = LAYER_COLORS_S122, name = NULL,
+                      breaks = rev(LAYER_LABELS_S122),
+                      drop = FALSE) +
+    scale_y_continuous(expand = expansion(mult = c(0, 0.05)),
+                       labels = function(x) paste0(x, "%")) +
+    coord_flip() +
+    labs(x = NULL, y = "Effective Tariff Rate (%)") +
+    theme_gta_inner +
+    theme(
+      axis.text.y  = element_text(size = 14, face = "bold"),
+      legend.position = "bottom"
+    ) +
+    guides(fill = guide_legend(nrow = 1, reverse = TRUE))
+
+  title_text <- sprintf(
+    "Section 122 in effect: the US tariff average is now %.1f%%",
+    s122_comp$total_rate
+  )
+  gta_wrap(
+    p,
+    title    = title_text,
+    subtitle = "Trade-weighted average tariff rate on all US imports, by tariff instrument",
+    title_size = 18
+  )
+}
+
+
+#' Mobile variant of the 3-scenario hero chart (portrait orientation).
+create_three_scenario_chart_mobile <- function(baseline_comp, ieepa_comp, s122_comp) {
+
+  chart_data <- data.table(
+    geography  = c("Before\nSCOTUS", "IEEPA\nStrike Down", "Post-SCOTUS\n+ S122"),
+    iso_code   = rep("WLD", 3),
+    hts_layer              = c(baseline_comp$hts_layer, ieepa_comp$hts_layer, s122_comp$hts_layer),
+    ieepa_baseline_layer   = c(baseline_comp$ieepa_baseline_layer, ieepa_comp$ieepa_baseline_layer, s122_comp$ieepa_baseline_layer),
+    ieepa_topup_layer      = c(baseline_comp$ieepa_topup_layer, ieepa_comp$ieepa_topup_layer, s122_comp$ieepa_topup_layer),
+    s232_layer             = c(baseline_comp$s232_layer, ieepa_comp$s232_layer, s122_comp$s232_layer),
+    emergency_layer        = c(baseline_comp$emergency_layer, ieepa_comp$emergency_layer, s122_comp$emergency_layer),
+    s301_layer             = c(baseline_comp$s301_layer, ieepa_comp$s301_layer, s122_comp$s301_layer),
+    s122_layer             = c(baseline_comp$s122_layer, ieepa_comp$s122_layer, s122_comp$s122_layer),
+    total_rate             = c(baseline_comp$total_rate, ieepa_comp$total_rate, s122_comp$total_rate)
+  )
+
+  chart_data[, display_label := sprintf("%s\n(%.1f%%)", geography, total_rate)]
+  chart_data[, display_label := factor(display_label, levels = display_label)]
+
+  # Long format (vertical stacking, S122-aware)
+  has_ieepa_topup <- any(chart_data$ieepa_topup_layer > 0.01, na.rm = TRUE)
+  has_s122 <- any(chart_data$s122_layer > 0.01, na.rm = TRUE)
+
+  chart_long <- chart_data %>%
+    select(display_label, geography, iso_code, hts_layer, ieepa_baseline_layer,
+           ieepa_topup_layer, s232_layer, emergency_layer, s301_layer, s122_layer, total_rate) %>%
+    pivot_longer(
+      cols = c(hts_layer, ieepa_baseline_layer, ieepa_topup_layer,
+               s232_layer, emergency_layer, s301_layer, s122_layer),
+      names_to = "layer",
+      values_to = "rate"
+    ) %>%
+    mutate(
+      layer = factor(layer,
+                     levels = c("hts_layer", "ieepa_baseline_layer", "ieepa_topup_layer",
+                                "s232_layer", "emergency_layer", "s301_layer", "s122_layer"),
+                     labels = c("HTS Baseline", "IEEPA (10%)", "IEEPA Top-up",
+                                "Section 232", "Emergency", "Section 301", "S122 (15%)"))
+    )
+
+  if (!has_ieepa_topup) {
+    chart_long <- chart_long %>% filter(layer != "IEEPA Top-up")
+  }
+  if (!has_s122) {
+    chart_long <- chart_long %>% filter(layer != "S122 (15%)")
+  }
+
+  chart_long <- chart_long %>%
+    arrange(display_label, layer) %>%
+    group_by(display_label) %>%
+    mutate(
+      cumsum_rate = cumsum(rate),
+      label_pos   = cumsum_rate - rate / 2,
+      rate_label  = ifelse(rate >= LABEL_MIN_PP, sprintf("%.1f%%", rate), "")
+    ) %>%
+    ungroup()
+
+  p <- ggplot(chart_long, aes(x = display_label, y = rate, fill = layer)) +
+    geom_bar(stat = "identity", width = 0.45) +
+    geom_text(aes(y = label_pos, label = rate_label),
+              color = "white", fontface = "bold", size = 3.0) +
+    scale_fill_manual(values = LAYER_COLORS_S122, name = NULL, drop = FALSE) +
+    scale_y_continuous(expand = expansion(mult = c(0, 0.05)),
+                       labels = function(x) paste0(x, "%")) +
+    labs(x = NULL, y = "Effective Tariff Rate (%)") +
+    theme_gta_inner +
+    theme(
+      axis.text.x    = element_text(size = 10, face = "bold", lineheight = 0.9),
+      legend.position = "bottom"
+    ) +
+    guides(fill = guide_legend(nrow = 2))
+
+  title_text <- sprintf(
+    "Section 122 in effect:\nUS tariff average is now %.1f%%",
+    s122_comp$total_rate
+  )
+  gta_wrap(
+    p,
+    title      = title_text,
+    subtitle   = "Trade-weighted average, by tariff instrument",
+    title_size = 16,
+    chart_top  = 0.82
+  )
+}
+
+
+# =============================================================================
+# CHART S122A-2: create_three_scenario_country_chart()
+# =============================================================================
+#' Create grouped horizontal bar chart comparing 3 scenarios by country.
+#'
+#' @param baseline_country data.table with country-level compositions (before SCOTUS)
+#' @param ieepa_country data.table with country-level compositions (IEEPA strike-down)
+#' @param s122_country data.table with country-level compositions (S122 actual)
+#' @param top_n Number of countries to show (default 20, by import value)
+#' @param include_global Include a Global aggregate bar (default TRUE)
+#' @return cowplot ggdraw object (landscape)
+create_three_scenario_country_chart <- function(baseline_country, ieepa_country,
+                                                s122_country,
+                                                top_n = 20, include_global = TRUE) {
+
+  # Merge all 3 scenarios
+  merged <- merge(
+    baseline_country[geography != "Global", .(geography, iso_code, total_imports_bn,
+                                              rate_before = total_rate)],
+    ieepa_country[geography != "Global", .(iso_code, rate_ieepa = total_rate)],
+    by = "iso_code"
+  )
+  merged <- merge(merged,
+    s122_country[geography != "Global", .(iso_code, rate_s122 = total_rate)],
+    by = "iso_code"
+  )
+
+  # Top N by import value
+  merged <- merged[order(-total_imports_bn)][seq_len(min(top_n, nrow(merged)))]
+
+  # Add Global row if requested
+  if (include_global) {
+    gb <- baseline_country[geography == "Global"]
+    gi <- ieepa_country[geography == "Global"]
+    gs <- s122_country[geography == "Global"]
+    if (nrow(gb) > 0 && nrow(gi) > 0 && nrow(gs) > 0) {
+      global_row <- data.table(
+        geography = "Global", iso_code = "WLD",
+        total_imports_bn = gb$total_imports_bn,
+        rate_before = gb$total_rate, rate_ieepa = gi$total_rate,
+        rate_s122 = gs$total_rate
+      )
+      merged <- rbind(global_row, merged)
+    }
+  }
+
+  # Display labels
+  merged[, display_label := geography]
+  merged <- merged[order(rate_before)]
+  merged[, display_label := factor(display_label, levels = display_label)]
+
+  # Pivot to long for grouped bars
+  chart_long <- merged %>%
+    select(display_label, rate_before, rate_ieepa, rate_s122) %>%
+    pivot_longer(
+      cols = c(rate_before, rate_ieepa, rate_s122),
+      names_to = "scenario",
+      values_to = "rate"
+    ) %>%
+    mutate(
+      scenario = factor(scenario,
+                        levels = SCENARIO_LEVELS_3,
+                        labels = SCENARIO_LABELS_3)
+    )
+
+  n_bars <- nrow(merged)
+  label_size <- ifelse(n_bars > 15, 3.2, 3.8)
+
+  p <- ggplot(chart_long, aes(x = display_label, y = rate, fill = scenario)) +
+    geom_bar(stat = "identity", position = position_dodge(width = 0.75),
+             width = 0.7) +
+    geom_text(
+      aes(label = sprintf("%.1f%%", rate)),
+      position = position_dodge(width = 0.75),
+      hjust = -0.1, size = label_size, fontface = "bold", color = "grey30"
+    ) +
+    scale_fill_manual(values = SCENARIO_COLORS_3, name = NULL) +
+    scale_y_continuous(expand = expansion(mult = c(0, 0.20)),
+                       labels = function(x) paste0(x, "%")) +
+    coord_flip() +
+    labs(x = NULL, y = NULL) +
+    theme_gta_inner +
+    theme(
+      axis.text.y  = element_text(size = 11, face = "bold"),
+      axis.text.x  = element_blank(),
+      legend.position = "bottom"
+    ) +
+    guides(fill = guide_legend(reverse = TRUE, nrow = 1))
+
+  gta_wrap(
+    p,
+    title    = "Three scenarios: tariff rates for top 20 US import sources",
+    subtitle = "Trade-weighted average tariff rate, top 20 countries by import value"
+  )
+}
+
+
+# =============================================================================
+# CHART S122A-3: create_three_scenario_sector_chart()
+# =============================================================================
+#' Create grouped horizontal bar chart comparing 3 scenarios by HS-2 sector.
+#'
+#' @param baseline_hs2 data.table with HS-2 aggregations (before SCOTUS)
+#' @param ieepa_hs2 data.table with HS-2 aggregations (IEEPA strike-down)
+#' @param s122_hs2 data.table with HS-2 aggregations (S122 actual)
+#' @param top_n Number of sectors to show (default 15, by import value)
+#' @return cowplot ggdraw object (landscape)
+create_three_scenario_sector_chart <- function(baseline_hs2, ieepa_hs2,
+                                               s122_hs2,
+                                               top_n = 15) {
+
+  # Merge all 3 scenarios
+  merged <- merge(
+    baseline_hs2[, .(hs2, chapter_label, total_imports_bn, rate_before = total_rate)],
+    ieepa_hs2[, .(hs2, rate_ieepa = total_rate)],
+    by = "hs2"
+  )
+  merged <- merge(merged,
+    s122_hs2[, .(hs2, rate_s122 = total_rate)],
+    by = "hs2"
+  )
+
+  # Top N by import value
+  merged <- merged[order(-total_imports_bn)][seq_len(min(top_n, nrow(merged)))]
+
+  # Display labels
+  merged[, display_label := chapter_label]
+  merged <- merged[order(rate_before)]
+  merged[, display_label := factor(display_label, levels = display_label)]
+
+  # Pivot to long for grouped bars
+  chart_long <- merged %>%
+    select(display_label, rate_before, rate_ieepa, rate_s122) %>%
+    pivot_longer(
+      cols = c(rate_before, rate_ieepa, rate_s122),
+      names_to = "scenario",
+      values_to = "rate"
+    ) %>%
+    mutate(
+      scenario = factor(scenario,
+                        levels = SCENARIO_LEVELS_3,
+                        labels = SCENARIO_LABELS_3)
+    )
+
+  p <- ggplot(chart_long, aes(x = display_label, y = rate, fill = scenario)) +
+    geom_bar(stat = "identity", position = position_dodge(width = 0.75),
+             width = 0.7) +
+    geom_text(
+      aes(label = sprintf("%.1f%%", rate)),
+      position = position_dodge(width = 0.75),
+      hjust = -0.1, size = 3.2, fontface = "bold", color = "grey30"
+    ) +
+    scale_fill_manual(values = SCENARIO_COLORS_3, name = NULL) +
+    scale_y_continuous(expand = expansion(mult = c(0, 0.20)),
+                       labels = function(x) paste0(x, "%")) +
+    coord_flip() +
+    labs(x = NULL, y = NULL) +
+    theme_gta_inner +
+    theme(
+      axis.text.y  = element_text(size = 11, face = "bold"),
+      axis.text.x  = element_blank(),
+      legend.position = "bottom"
+    ) +
+    guides(fill = guide_legend(reverse = TRUE, nrow = 1))
+
+  gta_wrap(
+    p,
+    title    = "Three scenarios: tariff rates by sector",
+    subtitle = "Trade-weighted average tariff rate by HS-2 chapter, top 15 sectors by import value"
+  )
+}
+
+
+#' Mobile variant of the 3-scenario sector chart (portrait orientation).
+create_three_scenario_sector_chart_mobile <- function(baseline_hs2, ieepa_hs2,
+                                                      s122_hs2,
+                                                      top_n = 15) {
+
+  merged <- merge(
+    baseline_hs2[, .(hs2, chapter_label, total_imports_bn, rate_before = total_rate)],
+    ieepa_hs2[, .(hs2, rate_ieepa = total_rate)],
+    by = "hs2"
+  )
+  merged <- merge(merged,
+    s122_hs2[, .(hs2, rate_s122 = total_rate)],
+    by = "hs2"
+  )
+  merged <- merged[order(-total_imports_bn)][seq_len(min(top_n, nrow(merged)))]
+
+  merged[, display_label := chapter_label]
+  merged <- merged[order(rate_before)]
+  merged[, display_label := factor(display_label, levels = display_label)]
+
+  chart_long <- merged %>%
+    select(display_label, rate_before, rate_ieepa, rate_s122) %>%
+    pivot_longer(
+      cols = c(rate_before, rate_ieepa, rate_s122),
+      names_to = "scenario",
+      values_to = "rate"
+    ) %>%
+    mutate(
+      scenario = factor(scenario,
+                        levels = SCENARIO_LEVELS_3,
+                        labels = SCENARIO_LABELS_3)
+    )
+
+  p <- ggplot(chart_long, aes(x = display_label, y = rate, fill = scenario)) +
+    geom_bar(stat = "identity", position = position_dodge(width = 0.75),
+             width = 0.7) +
+    geom_text(
+      aes(label = sprintf("%.1f%%", rate)),
+      position = position_dodge(width = 0.75),
+      hjust = -0.1, size = 2.5, fontface = "bold", color = "grey30"
+    ) +
+    scale_fill_manual(values = SCENARIO_COLORS_3, name = NULL) +
+    scale_y_continuous(expand = expansion(mult = c(0, 0.20)),
+                       labels = function(x) paste0(x, "%")) +
+    coord_flip() +
+    labs(x = NULL, y = NULL) +
+    theme_gta_inner +
+    theme(
+      axis.text.y  = element_text(size = 8, face = "bold"),
+      axis.text.x  = element_blank(),
+      legend.position = "bottom"
+    ) +
+    guides(fill = guide_legend(reverse = TRUE, nrow = 2))
+
+  gta_wrap(
+    p,
+    title      = "Three scenarios: tariff rates\nby sector",
+    subtitle   = "Trade-weighted average by HS-2 chapter",
+    title_size = 15,
+    chart_top  = 0.82
+  )
+}
+
+
+# =============================================================================
+# CHART S122A-4: create_s122_actual_contribution_chart()
+# =============================================================================
+#' Create 2-layer stacked horizontal bar chart showing S122 actual contribution
+#' decomposition: post-ruling base + S122 increment.
+#'
+#' Two layers (left to right):
+#'   1. IEEPA Strike Down base rate (navy) — post-SCOTUS tariff floor
+#'   2. S122 increment (teal) — additional rate from S122 surcharge
+#' Total bar length = Post-SCOTUS + S122 rate.
+#'
+#' @param ieepa_country data.table with country-level compositions (IEEPA strike-down)
+#' @param s122_country data.table with country-level compositions (S122 actual)
+#' @param top_n Number of countries to show (default 20, by import value)
+#' @param exclude_geo Character vector of geography names to exclude
+#' @return cowplot ggdraw object (landscape)
+create_s122_actual_contribution_chart <- function(ieepa_country, s122_country,
+                                                  top_n = 20,
+                                                  exclude_geo = c("Gaza Strip")) {
+
+  # Merge scenarios
+  merged <- merge(
+    ieepa_country[geography != "Global" & iso_code != "EU",
+                  .(geography, iso_code, total_imports_bn,
+                    rate_ieepa = total_rate)],
+    s122_country[geography != "Global" & iso_code != "EU",
+                 .(iso_code, rate_s122 = total_rate)],
+    by = "iso_code"
+  )
+
+  # Compute two stacked components
+  merged[, `:=`(
+    base_ieepa      = rate_ieepa,
+    increment_s122  = pmax(0, rate_s122 - rate_ieepa)
+  )]
+
+  # Exclude specified geographies
+  if (length(exclude_geo) > 0) {
+    merged <- merged[!geography %in% exclude_geo]
+  }
+
+  # Top N by import value
+  merged <- merged[order(-total_imports_bn)][seq_len(min(top_n, nrow(merged)))]
+
+  # Order by S122 rate (largest total at top)
+  merged <- merged[order(rate_s122)]
+  merged[, geography := factor(geography, levels = geography)]
+
+  # Pivot to long for stacking (two components)
+  plot_dt <- melt(merged,
+                  id.vars = c("geography", "rate_s122", "rate_ieepa"),
+                  measure.vars = c("base_ieepa", "increment_s122"),
+                  variable.name = "component", value.name = "value")
+
+  # Factor levels REVERSED so ggplot2+coord_flip puts base_ieepa on the LEFT
+  component_levels <- c("increment_s122", "base_ieepa")
+  component_colors <- c("base_ieepa"      = GTA_NAVY,
+                         "increment_s122"  = "#2CA58D")
+  component_labels_named <- c("base_ieepa"      = "Post-ruling base",
+                               "increment_s122"  = "S122 surcharge increment")
+  plot_dt[, component := factor(component, levels = component_levels)]
+
+  # Midpoints for label positioning inside each segment
+  merged[, `:=`(
+    mid_base  = base_ieepa / 2,
+    mid_s122  = base_ieepa + increment_s122 / 2
+  )]
+
+  # Minimum segment width (pp) to show a label inside
+  MIN_WIDTH <- 1.2
+
+  p <- ggplot(plot_dt, aes(x = geography, y = value, fill = component)) +
+    geom_bar(stat = "identity", width = 0.65) +
+    # Label 1: navy segment — post-ruling base rate
+    geom_text(
+      data = merged[base_ieepa >= MIN_WIDTH],
+      aes(x = geography, y = mid_base, fill = NULL,
+          label = sprintf("%.1f", base_ieepa)),
+      size = 2.8, color = "white", fontface = "bold"
+    ) +
+    # Label 2: teal segment — S122 increment
+    geom_text(
+      data = merged[increment_s122 >= MIN_WIDTH],
+      aes(x = geography, y = mid_s122, fill = NULL,
+          label = sprintf("%.1f", increment_s122)),
+      size = 2.8, color = "white", fontface = "bold"
+    ) +
+    # Label 3: total S122 rate at bar end
+    geom_text(
+      data = merged,
+      aes(x = geography, y = rate_s122, fill = NULL,
+          label = sprintf("%.1f%%", rate_s122)),
+      hjust = -0.12, size = 3.8, fontface = "bold", color = "grey30"
+    ) +
+    scale_fill_manual(
+      values = component_colors,
+      labels = component_labels_named,
+      name   = NULL,
+      breaks = c("base_ieepa", "increment_s122")
+    ) +
+    scale_y_continuous(
+      labels = function(x) paste0(x, "%"),
+      expand = expansion(mult = c(0, 0.12)),
+      breaks = seq(0, 35, 5)
+    ) +
+    coord_flip() +
+    labs(x = NULL, y = "Trade-weighted tariff rate (%)") +
+    theme_gta_inner +
+    theme(
+      axis.text.y     = element_text(size = 10, face = "bold"),
+      axis.text.x     = element_text(size = 9),
+      legend.position = "bottom",
+      legend.text     = element_text(size = 10),
+      legend.key.size = unit(0.5, "cm")
+    )
+
+  gta_wrap(
+    p,
+    title    = "How the S122 surcharge builds on the post-ruling base rate",
+    subtitle = "Two layers: post-ruling base (navy), S122 surcharge increment (teal). Top 20 by import value."
   )
 }
 
